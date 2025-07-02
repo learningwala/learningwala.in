@@ -1,0 +1,77 @@
+baseURL = 'https://learningwala.in/'
+theme = "hugo-bearcub"
+copyright = "Mihir Pathak (CC BY 4.0)"
+defaultContentLanguage = "en"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+# Setup syntax highlighting without inline styles
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true  # Allow raw HTML rendering in Markdown
+
+# Multilingual mode config
+[languages]
+  [languages.en]
+    title = "Mihir Pathak | મિહિર પાઠક"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  [languages.gu]
+    title = "મિહિર પાઠક" # Gujarati-specific site title
+    languageName = ""
+    LanguageCode = "gu-IN"
+    contentDir = "content/gu"
+    [languages.gu.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
+[params]
+  # Description of your website
+  description = "Mihir Pathak's blog"
+
+  # Path to your favicon
+  favicon = "images/favicon.png"
+
+  # Social preview images
+  images = ["images/share.webp"]
+
+  # OpenGraph title
+  title = "Bear Cub"
+
+  # Date format for displaying dates
+  dateFormat = "2006-01-02"
+
+  # Hide untranslated pages
+  hideUntranslated = false
+
+  # Theme style
+  themeStyle = "herman"
+
+  # Generate social cards dynamically
+  generateSocialCard = true
+
+  # Social media
+  [params.social]
+    twitter = "example"
+    facebook_admin = "0000000000"
+
+  # Author metadata
+  [params.author]
+    name = "Mihir Pathak"
+    email = "learningwalamihir@gmail.com"
+
+# Cloudinary configuration
+  [params.cloudinary]
+    cloud_name = "dfk2wsrhz"
+    upload_preset = ""
+
+# Custom styles and fonts
+[params.styles]
+  custom_css = ["css/style.css"]
