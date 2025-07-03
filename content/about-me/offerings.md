@@ -1,7 +1,7 @@
 ---
 title: "Offerings"
 menu: "main"
-weight: 6
+weight: 5
 ---
 
 ## Work / Offerings / Projects :

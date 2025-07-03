@@ -1,7 +1,9 @@
 {{ range .Site.Menus.main.ByWeight }}
   <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
-<a href='{{ absURL "index.xml" }}'>RSS</a>
+
+<a href="{{ "/tags/weekly-notes/" | relURL }}">Weekly Notes</a>
+<a href="{{ "/tags/blog/" | relURL }}">Blog</a>
 
 <!-- Convert this page's translations into a dict -->
 {{ $translations := dict }}
@@ -14,7 +16,6 @@
   {{ with (index $translations .Lang) }}
     <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
   {{ else }}
-    <!-- The complicated setup was necessary to make a grayed out link -->
     {{ if not .Params.hideUntranslated }}
       <a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
     {{ end }}

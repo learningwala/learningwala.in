@@ -1,5 +1,5 @@
 ---
 title: "Blog"
-menu:
-weight:
+menu: 
+weight: 
 ---
