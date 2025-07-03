@@ -1,0 +1,42 @@
+<div class="img-grid">
+  {{ .Inner }}
+</div>
+
+<style>
+.img-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; /* Default: 1 column */
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr); /* Tablets: 2 columns */
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr); /* Desktops: 3 columns */
+  }
+}
+
+.img-grid figure {
+  margin: 0;
+}
+
+.img-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.img-grid figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+  margin-top: 0.3rem;
+}
+</style>
