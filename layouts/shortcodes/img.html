@@ -1,0 +1,16 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+{{ $class := .Get "class" | default "img-responsive" }}
+
+{{ with resources.Get $src }}
+  {{ $resized := .Resize "800x" }}
+  <figure class="{{ $class }}">
+    <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy" />
+    {{ with $caption }}
+      <figcaption>{{ . }}</figcaption>
+    {{ end }}
+  </figure>
+{{ else }}
+  <p style="color:red;">⚠️ Image not found: {{ $src }}</p>
+{{ end }}

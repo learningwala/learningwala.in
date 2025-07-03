@@ -1,0 +1,26 @@
+<div class="img-grid">
+  {{ .Inner }}
+</div>
+
+<style>
+.img-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 2rem;
+}
+.img-grid figure {
+  margin: 0;
+}
+.img-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.img-grid figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+  margin-top: 0.3rem;
+}
+</style>

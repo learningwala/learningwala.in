@@ -29,31 +29,21 @@
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/ecologylanguage/</guid>
       <description> Picture by Arati Kumar Rao Speaking River, Speaking Rain by Yuvan Aves Forty Names of Clouds by Arati Kumar-Rao भाषा और पर्यावरण by अनुपम मिश्र </description>
-      <content:encoded><![CDATA[<figure class="">
-      <picture>
-        
-        <source 
-          srcset="/ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_600x0_resize_q75_h2_box_3.webp 600w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_1000x0_resize_q75_h2_box_3.webp 1000w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_1500x0_resize_q75_h2_box_3.webp 1500w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_2000x0_resize_q75_h2_box_3.webp 2000w"
-          sizes="(max-width: 600px) 100vw, (max-width: 1000px) 80vw, 1000px"
-          type="image/webp">
-        
-        
-        <source 
-          srcset="/ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_600x0_resize_box_3.png 600w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_1000x0_resize_box_3.png 1000w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_1500x0_resize_box_3.png 1500w, /ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_2000x0_resize_box_3.png 2000w"
-          sizes="(max-width: 600px) 100vw, (max-width: 1000px) 80vw, 1000px">
-        
-        
-        <img 
-          src="/ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_1000x0_resize_box_3.png" 
-          width="1000"
-          height="658"
-          alt=""
-          loading="lazy"
-          decoding="async"
-        >
-      </picture>
+      <content:encoded><![CDATA[
+
+
+
+
+
+  
+  <figure class="img-responsive">
+    <img src="/ecology&amp;language/aartikumar_hu5867eb0ceb293da0fd79c75ef60f0f39_647031_800x0_resize_box_3.png" alt="" loading="lazy" />
+    
       <figcaption>Picture by Arati Kumar Rao</figcaption>
-    </figure>
+    
+  </figure>
+
+
 <ul>
 <li><a href="https://vikalpsangam.org/article/speaking-river-speaking-rain/">Speaking River, Speaking Rain by Yuvan Aves</a></li>
 <li><a href="https://vikalpsangam.org/article/forty-names-of-clouds/">Forty Names of Clouds by Arati Kumar-Rao</a></li>
@@ -650,4 +640,3 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
     </item>
   </channel>
 </rss>
-
