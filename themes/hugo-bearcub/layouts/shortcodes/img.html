@@ -5,8 +5,12 @@
 
 {{ with resources.Get $src }}
   {{ $resized := .Resize "800x" }}
+  {{ $webp := $resized | images.Convert "webp" }}
   <figure class="{{ $class }}">
-    <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy" />
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy" />
+    </picture>
     {{ with $caption }}
       <figcaption>{{ . }}</figcaption>
     {{ end }}
