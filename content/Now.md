@@ -4,7 +4,7 @@ menu:
 weight:	
 ---
 
-I live in Ahmedabad, India with my partrner [Nidhi](https://www.instagram.com/nidhi_pal16/) I regularly write [weekly notes](/tags/weekly-notes) and occasionally write [blog posts](/tags/public/)
+I live in Ahmedabad, India with my partrner [Nidhi](https://www.instagram.com/nidhi_pal16/). I regularly write [weekly notes](/tags/weekly-notes) and occasionally write [blog posts](/tags/public/).
 
 ## Work
 
