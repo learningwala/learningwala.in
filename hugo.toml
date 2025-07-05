@@ -75,3 +75,15 @@ enableRobotsTXT = true
 # Custom styles and fonts
 [params.styles]
   custom_css = ["css/style.css"]
+
+[imaging]
+  formats = ["webp", "jpg", "png"]
+  quality = 85
+  resampleFilter = "lanczos"
+  anchor = "smart"
+
+[imaging.exif]
+  includeFields = ""
+  excludeFields = ""
+  disableDate = false
+  disableLatLong = true

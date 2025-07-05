@@ -4,7 +4,7 @@ menu: "main"
 weight: 1
 ---
 
-{{< img src="/index/mihirprofile.jpg" alt="Mihir Pathak" caption="">}}
+{{< img src="index/mihirprofile.jpg" alt="Mihir Pathak" caption="">}}
 
 **Mihir Pathak | Experiential Educator | Nature - Theater - Project based learning**
 
