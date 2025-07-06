@@ -1,16 +1,32 @@
+{{/* Input Params */}}
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
 {{ $caption := .Get "caption" }}
 {{ $class := .Get "class" | default "img-responsive" }}
+{{ $width := .Get "width" | default "800" }}
+{{ $quality := .Get "quality" | default "75" }}
 
 {{ with resources.Get $src }}
-  {{ $resized := .Resize "800x" }}
+  {{ $webp := .Resize (printf "%sx webp q%s" $width $quality) }}
+  {{ $fallback := .Resize (printf "%sx jpg q%s" $width $quality) }}
+
   <figure class="{{ $class }}">
-    <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" loading="lazy" />
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <source srcset="{{ $fallback.RelPermalink }}" type="image/jpeg">
+      <img
+        src="{{ $fallback.RelPermalink }}"
+        alt="{{ $alt }}"
+        loading="lazy"
+        decoding="async"
+        width="{{ $width }}"
+      />
+    </picture>
     {{ with $caption }}
       <figcaption>{{ . }}</figcaption>
     {{ end }}
   </figure>
+
 {{ else }}
   <p style="color:red;">⚠️ Image not found: {{ $src }}</p>
 {{ end }}

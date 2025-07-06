@@ -9,8 +9,230 @@
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/weekly-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 27/2025</title>
+      <link>https://learningwala.in/blog/week-27-2025/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/blog/week-27-2025/</guid>
+      <description>&lt;h4 id=&#34;30th-june-to-6th-july-2025-monday-to-sunday&#34;&gt;30th June to 6th July 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;health&#34;&gt;Health&lt;/h4&gt;&#xA;&lt;p&gt;This week was difficult. My mental health is in a very bad phase.&#xA;Over the last few months, I somehow managed, but now it’s hitting me hard. I’m not able to concentrate on work.&#xA;Feeling anxious, being zoned out, sleep cycle disturbed. I’m feeling that everything is meaningless.&#xA;I’ve started therapy. Let’s see how it goes. It’s costly, but at this point in time, I want to invest in my health.&#xA;I am very grateful for Nidhi&amp;rsquo;s support.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h4 id="30th-june-to-6th-july-2025-monday-to-sunday">30th June to 6th July 2025 (Monday to Sunday)</h4>
+<h4 id="health">Health</h4>
+<p>This week was difficult. My mental health is in a very bad phase.
+Over the last few months, I somehow managed, but now it’s hitting me hard. I’m not able to concentrate on work.
+Feeling anxious, being zoned out, sleep cycle disturbed. I’m feeling that everything is meaningless.
+I’ve started therapy. Let’s see how it goes. It’s costly, but at this point in time, I want to invest in my health.
+I am very grateful for Nidhi&rsquo;s support.</p>
+<p>We bought health supplements for both of us long back, but haven’t started taking them yet.
+Yesterday, Nidhi made a nice poster with the timings and names of the supplements.
+So… let’s begin!</p>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/poster_hu_3a41cea0b356c0d4.webp" type="image/webp">
+      <source srcset="/w27.2025/poster_hu_5b32f0fdbacb92b3.jpeg" type="image/jpeg">
+      <img
+        src="/w27.2025/poster_hu_5b32f0fdbacb92b3.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+<p>I want do yoga regularly, wish me luck !!</p>
+<p>Nidhi has been unwell for the last few days. Stomach pain — maybe because of outside food in this weather. She’s better today.</p>
+<hr>
+<h4 id="personal-website">Personal Website</h4>
+<p>I’ve made some changes to my website hosting setup. I started with a GitHub repo + GitHub Pages, where I edited my files on my local machine, built the Hugo site, and pushed it to the Git repo. It got published on GitHub Pages.</p>
+<p>Then I moved to Cloudflare Pages, where I edited and built the Hugo site and pushed the public folder to CF Pages.</p>
+<p>I have different machines at the office and at home. In the CF Pages setup, I wasn’t able to edit my site during my office chai breaks.
+Sometimes I get ideas, and I don’t want to wait until I sit at my personal laptop to publish them. So I went back to GitHub.</p>
+<p>Now, I’ve put all my content files on the Git repo, and CF Pages builds the Hugo site automatically. Now I can edit my files on the Git repo from the browser.
+I tried using Git through the command line, but my office laptop is Windows, so it was difficult. It didn’t even understand some file names — some error came because of that.
+WSL is not allowed to download, so finally, the browser was my saviour.</p>
+<p>I was concerned about the repo size because I publish images in every weekly note.
+I’m using Hugo’s image optimization shortcode which converts images into WebP, resizes them, and makes them responsive — so I’m hopeful.</p>
+<p>In short, now I can log in to GitHub and edit my site (very basic functions like adding a new post or editing an existing post).</p>
+<p>btw I have added small little black dot as favicon :)</p>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/github_hu_a882422d439c2a17.webp" type="image/webp">
+      <source srcset="/w27.2025/github_hu_1f14c78e57a17a84.jpg" type="image/jpeg">
+      <img
+        src="/w27.2025/github_hu_1f14c78e57a17a84.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+<hr>
+<h4 id="meet-up-">Meet up :</h4>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/gughra_hu_18a7758797066c78.webp" type="image/webp">
+      <source srcset="/w27.2025/gughra_hu_f7aa6426d6da5c42.jpg" type="image/jpeg">
+      <img
+        src="/w27.2025/gughra_hu_f7aa6426d6da5c42.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+<p>Jitu (one of the members from our Sakha community) visited us on Friday. He studies Electronics and Communication at LD Engineering College, Ahmedabad. We talked about AI, programming, life, nature, climate change, and what not… We had nice <a href="https://www.youtube.com/watch?v=DXKNCSkVweU">Jamnagri Ghughra</a> near our home and took a lovely walk at Eklavya Sports Campus.</p>
+<blockquote>
+<p>Jamnagari Ghughra is a savory, fried pastry from Jamnagar, Gujarat, India, featuring a spicy potato and pea filling. It&rsquo;s a popular street food, often enjoyed with spicy and sweet chutneys. The dish is known for its crispy outer layer and flavorful stuffing.</p></blockquote>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/jitu_hu_9578febc34bff889.webp" type="image/webp">
+      <source srcset="/w27.2025/jitu_hu_de3319fe52ab1cf7.jpeg" type="image/jpeg">
+      <img
+        src="/w27.2025/jitu_hu_de3319fe52ab1cf7.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+<hr>
+<h4 id="what-else">What else?</h4>
+<p>Khojbeen Mandali is on pause because of the rain. Other projects are also running slow&hellip;
+This month, I’ll take things slow. Do some rejuvenation for myself and come back with fresh energy.</p>
+<p>We’re trying to post regular content on the Khojbeen Mandali <a href="https://www.instagram.com/khojbeen_mandali/">Instagram handle</a>.
+Please follow us if you haven’t already!</p>
+<hr>
+<h4 id="food-and-us">Food and Us</h4>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/dhokali_hu_72fd470a4ec00131.webp" type="image/webp">
+      <source srcset="/w27.2025/dhokali_hu_62c42579e96346ef.jpeg" type="image/jpeg">
+      <img
+        src="/w27.2025/dhokali_hu_62c42579e96346ef.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+<p>Nidhi made wonderful dhokli today… it reminded me of mom.
+(Dhokli is a traditional Gujarati dish — wheat flour dumplings simmered in a tangy, spiced lentil curry. Comfort food at its best.)</p>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w27.2025/us_hu_46935475145e0750.webp" type="image/webp">
+      <source srcset="/w27.2025/us_hu_d5fca87ef9a88153.jpeg" type="image/jpeg">
+      <img
+        src="/w27.2025/us_hu_d5fca87ef9a88153.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+]]></content:encoded>
+    </item>
     <item>
       <title>Week 26/2025</title>
       <link>https://learningwala.in/blog/week-26-2025/</link>
@@ -53,9 +275,24 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-1_hu_478d22403fe9b1e9.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-1_hu_6764c48b1b714cd2.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-1_hu_358326691aaffa9f.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-1_hu_358326691aaffa9f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -66,9 +303,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-3_hu_e341b232ce747309.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-3_hu_1dae3b068fec4cca.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-3_hu_adbb3bc83a48cd18.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-3_hu_adbb3bc83a48cd18.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -79,9 +332,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-4_hu_c637d5e9d8a8bff6.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-4_hu_519ef3ca155b8fd.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-4_hu_8b92bb601d109b91.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-4_hu_8b92bb601d109b91.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -92,9 +361,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-5_hu_fb62b6bb5f84f7e9.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-5_hu_e7d4dd60a1e32c5e.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-5_hu_f7d5e46a0effef79.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-5_hu_f7d5e46a0effef79.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -105,9 +390,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-7_hu_bc0edb9d5b7ba5e2.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-7_hu_6001a455ec95bd69.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-7_hu_ed5cd25d7df0ef4e.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-7_hu_ed5cd25d7df0ef4e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -118,9 +419,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-8_hu_24cb6066aff2545b.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-8_hu_614b37f0444f41f0.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-8_hu_416e7e635661d677.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-8_hu_416e7e635661d677.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -131,9 +448,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-10_hu_dc99ba91a176f561.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-10_hu_9beef94d5d1c4491.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-10_hu_dcbf063136760fdb.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-10_hu_dcbf063136760fdb.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -144,11 +477,28 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-11_hu_77d08eaf55cc7e9.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-11_hu_11130fb759cce47d.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-11_hu_5f11331733e44052.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-11_hu_5f11331733e44052.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -185,9 +535,24 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-2_hu_72beca72d00eac94.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-2_hu_51d13204d792f389.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-2_hu_868fd77fa444dfb8.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-2_hu_868fd77fa444dfb8.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -198,9 +563,25 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-9_hu_178ea92e4b976801.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-9_hu_acb95cd785de6ced.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-9_hu_86c1538ec8e1c966.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-9_hu_86c1538ec8e1c966.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -211,11 +592,28 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w26.2025/w26.2025-6_hu_16bccc87a90f5536.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w26.2025/w26.2025-6_hu_12507ad6601e87a5.webp" type="image/webp">
+      <source srcset="/w26.2025/w26.2025-6_hu_21c81ad388f1fd31.jpeg" type="image/jpeg">
+      <img
+        src="/w26.2025/w26.2025-6_hu_21c81ad388f1fd31.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -264,9 +662,24 @@ On Monday and Tuesday, we spent time with the Nature Classroom team.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/desk-1_hu_7bffde940d99c9d0.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/desk-1_hu_8ce1aa0ed62c32f4.webp" type="image/webp">
+      <source srcset="/w25.2025/desk-1_hu_375b8a5887e3e847.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/desk-1_hu_375b8a5887e3e847.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -277,11 +690,28 @@ On Monday and Tuesday, we spent time with the Nature Classroom team.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/desk-2_hu_7a805037118eb836.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/desk-2_hu_d767dd32cc681d63.webp" type="image/webp">
+      <source srcset="/w25.2025/desk-2_hu_61699ebde5b5c20e.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/desk-2_hu_61699ebde5b5c20e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 </p>
 <p>I had a call with two of my friends to discuss their learning pathways and career paths. In the development sector—especially when you&rsquo;re working with an NGO in the education space—your growth is not always predictable or linear. It’s not like the corporate world, where you get promotions at regular intervals.
@@ -326,9 +756,24 @@ Maybe it’s just age.I have turned 30 this May.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/rain-1_hu_a0307a5ba5cc558d.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/rain-1_hu_ad04e7637b727be8.webp" type="image/webp">
+      <source srcset="/w25.2025/rain-1_hu_bce6ecc788147bf.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/rain-1_hu_bce6ecc788147bf.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -339,11 +784,28 @@ Maybe it’s just age.I have turned 30 this May.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/rain-2_hu_41ff4a6f6da97dc2.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/rain-2_hu_b448f8bfc9954036.webp" type="image/webp">
+      <source srcset="/w25.2025/rain-2_hu_34c6b1332fb4c8b6.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/rain-2_hu_34c6b1332fb4c8b6.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 </p>
 <p><strong>Gulmohar and copper pod flowers will soon be gone…</strong></p>
@@ -353,9 +815,24 @@ Maybe it’s just age.I have turned 30 this May.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/rain-3_hu_7f75233725b244e5.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/rain-3_hu_9ba1117f17fdc545.webp" type="image/webp">
+      <source srcset="/w25.2025/rain-3_hu_ab4c1d836661f3a7.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/rain-3_hu_ab4c1d836661f3a7.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -366,11 +843,28 @@ Maybe it’s just age.I have turned 30 this May.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/rain-4_hu_d902231b75ae21ae.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/rain-4_hu_3d572bad82e0c9a4.webp" type="image/webp">
+      <source srcset="/w25.2025/rain-4_hu_23e99392085c94eb.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/rain-4_hu_23e99392085c94eb.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="400"
+      />
+    </picture>
     
   </figure>
+
 
 </p>
 <hr>
@@ -410,11 +904,27 @@ Maybe it’s just age.I have turned 30 this May.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w25.2025/hotchoclate_hu_a5970ff64a84c4f3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w25.2025/hotchoclate_hu_d9b340d4965c4920.webp" type="image/webp">
+      <source srcset="/w25.2025/hotchoclate_hu_3521902d3790c425.jpeg" type="image/jpeg">
+      <img
+        src="/w25.2025/hotchoclate_hu_3521902d3790c425.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="300"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>I’m looking forward to Ahmedabad’s rains.
@@ -426,7 +936,7 @@ Happy monsoon, friends 🌧️🌿</p>
       <link>https://learningwala.in/blog/week-24-2025/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-24-2025/</guid>
-      <description>&lt;h4 id=&#34;9th-june-to-15th-june-2025-monday-to-sunday&#34;&gt;9th June to 15th June 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w24.2025/w24-4_hu_7563380f1e5852b3.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;This will be a short note. Nothing much happened this week.&lt;/p&gt;&#xA;&lt;p&gt;We celebrated International Play Day at the office, and it was super fun! The office team asked our relatives for our childhood photos and made a beautiful collage. It was really, really enjoyable to recognize each other from childhood photographs. We played games and shared our childhood memories.&lt;/p&gt;&#xA;&lt;p&gt;One of our close friends came to spend time with us at our place. I feel very wholesome when someone comes to spend time with us without any specific agenda—cooking together, eating together, talking, sharing ideas, taking a walk together. That gives me warmth and makes me feel loved.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;9th-june-to-15th-june-2025-monday-to-sunday&#34;&gt;9th June to 15th June 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w24.2025/w24-4_hu_c2d7d75614731be5.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w24.2025/w24-4_hu_b09aae22f097d79f.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w24.2025/w24-4_hu_b09aae22f097d79f.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;This will be a short note. Nothing much happened this week.&lt;/p&gt;&#xA;&lt;p&gt;We celebrated International Play Day at the office, and it was super fun! The office team asked our relatives for our childhood photos and made a beautiful collage. It was really, really enjoyable to recognize each other from childhood photographs. We played games and shared our childhood memories.&lt;/p&gt;&#xA;&lt;p&gt;One of our close friends came to spend time with us at our place. I feel very wholesome when someone comes to spend time with us without any specific agenda—cooking together, eating together, talking, sharing ideas, taking a walk together. That gives me warmth and makes me feel loved.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="9th-june-to-15th-june-2025-monday-to-sunday">9th June to 15th June 2025 (Monday to Sunday)</h4>
 
 
@@ -434,11 +944,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w24.2025/w24-4_hu_7563380f1e5852b3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w24.2025/w24-4_hu_c2d7d75614731be5.webp" type="image/webp">
+      <source srcset="/w24.2025/w24-4_hu_b09aae22f097d79f.jpeg" type="image/jpeg">
+      <img
+        src="/w24.2025/w24-4_hu_b09aae22f097d79f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>This will be a short note. Nothing much happened this week.</p>
@@ -466,9 +992,24 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w24.2025/w24-1_hu_2265b2e2f64da691.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w24.2025/w24-1_hu_5c10ed4d50e9ff63.webp" type="image/webp">
+      <source srcset="/w24.2025/w24-1_hu_c1f2e38b4658146f.jpeg" type="image/jpeg">
+      <img
+        src="/w24.2025/w24-1_hu_c1f2e38b4658146f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -479,9 +1020,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w24.2025/w24-3_hu_5caa5a1d6e62fe66.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w24.2025/w24-3_hu_842b4e7e225c8801.webp" type="image/webp">
+      <source srcset="/w24.2025/w24-3_hu_5dfe89154b188a8d.jpeg" type="image/jpeg">
+      <img
+        src="/w24.2025/w24-3_hu_5dfe89154b188a8d.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -492,11 +1049,28 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w24.2025/w24-2_hu_2cd45e73b8712707.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w24.2025/w24-2_hu_cdfad6e75df82283.webp" type="image/webp">
+      <source srcset="/w24.2025/w24-2_hu_253a318ffaa614be.jpeg" type="image/jpeg">
+      <img
+        src="/w24.2025/w24-2_hu_253a318ffaa614be.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -543,13 +1117,29 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/thejesh_hu_482b823449d5efd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/thejesh_hu_5bf0ed4e3a55c441.webp" type="image/webp">
+      <source srcset="/w22-23.2025/thejesh_hu_1730cb707e1e742b.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/thejesh_hu_1730cb707e1e742b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Meeting with Thejesh</figcaption>
     
   </figure>
+
 
 
 <p>We visited a friend&rsquo;s place in HSR, freshened up, met another dear friend Jubin, had dinner, and caught the bus for Coonoor. Reached early morning.</p>
@@ -561,13 +1151,29 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/fellowship_hu_bfa0d42505960a95.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/fellowship_hu_e04a1b0b9d648552.webp" type="image/webp">
+      <source srcset="/w22-23.2025/fellowship_hu_eda7a40c5b1e7cf7.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/fellowship_hu_eda7a40c5b1e7cf7.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>EEF Cohort 4</figcaption>
     
   </figure>
+
 
 
 <p>We met dear friend <a href="https://www.instagram.com/theearthlynotes/">Adithi Muralidhar</a> at Coonoor. I did my internship under her at Homi Bhabha Centre for Science Education - Design &amp; Technology Education lab, Mumbai.</p>
@@ -578,13 +1184,29 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/nc_hu_1fc706b80b0db486.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/nc_hu_8e16b720a2b3dbf6.webp" type="image/webp">
+      <source srcset="/w22-23.2025/nc_hu_60ae4aa782df92eb.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/nc_hu_60ae4aa782df92eb.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Nature Classroom&#39;s Office</figcaption>
     
   </figure>
+
 
 
 <p>3rd June - we&rsquo;re back in town—Ahmedabad.
@@ -840,9 +1462,24 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest1_hu_a4e7c540b6f8c555.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest1_hu_2021f8de1a957ac1.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest1_hu_6bbb18f5e8de60e1.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest1_hu_6bbb18f5e8de60e1.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -855,139 +1492,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest4_hu_28de1d5f016d2963.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
 
 
 
 
   
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest5_hu_ceb29b66fb540b8.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
   
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest6_hu_56ee8ff5d2b94c25.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest7_hu_d96fe79d7bc68518.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest10_hu_eef88c118a8b3313.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest11_hu_9a93bb5edd945bb1.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest12_hu_1fab820b937afaf8.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest13_hu_fdeb99422600fb85.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest14_hu_307e79d6bedd4dfa.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest18_hu_d1223c4f8f53fd9d.jpeg" alt="" loading="lazy" />
-    
-  </figure>
-
-
-
-
-
-
-
-
-  
-  <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest16_hu_943759238545fd02.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest4_hu_5731ee7bd37a0b76.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest4_hu_15eb1ba26a70f309.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest4_hu_15eb1ba26a70f309.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -999,9 +1522,24 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest15_hu_231c3006adcac724.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest5_hu_3cd85ef96ba8c406.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest5_hu_9a1d8ce4914cad91.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest5_hu_9a1d8ce4914cad91.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1012,9 +1550,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest2_hu_b971642ff35efe8b.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest6_hu_bd68b10d7417f2b8.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest6_hu_3195648ed5d15662.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest6_hu_3195648ed5d15662.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1025,9 +1579,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest3_hu_3a8fd716d0394e23.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest7_hu_ea39c8602d647b77.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest7_hu_bcf0795ffede1a20.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest7_hu_bcf0795ffede1a20.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1038,9 +1608,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest8_hu_bd9ed52cda71201.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest10_hu_3c3c4525e06b82a1.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest10_hu_978a50df4cf83f66.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest10_hu_978a50df4cf83f66.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1051,9 +1637,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest9_hu_4f117e770606a8ce.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest11_hu_5847219a5c5ee756.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest11_hu_4a45eb618977d13a.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest11_hu_4a45eb618977d13a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1064,9 +1666,25 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest17_hu_4cd6ccfa88ee34e2.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest12_hu_e272b40d30869475.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest12_hu_afecc0b2090d447b.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest12_hu_afecc0b2090d447b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1077,11 +1695,319 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w22-23.2025/naturequest19_hu_a46a76faa15ed55a.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w22-23.2025/naturequest13_hu_3d7f4cebb5dacc37.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest13_hu_ca0c7af74f9aa210.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest13_hu_ca0c7af74f9aa210.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest14_hu_4bb473888fc1aeab.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest14_hu_802c2799333853a6.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest14_hu_802c2799333853a6.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest18_hu_f4f02f017913adb5.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest18_hu_d0905f637902358b.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest18_hu_d0905f637902358b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest16_hu_96bd202ed453529f.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest16_hu_3a63ac4c500d7bb4.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest16_hu_3a63ac4c500d7bb4.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest15_hu_c690204b2e09bb04.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest15_hu_47b8a1a2b5325fb2.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest15_hu_47b8a1a2b5325fb2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest2_hu_d97d7f5ade9a1bc6.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest2_hu_d1a01b741289884e.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest2_hu_d1a01b741289884e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest3_hu_d115a259338e54b0.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest3_hu_73348729d874a9e2.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest3_hu_73348729d874a9e2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest8_hu_e726f40aa8229844.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest8_hu_8abbbe65fffe2715.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest8_hu_8abbbe65fffe2715.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest9_hu_fd168a0f692f49da.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest9_hu_1464e6e49484367a.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest9_hu_1464e6e49484367a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest17_hu_c74674b4f913e8f5.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest17_hu_cd479167a8e7ad95.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest17_hu_cd479167a8e7ad95.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/w22-23.2025/naturequest19_hu_789439894d2a0e3e.webp" type="image/webp">
+      <source srcset="/w22-23.2025/naturequest19_hu_5cc065eb669de14a.jpeg" type="image/jpeg">
+      <img
+        src="/w22-23.2025/naturequest19_hu_5cc065eb669de14a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+  </figure>
+
 
 
 
@@ -1117,7 +2043,7 @@ Happy monsoon, friends 🌧️🌿</p>
       <link>https://learningwala.in/blog/week-21-2025/</link>
       <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-21-2025/</guid>
-      <description>&lt;h4 id=&#34;19th-may-to-25th-may-2025-monday-to-sunday&#34;&gt;19th May to 25th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&lt;p&gt;This week was super hectic, and the coming week is also going to be hectic as we&amp;rsquo;re traveling to Coonoor for the Earth Educator Workshop and meeting people in Bangalore.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w21.2025/week21.2025-4_hu_711572381936ff45.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;This week started by losing my Pilot pen. Let me tell you, I really, really love my Pilot V7/V5 pens. This wasn&amp;rsquo;t the first time I lost it—I used to lose it when I worked in schools. I generally use my Pilot pen to make notes in notebooks. I love the smoothness of the writing experience that comes with liquid ink. The V7 has a refill cartridge. I have Hi-Tech Point Pen ink, which I put into the cartridge and use the pen again. This can be done 3 to 4 times. After that, ink overflows from the joint near the nib.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;19th-may-to-25th-may-2025-monday-to-sunday&#34;&gt;19th May to 25th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&lt;p&gt;This week was super hectic, and the coming week is also going to be hectic as we&amp;rsquo;re traveling to Coonoor for the Earth Educator Workshop and meeting people in Bangalore.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w21.2025/week21.2025-4_hu_433486972cf99a7e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w21.2025/week21.2025-4_hu_dfa7f512ce064bd2.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w21.2025/week21.2025-4_hu_dfa7f512ce064bd2.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;300&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;This week started by losing my Pilot pen. Let me tell you, I really, really love my Pilot V7/V5 pens. This wasn&amp;rsquo;t the first time I lost it—I used to lose it when I worked in schools. I generally use my Pilot pen to make notes in notebooks. I love the smoothness of the writing experience that comes with liquid ink. The V7 has a refill cartridge. I have Hi-Tech Point Pen ink, which I put into the cartridge and use the pen again. This can be done 3 to 4 times. After that, ink overflows from the joint near the nib.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="19th-may-to-25th-may-2025-monday-to-sunday">19th May to 25th May 2025 (Monday to Sunday)</h4>
 <p>This week was super hectic, and the coming week is also going to be hectic as we&rsquo;re traveling to Coonoor for the Earth Educator Workshop and meeting people in Bangalore.</p>
 
@@ -1126,11 +2052,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-4_hu_711572381936ff45.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-4_hu_433486972cf99a7e.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-4_hu_dfa7f512ce064bd2.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-4_hu_dfa7f512ce064bd2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="300"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>This week started by losing my Pilot pen. Let me tell you, I really, really love my Pilot V7/V5 pens. This wasn&rsquo;t the first time I lost it—I used to lose it when I worked in schools. I generally use my Pilot pen to make notes in notebooks. I love the smoothness of the writing experience that comes with liquid ink. The V7 has a refill cartridge. I have Hi-Tech Point Pen ink, which I put into the cartridge and use the pen again. This can be done 3 to 4 times. After that, ink overflows from the joint near the nib.</p>
@@ -1145,11 +2087,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-8_hu_8f095e94e496953d.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-8_hu_dd9327fccefc2387.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-8_hu_db1d8d8f25a3afd3.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-8_hu_db1d8d8f25a3afd3.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <hr>
@@ -1160,11 +2118,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-9_hu_6ca0580398fee063.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-9_hu_56f0b90666009b87.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-9_hu_1582fe6ed0de2ae8.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-9_hu_1582fe6ed0de2ae8.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <hr>
@@ -1180,11 +2154,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-3_hu_e92b51376e0496d8.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-3_hu_2d3d14c9685bf31f.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-3_hu_bd5aa5bec05c6232.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-3_hu_bd5aa5bec05c6232.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>Friend gifted us <a href="https://www.instagram.com/jhajistore?igsh=bHltcnFxZWN4ZXFn">Mithila based homemade pickles</a></p>
@@ -1196,11 +2186,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-1_hu_9e28ff9dc9bf517d.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-1_hu_4d36c70d33e19185.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-1_hu_cfb7e32305ab8075.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-1_hu_cfb7e32305ab8075.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="300"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>I felt very nice to meet Rameshwari ben, Ashish bhai, Janantik bhai and other sakha team members after a long time. The workshop was nice.</p>
@@ -1210,11 +2216,27 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-5_hu_858a7f06eff77bbd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-5_hu_8881398b035062d4.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-5_hu_e3a87ae140510ad9.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-5_hu_e3a87ae140510ad9.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>Nidhi or Rameshwari ben will write about it. I&rsquo;ll try to share it here. Right now, I&rsquo;m sharing some photos here.</p>
@@ -1224,9 +2246,24 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-6_hu_234e4b153b85281e.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-6_hu_e6cb6fa9242b9d7.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-6_hu_358fe3ef1ccaabab.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-6_hu_358fe3ef1ccaabab.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1237,11 +2274,28 @@ Happy monsoon, friends 🌧️🌿</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w21.2025/week21.2025-7_hu_d78c733f05fe9545.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w21.2025/week21.2025-7_hu_9ed786dc3fa155db.webp" type="image/webp">
+      <source srcset="/w21.2025/week21.2025-7_hu_78f0108a34ae1c96.jpeg" type="image/jpeg">
+      <img
+        src="/w21.2025/week21.2025-7_hu_78f0108a34ae1c96.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>Weekend traveling was hectic. We took an AC Volvo bus. It was super expensive—a normal bus is ₹100 and Volvo is around ₹320—but it was helpful in this heat and with back pain.</p>
@@ -1305,11 +2359,27 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w20.2025/week20-2025-5_hu_eb311180b2ea6d25.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w20.2025/week20-2025-5_hu_8f669a3b3b1479fa.webp" type="image/webp">
+      <source srcset="/w20.2025/week20-2025-5_hu_97af93f37797d11a.jpeg" type="image/jpeg">
+      <img
+        src="/w20.2025/week20-2025-5_hu_97af93f37797d11a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p><strong>We discussed Khojbeen Mandali activities. Some updates:</strong></p>
@@ -1347,9 +2417,24 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w20.2025/week20-2025-1_hu_65f911d7afd21d05.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w20.2025/week20-2025-1_hu_a56f59f4a2f2d756.webp" type="image/webp">
+      <source srcset="/w20.2025/week20-2025-1_hu_a57d0534bbe3ff4a.jpeg" type="image/jpeg">
+      <img
+        src="/w20.2025/week20-2025-1_hu_a57d0534bbe3ff4a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1360,9 +2445,25 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w20.2025/week20-2025-2_hu_a802ae62865bc3e3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w20.2025/week20-2025-2_hu_d6ab1ae8a8df638d.webp" type="image/webp">
+      <source srcset="/w20.2025/week20-2025-2_hu_c33330f0f3d5b9f4.jpeg" type="image/jpeg">
+      <img
+        src="/w20.2025/week20-2025-2_hu_c33330f0f3d5b9f4.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1373,9 +2474,25 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w20.2025/week20-2025-3_hu_60579bc5d4a5d0f3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w20.2025/week20-2025-3_hu_3a36fc08217f9ebc.webp" type="image/webp">
+      <source srcset="/w20.2025/week20-2025-3_hu_388fef903ed53bab.jpeg" type="image/jpeg">
+      <img
+        src="/w20.2025/week20-2025-3_hu_388fef903ed53bab.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1386,11 +2503,28 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w20.2025/week20-2025-4_hu_2dd277290f0b8217.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w20.2025/week20-2025-4_hu_8e32b3e27841835f.webp" type="image/webp">
+      <source srcset="/w20.2025/week20-2025-4_hu_a4533b753ff2815a.jpeg" type="image/jpeg">
+      <img
+        src="/w20.2025/week20-2025-4_hu_a4533b753ff2815a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -1444,11 +2578,27 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek8_hu_5f98019906eec265.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek8_hu_11f21ff074145da0.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek8_hu_137985bf9dddaeff.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek8_hu_137985bf9dddaeff.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p><strong>On Friday</strong> - my birthday! :)
@@ -1462,9 +2612,24 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek1_hu_f42366a36bc06704.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek1_hu_bca02abb1662dd42.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek1_hu_af5f07712b24fa74.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek1_hu_af5f07712b24fa74.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1475,9 +2640,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek7_hu_d0c2dc0e8dcfb065.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek7_hu_380ea9fce39ac934.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek7_hu_21c915506c806492.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek7_hu_21c915506c806492.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1488,9 +2669,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek2_hu_f4cd5735ded85c11.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek2_hu_17c49d0b06cb087a.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek2_hu_8cf3e32511c7ab31.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek2_hu_8cf3e32511c7ab31.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1501,9 +2698,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek3_hu_9fdac241e41d06a.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek3_hu_37f1e3c46027d7f.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek3_hu_8764fd962052c07b.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek3_hu_8764fd962052c07b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1514,9 +2727,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek4_hu_7cfb189470c32ee3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek4_hu_c25ff28890f9ff3b.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek4_hu_eaf510a7c391e548.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek4_hu_eaf510a7c391e548.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1527,9 +2756,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek5_hu_5c56e79e86839dbc.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek5_hu_f433b75f3ed5fe62.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek5_hu_1358b6fc299b1b73.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek5_hu_1358b6fc299b1b73.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1540,11 +2785,28 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek6_hu_584c9f7259fcacae.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek6_hu_a55d810334543b5e.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek6_hu_418fd65a34ec06a.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek6_hu_418fd65a34ec06a.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -1582,9 +2844,24 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek12_hu_adb32a5b6ae50737.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek12_hu_e07aca2fd67d929c.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek12_hu_aa009595d69751d6.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek12_hu_aa009595d69751d6.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1595,9 +2872,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek13_hu_29993aaaa7e7a009.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek13_hu_b47948fb0515565d.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek13_hu_ba784469a6b02d01.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek13_hu_ba784469a6b02d01.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1608,9 +2901,25 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/gandhi1_hu_e76818aee5fce6a9.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/gandhi1_hu_5d3b14cbc66f99b.webp" type="image/webp">
+      <source srcset="/w19.2025/gandhi1_hu_25251468f4e49ace.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/gandhi1_hu_25251468f4e49ace.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1621,11 +2930,28 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/gandhi2_hu_cc5fbefb947e978.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/gandhi2_hu_bbcbdb5cc9f9ae06.webp" type="image/webp">
+      <source srcset="/w19.2025/gandhi2_hu_d53d6cc3d32bd319.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/gandhi2_hu_d53d6cc3d32bd319.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -1665,9 +2991,24 @@ Nidhi, Bhagu, and Bansi went to CEE.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek9_hu_303f977dd12781ea.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek9_hu_627c0c0ad9eab4c3.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek9_hu_36dff44e4d1e48c2.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek9_hu_36dff44e4d1e48c2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1678,9 +3019,25 @@ Nidhi, Bhagu, and Bansi went to CEE.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek11_hu_8282f02dfb1b559f.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek11_hu_6b06d5d3e87c54ad.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek11_hu_72dc57683c3b3f53.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek11_hu_72dc57683c3b3f53.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -1691,11 +3048,28 @@ Nidhi, Bhagu, and Bansi went to CEE.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w19.2025/birthdayweek10_hu_4360125b5f4c44a5.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w19.2025/birthdayweek10_hu_bb997ed532153e45.webp" type="image/webp">
+      <source srcset="/w19.2025/birthdayweek10_hu_7665adcfcfb9d353.jpeg" type="image/jpeg">
+      <img
+        src="/w19.2025/birthdayweek10_hu_7665adcfcfb9d353.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -1970,7 +3344,7 @@ We had a chat about life until late night.</p>
       <link>https://learningwala.in/blog/week-18-2025/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-18-2025/</guid>
-      <description>&lt;h4 id=&#34;28th-april-to-4th-may-2025-monday-to-sunday&#34;&gt;28th April to 4th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/office_hu_fb1e0877cb2f46b4.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;My office table&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;This week went by incredibly fast. There were many meetings at the office, and work is really gearing up. I didn&amp;rsquo;t get time to explore anything beyond work.&lt;/p&gt;&#xA;&lt;p&gt;This week, Nidhi did many cooking experiments. She loves cooking and experimenting with food. She made the following dishes throughout the week:&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/food2_hu_cebd6b48d440ee3c.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Noodles&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/food3_hu_8ae05c1e6763abdb.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Seeds&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/food4_hu_845b9301ad0606be.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Pumpkin kheer&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/food5_hu_8b7ba3b0d400f9.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Idli sambar&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/food1_hu_fa34b41f5f0cdb5e.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Sattu Paratha&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w18.2025/barani_hu_b41c83f7a9d2f17c.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Cute barani&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;I forgot to take photo of Bhindi kadhi&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;28th-april-to-4th-may-2025-monday-to-sunday&#34;&gt;28th April to 4th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/office_hu_f8d387f7d301569f.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/office_hu_4ec05c924cc00ed2.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/office_hu_4ec05c924cc00ed2.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;My office table&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;This week went by incredibly fast. There were many meetings at the office, and work is really gearing up. I didn&amp;rsquo;t get time to explore anything beyond work.&lt;/p&gt;&#xA;&lt;p&gt;This week, Nidhi did many cooking experiments. She loves cooking and experimenting with food. She made the following dishes throughout the week:&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food2_hu_8fa0045554c1adcf.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food2_hu_f4face331f9d4437.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/food2_hu_f4face331f9d4437.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Noodles&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food3_hu_cc5de9f9b7a5d4b7.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food3_hu_62f90e31273ba664.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/food3_hu_62f90e31273ba664.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Seeds&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food4_hu_8c09e124eb4bd8c0.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food4_hu_3fdd64e9a0c6abd8.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/food4_hu_3fdd64e9a0c6abd8.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Pumpkin kheer&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food5_hu_5fe3b44e2ad8bb3c.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food5_hu_cd0d00bb7901a669.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/food5_hu_cd0d00bb7901a669.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Idli sambar&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food1_hu_95acec06473cd811.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/food1_hu_5cf7c90bf6222e50.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/food1_hu_5cf7c90bf6222e50.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Sattu Paratha&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/barani_hu_3a4ada376cc12a9f.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w18.2025/barani_hu_4914cd7bdf0e75ba.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w18.2025/barani_hu_4914cd7bdf0e75ba.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Cute barani&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;I forgot to take photo of Bhindi kadhi&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="28th-april-to-4th-may-2025-monday-to-sunday">28th April to 4th May 2025 (Monday to Sunday)</h4>
 
 
@@ -1978,13 +3352,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/office_hu_fb1e0877cb2f46b4.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/office_hu_f8d387f7d301569f.webp" type="image/webp">
+      <source srcset="/w18.2025/office_hu_4ec05c924cc00ed2.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/office_hu_4ec05c924cc00ed2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>My office table</figcaption>
     
   </figure>
+
 
 
 <p>This week went by incredibly fast. There were many meetings at the office, and work is really gearing up. I didn&rsquo;t get time to explore anything beyond work.</p>
@@ -1997,9 +3387,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/food2_hu_cebd6b48d440ee3c.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/food2_hu_8fa0045554c1adcf.webp" type="image/webp">
+      <source srcset="/w18.2025/food2_hu_f4face331f9d4437.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/food2_hu_f4face331f9d4437.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Noodles</figcaption>
     
@@ -2012,9 +3417,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/food3_hu_8ae05c1e6763abdb.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/food3_hu_cc5de9f9b7a5d4b7.webp" type="image/webp">
+      <source srcset="/w18.2025/food3_hu_62f90e31273ba664.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/food3_hu_62f90e31273ba664.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Seeds</figcaption>
     
@@ -2027,9 +3448,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/food4_hu_845b9301ad0606be.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/food4_hu_8c09e124eb4bd8c0.webp" type="image/webp">
+      <source srcset="/w18.2025/food4_hu_3fdd64e9a0c6abd8.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/food4_hu_3fdd64e9a0c6abd8.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Pumpkin kheer</figcaption>
     
@@ -2042,9 +3479,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/food5_hu_8b7ba3b0d400f9.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/food5_hu_5fe3b44e2ad8bb3c.webp" type="image/webp">
+      <source srcset="/w18.2025/food5_hu_cd0d00bb7901a669.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/food5_hu_cd0d00bb7901a669.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Idli sambar</figcaption>
     
@@ -2057,9 +3510,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/food1_hu_fa34b41f5f0cdb5e.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/food1_hu_95acec06473cd811.webp" type="image/webp">
+      <source srcset="/w18.2025/food1_hu_5cf7c90bf6222e50.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/food1_hu_5cf7c90bf6222e50.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Sattu Paratha</figcaption>
     
@@ -2072,13 +3541,30 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w18.2025/barani_hu_b41c83f7a9d2f17c.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w18.2025/barani_hu_3a4ada376cc12a9f.webp" type="image/webp">
+      <source srcset="/w18.2025/barani_hu_4914cd7bdf0e75ba.jpeg" type="image/jpeg">
+      <img
+        src="/w18.2025/barani_hu_4914cd7bdf0e75ba.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Cute barani</figcaption>
     
   </figure>
+
 
 
 
@@ -2142,11 +3628,27 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/chashma_hu_7f4f748c7b686858.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/chashma_hu_d433a07f3c6e2b67.webp" type="image/webp">
+      <source srcset="/w17.2025/chashma_hu_87c2af8f99e15aec.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/chashma_hu_87c2af8f99e15aec.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="400"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p><a href="https://www.earthfocus.in/">Earth Focus</a> team sent a copy of &lsquo;Stop, Look and Wonder,&rsquo; their nature education curriculum. I had the opportunity to review the curriculum while they were developing it last year.</p>
@@ -2156,9 +3658,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/curriculumbook_hu_90eba9f5d175ddca.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/curriculumbook_hu_525fb61a047e77a7.webp" type="image/webp">
+      <source srcset="/w17.2025/curriculumbook_hu_bbb4e3242f4ce42e.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/curriculumbook_hu_bbb4e3242f4ce42e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2169,11 +3686,28 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/letter_hu_befb313f74b36ec8.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/letter_hu_65e6f4642a665ea3.webp" type="image/webp">
+      <source srcset="/w17.2025/letter_hu_3cd2e7c9c1325c28.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/letter_hu_3cd2e7c9c1325c28.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>I shared learning resources on the following topics through blog posts:</p>
@@ -2196,9 +3730,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/leafart1_hu_245e356638224505.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/leafart1_hu_61154c802035e52.webp" type="image/webp">
+      <source srcset="/w17.2025/leafart1_hu_cd77a97e79bcd11b.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/leafart1_hu_cd77a97e79bcd11b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2209,13 +3758,30 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/leafart2_hu_acdd3d6e0f9004e3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/leafart2_hu_14087197a4b5d4e7.webp" type="image/webp">
+      <source srcset="/w17.2025/leafart2_hu_b63778dd24310b0d.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/leafart2_hu_b63778dd24310b0d.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>leaf art made by children</figcaption>
     
   </figure>
+
 
 </p>
 <p>I played &lsquo;Cards Against Humanity&rsquo; for the first time. It was horrible! :) But I enjoyed games that are language-heavy, where you need to make jokes, play with vocabulary, and talk in metaphors. I will write in detail about this in another post.</p>
@@ -2225,11 +3791,27 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w17.2025/cards_hu_3494c47c0781037f.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w17.2025/cards_hu_801f315d24e5c476.webp" type="image/webp">
+      <source srcset="/w17.2025/cards_hu_f88318d6b1d3fc1e.jpeg" type="image/jpeg">
+      <img
+        src="/w17.2025/cards_hu_f88318d6b1d3fc1e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 <p>Finally, we bought a 70L cooler from Vijay Sales. We wanted to buy from a local manufacturer/non-branded cooler because it&rsquo;s cheaper, but we couldn&rsquo;t find any shops selling them. So finally, we went to Croma but didn&rsquo;t get good rates. Eventually, we bought it from Vijay Sales.</p>
@@ -2260,9 +3842,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/home4_hu_259b0b49fd6b4da5.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/home4_hu_6ada8e39e88ee39d.webp" type="image/webp">
+      <source srcset="/w16.2025/home4_hu_bd05f1e60262cc0d.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/home4_hu_bd05f1e60262cc0d.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2273,11 +3870,28 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/home5_hu_d07372b7dee2d0cb.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/home5_hu_a39d344b4d1ec352.webp" type="image/webp">
+      <source srcset="/w16.2025/home5_hu_ee635b6090e50a54.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/home5_hu_ee635b6090e50a54.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -2317,9 +3931,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/aarambh_hu_87e3ccf9d2043ff3.jpeg" alt="aarambh" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/aarambh_hu_9ee8c4257bccddbb.webp" type="image/webp">
+      <source srcset="/w16.2025/aarambh_hu_be9e86d47313fdc7.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/aarambh_hu_be9e86d47313fdc7.jpeg"
+        alt="aarambh"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Hibiscus Tea</figcaption>
     
@@ -2332,13 +3961,30 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/aarambh2_hu_70a5f621c4bffe8a.jpeg" alt="aarambh" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/aarambh2_hu_5bf08f575aba19c.webp" type="image/webp">
+      <source srcset="/w16.2025/aarambh2_hu_523538252296d3a7.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/aarambh2_hu_523538252296d3a7.jpeg"
+        alt="aarambh"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Find out more</figcaption>
     
   </figure>
+
 
 
 
@@ -2378,9 +4024,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color1_hu_118ddb68e4116d65.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color1_hu_96f0b64f5bc69955.webp" type="image/webp">
+      <source srcset="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2391,9 +4052,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color2_hu_b6e5dc71c9f801eb.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color2_hu_bcaf6e0c39f10a93.webp" type="image/webp">
+      <source srcset="/w16.2025/color2_hu_9fe0739317834e2.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color2_hu_9fe0739317834e2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2404,9 +4081,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color3_hu_7d94abee8e119cd1.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color3_hu_c1ea0f7afe9c7971.webp" type="image/webp">
+      <source srcset="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2417,11 +4110,28 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color4_hu_c3a3d9b0467124d4.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color4_hu_f9bc15dc89a960aa.webp" type="image/webp">
+      <source srcset="/w16.2025/color4_hu_dfeb133962022e66.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color4_hu_dfeb133962022e66.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -2461,9 +4171,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science1_hu_bb5bfd280c3474bc.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science1_hu_d62357a7e7d6b408.webp" type="image/webp">
+      <source srcset="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2474,9 +4199,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science2_hu_610f43ad8d5dbac0.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science2_hu_a997e5ef5cdb9d30.webp" type="image/webp">
+      <source srcset="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2487,9 +4228,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science3_hu_7708f5445077e31e.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science3_hu_f5713ccd5bf717b6.webp" type="image/webp">
+      <source srcset="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2500,9 +4257,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science4_hu_453000441ca940bd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science4_hu_d7b8580102c9a2a.webp" type="image/webp">
+      <source srcset="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2513,9 +4286,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science5_hu_e0c271387e50a8ac.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science5_hu_200d3cf6afe9a502.webp" type="image/webp">
+      <source srcset="/w16.2025/science5_hu_3705802131db4bdb.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science5_hu_3705802131db4bdb.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -2526,11 +4315,28 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science6_hu_24bd2e68939ff1bd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science6_hu_626b8cce5d952513.webp" type="image/webp">
+      <source srcset="/w16.2025/science6_hu_424bf65480836375.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science6_hu_424bf65480836375.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -2587,9 +4393,24 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/pipar_hu_c949ff547d6ec99d.jpeg" alt="Pipar tree" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/pipar_hu_57a406ed5da6921d.webp" type="image/webp">
+      <source srcset="/w16.2025/pipar_hu_aea6957685ac15e4.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/pipar_hu_aea6957685ac15e4.jpeg"
+        alt="Pipar tree"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Pipar tree</figcaption>
     
@@ -2602,9 +4423,25 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/mihirsart_hu_bd7df20d0082c12c.jpeg" alt="Mihir&#39;s Art" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/mihirsart_hu_fcb90c81d93d817f.webp" type="image/webp">
+      <source srcset="/w16.2025/mihirsart_hu_ab4e3a22ac22720a.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/mihirsart_hu_ab4e3a22ac22720a.jpeg"
+        alt="Mihir&#39;s Art"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Mihir&#39;s Art</figcaption>
     
@@ -2617,13 +4454,30 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/amaltas_hu_8a7497cdeab228c8.jpeg" alt="Amaltas" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/amaltas_hu_579b9854e67b0865.webp" type="image/webp">
+      <source srcset="/w16.2025/amaltas_hu_4d235850ccd03632.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/amaltas_hu_4d235850ccd03632.jpeg"
+        alt="Amaltas"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Amaltas</figcaption>
     
   </figure>
+
 
 
 
@@ -2676,13 +4530,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/khowsuey_hu_52a50fcedbd2208d.jpeg" alt="khowsuey" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/khowsuey_hu_a7f60c2ee5ddc1ca.webp" type="image/webp">
+      <source srcset="/w15.2025/khowsuey_hu_a00c8b55461bc1f2.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/khowsuey_hu_a00c8b55461bc1f2.jpeg"
+        alt="khowsuey"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Khow Suey</figcaption>
     
   </figure>
+
 
 
 <p><strong>Khavsa: Gujarat connection of Khow Suey</strong></p>
@@ -2695,13 +4565,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/chappal_hu_1624ede02465881a.jpeg" alt="New Chappal" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/chappal_hu_fb80a9d83f4c917d.webp" type="image/webp">
+      <source srcset="/w15.2025/chappal_hu_2350228f9fb08734.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/chappal_hu_2350228f9fb08734.jpeg"
+        alt="New Chappal"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>New Chappal</figcaption>
     
   </figure>
+
 
 
 <p>Friday: We went to <a href="https://www.instagram.com/icecreamfactoryindia/?hl=en">Shahi Durbar</a> and had wonderful mango &amp; guava ice cream. Had dinner at <a href="https://www.indiancoffeehouse.com/">The Indian Coffee House</a>. I&rsquo;m always fascinated to learn about the history and co-operative model of ICH. This time I learned more about its history from a friend and also read something on the internet.</p>
@@ -2711,13 +4597,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/pesarattudosa_hu_5d201925216bb627.jpeg" alt="Pesarattu Dosa" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/pesarattudosa_hu_92f1197aca9d9edb.webp" type="image/webp">
+      <source srcset="/w15.2025/pesarattudosa_hu_60a629e84606372b.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/pesarattudosa_hu_60a629e84606372b.jpeg"
+        alt="Pesarattu Dosa"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Pesarattu Dosa</figcaption>
     
   </figure>
+
 
 
 <blockquote>
@@ -2733,13 +4635,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/bvc7ws2_hu_6af84e429b8ddba8.jpeg" alt="BVC 7 Workshop 2- Group Photo" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/bvc7ws2_hu_5b1cfcb261713881.webp" type="image/webp">
+      <source srcset="/w15.2025/bvc7ws2_hu_e550ec85bfeeaac9.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/bvc7ws2_hu_e550ec85bfeeaac9.jpeg"
+        alt="BVC 7 Workshop 2- Group Photo"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>BVC 7 Workshop 2- Group Photo</figcaption>
     
   </figure>
+
 
 
 <p>Tuesday: It was the last day of the workshop, and we tried to meet everyone in the office. Had short meetings with Tultul and Rajesh. We planned a course review meeting for next month and discussed some writing/publishing projects:</p>
@@ -2756,13 +4674,29 @@ We had a chat about life until late night.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/eklavya2_hu_620a63f2d72f3bba.jpeg" alt="Friends at Eklavya" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/eklavya2_hu_ff5dfa08905ad3b7.webp" type="image/webp">
+      <source srcset="/w15.2025/eklavya2_hu_4100d2da74a2ee64.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/eklavya2_hu_4100d2da74a2ee64.jpeg"
+        alt="Friends at Eklavya"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Friends at Eklavya</figcaption>
     
   </figure>
+
 
 
 <p>we bought books from Eklavya Pitara store for our office &amp; some selected nature related story books for Nidhi&rsquo;s sessions at learning center.</p>
@@ -2773,13 +4707,29 @@ We had a chat about life until late night.</p>
  
  
  
+ 
+ 
+ 
    
+   
+ 
    <figure class="img-responsive">
-     <img src="/w15.2025/saljam_hu_df5be4e7de847f9e.jpeg" alt="big book" loading="lazy" />
+     <picture>
+       <source srcset="/w15.2025/saljam_hu_9768615bdb649530.webp" type="image/webp">
+       <source srcset="/w15.2025/saljam_hu_73fb2169c87b2ce1.jpeg" type="image/jpeg">
+       <img
+         src="/w15.2025/saljam_hu_73fb2169c87b2ce1.jpeg"
+         alt="big book"
+         loading="lazy"
+         decoding="async"
+         width="800"
+       />
+     </picture>
      
        <figcaption>big book</figcaption>
      
    </figure>
+ 
  
 
 <p>Wednesday: We are back in Ahmedabad. I will join the office tomorrow. This week will be busy. We have a summer camp at Ravi bhai&rsquo;s office on Saturday-Sunday. I am going to take a one-day session with a school associated with our office.</p>
@@ -3033,9 +4983,24 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/nidhisart_hu_52bea854fed5c09c.jpeg" alt="nidhi&#39;s art" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/nidhisart_hu_dc15a8ee3e8fdb28.webp" type="image/webp">
+      <source srcset="/w15.2025/nidhisart_hu_f9644df6b85a7b7c.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/nidhisart_hu_f9644df6b85a7b7c.jpeg"
+        alt="nidhi&#39;s art"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>nidhi&#39;s art</figcaption>
     
@@ -3048,9 +5013,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/artwork_hu_a7b554dc16b470e3.jpeg" alt="art work" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/artwork_hu_dc41a9aa1bff283f.webp" type="image/webp">
+      <source srcset="/w15.2025/artwork_hu_54cf2783b6c855fa.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/artwork_hu_54cf2783b6c855fa.jpeg"
+        alt="art work"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>At workshop hall</figcaption>
     
@@ -3063,9 +5044,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/saunfsharbat_hu_ca74c06f72874481.jpeg" alt="Saunf Sharbat" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/saunfsharbat_hu_d9bc3c4dc88a6556.webp" type="image/webp">
+      <source srcset="/w15.2025/saunfsharbat_hu_fc5d8cd7986969c6.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/saunfsharbat_hu_fc5d8cd7986969c6.jpeg"
+        alt="Saunf Sharbat"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Saunf Sharbat</figcaption>
     
@@ -3078,9 +5075,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/design_hu_972050dc8f2e5d17.jpeg" alt="design" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/design_hu_e22bd8941b0d9bbd.webp" type="image/webp">
+      <source srcset="/w15.2025/design_hu_54c71ae092a5c2a6.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/design_hu_54c71ae092a5c2a6.jpeg"
+        alt="design"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>I like the design</figcaption>
     
@@ -3093,9 +5106,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/bhindi_hu_e25afb3f39cfe360.jpeg" alt="bhindi" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/bhindi_hu_6e388854d104c9b5.webp" type="image/webp">
+      <source srcset="/w15.2025/bhindi_hu_c858fcd16c7f91f4.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/bhindi_hu_c858fcd16c7f91f4.jpeg"
+        alt="bhindi"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Bhindi by Nidhi</figcaption>
     
@@ -3108,13 +5137,30 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w15.2025/summervacation_hu_bd1fa69e9beecbe6.jpeg" alt="summer vacation" loading="lazy" />
+    <picture>
+      <source srcset="/w15.2025/summervacation_hu_bd68efdb750509a1.webp" type="image/webp">
+      <source srcset="/w15.2025/summervacation_hu_d8de665142dcb99b.jpeg" type="image/jpeg">
+      <img
+        src="/w15.2025/summervacation_hu_d8de665142dcb99b.jpeg"
+        alt="summer vacation"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>summer vacation</figcaption>
     
   </figure>
+
 
 
 
@@ -3150,7 +5196,7 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
       <link>https://learningwala.in/blog/week-14-2025/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-14-2025/</guid>
-      <description>&lt;h4 id=&#34;31st-march-to-6th-april-2025-monday-to-sunday&#34;&gt;31st March to 6th April 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&lt;p&gt;This week was running fast until Thursday, and suddenly it became slow while approaching Sunday.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w14.2025/drumstick_hu_d857a7245a8f0c59.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Drumstick sabji - સરગવાનું શાક&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;p&gt;We made drumstick sabji on Monday evening. It is my favorite sabji. I love how my mom makes it. We tried our best to make it edible&amp;hellip; the taste wasn&amp;rsquo;t exactly like mom&amp;rsquo;s, but it was nice. It was fun cooking together.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;31st-march-to-6th-april-2025-monday-to-sunday&#34;&gt;31st March to 6th April 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&lt;p&gt;This week was running fast until Thursday, and suddenly it became slow while approaching Sunday.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w14.2025/drumstick_hu_57c78aee6560a122.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w14.2025/drumstick_hu_4171662a236ef29.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w14.2025/drumstick_hu_4171662a236ef29.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Drumstick sabji - સરગવાનું શાક&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;We made drumstick sabji on Monday evening. It is my favorite sabji. I love how my mom makes it. We tried our best to make it edible&amp;hellip; the taste wasn&amp;rsquo;t exactly like mom&amp;rsquo;s, but it was nice. It was fun cooking together.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="31st-march-to-6th-april-2025-monday-to-sunday">31st March to 6th April 2025 (Monday to Sunday)</h4>
 <p>This week was running fast until Thursday, and suddenly it became slow while approaching Sunday.</p>
 
@@ -3159,13 +5205,29 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/drumstick_hu_d857a7245a8f0c59.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/drumstick_hu_57c78aee6560a122.webp" type="image/webp">
+      <source srcset="/w14.2025/drumstick_hu_4171662a236ef29.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/drumstick_hu_4171662a236ef29.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Drumstick sabji - સરગવાનું શાક</figcaption>
     
   </figure>
+
 
 
 <p>We made drumstick sabji on Monday evening. It is my favorite sabji. I love how my mom makes it. We tried our best to make it edible&hellip; the taste wasn&rsquo;t exactly like mom&rsquo;s, but it was nice. It was fun cooking together.</p>
@@ -3204,13 +5266,29 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/ghee_hu_bd81a01ed7873522.jpeg" alt="Organic Ghee" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/ghee_hu_ea5c7fdeb259be9f.webp" type="image/webp">
+      <source srcset="/w14.2025/ghee_hu_234a8b56ceaf5ac9.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/ghee_hu_234a8b56ceaf5ac9.jpeg"
+        alt="Organic Ghee"
+        loading="lazy"
+        decoding="async"
+        width="300"
+      />
+    </picture>
     
       <figcaption>We ordered organic Ghee to try out</figcaption>
     
   </figure>
+
 
 
 <p>I bought tickets for a live concert by Papon in Ahmedabad. This will be our first concert experience. I was reading FAQs on the site and realized that we can&rsquo;t take water bottles with us, just because they want to make money by selling packaged water bottles and creating tons of plastic waste. Very disappointing.</p>
@@ -3223,9 +5301,24 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/mihirandnidhiatkamla_hu_860b3cad1407d913.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/mihirandnidhiatkamla_hu_6c65959a28e7615.webp" type="image/webp">
+      <source srcset="/w14.2025/mihirandnidhiatkamla_hu_72c7728f1452d591.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/mihirandnidhiatkamla_hu_72c7728f1452d591.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>We</figcaption>
     
@@ -3238,9 +5331,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/bougainvillea_hu_78bad0d647a5344c.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/bougainvillea_hu_d45575f61fc05aa6.webp" type="image/webp">
+      <source srcset="/w14.2025/bougainvillea_hu_22a3540daedeb901.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/bougainvillea_hu_22a3540daedeb901.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Bougainvillea</figcaption>
     
@@ -3253,9 +5362,25 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/pongamia_hu_61b606a312075323.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/pongamia_hu_64f493cc80478163.webp" type="image/webp">
+      <source srcset="/w14.2025/pongamia_hu_c683641a832a176f.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/pongamia_hu_c683641a832a176f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Pongamia</figcaption>
     
@@ -3268,13 +5393,30 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w14.2025/ghibli_hu_549a0be29a5ac2a.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w14.2025/ghibli_hu_d3216b89633aa612.webp" type="image/webp">
+      <source srcset="/w14.2025/ghibli_hu_ed061e6de2b107c.jpeg" type="image/jpeg">
+      <img
+        src="/w14.2025/ghibli_hu_ed061e6de2b107c.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>We tried ghibli :)</figcaption>
     
   </figure>
+
 
 
 
@@ -3604,13 +5746,29 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/lunchatfarmermarket2_hu_a65d8153b07801aa.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/lunchatfarmermarket2_hu_c7b02f757754ad79.webp" type="image/webp">
+      <source srcset="/w13.2025/lunchatfarmermarket2_hu_7494433092dc429b.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/lunchatfarmermarket2_hu_7494433092dc429b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>lunch at Farmer&#39;s Market - Navjeevan Campus</figcaption>
     
   </figure>
+
 
 
 <p>I bought 4 books from the Navjeevan book store.</p>
@@ -3622,9 +5780,24 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/book1_hu_dde9e0d0d21b398.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/book1_hu_e8c3b18f36ecb7ee.webp" type="image/webp">
+      <source srcset="/w13.2025/book1_hu_b73eae3380bb4dd0.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/book1_hu_b73eae3380bb4dd0.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -3635,9 +5808,25 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/book2_hu_b1b3834e4cd990e3.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/book2_hu_cb136cd7e18a5be0.webp" type="image/webp">
+      <source srcset="/w13.2025/book2_hu_d56f66b2ad03bb55.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/book2_hu_d56f66b2ad03bb55.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -3648,9 +5837,25 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/book3_hu_e1e11f477fc37300.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/book3_hu_46bc4cf36a11ec6c.webp" type="image/webp">
+      <source srcset="/w13.2025/book3_hu_2b239995aa39b1b3.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/book3_hu_2b239995aa39b1b3.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -3661,11 +5866,28 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/book4_hu_529856cf4f6ed22c.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/book4_hu_fddb6a8926eec4b1.webp" type="image/webp">
+      <source srcset="/w13.2025/book4_hu_d31459be568d2673.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/book4_hu_d31459be568d2673.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -3718,9 +5940,24 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/humdo_hu_14e15494a1f2b69a.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/humdo_hu_6cc5d4a241d18947.webp" type="image/webp">
+      <source srcset="/w13.2025/humdo_hu_2e02bd13c14a546f.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/humdo_hu_2e02bd13c14a546f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Hum dono</figcaption>
     
@@ -3733,9 +5970,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/mihiratnavjeevan_hu_ccd035012d652344.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/mihiratnavjeevan_hu_d40010ed07068e66.webp" type="image/webp">
+      <source srcset="/w13.2025/mihiratnavjeevan_hu_2873acfd21f9bdc1.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/mihiratnavjeevan_hu_2873acfd21f9bdc1.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Mihir at Navjeevan</figcaption>
     
@@ -3748,9 +6001,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/momandpiano_hu_7adf9ac296cb1021.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/momandpiano_hu_67ff963f1c6daca2.webp" type="image/webp">
+      <source srcset="/w13.2025/momandpiano_hu_b91a8667b37da290.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/momandpiano_hu_b91a8667b37da290.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Mom and Piano</figcaption>
     
@@ -3763,9 +6032,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/moth_hu_95a30dfba66a194.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/moth_hu_b68da52cef38cafa.webp" type="image/webp">
+      <source srcset="/w13.2025/moth_hu_d7fb65d71ee66894.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/moth_hu_d7fb65d71ee66894.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Moth</figcaption>
     
@@ -3778,9 +6063,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/parijata_hu_25a3eda5771dc87f.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/parijata_hu_b3176a766cab84b8.webp" type="image/webp">
+      <source srcset="/w13.2025/parijata_hu_a6fed0e8b1b86506.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/parijata_hu_a6fed0e8b1b86506.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Parijata</figcaption>
     
@@ -3793,9 +6094,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/raspuri_hu_5e363874388cef64.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/raspuri_hu_cd8e8622cec27606.webp" type="image/webp">
+      <source srcset="/w13.2025/raspuri_hu_ef7ba6747448baad.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/raspuri_hu_ef7ba6747448baad.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Raspuri dinner on Sunday - Atithi restaurant</figcaption>
     
@@ -3808,9 +6125,25 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/sattuwithchhas_hu_f1f569b5f4476d77.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/sattuwithchhas_hu_d310b17d2040933f.webp" type="image/webp">
+      <source srcset="/w13.2025/sattuwithchhas_hu_6ffc95ea7367baf5.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/sattuwithchhas_hu_6ffc95ea7367baf5.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Sattu with chhas</figcaption>
     
@@ -3823,13 +6156,30 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w13.2025/muskmelon_hu_1039cfe587df3cb5.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w13.2025/muskmelon_hu_63e92c553f885d2c.webp" type="image/webp">
+      <source srcset="/w13.2025/muskmelon_hu_7bc2370ca3884822.jpeg" type="image/jpeg">
+      <img
+        src="/w13.2025/muskmelon_hu_7bc2370ca3884822.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Shakkarteti Juice</figcaption>
     
   </figure>
+
 
 
 
@@ -3893,13 +6243,29 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w12.2025/kamlacafe2_hu_40bea28c4150dd4c.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w12.2025/kamlacafe2_hu_861c576f617ce2ce.webp" type="image/webp">
+      <source srcset="/w12.2025/kamlacafe2_hu_dee8cf792dad8845.jpeg" type="image/jpeg">
+      <img
+        src="/w12.2025/kamlacafe2_hu_dee8cf792dad8845.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>**Dinner at Kamla Cafe**</figcaption>
     
   </figure>
+
 
 
 <ul>
@@ -4153,7 +6519,7 @@ python3 -m http.server</code></pre><p>It worked out.</p>
       <link>https://learningwala.in/blog/week-11-2025/</link>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-11-2025/</guid>
-      <description>&lt;h4 id=&#34;9th-to-15-march-2025-sunday-to-saturday&#34;&gt;9th to 15 March 2025 (Sunday to Saturday)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;9th-march-sunday&#34;&gt;9th March, Sunday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I had a talk with &lt;a href=&#34;https://learningwala.in/blog/week-14-2024/&#34;&gt;Konarak&lt;/a&gt; about the problem I&amp;rsquo;m facing with my website/blog. I want to add more photos, but GitHub Pages has only a 1GB repo size limit. I was considering setting up a Raspberry Pi or an Oracle server (similar to Amazon S3). Konarak suggested trying Cloudflare Pages instead. I created a project on Cloudflare Pages and found it surprisingly simple. Initially, I was manually creating my Hugo site on my local machine and copying only the &amp;lsquo;Public&amp;rsquo; folder to CF Pages. I wondered if there was a way to deploy directly from the command line. My first attempt wasn&amp;rsquo;t successful, so I had a short call with Konarak who helped me set it up properly. Now I can deploy my site with just a single command line - much more efficient than writing multiple git commands. This website now lives on CF Pages.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w11.2025/cfpages_hu_6659b38e952ba10f.png&#34; alt=&#34;cf pages&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Github Pages v/s Cloud Flare Pages&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I read &lt;a href=&#34;https://adhavansivaraj.xyz/&#34;&gt;Adhavan&amp;rsquo;s&lt;/a&gt; weekly note and noticed he used a grid format for displaying images. I liked it and tried implementing the same thing on my blog. It took some time to figure out because I was already using shortcode for image handling and optimization. Using shortcode for both grid and image optimization together was challenging. I tried different AI tools to solve this problem - Claude, ChatGPT and Co-pilot. Co-pilot gave the simplest solution on the first attempt. ChatGPT was the worst, while Claude was average. They kept giving complex solutions that didn&amp;rsquo;t work for me.&lt;/li&gt;&#xA;&lt;li&gt;Watched the Gujarati film &lt;a href=&#34;https://www.imdb.com/title/tt8982436/&#34;&gt;&amp;lsquo;Ventilator&amp;rsquo;&lt;/a&gt;, which is based on a Marathi film with the same name. It was a wonderful watch. I didn&amp;rsquo;t know it was officially available on YouTube. Thanks to the algorithm for making my Sunday!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;10th-march-monday&#34;&gt;10th March, Monday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It was an office colleague&amp;rsquo;s birthday, so we went out for lunch with the whole team.&lt;/li&gt;&#xA;&lt;li&gt;I had a call with Earth Educator Fellow Vimal who runs an organization called WildED. We discussed nature education, program design approaches, how to approach schools, and more.&lt;/li&gt;&#xA;&lt;li&gt;I explored how to incorporate Gujarati fonts on my blog. I currently use Inconsolata fonts for English text. For Gujarati, I discovered a GitHub repository called &lt;a href=&#34;https://github.com/samyakbhuta/chhapkaam&#34;&gt;&amp;lsquo;Chhapkam&amp;rsquo;&lt;/a&gt;, developed by my friends Samyak Bhuta and Kartik Mistry. With Co-pilot&amp;rsquo;s assistance, I figured out the process of uploading these fonts and configuring them to activate whenever I write Gujarati content in my blog posts or pages.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;11th-march-tuesday&#34;&gt;11th March, Tuesday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bansari (friend/colleague from office) took me to meet her friend Vishnu, who works at American India Foundation as a science educator. We talked about life &amp;amp; education (what else can I talk about!!)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;13th-march-thursday&#34;&gt;13th March, Thursday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;We played Holi at the office. I&amp;rsquo;ve never played Holi at my previous workplaces and really enjoyed it.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;9th-to-15-march-2025-sunday-to-saturday&#34;&gt;9th to 15 March 2025 (Sunday to Saturday)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;9th-march-sunday&#34;&gt;9th March, Sunday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I had a talk with &lt;a href=&#34;https://learningwala.in/blog/week-14-2024/&#34;&gt;Konarak&lt;/a&gt; about the problem I&amp;rsquo;m facing with my website/blog. I want to add more photos, but GitHub Pages has only a 1GB repo size limit. I was considering setting up a Raspberry Pi or an Oracle server (similar to Amazon S3). Konarak suggested trying Cloudflare Pages instead. I created a project on Cloudflare Pages and found it surprisingly simple. Initially, I was manually creating my Hugo site on my local machine and copying only the &amp;lsquo;Public&amp;rsquo; folder to CF Pages. I wondered if there was a way to deploy directly from the command line. My first attempt wasn&amp;rsquo;t successful, so I had a short call with Konarak who helped me set it up properly. Now I can deploy my site with just a single command line - much more efficient than writing multiple git commands. This website now lives on CF Pages.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w11.2025/cfpages_hu_15334863afe29ca1.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w11.2025/cfpages_hu_676e7a8564ccafc2.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w11.2025/cfpages_hu_676e7a8564ccafc2.jpg&#34;&#xA;        alt=&#34;cf pages&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Github Pages v/s Cloud Flare Pages&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I read &lt;a href=&#34;https://adhavansivaraj.xyz/&#34;&gt;Adhavan&amp;rsquo;s&lt;/a&gt; weekly note and noticed he used a grid format for displaying images. I liked it and tried implementing the same thing on my blog. It took some time to figure out because I was already using shortcode for image handling and optimization. Using shortcode for both grid and image optimization together was challenging. I tried different AI tools to solve this problem - Claude, ChatGPT and Co-pilot. Co-pilot gave the simplest solution on the first attempt. ChatGPT was the worst, while Claude was average. They kept giving complex solutions that didn&amp;rsquo;t work for me.&lt;/li&gt;&#xA;&lt;li&gt;Watched the Gujarati film &lt;a href=&#34;https://www.imdb.com/title/tt8982436/&#34;&gt;&amp;lsquo;Ventilator&amp;rsquo;&lt;/a&gt;, which is based on a Marathi film with the same name. It was a wonderful watch. I didn&amp;rsquo;t know it was officially available on YouTube. Thanks to the algorithm for making my Sunday!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;10th-march-monday&#34;&gt;10th March, Monday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It was an office colleague&amp;rsquo;s birthday, so we went out for lunch with the whole team.&lt;/li&gt;&#xA;&lt;li&gt;I had a call with Earth Educator Fellow Vimal who runs an organization called WildED. We discussed nature education, program design approaches, how to approach schools, and more.&lt;/li&gt;&#xA;&lt;li&gt;I explored how to incorporate Gujarati fonts on my blog. I currently use Inconsolata fonts for English text. For Gujarati, I discovered a GitHub repository called &lt;a href=&#34;https://github.com/samyakbhuta/chhapkaam&#34;&gt;&amp;lsquo;Chhapkam&amp;rsquo;&lt;/a&gt;, developed by my friends Samyak Bhuta and Kartik Mistry. With Co-pilot&amp;rsquo;s assistance, I figured out the process of uploading these fonts and configuring them to activate whenever I write Gujarati content in my blog posts or pages.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;11th-march-tuesday&#34;&gt;11th March, Tuesday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bansari (friend/colleague from office) took me to meet her friend Vishnu, who works at American India Foundation as a science educator. We talked about life &amp;amp; education (what else can I talk about!!)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;13th-march-thursday&#34;&gt;13th March, Thursday&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;We played Holi at the office. I&amp;rsquo;ve never played Holi at my previous workplaces and really enjoyed it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="9th-to-15-march-2025-sunday-to-saturday">9th to 15 March 2025 (Sunday to Saturday)</h4>
 <h4 id="9th-march-sunday">9th March, Sunday</h4>
 <ul>
@@ -4165,13 +6531,29 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/cfpages_hu_6659b38e952ba10f.png" alt="cf pages" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/cfpages_hu_15334863afe29ca1.webp" type="image/webp">
+      <source srcset="/w11.2025/cfpages_hu_676e7a8564ccafc2.jpg" type="image/jpeg">
+      <img
+        src="/w11.2025/cfpages_hu_676e7a8564ccafc2.jpg"
+        alt="cf pages"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Github Pages v/s Cloud Flare Pages</figcaption>
     
   </figure>
+
 
 
 <ul>
@@ -4239,13 +6621,29 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/summerinternship_hu_b80ff94e84e26f91.jpg" alt="Summer Internship" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/summerinternship_hu_691471c0916a7f32.webp" type="image/webp">
+      <source srcset="/w11.2025/summerinternship_hu_8a028697ed2065c3.jpg" type="image/jpeg">
+      <img
+        src="/w11.2025/summerinternship_hu_8a028697ed2065c3.jpg"
+        alt="Summer Internship"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Summer Internship</figcaption>
     
   </figure>
+
 
 
 <h4 id="misc">Misc</h4>
@@ -4264,9 +6662,24 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/fun_hu_5f06d432f836983f.jpeg" alt="Fun" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/fun_hu_1679ccec8d10a6f1.webp" type="image/webp">
+      <source srcset="/w11.2025/fun_hu_ec8438ba7566d2e0.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/fun_hu_ec8438ba7566d2e0.jpeg"
+        alt="Fun"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Fun at office</figcaption>
     
@@ -4279,9 +6692,25 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/morefun_hu_7b199555b6d3d308.jpeg" alt="More Fun" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/morefun_hu_6ba1301ff7bd0c4a.webp" type="image/webp">
+      <source srcset="/w11.2025/morefun_hu_f6cedd36351cbb7f.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/morefun_hu_f6cedd36351cbb7f.jpeg"
+        alt="More Fun"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>More Fun</figcaption>
     
@@ -4294,13 +6723,30 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/teaatoffice_hu_6b59661206719365.jpeg" alt="Tea at office" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/teaatoffice_hu_e4fedba01e447c3.webp" type="image/webp">
+      <source srcset="/w11.2025/teaatoffice_hu_44a32989e384cbda.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/teaatoffice_hu_44a32989e384cbda.jpeg"
+        alt="Tea at office"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Tea at office</figcaption>
     
   </figure>
+
 
 
 
@@ -4338,9 +6784,24 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/aesthetics_hu_415248d8b808d84a.jpeg" alt="aesthetics" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/aesthetics_hu_7874514c04114590.webp" type="image/webp">
+      <source srcset="/w11.2025/aesthetics_hu_27caae4e2d919a75.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/aesthetics_hu_27caae4e2d919a75.jpeg"
+        alt="aesthetics"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -4351,9 +6812,25 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/aesthetics2_hu_3fede4effea6c91.jpeg" alt="aesthetics" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/aesthetics2_hu_9ddeeeee09eb2dbd.webp" type="image/webp">
+      <source srcset="/w11.2025/aesthetics2_hu_80e57fcba968125e.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/aesthetics2_hu_80e57fcba968125e.jpeg"
+        alt="aesthetics"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -4364,11 +6841,28 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/aesthetics3_hu_38f96799b0df6025.jpeg" alt="aesthetics" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/aesthetics3_hu_59dca11796b7416.webp" type="image/webp">
+      <source srcset="/w11.2025/aesthetics3_hu_14ca7d47adae796.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/aesthetics3_hu_14ca7d47adae796.jpeg"
+        alt="aesthetics"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -4404,13 +6898,29 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w11.2025/blrinahd_hu_2e3cbf39ff349d8e.jpeg" alt="Tabebuia rosea tree in Ahemdabad" loading="lazy" />
+    <picture>
+      <source srcset="/w11.2025/blrinahd_hu_f30c417c1202074b.webp" type="image/webp">
+      <source srcset="/w11.2025/blrinahd_hu_5dc896318253c6ea.jpeg" type="image/jpeg">
+      <img
+        src="/w11.2025/blrinahd_hu_5dc896318253c6ea.jpeg"
+        alt="Tabebuia rosea tree in Ahemdabad"
+        loading="lazy"
+        decoding="async"
+        width="400"
+      />
+    </picture>
     
       <figcaption>Tabebuia rosea tree in Ahemdabad</figcaption>
     
   </figure>
+
 
 
 <p>I saw Tabebuia tree near my place in ahemdabad. It is very near to palladium mall, thltej.</p>
@@ -4476,9 +6986,24 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w10.2025/navjeevan-dinner_hu_e9eda9f3d0e09687.jpeg" alt="Image 1" loading="lazy" />
+    <picture>
+      <source srcset="/w10.2025/navjeevan-dinner_hu_7ae48cf2679cf03c.webp" type="image/webp">
+      <source srcset="/w10.2025/navjeevan-dinner_hu_b5b8c246e44e6b76.jpeg" type="image/jpeg">
+      <img
+        src="/w10.2025/navjeevan-dinner_hu_b5b8c246e44e6b76.jpeg"
+        alt="Image 1"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Dinner at Navjeevan Trust Campus - Karma Cafe</figcaption>
     
@@ -4491,9 +7016,25 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w10.2025/navjeevan-books_hu_9ef0dd409f8b6b53.jpeg" alt="Image 2" loading="lazy" />
+    <picture>
+      <source srcset="/w10.2025/navjeevan-books_hu_e0cb26ca7ec91e09.webp" type="image/webp">
+      <source srcset="/w10.2025/navjeevan-books_hu_b531e25849560b47.jpeg" type="image/jpeg">
+      <img
+        src="/w10.2025/navjeevan-books_hu_b531e25849560b47.jpeg"
+        alt="Image 2"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>New Books</figcaption>
     
@@ -4506,9 +7047,25 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w10.2025/kitchen_hu_f089c8cbdbde8538.jpeg" alt="Image 2" loading="lazy" />
+    <picture>
+      <source srcset="/w10.2025/kitchen_hu_9e12feeb14e85439.webp" type="image/webp">
+      <source srcset="/w10.2025/kitchen_hu_9b0197031faa429e.jpeg" type="image/jpeg">
+      <img
+        src="/w10.2025/kitchen_hu_9b0197031faa429e.jpeg"
+        alt="Image 2"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Kitchen Setup</figcaption>
     
@@ -4521,13 +7078,30 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w10.2025/cooker_hu_6b97f75597651d8f.jpeg" alt="Image 2" loading="lazy" />
+    <picture>
+      <source srcset="/w10.2025/cooker_hu_9d3241bd43af41d8.webp" type="image/webp">
+      <source srcset="/w10.2025/cooker_hu_3141d5be3a21bd54.jpeg" type="image/jpeg">
+      <img
+        src="/w10.2025/cooker_hu_3141d5be3a21bd54.jpeg"
+        alt="Image 2"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>New cooker</figcaption>
     
   </figure>
+
 
 
 
@@ -5957,7 +8531,7 @@ thik he let&rsquo;s be with this. I am happy about this.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Week 28/2025</title>
+      <title>Week 28/2024</title>
       <link>https://learningwala.in/blog/week-28-2024/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-28-2024/</guid>
@@ -5969,7 +8543,7 @@ thik he let&rsquo;s be with this. I am happy about this.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Week 27/2025</title>
+      <title>Week 27/2024</title>
       <link>https://learningwala.in/blog/week-27-2024/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-27-2024/</guid>
@@ -5985,7 +8559,7 @@ thik he let&rsquo;s be with this. I am happy about this.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Week 26/2025</title>
+      <title>Week 26/2024</title>
       <link>https://learningwala.in/blog/week-26-2024/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-26-2024/</guid>
@@ -6006,7 +8580,7 @@ thik he let&rsquo;s be with this. I am happy about this.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Week 25/2025</title>
+      <title>Week 25/2024</title>
       <link>https://learningwala.in/blog/week-25-2024/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/week-25-2024/</guid>

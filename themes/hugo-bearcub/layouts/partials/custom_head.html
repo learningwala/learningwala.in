@@ -1,3 +1,11 @@
+<title>
+  {{ if .IsHome }}
+    {{ .Site.Title }}
+  {{ else }}
+    {{ .Title }} | {{ .Site.Title }}
+  {{ end }}
+</title>
+
 {{ with .Site.Params.favicon }}
 <link rel="shortcut icon" href="{{ absURL . }}" type="image/png" />
 {{ end }}

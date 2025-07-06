@@ -17,15 +17,17 @@ enableRobotsTXT = true
 
 # Multilingual mode config
 [languages]
+
   [languages.en]
-    title = "Mihir Pathak | મિહિર પાઠક"
+    title = "Mihir Pathak | મિહિર પાઠક"               # ✅ Clean English title
     languageName = "en-US 🇺🇸"
     LanguageCode = "en-US"
     contentDir = "content"
     [languages.en.params]
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
   [languages.gu]
-    title = "મિહિર પાઠક" # Gujarati-specific site title
+    title = "મિહિર પાઠક"              # ✅ Optional: Gujarati version
     languageName = ""
     LanguageCode = "gu-IN"
     contentDir = "content/gu"
@@ -33,19 +35,18 @@ enableRobotsTXT = true
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
-  # Description of your website
-  description = "Mihir Pathak's blog"
+  description = "Mihir Pathak"
 
-  # Path to your favicon
+  # ✅ Favicon path
   favicon = "images/favicon.png"
 
   # Social preview images
   images = ["images/share.webp"]
 
-  # OpenGraph title
+  # Optional: You can remove this if not needed
   title = "Bear Cub"
 
-  # Date format for displaying dates
+  # Date format
   dateFormat = "2006-01-02"
 
   # Hide untranslated pages
@@ -54,7 +55,7 @@ enableRobotsTXT = true
   # Theme style
   themeStyle = "herman"
 
-  # Generate social cards dynamically
+  # Social card generation
   generateSocialCard = true
 
   # Social media
@@ -67,14 +68,14 @@ enableRobotsTXT = true
     name = "Mihir Pathak"
     email = "learningwalamihir@gmail.com"
 
-# Cloudinary configuration
+  # Cloudinary config
   [params.cloudinary]
     cloud_name = "dfk2wsrhz"
     upload_preset = ""
 
-# Custom styles and fonts
-[params.styles]
-  custom_css = ["css/style.css"]
+  # Custom styles and fonts
+  [params.styles]
+    custom_css = ["css/style.css"]
 
 [imaging]
   formats = ["webp", "jpg", "png"]

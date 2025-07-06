@@ -36,9 +36,24 @@
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/river-film-making-workshop/filmmaking1_hu_158baeff12b033dd.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/river-film-making-workshop/filmmaking1_hu_26443c4fd7aa7639.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking1_hu_915adb0690dddc02.jpg" type="image/jpeg">
+      <img
+        src="/river-film-making-workshop/filmmaking1_hu_915adb0690dddc02.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -49,9 +64,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/river-film-making-workshop/filmmaking2_hu_240f98d0b406dbc3.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/river-film-making-workshop/filmmaking2_hu_1a1571cfd7ebe908.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking2_hu_41085f757d242ac2.jpg" type="image/jpeg">
+      <img
+        src="/river-film-making-workshop/filmmaking2_hu_41085f757d242ac2.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -62,9 +93,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/river-film-making-workshop/filmmaking3_hu_fc2e38d4af2bad83.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/river-film-making-workshop/filmmaking3_hu_be441bcdbb6e7e39.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking3_hu_e06d28412b1e35f3.jpg" type="image/jpeg">
+      <img
+        src="/river-film-making-workshop/filmmaking3_hu_e06d28412b1e35f3.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -75,9 +122,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/river-film-making-workshop/filmmaking4_hu_c1cec4e725944c71.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/river-film-making-workshop/filmmaking4_hu_3b39ffd801cd0503.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking4_hu_16f95d3308fea90.jpg" type="image/jpeg">
+      <img
+        src="/river-film-making-workshop/filmmaking4_hu_16f95d3308fea90.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -88,11 +151,28 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/river-film-making-workshop/filmmaking5_hu_cc5f1fd497903fd2.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/river-film-making-workshop/filmmaking5_hu_c5d3c84a8075ae7f.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking5_hu_2522c97a5e92a364.jpg" type="image/jpeg">
+      <img
+        src="/river-film-making-workshop/filmmaking5_hu_2522c97a5e92a364.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -370,7 +450,7 @@
       <link>https://learningwala.in/blog/summerworkshopattatvic/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/summerworkshopattatvic/</guid>
-      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/color1_hu_118ddb68e4116d65.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/color2_hu_b6e5dc71c9f801eb.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/color3_hu_7d94abee8e119cd1.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/color4_hu_c3a3d9b0467124d4.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science1_hu_bb5bfd280c3474bc.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science2_hu_610f43ad8d5dbac0.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science3_hu_7708f5445077e31e.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science4_hu_453000441ca940bd.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science5_hu_e0c271387e50a8ac.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/w16.2025/science6_hu_24bd2e68939ff1bd.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Summer Workshop | Vijaya Foundation, Ahemdabad | 19th &amp;amp; 20th April 2025&lt;/p&gt;</description>
+      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_96f0b64f5bc69955.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_bcaf6e0c39f10a93.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_9fe0739317834e2.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color2_hu_9fe0739317834e2.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_c1ea0f7afe9c7971.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_f9bc15dc89a960aa.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_dfeb133962022e66.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color4_hu_dfeb133962022e66.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_d62357a7e7d6b408.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_4d76f58f8e629b27.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science1_hu_4d76f58f8e629b27.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_a997e5ef5cdb9d30.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_f5713ccd5bf717b6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_9a78ba12e35cea46.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science3_hu_9a78ba12e35cea46.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_d7b8580102c9a2a.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_200d3cf6afe9a502.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_3705802131db4bdb.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science5_hu_3705802131db4bdb.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_626b8cce5d952513.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_424bf65480836375.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science6_hu_424bf65480836375.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Summer Workshop | Vijaya Foundation, Ahemdabad | 19th &amp;amp; 20th April 2025&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Day 1 | Natural Color Making</p>
 <div class="img-grid">
   
@@ -380,9 +460,24 @@
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color1_hu_118ddb68e4116d65.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color1_hu_96f0b64f5bc69955.webp" type="image/webp">
+      <source srcset="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -393,9 +488,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color2_hu_b6e5dc71c9f801eb.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color2_hu_bcaf6e0c39f10a93.webp" type="image/webp">
+      <source srcset="/w16.2025/color2_hu_9fe0739317834e2.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color2_hu_9fe0739317834e2.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -406,9 +517,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color3_hu_7d94abee8e119cd1.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color3_hu_c1ea0f7afe9c7971.webp" type="image/webp">
+      <source srcset="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -419,11 +546,28 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/color4_hu_c3a3d9b0467124d4.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/color4_hu_f9bc15dc89a960aa.webp" type="image/webp">
+      <source srcset="/w16.2025/color4_hu_dfeb133962022e66.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/color4_hu_dfeb133962022e66.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -461,9 +605,24 @@
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science1_hu_bb5bfd280c3474bc.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science1_hu_d62357a7e7d6b408.webp" type="image/webp">
+      <source srcset="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -474,9 +633,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science2_hu_610f43ad8d5dbac0.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science2_hu_a997e5ef5cdb9d30.webp" type="image/webp">
+      <source srcset="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -487,9 +662,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science3_hu_7708f5445077e31e.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science3_hu_f5713ccd5bf717b6.webp" type="image/webp">
+      <source srcset="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -500,9 +691,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science4_hu_453000441ca940bd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science4_hu_d7b8580102c9a2a.webp" type="image/webp">
+      <source srcset="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -513,9 +720,25 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science5_hu_e0c271387e50a8ac.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science5_hu_200d3cf6afe9a502.webp" type="image/webp">
+      <source srcset="/w16.2025/science5_hu_3705802131db4bdb.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science5_hu_3705802131db4bdb.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
 
@@ -526,11 +749,28 @@
 
 
 
+
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/w16.2025/science6_hu_24bd2e68939ff1bd.jpeg" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/w16.2025/science6_hu_626b8cce5d952513.webp" type="image/webp">
+      <source srcset="/w16.2025/science6_hu_424bf65480836375.jpeg" type="image/jpeg">
+      <img
+        src="/w16.2025/science6_hu_424bf65480836375.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
   </figure>
+
 
 
 
@@ -567,20 +807,36 @@
       <link>https://learningwala.in/blog/bvc7ws2/</link>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/bvc7ws2/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_6af84e429b8ddba8.jpeg&#34; alt=&#34;BVC 7 Workshop 2- Group Photo&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;BVC 7 Workshop 2- Group Photo - 11th to 15th April 2025&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_5b1cfcb261713881.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg&#34;&#xA;        alt=&#34;BVC 7 Workshop 2- Group Photo&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;BVC 7 Workshop 2- Group Photo - 11th to 15th April 2025&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
       <content:encoded><![CDATA[
 
 
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/bvc7ws2/bvc7ws2_hu_6af84e429b8ddba8.jpeg" alt="BVC 7 Workshop 2- Group Photo" loading="lazy" />
+    <picture>
+      <source srcset="/bvc7ws2/bvc7ws2_hu_5b1cfcb261713881.webp" type="image/webp">
+      <source srcset="/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg" type="image/jpeg">
+      <img
+        src="/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg"
+        alt="BVC 7 Workshop 2- Group Photo"
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>BVC 7 Workshop 2- Group Photo - 11th to 15th April 2025</figcaption>
     
   </figure>
+
 
 
 ]]></content:encoded>

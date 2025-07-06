@@ -28,20 +28,36 @@
       <link>https://learningwala.in/blog/ecologylanguage/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/ecologylanguage/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;img src=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_6a71f4ed19c0fb65.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_59d04f15c59611f6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_49d79535976b52f1.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_49d79535976b52f1.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[
 
 
 
 
 
+
+
+
   
+  
+
   <figure class="img-responsive">
-    <img src="/ecology&amp;language/aartikumar_hu_6a71f4ed19c0fb65.png" alt="" loading="lazy" />
+    <picture>
+      <source srcset="/ecology&amp;language/aartikumar_hu_59d04f15c59611f6.webp" type="image/webp">
+      <source srcset="/ecology&amp;language/aartikumar_hu_49d79535976b52f1.jpg" type="image/jpeg">
+      <img
+        src="/ecology&amp;language/aartikumar_hu_49d79535976b52f1.jpg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
     
       <figcaption>Picture by Arati Kumar Rao</figcaption>
     
   </figure>
+
 
 
 <ul>
