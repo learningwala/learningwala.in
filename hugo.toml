@@ -25,6 +25,7 @@ enableRobotsTXT = true
     contentDir = "content"
     [languages.en.params]
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+    [languages.en.menu]
 
   [languages.gu]
     title = "મિહિર પાઠક"              # ✅ Optional: Gujarati version

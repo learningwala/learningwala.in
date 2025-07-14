@@ -1,0 +1,60 @@
+{{ partial "head-meta.html" . }}
+
+<style>
+/* ✅ Inline status-feed styles */
+.status-feed ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.status-feed li {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  margin: 1.5em 0;
+  padding: 1.25em;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column-reverse;
+  line-height: 1.6;
+  transition: background-color 0.2s ease;
+}
+
+.status-feed li:hover {
+  background-color: #f2f2f2;
+}
+
+.status-feed li a {
+  display: none;
+}
+
+.status-feed p:first-child {
+  margin-top: 0;
+}
+.status-feed p:last-child {
+  margin-bottom: 0;
+}
+
+.status-feed img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 0.75em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .status-feed li {
+    background-color: #022a33;
+    border-color: #04414f;
+  }
+
+  .status-feed li:hover {
+    background-color: #03323d;
+  }
+
+  .status-feed img {
+    filter: brightness(0.9);
+  }
+}
+</style>

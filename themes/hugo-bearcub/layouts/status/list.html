@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="status">
+  <ul class="embedded blog-posts">
+    {{ range (sort .Pages "Date" "desc") }}
+      <li>
+        <div class="card">
+          <div class="card-content">
+            {{ .Content }}
+            <div class="date">{{ .Date.Format "02 Jan 2006" }}</div>
+          </div>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

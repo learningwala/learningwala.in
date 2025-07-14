@@ -1,4 +1,7 @@
 <a class="skip-link" href="#main-content">{{ i18n "skip-link" }}</a>
 
-<a href="{{ relURL .Site.Home.RelPermalink }}" class="title"><h1>{{ .Site.Title }}</h1></a>
+<a href="{{ relURL .Site.Home.RelPermalink }}" class="title"><h2>{{ .Site.Title }}</h2></a>
+
+<link rel="stylesheet" href="{{ "herman.min.css" | relURL }}">
+
 <nav>{{- partial "nav.html" . -}}</nav>
