@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://learningwala.in/</loc>
-    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="gu-IN"
@@ -23,14 +23,31 @@
   </url><url>
     <loc>https://learningwala.in/about-me/offerings/</loc>
   </url><url>
-    <loc>https://learningwala.in/blog/</loc>
-    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <loc>https://learningwala.in/now/</loc>
   </url><url>
-    <loc>https://learningwala.in/tags/personal/</loc>
-    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <loc>https://learningwala.in/tags/aesthetics/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/blog/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/indian-art-aesthetics/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/indian-philosophy/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/learning-resources/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/nature-journaling/</loc>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/tags/</loc>
-    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="gu-IN"
@@ -41,6 +58,15 @@
                 hreflang="en-US"
                 href="https://learningwala.in/tags/"
                 />
+  </url><url>
+    <loc>https://learningwala.in/blog/creative-writing-with-sakha/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/field-note/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/personal/</loc>
+    <lastmod>2025-07-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/blog/week-29-2025/</loc>
     <lastmod>2025-07-20T00:00:00+00:00</lastmod>
@@ -78,12 +104,6 @@
     <loc>https://learningwala.in/blog/week-22-23-2025/</loc>
     <lastmod>2025-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://learningwala.in/tags/blog/</loc>
-    <lastmod>2025-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://learningwala.in/tags/field-note/</loc>
-    <lastmod>2025-05-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://learningwala.in/blog/river-film-making-workshop/</loc>
     <lastmod>2025-05-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -94,9 +114,6 @@
     <lastmod>2025-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/blog/integratedlearning/</loc>
-    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://learningwala.in/tags/learning-resources/</loc>
     <lastmod>2025-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/blog/week-19-2025/</loc>
@@ -141,9 +158,6 @@
     <loc>https://learningwala.in/tags/childrens-literature/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://learningwala.in/tags/indian-philosophy/</loc>
-    <lastmod>2025-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://learningwala.in/blog/theelementsofgoodchildrenliterature/</loc>
     <lastmod>2025-04-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -161,9 +175,6 @@
   </url><url>
     <loc>https://learningwala.in/blog/week-10-2025/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://learningwala.in/tags/aesthetics/</loc>
-    <lastmod>2025-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/blog/aesthetics-sense-develoment-/</loc>
     <lastmod>2025-03-04T00:00:00+00:00</lastmod>
@@ -385,6 +396,8 @@
                 href="https://learningwala.in/categories/"
                 />
   </url><url>
+    <loc>https://learningwala.in/colophon/</loc>
+  </url><url>
     <loc>https://learningwala.in/about-me/cv/</loc>
   </url><url>
     <loc>https://learningwala.in/about-me/edu-for-me/</loc>
@@ -394,8 +407,6 @@
     <loc>https://learningwala.in/archive/now-march-2025/</loc>
   </url><url>
     <loc>https://learningwala.in/archive/now-2024/</loc>
-  </url><url>
-    <loc>https://learningwala.in/now/</loc>
   </url><url>
     <loc>https://learningwala.in/about-me/docu/</loc>
   </url>
