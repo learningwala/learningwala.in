@@ -9,8 +9,24 @@
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal</title>
+      <link>https://learningwala.in/tags/personal/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/personal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Weekly-Notes</title>
+      <link>https://learningwala.in/tags/weekly-notes/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/weekly-notes/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>Aesthetics</title>
       <link>https://learningwala.in/tags/aesthetics/</link>
@@ -48,22 +64,6 @@
       <link>https://learningwala.in/tags/field-note/</link>
       <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/field-note/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Personal</title>
-      <link>https://learningwala.in/tags/personal/</link>
-      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/personal/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Weekly-Notes</title>
-      <link>https://learningwala.in/tags/weekly-notes/</link>
-      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
