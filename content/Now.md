@@ -47,13 +47,21 @@ I am attending online course on 'Indian Aesthetics' as a part of my work.
 5. **Faculty member / Child Development, learning & special needs course - [Eklavya Foundation](https://eklavya.in/)**, Bhopal (Batch 7 - 2024 - 25) (Not doing much work here currently)
 
 ------
+#### Misc
+
+- Preparing for employee engagement session at Tatvic office.
 
 #### Personal Projects :
 
 - I write weekly notes, blog posts and maintain this website. ([Colophon](/colophon) for this website)
+
+**Wish list + Work on pause :**
+
 - Documenting my past work and write articles about the same (How about seeing BLR, Time exhibition, Voice of vishwamitri, local khoji)
 - Developing module / workshop around 'Geo inquiry projects' or Using maps for geo inquiry projects'
 - Working on activity module on nature education for kindergarten children
+
+---
 
 I’ve been thinking of taking a break from my full-time job for about 2–3 months to engage in an internship or volunteer with meaningful projects.
 
@@ -61,12 +69,14 @@ I’m especially interested in research, interventions, or facilitation work aro
 
 - Nature education
 - Development of environmental aesthetic sense, especially from an Indic perspective
-- Exploration of the affective domain and the implementation of J. Krishnamurti’s educational philosophy in early childhood education
+- Exploration of the affective domain with primary grade children
 - Project-based and integrated learning approaches in early childhood education
 
 Anything related to environmental education, Aesthetics, Indic Perspective, Neuroscience
 
-There are no monetary expectations from my side. Since I haven’t been part of formal college education, I’ve felt the need over the years to find learning opportunities beyond professional, outcome-driven roles. I long for a phase where I can simply be a student again.
+There are no monetary expectations from my side for this project. Since I haven’t been part of formal college education, I’ve felt the need over the years to find learning opportunities beyond professional, outcome-driven roles. I long for a phase where I can simply be a student again.
+
+(I have started one learning journey with [Dr.Srivi Kalyan](https://www.sriviliveshere.com/) on above topics. I will update more detail soon)
 
 ----
 
@@ -76,7 +86,7 @@ There are no monetary expectations from my side. Since I haven’t been part of 
 - [Now March 2025](/archive/now-march-2025/)
 ------
 
-Inspiration: [nownownow.com](nownownow.com) | last updated on 24th July 2025
+Inspiration: [nownownow.com](nownownow.com) | last updated on 5th Aug 2025
 
 ---------------
 

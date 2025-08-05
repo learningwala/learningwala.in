@@ -35,6 +35,9 @@ weight: 4
 
 [Article on 'Science of learning' - Mid Day Gujarati](https://medium.com/learningwala/%E0%AA%85%E0%AA%A7%E0%AB%8D%E0%AA%AF%E0%AA%BE%E0%AA%AA%E0%AA%A8-%E0%AA%95%E0%AA%B0%E0%AA%A4%E0%AA%BE%E0%AA%82-%E0%AA%85%E0%AA%A7%E0%AB%8D%E0%AA%AF%E0%AA%AF%E0%AA%A8-%E0%AA%AE%E0%AA%B9%E0%AA%A4%E0%AB%8D%E0%AA%B5%E0%AA%A8%E0%AB%81-%E0%AA%9B%E0%AB%87-85593922eff8)
 
+[Article about our work at eco clubs / Eklavya Foundation (अज़ीम प्रेमजी प्रकाशन द्वारा निबंधों के संग्रह में पहली बार प्रकाशित।) - प्रकृति-कला के ज़रिए कलाबोध का विकास ](https://www.natureclassrooms.org/post/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF-%E0%A4%95%E0%A4%B2%E0%A4%BE-%E0%A4%95%E0%A5%87-%E0%A4%9C-%E0%A4%B0%E0%A4%BF%E0%A4%8F-%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AC%E0%A5%8B%E0%A4%A7-%E0%A4%95%E0%A4%BE-%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8), [Same article at Vikalpsangam website](https://vikalpsangam.org/article/prakriti-kala-ke-zariye-kalabodh-ka-vikas-in-hindi/)
+
+
 
 ### Self Published Books
 
