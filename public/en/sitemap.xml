@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://learningwala.in/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="gu-IN"
@@ -25,20 +25,38 @@
   </url><url>
     <loc>https://learningwala.in/now/</loc>
   </url><url>
+    <loc>https://learningwala.in/blog/summerday/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://learningwala.in/blog/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/tags/blog/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://learningwala.in/blog/iks/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <loc>https://learningwala.in/tags/indian-knowledge-system/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/kal%C4%81/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/tags/learning-resources/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/64kala/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/other/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/personal/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/tags/poem/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/tags/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="gu-IN"
@@ -50,16 +68,25 @@
                 href="https://learningwala.in/tags/"
                 />
   </url><url>
-    <loc>https://learningwala.in/blog/sagarrano/</loc>
-    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+    <loc>https://learningwala.in/blog/whale/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://learningwala.in/tags/personal/</loc>
-    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://learningwala.in/blog/week-33-2025/</loc>
-    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+    <loc>https://learningwala.in/blog/week-34-2025/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/tags/weekly-notes/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/morlaho/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/sagarrano/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/iks/</loc>
+    <lastmod>2025-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://learningwala.in/blog/week-33-2025/</loc>
     <lastmod>2025-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://learningwala.in/blog/week-32-2025/</loc>

@@ -1,13 +1,12 @@
 +++
 author = "Mihir Pathak"
 title = "સાગર રાણો - ઝવેરચંદ મેઘાણી"
-date = "2025-08-18"
+date = "2025-08-19"
 description = "Gujarati Poem by Zaverchand Meghani"
-tags = ["Blog", "learning Resources"]
+tags = ["Blog", "Other", "Poem"]
 +++
 
 Found this very very interesting poem by Zaverchand Meghani. 
-I see possibility of using this in classroom. 
 
 {{< youtube 1Um4_2ubQcs >}}
 
