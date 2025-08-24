@@ -52,14 +52,6 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>Personal</title>
-      <link>https://learningwala.in/tags/personal/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/personal/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>Poem</title>
       <link>https://learningwala.in/tags/poem/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
@@ -68,9 +60,17 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
+      <title>Personal</title>
+      <link>https://learningwala.in/tags/personal/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/personal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
       <title>Weekly-Notes</title>
       <link>https://learningwala.in/tags/weekly-notes/</link>
-      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
