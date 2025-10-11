@@ -16,7 +16,7 @@ I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nid
 
 I work with curriculum designers, researchers, learning facilitators and children to design and test the experiential learning curriculum for children age 3 to 8yrs.
 
-I am attending online course on 'Indian Aesthetics' as a part of my work.
+I am attending online course on 'Indian Knoledge Systems' as a part of my work.
 
 
 #### Side Project

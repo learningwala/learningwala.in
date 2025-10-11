@@ -15,7 +15,7 @@ This page is list / documentation of work they are doing at different places.
 - [Now](/now) - to know about current projects & engagement 
 
 ---------
-### Ahemdabad - March 2025
+### Ahemdabad - March 2025 to
 - [Creative Writing Workshop with Sakha Fellows | Vadodra | 20th July 2025](/blog/creative-writing-with-sakha/)
 - [Summer Film Making Camp | 23rd to 25th May 2025](/blog/river-film-making-workshop/)
 - [Workshops at Tatvic office | 1. Natural Color Making 2. Fun with science | 19th & 20th April 2025](/blog/summerworkshopattatvic/)
