@@ -1,7 +1,7 @@
 ---
 title: "Writing"
-menu: "main"
-weight: 4
+menu:
+weight:
 ---
 
 

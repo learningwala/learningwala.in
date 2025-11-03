@@ -69,6 +69,9 @@ Music, long walks, bird watching, singing, and sketching are my favorite time ac
 
 &rarr; **[Documentation of work](/about-me/docu)**
 
+&rarr; **[Media](/about-me/media)**
+
+&rarr; **[Writings](/about-me/writings)**
 
 
 

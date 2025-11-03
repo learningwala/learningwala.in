@@ -26,7 +26,7 @@ I work directly with children, young adults, educators, researchers, learning ex
 
 I tried to capture my decade long journey, my personal educational philosophy and my offerings at [about me](/about-me) page.
 
-You can read my writings / short notes around classroom experiences and facilitation [here](/writings). I also write regular [weekly notes](/tags/weekly-notes) & [blog posts](/tags/blog)
+You can read my writings / short notes around classroom experiences and facilitation [here](/writings). I also write regular [weekly notes](/tags/weekly-notes) & [blog posts](/tags/blog). You can also explore my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
 
 **You can subscribe to my blog posts & weekly notes from your RSS reader -->** [RSS Feed](/index.xml)
 

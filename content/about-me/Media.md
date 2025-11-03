@@ -1,7 +1,7 @@
 ---
 title: "Media"
-menu: "main"
-weight: 3
+menu: 
+weight:
 ---
 
 ### Media coverage about my work
