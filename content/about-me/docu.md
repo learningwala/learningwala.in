@@ -15,13 +15,16 @@ This page is list / documentation of work they are doing at different places.
 - [Now](/now) - to know about current projects & engagement 
 
 ---------
-### Ahemdabad - March 2025 to
+### Ahemdabad - March 2025 to Present
+
+- Nidhi took two sessions at Mihir's work place (1. with children on leaf art 2. with educator on naure based learning)
+- Nidhi and Himanshi developed nature education module for middle school children and did teacher training for the same at Mumbai | Thinktac Project
+- Nidhi is volunteering for documentation work | [Education for Dialogue, Maitri and Justice](https://drive.google.com/file/d/1q9wm0mK3RycN_SWMViCardJtpk9-88FH/view)
+- [Nidhi took Nature Education Session at NT Patel School, Kanisha - Khambhat (Gujarat) | 16th & 17th July 2025](https://www.instagram.com/p/DMsWdvTPl40/?img_index=1)
 - [Creative Writing Workshop with Sakha Fellows | Vadodra | 20th July 2025](/blog/creative-writing-with-sakha/)
 - [Summer Film Making Camp | 23rd to 25th May 2025](/blog/river-film-making-workshop/)
 - [Workshops at Tatvic office | 1. Natural Color Making 2. Fun with science | 19th & 20th April 2025](/blog/summerworkshopattatvic/)
-
 - [BVC 7, Workshop 2 | 11th to 15th April 2025](/blog/bvc7ws2/)
-
 - Nidhi is taking 'Nature Education' sessions at Anusandhan learning center. (From 25th March - ). You can read field notes [here](https://docs.google.com/document/d/1gk88CSS4upgmA-LX-Yi-G0QpHR3GsvB8/edit?usp=sharing&ouid=113150938384148569470&rtpof=true&sd=true) (work in progress)
 
 
