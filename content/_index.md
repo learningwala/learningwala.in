@@ -28,10 +28,10 @@ I tried to capture my decade long journey, my personal educational philosophy an
 
 You can read my writings / short notes around classroom experiences and facilitation [here](/writings). I also write regular [weekly notes](/tags/weekly-notes) & [blog posts](/tags/blog). You can also explore my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
 
-**You can subscribe to my blog posts & weekly notes from your RSS reader -->** [RSS Feed](/index.xml)
+**You can subscribe to my blog posts & weekly notes from [Whatsapp channel](https://whatsapp.com/channel/0029Vb6mwOb8aKvPgLQZs80U) or [RSS reader](/index.xml)**
 
 -----
 **Find me on :** [Instagram](https://www.instagram.com/learningwala/) | [Medium](https://medium.com/learningwala) | [LinkedIn](https://www.linkedin.com/in/learningwalamihir/)
 
 
-Email : [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com)  
+**Email :** [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com)  
