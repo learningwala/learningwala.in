@@ -73,7 +73,7 @@ Music, long walks, bird watching, singing, and sketching are my favorite time ac
 
 &rarr; **[Writings](/about-me/writings)**
 
-
+&rarr; **[Bio](/about-me/bio)**
 
 &rarr; **[CV / Portfolio / Reflective Notes / Recommendations](/about-me/cv)**
 
