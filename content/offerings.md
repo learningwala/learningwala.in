@@ -1,6 +1,6 @@
 ---
 title: "Offerings"
-menu: "main"
+menu:
 weight: 3
 ---
 

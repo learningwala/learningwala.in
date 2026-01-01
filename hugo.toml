@@ -1,7 +1,9 @@
 baseURL = 'https://learningwala.in/'
 theme = "hugo-bearcub"
+title = "Mihir Pathak | મિહિર પાઠક"
 copyright = "Mihir Pathak (CC BY 4.0)"
 defaultContentLanguage = "en"
+languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -15,65 +17,36 @@ enableRobotsTXT = true
   [markup.goldmark.renderer]
     unsafe = true  # Allow raw HTML rendering in Markdown
 
-# Multilingual mode config
-[languages]
-
-  [languages.en]
-    title = "Mihir Pathak | મિહિર પાઠક"               # ✅ Clean English title
-    languageName = "en-US 🇺🇸"
-    LanguageCode = "en-US"
-    contentDir = "content"
-    [languages.en.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
-    [languages.en.menu]
-
-  [languages.gu]
-    title = "મિહિર પાઠક"              # ✅ Optional: Gujarati version
-    languageName = ""
-    LanguageCode = "gu-IN"
-    contentDir = "content/gu"
-    [languages.gu.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
-
 [params]
   description = "Mihir Pathak"
-
-  # ✅ Favicon path
+  # Favicon path
   favicon = "images/favicon.png"
-
   # Social preview images
   images = ["images/share.webp"]
-
-  # Optional: You can remove this if not needed
-  title = "Bear Cub"
-
   # Date format
   dateFormat = "2006-01-02"
-
-  # Hide untranslated pages
-  hideUntranslated = false
-
   # Theme style
   themeStyle = "herman"
-
   # Social card generation
   generateSocialCard = true
-
+  # Made with
+  madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  
   # Social media
   [params.social]
     twitter = "example"
     facebook_admin = "0000000000"
-
+  
   # Author metadata
   [params.author]
     name = "Mihir Pathak"
     email = "learningwalamihir@gmail.com"
-
+  
   # Cloudinary config
   [params.cloudinary]
     cloud_name = "dfk2wsrhz"
     upload_preset = ""
-
+  
   # Custom styles and fonts
   [params.styles]
     custom_css = ["css/style.css"]
@@ -89,3 +62,45 @@ enableRobotsTXT = true
   excludeFields = ""
   disableDate = false
   disableLatLong = true
+
+# =========================
+# MAIN MENU (for dropdown)
+# =========================
+
+[menu]
+
+  [[menu.main]]
+name = "Blog"
+identifier = "blog"
+url = "/tags/blog/"
+weight = 3
+
+[[menu.main]]
+name = "Weekly Notes"
+parent = "blog"
+url = "/tags/weekly-notes/"
+weight = 2
+
+[[menu.main]]
+name = "About"
+identifier = "about"
+url = "/about-me/"
+weight = 2
+
+[[menu.main]]
+name = "Offerings"
+parent = "about"
+url = "/offerings/"
+weight = 1
+
+[[menu.main]]
+name = "Writing"
+parent = "about"
+url = "/writings/"
+weight = 2
+
+[[menu.main]]
+name = "Media"
+parent = "about"
+url = "/media/"
+weight = 3

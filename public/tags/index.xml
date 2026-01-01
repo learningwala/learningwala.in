@@ -9,28 +9,20 @@
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Personal</title>
-      <link>https://learningwala.in/tags/personal/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/personal/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Weekly-Notes</title>
-      <link>https://learningwala.in/tags/weekly-notes/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/weekly-notes/</guid>
+      <title>Affective Domain</title>
+      <link>https://learningwala.in/tags/affective-domain/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/affective-domain/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Blog</title>
       <link>https://learningwala.in/tags/blog/</link>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/blog/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -38,8 +30,32 @@
     <item>
       <title>Learning Resources</title>
       <link>https://learningwala.in/tags/learning-resources/</link>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/learning-resources/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Year End Reflection</title>
+      <link>https://learningwala.in/tags/year-end-reflection/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/year-end-reflection/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://learningwala.in/tags/personal/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/personal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Weekly-Notes</title>
+      <link>https://learningwala.in/tags/weekly-notes/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

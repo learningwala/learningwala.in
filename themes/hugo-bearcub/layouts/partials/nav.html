@@ -1,23 +1,38 @@
-{{ range .Site.Menus.main.ByWeight }}
-  <a href="{{ .URL }}">{{ .Name }}</a>
-{{ end }}
+<ul class="menu">
+  {{ range .Site.Menus.main.ByWeight }}
+    <li class="menu-item {{ if .HasChildren }}has-children{{ end }}">
+      <a href="{{ .URL }}">{{ .Name }}</a>
 
-<a href="{{ "/tags/blog/" | relURL }}">Blog</a>
-<a href="{{ "/tags/weekly-notes/" | relURL }}">Weekly</a>
-
-<!-- Convert this page's translations into a dict -->
-{{ $translations := dict }}
-{{ range .Translations }}
-  {{ $translations = merge $translations (dict .Language.Lang .) }}
-{{ end }}
-
-<!-- Create a link to every translation -->
-{{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
-  {{ with (index $translations .Lang) }}
-    <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-  {{ else }}
-    {{ if not .Params.hideUntranslated }}
-      <a class="disabled" role="link" aria-disabled="true">{{ .LanguageName }}</a>
-    {{ end }}
+      {{ if .HasChildren }}
+        <ul class="submenu">
+          {{ range .Children.ByWeight }}
+            <li>
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </li>
   {{ end }}
-{{ end }}
+
+  <!-- Static links -->
+  
+
+  <!-- Language switcher -->
+  {{ $translations := dict }}
+  {{ range .Translations }}
+    {{ $translations = merge $translations (dict .Language.Lang .) }}
+  {{ end }}
+
+  {{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
+    <li class="menu-item">
+      {{ with (index $translations .Lang) }}
+        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+      {{ else }}
+        {{ if not .Params.hideUntranslated }}
+          <span class="disabled">{{ .LanguageName }}</span>
+        {{ end }}
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
