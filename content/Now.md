@@ -18,7 +18,9 @@ I work with curriculum designers, researchers, learning facilitators and childre
 
 #### Moonlighting
 
-**learning Facilitator / [Khojbeen Mandali](/offerings)
+**learning Facilitator / [Khojbeen Mandali](/offerings)** (<-- check out the offering page)
+
+(remote mentoring/learning calls with interesting orgs mostly working with young adults)
 
 - Sanjhe Sapne learning calls
 - Children Reacherch University - Integrated learning Project for primary grade
