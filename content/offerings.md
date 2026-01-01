@@ -1,6 +1,6 @@
 ---
 title: "Offerings"
-menu:
+menu: "main"
 weight: 3
 ---
 
@@ -20,8 +20,7 @@ I **Facilitate,**
 
 
 
- **I believe that** transformative learning happens when there is an authentic relationship and powerful experiences between a child and an adult.
-
+ **I believe that** Transformative learning emerges through authentic relationships between children and adults, shaped by shared, powerful experiences.
 
 ### Tools I use
 
@@ -34,6 +33,8 @@ Theater, Storytelling, Nature Exploration, Music, Movement, Art, Tinkering, inqu
 - Studied **Storytelling, Children literature writing, Waldorf Education** (With [Dr Ankit Dwivedi](https://www.instagram.com/ankittellsstories/), [Sheetal Paul](https://www.instagram.com/sheetal_paul/), [Aban Bana](https://zasha.info/directories/aban-bana/))
 - **Earth Educator Fellow 22'**, Studied **Green Educator Course & Facilitating Geo - Inquiry Projects** (At [Youth Conversation Action Network](https://www.youcan.in/), [Green School Bali](https://www.greenschool.org/), [National Geographic Society](https://www.nationalgeographic.org/society/))
 - Studid **'Facilitating Creative learning'**, **'Development of Educational Technology'**, **'Fundamentals of Tinkering'** & **'Creative Coding / Computing'** (With [Eric Klopfer](https://education.mit.edu/person/eric_klopfer/), [Mitchel Resnick](https://www.media.mit.edu/people/mres/overview/), [Mike Petrich](https://www.exploratorium.edu/tinkering/about/staff/mike-petrich) & [Karen Wilkinson](https://www.exploratorium.edu/tinkering/about/staff/karen-wilkinson) - MIT Media Lab & Explpratorium) 
+
+- **Fellowship & Grants :** [Earth Educator Fellowship 23'](https://www.youcan.in/earth-edu) , [Gaur & Chopra Escape Velocity Grant 2024 - 25](https://invertedpassion.com/escape-velocity-grant/), [Hacking The Education System Fellowship 2017](https://shikshantar.org/initiatives/walkouts-network/emperor-has-no-clothes-hacking-education-system-fellowship), [Nagarathna Memorial Grant 2025](https://thejeshgn.com/projects/nagarathna-memorial-grant/)
 
 
 ### My Experience
@@ -79,7 +80,8 @@ It's an transdisciplinary program where young adults make films about the place 
 **Topics** 
 
 - Understanding the role of love & Relationship in education / Dialogue in education
-- Project based learning, Self directed learning, non formal learning spaces, development of 'third' space 
+- Project based learning, Self directed learning
+- Non formal learning spaces, development of 'third' space 
 - Child development & learning
 - Language pedagogy, children literature & theater in education 
 - Life skills education and ecological consciousness / nature education
@@ -88,6 +90,10 @@ It's an transdisciplinary program where young adults make films about the place 
 #### Work with young people / youth :
 
 I love working with teenagers / young adults to co create their 'self designed learning journey' / Gap Year
+
+#### learning objecteves
+
+Affective domain | Language | Creativity | Socio Emotional learning | System Thinking | Integrated learning 
 
 ### Get in touch
 

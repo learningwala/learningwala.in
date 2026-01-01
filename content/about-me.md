@@ -4,8 +4,6 @@ menu:
 weight: 2
 ---
 
-### About me :
-
 Hi, This is Mihir Pathak aka learningwala
 
 I am passionate educator. 
@@ -14,7 +12,7 @@ I never been to formal school after completing 10th grade. Later, I completed my
 
 Instead of going to school, I spent time exploring website & software development, sales & marketing, theater, writing, design, technology, entrepreneurship and many more interests.
 
-I started working with children through sharing how to use computer, exploring ['MIT Scratch'](https://scratch.mit.edu/) , making [Arvind Gupta toys](https://www.arvindguptatoys.com/), telling stories, playing games and more.
+I started working with children through sharing how to use computer inspired by [Hole in the wall project - Sugata Mitra](https://www.edutopia.org/blog/self-organized-learning-sugata-mitra), exploring ['MIT Scratch'](https://scratch.mit.edu/) , making [Arvind Gupta toys](https://www.arvindguptatoys.com/), telling stories, playing games and more.
 
 **Slowly after lots of experimentation I realized that :**
 

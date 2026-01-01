@@ -12,7 +12,7 @@ weight: 1
 
 Hi, This is Mihir aka learningwala.
 
-I am passionate educator, working with formal and informal learning environments for the last 11 years. 
+I am passionate educator, working with formal and informal learning environments for the last 12 years. 
 
 I work directly with children, young adults, educators, researchers, learning experience designers on daily basis. You can read about my current engagements at **[now](/now)** page.
 
@@ -21,8 +21,9 @@ I work directly with children, young adults, educators, researchers, learning ex
 - Project based learning 
 - Nature Education 
 - Experiential learning
-- Theater in Education 
-- Informal learning spaces and self directed learning
+- Theater in Education
+- Children literature 
+- Informal learning spaces / third space and self directed learning
 
 I tried to capture my decade long journey, my personal educational philosophy and my offerings at [about me](/about-me) page.
 

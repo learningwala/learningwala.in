@@ -88,12 +88,6 @@ url = "/about-me/"
 weight = 2
 
 [[menu.main]]
-name = "Offerings"
-parent = "about"
-url = "/offerings/"
-weight = 1
-
-[[menu.main]]
 name = "Writing"
 parent = "about"
 url = "/writings/"

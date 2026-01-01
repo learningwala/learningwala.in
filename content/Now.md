@@ -6,7 +6,7 @@ weight:	6
 
 #### What am I doing now?
 
-I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nidhi_pal16/). I regularly write [weekly notes](/tags/weekly-notes) and occasionally write [blog posts](/tags/public/). You can read my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
+I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nidhi_pal16/). I regularly write [weekly notes](/tags/weekly-notes) and occasionally write [blog posts](/tags/blog/). You can read my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
 
 ### Work
 
@@ -15,6 +15,14 @@ I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nid
 **learning Facilitator / [Balgokulam Foundation](https://www.linkedin.com/company/bright-balgokulam/posts/?feedView=all)**, Ahmadabad
 
 I work with curriculum designers, researchers, learning facilitators and children to design and test the experiential learning curriculum for children age 3 to 8yrs.
+
+#### Moonlighting
+
+**learning Facilitator / [Khojbeen Mandali](/offerings)
+
+- Sanjhe Sapne learning calls
+- Children Reacherch University - Integrated learning Project for primary grade
+- The circuit project learning calls
 
 ----
 
