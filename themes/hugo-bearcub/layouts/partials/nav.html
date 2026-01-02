@@ -1,38 +1,33 @@
-<ul class="menu">
-  {{ range .Site.Menus.main.ByWeight }}
-    <li class="menu-item {{ if .HasChildren }}has-children{{ end }}">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+{{ range .Site.Menus.main.ByWeight }}
+  <li class="menu-item {{ if .HasChildren }}has-children{{ end }}">
+    <a href="{{ .URL }}">{{ .Name }}</a>
 
-      {{ if .HasChildren }}
-        <ul class="submenu">
-          {{ range .Children.ByWeight }}
-            <li>
-              <a href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
-    </li>
-  {{ end }}
-
-  <!-- Static links -->
-  
-
-  <!-- Language switcher -->
-  {{ $translations := dict }}
-  {{ range .Translations }}
-    {{ $translations = merge $translations (dict .Language.Lang .) }}
-  {{ end }}
-
-  {{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
-    <li class="menu-item">
-      {{ with (index $translations .Lang) }}
-        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-      {{ else }}
-        {{ if not .Params.hideUntranslated }}
-          <span class="disabled">{{ .LanguageName }}</span>
+    {{ if .HasChildren }}
+      <ul class="submenu">
+        {{ range .Children.ByWeight }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
         {{ end }}
+      </ul>
+    {{ end }}
+  </li>
+{{ end }}
+
+<!-- Language switcher -->
+{{ $translations := dict }}
+{{ range .Translations }}
+  {{ $translations = merge $translations (dict .Language.Lang .) }}
+{{ end }}
+
+{{ range where .Site.Languages "Lang" "!=" .Page.Lang }}
+  <li class="menu-item">
+    {{ with (index $translations .Lang) }}
+      <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+    {{ else }}
+      {{ if not .Params.hideUntranslated }}
+        <span class="disabled">{{ .Language.LanguageName }}</span>
       {{ end }}
-    </li>
-  {{ end }}
-</ul>
+    {{ end }}
+  </li>
+{{ end }}

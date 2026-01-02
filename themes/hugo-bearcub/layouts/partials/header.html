@@ -1,8 +1,20 @@
-
 <a href="{{ relURL .Site.Home.RelPermalink }}">
   <h2 class="title">{{ .Site.Title }}</h2>
 </a>
 
 <link rel="stylesheet" href="{{ "herman.min.css" | relURL }}">
 
-<nav>{{- partial "nav.html" . -}}</nav>
+<nav class="site-nav">
+
+  <!-- Hamburger toggle (mobile only, CSS-driven) -->
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+
+  <!-- Main menu -->
+  <ul class="menu">
+    {{- partial "nav.html" . -}}
+  </ul>
+
+</nav>

@@ -67,19 +67,20 @@ a:hover {
 }
 
 /* =========================
-   NAVIGATION
+   NAVIGATION (DESKTOP + HAMBURGER)
 ========================= */
 
-nav {
+.site-nav {
   background-color: var(--nav-background);
   padding: 15px 20px;
   border-radius: 8px;
   margin: 20px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 /* menu list */
-nav ul.menu {
+.menu {
   list-style: none;
   display: flex;
   gap: 12px;
@@ -87,12 +88,13 @@ nav ul.menu {
   margin: 0;
 }
 
-nav li.menu-item {
+/* menu items */
+.menu-item {
   position: relative;
 }
 
 /* nav links */
-nav a {
+.menu a {
   font-family: var(--font-secondary);
   font-size: 1.1em;
   font-weight: 500;
@@ -104,7 +106,7 @@ nav a {
 }
 
 /* main hover (PINK) */
-nav a:hover {
+.menu a:hover {
   background-color: var(--link-color);
   color: #fff;
 }
@@ -115,7 +117,10 @@ nav a:hover {
   font-size: 0.8em;
 }
 
-/* submenu container */
+/* =========================
+   DROPDOWN (DESKTOP)
+========================= */
+
 .submenu {
   list-style: none;
   position: absolute;
@@ -131,19 +136,15 @@ nav a:hover {
   z-index: 1000;
 }
 
-/* show submenu */
 .has-children:hover > .submenu,
 .has-children:focus-within > .submenu {
   display: block;
 }
 
-/* submenu links */
 .submenu a {
   display: block;
-  padding: 6px 14px;
+  padding: 8px 14px;
   font-size: 0.95em;
-  color: var(--nav-text);
-  border-radius: 0;
 }
 
 /* dropdown hover — SAME PINK */
@@ -152,19 +153,48 @@ nav a:hover {
   color: #fff;
 }
 
-/* mobile nav */
-@media (max-width: 768px) {
-  nav ul.menu {
-    flex-direction: column;
-  }
+/* =========================
+   HAMBURGER TOGGLE
+========================= */
 
-  .submenu {
-    position: static;
-    border: none;
-    padding-left: 14px;
-  }
+.nav-toggle {
+  display: none;
 }
 
+/* hamburger icon */
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  width: 28px;
+  height: 20px;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: var(--nav-text);
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  top: -7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+/
 
 /* =========================
    CONTENT
