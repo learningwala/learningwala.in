@@ -262,3 +262,54 @@ footer {
   }
 }
 
+/* MOBILE HAMBURGER FIX */
+@media (max-width: 768px) {
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .nav-toggle:checked ~ .menu {
+    display: flex;
+  }
+
+  .submenu {
+    position: static;
+    display: none;
+    padding-left: 16px;
+  }
+
+  .has-children > a::after {
+    content: " ▾";
+  }
+
+  .has-children:hover > .submenu {
+    display: block;
+  }
+}
+
+/* HOME PAGE IMAGE ALIGNMENT FIX */
+.home figure.img-responsive {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.home figure.img-responsive picture,
+.home figure.img-responsive img {
+  display: block;
+}
+
+
