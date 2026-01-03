@@ -1,6 +1,15 @@
++++
+author = "Mihir Pathak"
+title = "Year 2025 - reflections"
+date = "2025-12-31"
+description = "Year end reflection"
+tags = ["Blog", "Personal", "Year end reflection"]
++++
+
+
 # 2025 Reflection
 
-> I am sad while writing this. [Gurus of Peace by A.R](https://www.youtube.com/watch?v=ZKHbLBoNWJI) is playing. 2025 was tough for me. Somehow I managed... learned lots of things.
+> Year 2025 was tough Somehow I managed... learned lots of things.
 
 ---
 
