@@ -7,8 +7,6 @@ tags = ["Blog", "Personal", "Year end reflection"]
 +++
 
 
-# 2025 Reflection
-
 > Year 2025 was tough Somehow I managed... learned lots of things.
 
 ---
@@ -116,15 +114,13 @@ In the past 12 years, I have developed my practice with children and young adult
 
 ## Two Key Realizations
 
-### 1. Finding My Space
+### 1. Finding one practice space
 To be in this game now, I need to find the place where I can do unhindered practice, experimentation, and build authentic relationships with children **+** where I get monetary support to run the home in the city *(or find a place in a village and shift there)*.
 
 ### 2. Butterfly Effect
 Believe in the butterfly effect—do small things, contribute to small things continuously. Just like contributing to open-source projects. Without any expectations. Choose a few projects aligned to your ethos and take small steps every day.
 
 ---
-
-## The Age Group Dilemma
 
 I am divided into working with two age groups:
 
@@ -156,10 +152,7 @@ Nidhi and I have developed the Local Khoji program; we tried many other things w
 
 ---
 
-I read my friend Jaya Ramchandani's reflection and am taking this illustration from there:
-
-{{< img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*aBqpZ2pPtI28rCVOanXiUg.jpeg" alt="Image 2" caption="Learning spaces framework" >}}
-
+I read my friend [Jaya Ramchandani's reflection](https://welearnwegrow.medium.com/reflections-from-2025-and-hello-2026-e4384e74554e). She beautifully explained life long learning spaces.
 
 **I want to focus on guided learning and a little bit of self-curated learning spaces this year.**
 
