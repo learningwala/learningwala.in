@@ -4,6 +4,48 @@ menu: "main"
 weight: 3
 ---
 
+
+### Offerings
+
+My partner Nidhi and I developed two wonderful programs for children & young adults:
+
+#### Nature Detective (Workshops for Children age 3 to 11yrs)
+It's outdoor science, arts, nature based exploratory program for young children
+
+[Art , Theater , Nature, Inquiry based program]
+
+#### Local khoji (Workshops for Young Adults age 12+yrs)
+It's an transdisciplinary program where young adults make films about the place they belongs to with the the environment and civic lens.
+
+[Geo inquiry project  | Citizen Science | Experiential learning | Place Based learning]
+
+#### For NGOs, Schools, learning centres, homeschooling groups
+
+- I do tailor made workshops, residential camps, capacity building sessions 
+- I help to develop curriculum & activity modules 
+
+**Topics** 
+
+- Understanding the role of love & Relationship in education / Dialogue in education
+- Project based learning, Self directed learning
+- Non formal learning spaces, development of 'third' space 
+- Child development & learning
+- Language pedagogy, children literature & theater in education 
+- Life skills education and ecological consciousness / nature education
+- Citizen Science Projects, Environment, Civics, Cultural projects for larger good
+
+#### Work with young people / youth :
+
+I love working with teenagers / young adults to co create their 'self designed learning journey' / Gap Year
+
+#### learning objecteves
+
+Affective domain | Language | Creativity | Socio Emotional learning | System Thinking | Integrated learning 
+
+-----
+
+### Know your facilitator : 
+
 # Mihir Pathak   
 ### Experintial Educator 
 #### {Inquiry - Nature - Art - Theatre based learning}
@@ -16,8 +58,6 @@ weight: 3
 I **Facilitate,** 
 **Experiential** learning journeys 
   For **Children & Young Adults**
-
-
 
 
  **I believe that** Transformative learning emerges through authentic relationships between children and adults, shaped by shared, powerful experiences.
@@ -56,44 +96,6 @@ Theater, Storytelling, Nature Exploration, Music, Movement, Art, Tinkering, inqu
 - [Hoshangabad Sarita Mahotsav](https://3.basecamp.com/5637800/p/K1MsYmKBMRfR23aLMHDBsAJf/vault/6292717844) (3 day festival to explore science, sociology, art & culture of Narmada river | Place based learning)
 - [Time Exhibation](https://public.3.basecamp.com/p/LZQcbKVxaVXu1iZ9SvLeau2F) (Art installation - Exhibition  ‘A Matter of Time - an exploration to see time beyond clock and money’ 11th Feb 2024 | Project based learning) (Collaborator - [Nidhi Pal](https://www.instagram.com/nidhi_pal16/))
 
-### Offerings
-
-> Backed by **child development & learning** | Inspired by **educational philosophy** of J Krishnmurti, Martin Buber, John Dewey and Shri Aurobindo (Read my [personal educational philosophy](https://learningwala.in/about-me/edu-for-me/) )
-
-My partner Nidhi and I developed two wonderful programs:
-
-#### Nature Detective (Workshops for Children age 3 to 11yrs)
-It's outdoor science, arts, nature based exploratory program for young children
-
-[Art , Theater , Nature, Inquiry based program]
-
-#### Local khoji (Workshops for Young Adults age 12+yrs)
-It's an transdisciplinary program where young adults make films about the place they belongs to with the the environment and civic lens.
-
-[Geo inquiry project  | Citizen Science | Experiential learning | Place Based learning]
-
-#### For NGOs, Schools, learning centres, homeschooling groups
-
-- I do tailor made workshops, residential camps, capacity building sessions 
-- I help to develop curriculum & activity modules 
-
-**Topics** 
-
-- Understanding the role of love & Relationship in education / Dialogue in education
-- Project based learning, Self directed learning
-- Non formal learning spaces, development of 'third' space 
-- Child development & learning
-- Language pedagogy, children literature & theater in education 
-- Life skills education and ecological consciousness / nature education
-- Citizen Science Projects, Environment, Civics, Cultural projects for larger good
-
-#### Work with young people / youth :
-
-I love working with teenagers / young adults to co create their 'self designed learning journey' / Gap Year
-
-#### learning objecteves
-
-Affective domain | Language | Creativity | Socio Emotional learning | System Thinking | Integrated learning 
 
 ### Get in touch
 
@@ -104,5 +106,3 @@ learningwalamihir@gmail.com |
 ----
 
 {{< instagram DD_peFtyIJ_ >}}
-
-
