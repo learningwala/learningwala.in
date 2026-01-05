@@ -4,22 +4,19 @@ menu: "main"
 weight: 3
 ---
 
+{{< img src="/offerings/offerings.png">}}
 
-### Offerings
-
-My partner Nidhi and I developed two wonderful programs for children & young adults:
-
-#### Nature Detective (Workshops for Children age 3 to 11yrs)
+### Nature Detective (Workshops for Children age 3 to 11yrs)
 It's outdoor science, arts, nature based exploratory program for young children
 
 [Art , Theater , Nature, Inquiry based program]
 
-#### Local khoji (Workshops for Young Adults age 12+yrs)
-It's an transdisciplinary program where young adults make films about the place they belongs to with the the environment and civic lens.
+### Local khoji (Workshops for Young Adults age 12+yrs)
+It's an trans-disciplinary program where young adults make films about the place they belongs to with the the environment and civic lens.
 
 [Geo inquiry project  | Citizen Science | Experiential learning | Place Based learning]
 
-#### For NGOs, Schools, learning centres, homeschooling groups
+### For NGOs, Schools, learning centers, homeschooling groups
 
 - I do tailor made workshops, residential camps, capacity building sessions 
 - I help to develop curriculum & activity modules 
@@ -34,21 +31,21 @@ It's an transdisciplinary program where young adults make films about the place 
 - Life skills education and ecological consciousness / nature education
 - Citizen Science Projects, Environment, Civics, Cultural projects for larger good
 
-#### Work with young people / youth :
+### Work with young people / youth :
 
 I love working with teenagers / young adults to co create their 'self designed learning journey' / Gap Year
 
-#### learning objecteves
+### learning objecteves
 
-Affective domain | Language | Creativity | Socio Emotional learning | System Thinking | Integrated learning 
+Affective domain | Language | Creativity | Socio Emotional learning | System Thinking - Complexity | Integrated learning | Environmental Consciousness
 
 -----
 
-### Know your facilitator : 
+### Know your facilitator :
 
 # Mihir Pathak   
-### Experintial Educator 
-#### {Inquiry - Nature - Art - Theatre based learning}
+### Experiential Educator 
+#### {Nature - Theatre - Project based learning}
 
 > Hi, I am Mihir - passionate Educator based in Ahmedabad - Gujarat. I am working with formal and informal learning spaces for the last 12years. 
 
@@ -104,5 +101,3 @@ learningwalamihir@gmail.com |
 [learningwala.in](https://learningwala.in/)
 
 ----
-
-{{< instagram DD_peFtyIJ_ >}}
