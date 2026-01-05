@@ -301,15 +301,28 @@ footer {
   }
 }
 
-/* HOME PAGE IMAGE ALIGNMENT FIX */
-.home figure.img-responsive {
+/* =========================
+   GLOBAL CONTENT WIDTH
+========================= */
+
+#main-content {
+  max-width: 720px;
   margin-left: 0;
-  margin-right: 0;
 }
 
-.home figure.img-responsive picture,
-.home figure.img-responsive img {
+/* =========================
+   HOMEPAGE IMAGE
+========================= */
+
+#main-content figure.img-responsive {
+  margin: 0 0 1.5rem 0;
+}
+
+#main-content figure.img-responsive picture,
+#main-content figure.img-responsive img {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
   display: block;
 }
-
 

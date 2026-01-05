@@ -1,15 +1,12 @@
 +++
 author = "Mihir Pathak"
 title = "Year 2025 - reflections"
-date = "2025-12-31"
+date = "2026-01-05"
 description = "Year end reflection"
 tags = ["Blog", "Personal", "Year end reflection"]
 +++
 
 
-> Year 2025 was tough Somehow I managed... learned lots of things.
-
----
 
 ## Personal Milestones
 
@@ -21,15 +18,15 @@ tags = ["Blog", "Personal", "Year end reflection"]
 
 **First garba experience** — Played garba for the first time and visited [Navshakti](https://www.instagram.com/navshakti.navratri/?hl=en)
 
-**Fountain pens & microscopes** — Bought a [Pilot Kakuno fountain pen](https://makoba.com/collections/pilot-kakuno-fountain-pens?srsltid=AfmBOooXvSJuOox58K1DGBos0zaym8XTkgzU_-uzt1mSdsVb6qyduotU) and a few interesting ink bottles. I really like geeking around fountain pens and inks. I also bought a digital microscope this year—very useful to see insects.
+**Fountain pens & microscope** — Bought a [Pilot Kakuno fountain pen](https://makoba.com/collections/pilot-kakuno-fountain-pens?srsltid=AfmBOooXvSJuOox58K1DGBos0zaym8XTkgzU_-uzt1mSdsVb6qyduotU) and a few interesting ink bottles. I really like geeking around fountain pens and inks. I also bought a digital microscope this year—very useful to see insects.
 
-**Explored deeply** — Indian Knowledge System, Panchkosha, Development of Aesthetic Sense, Development of Affective Domain, and the work of Gurdjieff
+**This year I explored topics close to my heart** — Indian Knowledge System, Panchkosha, Development of Aesthetic Sense, Development of Affective Domain, and the work of Gurdjieff and Aurobindo.
 
 **Therapy** — For the second time in my life, went to a therapist
 
 **Family conflict** — Experienced it at its peak
 
-**Writing & documentation** — Did lots of edits on my current website, wrote [posts](https://learningwala.in/tags/blog/) about education, Indian knowledge system, children's literature, pedagogy and more. Wrote [weekly notes](https://learningwala.in/tags/weekly-notes/)—sometimes late, sometimes two combined, but consistently week by week throughout the whole year.
+**Writing & documentation** — Did lots of edits on my current website, wrote [posts](https://learningwala.in/tags/blog/) about education, Indian knowledge system, children's literature, pedagogy and more. Wrote [weekly notes](https://learningwala.in/tags/weekly-notes/)—sometimes late, sometimes two weeky notes combined, but consistently throughout the whole year.
 
 **Discovered [Hardik Dave](https://www.instagram.com/iktara.shabad/?hl=en)** — His music/singing resonates with me. Attended 2 of his baithaks and Navshakti Garba organized by him.
 
@@ -118,7 +115,7 @@ In the past 12 years, I have developed my practice with children and young adult
 To be in this game now, I need to find the place where I can do unhindered practice, experimentation, and build authentic relationships with children **+** where I get monetary support to run the home in the city *(or find a place in a village and shift there)*.
 
 ### 2. Butterfly Effect
-Believe in the butterfly effect—do small things, contribute to small things continuously. Just like contributing to open-source projects. Without any expectations. Choose a few projects aligned to your ethos and take small steps every day.
+I believe in the butterfly effect—do small things, contribute to small things continuously. Just like contributing to open-source projects. Without any expectations. Choose a few projects aligned to your ethos and take small steps every day.
 
 ---
 
@@ -142,6 +139,8 @@ I am very much interested in theater, storytelling, and children's literature fo
 People are doing similar work but selling events/workshops or programs for specific classes of people who can afford it. If someone hosts me, I can start a similar place free for all.
 
 This is coming from a place of love and passion for children, theater, and children's literature. I also wish to go to different schools and children's lit festivals as a **traveling theater company**.
+
+let's see if I get some community space or learning center. It is basically our implementation of program - nature detective.
 
 ### For Young Adults
 Nidhi and I have developed the Local Khoji program; we tried many other things with this age group. Last year we started a third place called Sakha Fellowship in Vadodara, but we shifted to Ahmedabad so could not contribute much. Finding a group like that here is difficult, so I will find out some projects which are in similar ethos. Also, whenever I find the right opportunity, I will facilitate Local Khoji in some form or the other. Till that time, I will document my experiments well.
