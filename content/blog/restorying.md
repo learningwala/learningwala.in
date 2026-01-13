@@ -3,7 +3,7 @@ author = "Mihir Pathak"
 title = "Re-Storying"
 date = "2026-01-13"
 description = "nature education with young children"
-tags = ["Blog", "learning resources"]
+tags = ["Blog", "field-note"]
 +++
 
 If you ask young people how they feel about insects, many will say:

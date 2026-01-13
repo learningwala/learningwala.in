@@ -3,7 +3,7 @@ author = "Mihir Pathak"
 title = "It's Ok - Khojbeen Mandali Work Updates 2025"
 date = "2026-01-05"
 description = "Reflection"
-tags = ["Blog", "Personal"]
+tags = ["Blog", "Personal", "field-note"]
 +++
 
 It is okay if I do not want to start my own NGO because I am afraid that I will not be able to raise funds, or because I am worried that my program will not align with traditional measurement tools. 
