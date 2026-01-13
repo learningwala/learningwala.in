@@ -9,21 +9,37 @@
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://learningwala.in/tags/blog/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Learning Resources</title>
+      <link>https://learningwala.in/tags/learning-resources/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/learning-resources/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Personal</title>
       <link>https://learningwala.in/tags/personal/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/personal/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Weekly-Notes</title>
+      <link>https://learningwala.in/tags/weekly-notes/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -36,26 +52,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>Weekly-Notes</title>
-      <link>https://learningwala.in/tags/weekly-notes/</link>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/weekly-notes/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>Affective Domain</title>
       <link>https://learningwala.in/tags/affective-domain/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/affective-domain/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Learning Resources</title>
-      <link>https://learningwala.in/tags/learning-resources/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/learning-resources/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
