@@ -98,3 +98,8 @@ name = "Media"
 parent = "about"
 url = "/media/"
 weight = 3
+
+[[menu.main]]
+name = "🔍"
+url = "/search/"
+weight = 30
