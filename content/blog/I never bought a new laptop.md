@@ -27,7 +27,7 @@ When I went to dharampur few friends donated 2 - 3 laptops for our school.
 - Samsung (silver) - Shruti 
 - ASUSE - chirag patel
 
-All the laptop were very old, their parts stopped working one by one (like screen, keyboard, battery, etc) accept Samsung (silver) one. When I went to Bhuj one visitor at our school gifted **old macbook air 2013 model**. It was in pretty good condition. I swapped samsung silver with that and started using it.
+All the laptop were very old, their parts stopped working one by one (like screen, keyboard, battery, etc) accept Samsung (silver) and Samsung machine given by Jubin. I gifted Samsung machine to dear friend sailesh who wanted to learn programming. When I went to Bhuj one visitor at our school gifted **old macbook air 2013 model**. It was in pretty good condition. I swapped samsung silver with that and started using it.
 
 Since then I am using it as my primary machine. Writing, web browsing, teaching MIT Scratch to children, many other tinkering.. I changed the battery few months ago.  
 
@@ -73,3 +73,17 @@ During this process I read a lot about FOSS and again visited [Kartik bhai](kart
 
 ------
 [more about Abhas bhai / mostly harmless](https://mostlyharmless.io/)
+
+
+------
+
+*Update : 1st Feb 2025*
+
+- Got LG QHD monitor
+
+-----
+
+*Update : 31st July 2025*
+
+- Thinkpad X1 Carbon's screen got damaged because of road accident 
+- Office laptop ThinkPad E16 (Gen 1) also got damaged (screen got repaired after 1 month)
