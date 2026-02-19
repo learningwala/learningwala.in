@@ -63,24 +63,30 @@ enableRobotsTXT = true
   disableDate = false
   disableLatLong = true
 
-# =========================
-# MAIN MENU (for dropdown)
-# =========================
-
 [menu]
 
-  [[menu.main]]
+# Blog parent (no link — dropdown only)
+[[menu.main]]
 name = "Blog"
 identifier = "blog"
-url = "/tags/blog/"
+url = "#"
 weight = 3
 
+# Child items
 [[menu.main]]
 name = "Weekly Notes"
 parent = "blog"
 url = "/tags/weekly-notes/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+parent = "blog"
+url = "/tags/blog/"
 weight = 2
 
+
+# About section
 [[menu.main]]
 name = "About"
 identifier = "about"
