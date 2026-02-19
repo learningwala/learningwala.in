@@ -79,4 +79,4 @@ I am also documenting my past projects around experiential learning, nature educ
 
 **Career curiosity also guides my side project choices.** For instance, I am doing learning calls with different organizations to learn and contribute to curriculum design and learning experience design through volunteering. 
 
-All of this is volunteering. Skill building and Career curiosity. All of it is oriented toward contributing to a larger ecosystem — small acts, long bets, butterfly effect.
+All of it is guided by Skill building and Career/personal curiosity and volunteering  (contributing to a larger ecosystem — small acts, long bets, butterfly effect.)

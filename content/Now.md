@@ -26,6 +26,12 @@ I work with curriculum designers, researchers, learning facilitators and childre
 
 We (Mihir & Nidhi) are facilitating experiential learning journeys for children and young adults through Nature exploration - Theater - Inquiry projects.
 
+**Current Work :**
+
+- Writing literature (stories, poems, songs, theater) for children age 3 to 10yrs.
+- learning calls with Sajhe Sapne (every Saturday) and The circuit project (once in a month)
+- Documenting past projects, creating zine / articles
+
 
 ---
 
