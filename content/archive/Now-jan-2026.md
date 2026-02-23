@@ -1,7 +1,7 @@
 ---
-title: "Now"
-menu: "main"
-weight:	6
+title: "Now Jan 2026"
+menu: 
+weight:
 ---
 
 # What am I doing now?
