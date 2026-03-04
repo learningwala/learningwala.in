@@ -1,6 +1,6 @@
 +++
 author = "Mihir Pathak"
-title = "The elements of good children's literature"
+title = "Elements of good children's literature"
 date = "2025-04-03"
 description = "The elements of good children's literature by Tultul Biswas"
 tags = ["Blog", "learning resources", "children's literature"]
