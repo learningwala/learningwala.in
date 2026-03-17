@@ -2,7 +2,9 @@
 
 author = "Mihir Pathak" 
 title = "Week 10/2026" 
-date = "2026-03-08" 
+date = "2026-03-02" 
+=======
+date = "2026-03-08"
 description = "weekly notes" 
 tags = ["weekly-notes", "Personal"] 
 
