@@ -35,7 +35,7 @@ It's an trans-disciplinary program where young adults make films about the place
 
 I love working with teenagers / young adults to co create their 'self designed learning journey' / Gap Year
 
-### learning objecteves
+### learning objectives
 
 Affective domain | Language | Creativity | Socio Emotional learning | System Thinking - Complexity | Integrated learning | Environmental Consciousness
 
@@ -47,7 +47,7 @@ Affective domain | Language | Creativity | Socio Emotional learning | System Thi
 ### Experiential Educator 
 #### {Nature - Theatre - Project based learning}
 
-> Hi, I am Mihir - passionate Educator based in Ahmedabad - Gujarat. I am working with formal and informal learning spaces for the last 12years. 
+> Hi, I am Mihir - passionate Educator based in Ahmadabad - Gujarat. I am working with formal and informal learning spaces for the last 12years. 
 
 ---
 
@@ -61,7 +61,7 @@ I **Facilitate,**
 
 ### Tools I use
 
-Theater, Storytelling, Nature Exploration, Music, Movement, Art, Tinkering, inquiry projects, citizen science, film making, Creative Writing, Travelling
+Theater, Storytelling, Nature Exploration, Music, Movement, Art, Tinkering, inquiry projects, citizen science, film making, Creative Writing, Traveling
 
 ### My Background
 
@@ -88,10 +88,10 @@ Theater, Storytelling, Nature Exploration, Music, Movement, Art, Tinkering, inqu
 
 ### Notable Work ( [media coverage](https://learningwala.in/about-me/media/) )
 
-- [Food Camp](https://www.eklavya.in/pdfs/Sandarbh/Sandarbh_139/51-58_Story_of_Food.pdf) (3 day residential camp with children to explore science, sociology, art - culture of central theme Food. Transdisciplinary Approach)
+- [Food Camp](https://www.eklavya.in/pdfs/Sandarbh/Sandarbh_139/51-58_Story_of_Food.pdf) (3 day residential camp with children to explore science, sociology, art - culture of central theme Food. Trans-disciplinary Approach)
 - [Voice of Vishwamitri](https://www.instagram.com/p/Ct91MKxItVY/?img_index=1) (Group of teen age children studied vishwamitri river in Vadodra, Gujarat and presented their work in Climate Festival, BLR as Geo inquiry Project) (Collaborator - [Nidhi Pal](https://www.instagram.com/nidhi_pal16/))
 - [Hoshangabad Sarita Mahotsav](https://3.basecamp.com/5637800/p/K1MsYmKBMRfR23aLMHDBsAJf/vault/6292717844) (3 day festival to explore science, sociology, art & culture of Narmada river | Place based learning)
-- [Time Exhibation](https://public.3.basecamp.com/p/LZQcbKVxaVXu1iZ9SvLeau2F) (Art installation - Exhibition  ‘A Matter of Time - an exploration to see time beyond clock and money’ 11th Feb 2024 | Project based learning) (Collaborator - [Nidhi Pal](https://www.instagram.com/nidhi_pal16/))
+- [Time Exhibition](https://public.3.basecamp.com/p/LZQcbKVxaVXu1iZ9SvLeau2F) (Art installation - Exhibition  ‘A Matter of Time - an exploration to see time beyond clock and money’ 11th Feb 2024 | Project based learning) (Collaborator - [Nidhi Pal](https://www.instagram.com/nidhi_pal16/))
 
 
 ### Get in touch
