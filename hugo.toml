@@ -90,8 +90,14 @@ weight = 2
 [[menu.main]]
 name = "About"
 identifier = "about"
-url = "/about-me/"
+url = "#"
 weight = 2
+
+[[menu.main]]
+name = "Bio"
+parent = "about"
+url = "/about-me/"
+weight = 1
 
 [[menu.main]]
 name = "Writing"
