@@ -57,7 +57,7 @@ The decision always comes from a combination of these four factors, weighted by 
 
 ## After Stability Comes the Butterfly Effect
 
-Once I have meaningful work aligned with my ethos, financial stability, and a daily practice ground — I invest remaining time and energy into what I call the *butterfly effect*: small, intentional acts in a chaotic world. Unpredictable in outcome, long in impact. An investment in the ecosystem.
+Once I have meaningful work aligned with my ethos, financial stability, and a daily practice ground — I invest remaining time and energy into something called the *[butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect)*: small, intentional acts in a chaotic world. Unpredictable in outcome, long in impact. An investment in the ecosystem.
 
 This is where side projects come in.
 
