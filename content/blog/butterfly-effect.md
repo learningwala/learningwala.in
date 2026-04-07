@@ -58,6 +58,7 @@ My work splits into two kinds: where I am the butterfly, and where I help others
 * **Youth Conservation Action Network** — mentoring nature education fellows
 * **Eklavya Foundation, Bhopal** — faculty for the Child Development, Learning and Special Needs course
 * **Nature educator meetup** *(coming soon)* — creating the community of practice that isolated educators need but don’t have
+* **Designing, building and managing websites** - I have built around 6 websites for different non-profit organizations and schools, and I am currently managing 1 website for a school from rural Gujarat.
 
 ---
 
