@@ -18,13 +18,13 @@ I have come to believe this is not just something that happens by accident. It c
 
 Kailash Nadh—CTO of Zerodha, hobbyist developer, absurdist—asks an uncomfortable question in his 2022 essay: *why do obvious things not exist?*
 
-His answer is the **Triangle of Fulfilment**. For any idea to become real, three things must come together simultaneously:
+His answer is the **[Triangle of Fulfilment](https://nadh.in/blog/triangle-of-fulfilment/)**. For any idea to become real, three things must come together simultaneously:
 
 |                  |                                                                |
 | ---------------- | -------------------------------------------------------------- |
-| 🔥 **Intent**    | Intrinsic drive. Cannot be bought or practiced into existence. |
-| 🛠️ **Skills**   | Knowledge and craft to execute. Can be learned.                |
-| 🌱 **Resources** | Time, money, material. Can be gathered.                        |
+| **Intent**    | Intrinsic drive. Cannot be bought or practiced into existence. |
+| **Skills**   | Knowledge and craft to execute. Can be learned.                |
+| **Resources** | Time, money, material. Can be gathered.                        |
 
 > *"The pool of people globally who can build a certain thing drops down exponentially from millions to often just a handful—or sometimes even one—when selected for the presence of all three factors."*
 >
@@ -38,7 +38,7 @@ My work splits into two kinds: where I am the butterfly, and where I help others
 
 ---
 
-## 🦋 Where I Create the Effect Directly
+## Where I Create the Effect Directly
 
 *I am the butterfly.*
 
@@ -48,7 +48,7 @@ My work splits into two kinds: where I am the butterfly, and where I help others
 
 ---
 
-## 🌱 Where I Enable Others to Create the Effect
+## Where I Enable Others to Create the Effect
 
 *I help others become butterflies.*
 
