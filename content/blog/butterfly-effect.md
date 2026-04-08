@@ -51,7 +51,7 @@ This essay gave me clarity. It answered my questions — and pointed me toward s
 
 What I can offer is my skills and time. I can help people who already have intent and some resources — but need the missing side of their triangle.
 
-### My engineering efforts 
+## My engineering efforts 
 
 *list of projects where I see value, potantial and where I can contribute :*
 
