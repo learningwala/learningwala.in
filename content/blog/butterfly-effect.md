@@ -16,6 +16,8 @@ This might become a butterfly effect. The children I work with may grow more cur
 
 ---
 
+At some point I started noticing absences. Gaps so obvious but no one is attemptig to work on it. Gaps which are out of my cantrol.
+
 **I wonder :**
 
 - Why is there no good children's literature magazine in Gujarati? There are plenty of publishers and plenty of organisations working in education — but no one is attempting this.
@@ -47,12 +49,11 @@ When all three align in one person, the effect is disproportionate to the cause.
 
 This essay gave me clarity. It answered my questions — and pointed me toward something. How can I enable small, positive ripples that have the potential to generate bigger outcomes in this infinitely chaotic world? After all, it is the butterfly effect — the tiniest of events, the most random of coincidences — that transforms into whirlwinds of change.
 
-*Butterfly* - tiny projects whcih has potantial have big impact 
-*To engineer butterflies* - tringular fulfilment is needed 
-
 What I can offer is my skills and time. I can help people who already have intent and some resources — but need the missing side of their triangle.
 
-----------------
+### My engineering efforts 
+
+*list of projects where I see value, potantial and where I can contribute :*
 
 I feel the need for critical, creative, and contextual children's literature in Gujarati. I really enjoy writing. I write stories and songs with my class, and I wish other parents, educators, and children would also explore this type of literature.
 
