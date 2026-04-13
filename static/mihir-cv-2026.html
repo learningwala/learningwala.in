@@ -5,400 +5,437 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mihir Pathak — Experiential Educator</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root {
-  --yellow: #E8A800;
-  --yellow-mid: #C98F00;
-  --yellow-pale: #FFF8E6;
-  --yellow-wash: #FEF2C0;
-  --dark: #111827;
-  --ink: #1F2937;
-  --muted: #6B7280;
-  --warm: #F9FAFB;
-  --warm2: #F3F4F6;
-  --border: #E5E7EB;
-  --green: #166534;
-  --rust: #9A3412;
-  --blue-link: #1D4ED8;
-  --white: #FFFFFF;
-}
-* { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Outfit', sans-serif; background: var(--warm); color: var(--ink); font-size: 17px; line-height: 1.8; }
+  :root {
+    --amber:       #B87D00;
+    --amber-light: #FEF8EC;
+    --amber-mid:   #E6AB00;
+    --ink:         #181818;
+    --body:        #444;
+    --muted:       #999;
+    --rule:        #E6E2DC;
+    --bg:          #F9F8F6;
+    --white:       #FFFFFF;
+    --green:       #2E6B4A;
+  }
 
-.nav { position: sticky; top: 0; z-index: 100; background: var(--dark); display: flex; align-items: center; padding: 0 40px; height: 52px; gap: 4px; }
-.nav-brand { font-family: 'Lora', serif; font-size: 17px; color: var(--yellow); font-style: italic; margin-right: auto; letter-spacing: 0.01em; }
-.nav-btn { background: none; border: none; color: #B0A898; font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 500; padding: 6px 18px; border-radius: 20px; cursor: pointer; transition: all 0.2s; letter-spacing: 0.03em; }
-.nav-btn:hover, .nav-btn.active { background: var(--yellow); color: var(--dark); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--body);
+    font-size: 15px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
 
-.page { display: none; }
-.page.active { display: block; }
+  /* ── NAV ── */
+  .nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--ink);
+    display: flex; align-items: center;
+    padding: 0 48px; height: 50px;
+  }
+  .nav-brand {
+    font-family: 'DM Serif Display', serif;
+    font-size: 16px; color: var(--amber-mid);
+    font-style: italic; margin-right: auto;
+  }
+  .nav-btn {
+    background: none; border: none;
+    color: #777; font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 500;
+    padding: 6px 16px; border-radius: 20px;
+    cursor: pointer; transition: all 0.18s;
+    letter-spacing: 0.06em; text-transform: uppercase;
+  }
+  .nav-btn:hover, .nav-btn.active { color: var(--amber-mid); }
 
-.hero { background: #fff; position: relative; overflow: hidden; border-bottom: 1px solid var(--border); }
-.hero-img-wrap { display: none; }
-.hero-content { padding: 40px 48px 36px; position: relative; }
-.hero-accent { width: 48px; height: 3px; background: var(--yellow); border-radius: 2px; margin-bottom: 16px; }
-.hero-name { font-family: 'Lora', serif; font-size: 52px; color: var(--dark); font-weight: 700; line-height: 1.05; letter-spacing: -0.5px; }
-.hero-name span { color: var(--yellow-mid); }
-.hero-role { color: var(--muted); font-size: 16px; font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 10px; margin-bottom: 20px; }
-.hero-contacts { display: flex; flex-wrap: wrap; gap: 6px; }
-.hc { display: inline-flex; align-items: center; gap: 6px; background: var(--warm); border: 1px solid var(--border); border-radius: 6px; padding: 5px 12px; color: var(--ink); font-size: 14px; text-decoration: none; transition: all 0.2s; }
-.hc:hover { background: var(--yellow); color: var(--dark); border-color: var(--yellow); }
-.hc-dot { width: 6px; height: 6px; background: var(--yellow-mid); border-radius: 50%; flex-shrink: 0; transition: background 0.2s; }
-.hc:hover .hc-dot { background: var(--dark); }
+  .page { display: none; }
+  .page.active { display: block; }
 
-.p1-body { display: grid; grid-template-columns: 1fr 290px; max-width: 1160px; margin: 0 auto; }
-.p1-main { padding: 44px 44px 60px; border-right: 1px solid var(--border); }
-.p1-side { padding: 44px 32px 60px; }
+  /* ══ PROFILE PAGE ══ */
 
-.sh { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; }
-.sh-label { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--green); white-space: nowrap; }
-.sh-line { flex: 1; height: 1px; background: var(--border); }
-.section { margin-bottom: 44px; }
+  .hero {
+    background: var(--white);
+    border-bottom: 1px solid var(--rule);
+    padding: 64px 64px 52px;
+  }
+  .hero-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; color: var(--amber);
+    letter-spacing: 0.22em; text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .hero-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 54px; color: var(--ink);
+    line-height: 1; letter-spacing: -0.5px;
+    margin-bottom: 14px;
+  }
+  .hero-tagline {
+    font-size: 15px; color: var(--muted);
+    font-weight: 300; margin-bottom: 36px;
+    letter-spacing: 0.03em;
+  }
+  .hero-contacts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .hc {
+    display: inline-flex; align-items: center;
+    padding: 6px 14px;
+    border: 1px solid var(--rule); border-radius: 4px;
+    font-size: 13px; color: var(--body);
+    text-decoration: none; background: var(--bg);
+    transition: all 0.18s;
+  }
+  .hc:hover { border-color: var(--amber); color: var(--amber); background: var(--amber-light); }
 
-.belief { background: var(--yellow-pale); border-left: 4px solid var(--yellow); padding: 22px 26px; border-radius: 0 10px 10px 0; margin-bottom: 44px; }
-.belief p { font-family: 'Lora', serif; font-size: 20px; font-style: italic; color: var(--ink); line-height: 1.7; }
-.belief cite { display: block; font-family: 'Outfit', sans-serif; font-style: normal; font-size: 13px; color: var(--muted); margin-top: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .profile-body {
+    display: grid;
+    grid-template-columns: 1fr 240px;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .main  { padding: 56px 60px 80px; border-right: 1px solid var(--rule); }
+  .aside { padding: 56px 32px 80px; }
 
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 44px; }
-.stat { background: var(--white); padding: 18px 12px; text-align: center; }
-.stat-n { font-family: 'Lora', serif; font-size: 34px; font-weight: 700; color: var(--dark); line-height: 1; }
-.stat-n sup { font-size: 16px; vertical-align: super; color: var(--yellow-mid); }
-.stat-l { font-size: 13px; color: var(--muted); margin-top: 5px; line-height: 1.35; }
+  /* Section header */
+  .sec-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--muted);
+    margin-bottom: 20px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sec-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .section { margin-bottom: 52px; }
+  .section:last-child { margin-bottom: 0; }
 
-.prog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-.prog-card { background: var(--dark); border-radius: 12px; padding: 22px 22px 18px; position: relative; overflow: hidden; }
-.prog-card::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: var(--yellow); }
-.prog-age { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--yellow); letter-spacing: 0.1em; margin-bottom: 8px; }
-.prog-name { font-family: 'Lora', serif; font-size: 22px; font-weight: 700; color: #F9FAFB; margin-bottom: 8px; }
-.prog-desc { font-size: 15px; color: #D1D5DB; line-height: 1.65; margin-bottom: 14px; }
-.prog-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-.ptag { background: rgba(232,168,0,0.15); border: 1px solid rgba(232,168,0,0.35); border-radius: 20px; padding: 2px 9px; font-size: 12px; color: #E5E7EB; }
+  /* Quote */
+  .quote {
+    border-left: 2px solid var(--amber);
+    padding: 18px 22px;
+    margin-bottom: 52px;
+  }
+  .quote p {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px; font-style: italic;
+    color: var(--ink); line-height: 1.65;
+  }
+  .quote cite {
+    display: block; margin-top: 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px; color: var(--muted);
+    letter-spacing: 0.12em; text-transform: uppercase;
+    font-style: normal;
+  }
 
-.work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.wcard { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; transition: border-color 0.2s, transform 0.15s; text-decoration: none; display: block; color: inherit; }
-.wcard:hover { border-color: var(--yellow); transform: translateY(-2px); }
-.wbadge { display: inline-block; background: var(--yellow-wash); color: #92610A; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.08em; padding: 2px 8px; border-radius: 10px; margin-bottom: 7px; text-transform: uppercase; }
-.wtitle { font-weight: 600; font-size: 16px; color: var(--dark); margin-bottom: 5px; }
-.wdesc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+  /* Numbers */
+  .numbers {
+    display: flex;
+    border: 1px solid var(--rule); border-radius: 6px;
+    overflow: hidden; margin-bottom: 52px;
+    background: var(--white);
+  }
+  .num { flex: 1; padding: 20px 12px; text-align: center; border-right: 1px solid var(--rule); }
+  .num:last-child { border-right: none; }
+  .num-n { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--ink); line-height: 1; }
+  .num-n sup { font-size: 13px; vertical-align: super; color: var(--amber); }
+  .num-l { font-size: 11px; color: var(--muted); margin-top: 5px; line-height: 1.4; }
 
-.ss { margin-bottom: 32px; }
-.ss-title { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--rust); margin-bottom: 14px; padding-bottom: 7px; border-bottom: 1px solid var(--border); }
+  /* Programs — vertical list */
+  .prog {
+    display: grid; grid-template-columns: 100px 1fr;
+    gap: 20px; align-items: start;
+    padding: 16px 0; border-bottom: 1px solid var(--rule);
+  }
+  .prog:first-child { border-top: 1px solid var(--rule); }
+  .prog-age {
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    color: var(--amber); letter-spacing: 0.14em;
+    text-transform: uppercase; padding-top: 3px;
+  }
+  .prog-name { font-weight: 500; font-size: 14px; color: var(--ink); margin-bottom: 4px; }
+  .prog-desc { font-size: 13.5px; color: var(--muted); line-height: 1.65; }
 
-.tools { display: flex; flex-wrap: wrap; gap: 6px; }
-.tool { background: var(--white); border: 1.5px solid var(--yellow); border-radius: 20px; padding: 4px 11px; font-size: 13px; font-weight: 500; color: var(--dark); }
+  /* Background — clean list */
+  .bg-item { padding: 13px 0; border-bottom: 1px solid var(--rule); }
+  .bg-item:last-child { border: none; }
+  .bg-subject { font-size: 14px; font-weight: 500; color: var(--ink); }
+  .bg-where { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .bg-where a { color: var(--amber); text-decoration: none; }
+  .bg-where a:hover { text-decoration: underline; }
 
-.chklist { list-style: none; }
-.chklist li { display: flex; gap: 9px; align-items: flex-start; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--ink); }
-.chklist li:last-child { border-bottom: none; }
-.chklist li::before { content: '◆'; color: var(--yellow-mid); font-size: 7px; margin-top: 7px; flex-shrink: 0; }
-.chklist li a { color: var(--blue-link); text-decoration: none; }
-.chklist li a:hover { text-decoration: underline; }
+  /* Practice highlights */
+  .practice-list { list-style: none; }
+  .practice-list li {
+    font-size: 14px; color: var(--body);
+    padding: 7px 0; border-bottom: 1px solid var(--rule);
+    padding-left: 16px; position: relative; line-height: 1.6;
+  }
+  .practice-list li:last-child { border: none; }
+  .practice-list li::before {
+    content: '–'; color: var(--amber);
+    position: absolute; left: 0;
+  }
+  .practice-list a { color: var(--amber); text-decoration: none; }
+  .practice-list a:hover { text-decoration: underline; }
+  .practice-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 16px; }
+  .tag {
+    border: 1px solid var(--rule); border-radius: 3px;
+    padding: 2px 9px; font-size: 11px; color: var(--muted);
+    font-family: 'DM Mono', monospace;
+  }
 
-.edu-item { padding: 10px 0; border-bottom: 1px dotted var(--border); font-size: 14px; }
-.edu-item:last-child { border: none; }
-.edu-subject { font-weight: 600; color: var(--dark); line-height: 1.4; }
-.edu-where { color: var(--muted); font-size: 13px; line-height: 1.4; margin-top: 2px; }
-.edu-where a { color: var(--blue-link); text-decoration: none; }
-.edu-where a:hover { text-decoration: underline; }
+  /* ══ SIDEBAR ══ */
+  .aside-section { margin-bottom: 36px; }
+  .aside-label {
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 14px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--rule);
+  }
+  .chip-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: 1px solid var(--rule); border-radius: 3px;
+    padding: 3px 9px; font-size: 12px; color: var(--body);
+    background: var(--white);
+  }
+  .fellow { padding: 10px 0; border-bottom: 1px solid var(--rule); }
+  .fellow:last-child { border: none; }
+  .fellow a { font-size: 13px; color: var(--ink); text-decoration: none; font-weight: 500; }
+  .fellow a:hover { color: var(--amber); }
+  .fellow-meta { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .service-list { list-style: none; }
+  .service-list li {
+    font-size: 13px; padding: 7px 0;
+    border-bottom: 1px solid var(--rule);
+    color: var(--body); display: flex; gap: 8px;
+  }
+  .service-list li:last-child { border: none; }
+  .service-list li::before { content: '–'; color: var(--amber); flex-shrink: 0; }
+  .link-list { list-style: none; }
+  .link-list li { padding: 6px 0; border-bottom: 1px solid var(--rule); font-size: 13px; }
+  .link-list li:last-child { border: none; }
+  .link-list li a { color: var(--amber); text-decoration: none; }
+  .link-list li a:hover { text-decoration: underline; }
 
-.fellow-item { background: var(--yellow-pale); border-left: 3px solid var(--yellow); border-radius: 0 6px 6px 0; padding: 9px 12px; margin-bottom: 8px; font-size: 14px; }
-.fellow-item strong a { color: var(--dark); text-decoration: none; }
-.fellow-item strong a:hover { color: var(--green); text-decoration: underline; }
-.fellow-year { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); display: block; margin-top: 3px; }
+  /* ══ EXPERIENCE PAGE ══ */
+  .exp-wrap { max-width: 800px; margin: 0 auto; padding: 56px 64px 80px; }
+  .exp-intro { margin-bottom: 44px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
+  .exp-intro h2 { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--ink); margin-bottom: 6px; }
+  .exp-intro p { color: var(--muted); font-size: 14px; }
+  .timeline-label {
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
+    display: flex; align-items: center; gap: 12px; margin-bottom: 4px;
+  }
+  .timeline-label::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+  .exp-block {
+    display: grid; grid-template-columns: 130px 1fr;
+    gap: 28px; padding: 28px 0;
+    border-bottom: 1px solid var(--rule); align-items: start;
+  }
+  .exp-block:last-child { border: none; }
+  .exp-period { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--muted); line-height: 1.6; padding-top: 2px; }
+  .exp-dur {
+    display: inline-block; font-family: 'DM Mono', monospace;
+    font-size: 10px; padding: 2px 8px; border-radius: 3px;
+    margin-top: 5px; background: #FEF3C7; color: #92610A;
+  }
+  .exp-current .exp-dur { background: #DCFCE7; color: var(--green); }
+  .exp-org { font-weight: 600; font-size: 15px; color: var(--ink); margin-bottom: 1px; }
+  .exp-org a { color: inherit; text-decoration: none; }
+  .exp-org a:hover { color: var(--amber); }
+  .exp-role { font-size: 13px; color: var(--green); font-weight: 500; margin-bottom: 3px; }
+  .exp-loc { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .exp-desc { font-size: 13.5px; color: var(--body); line-height: 1.8; }
+  .exp-desc ul { margin: 6px 0 0 16px; }
+  .exp-desc li { margin-bottom: 4px; }
+  .exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+  .etag {
+    background: var(--bg); border: 1px solid var(--rule);
+    border-radius: 3px; padding: 2px 9px;
+    font-size: 11px; color: var(--muted);
+    font-family: 'DM Mono', monospace;
+  }
 
-.collab-list { list-style: none; }
-.collab-list li { font-size: 14px; color: var(--muted); padding: 5px 0; border-bottom: 1px dotted var(--border); display: flex; align-items: flex-start; gap: 7px; }
-.collab-list li:last-child { border: none; }
-.collab-list li::before { content: '↗'; color: var(--green); font-size: 12px; margin-top: 2px; flex-shrink: 0; }
-.collab-list li a { color: var(--blue-link); text-decoration: none; font-weight: 500; }
-.collab-list li a:hover { text-decoration: underline; }
+  /* FOOTER */
+  .footer {
+    background: var(--ink); text-align: center;
+    padding: 20px; font-size: 11px;
+    color: #555; letter-spacing: 0.06em;
+    font-family: 'DM Mono', monospace;
+  }
+  .footer a { color: var(--amber-mid); text-decoration: none; }
 
-.service-list { list-style: none; }
-.service-list li { font-size: 14px; padding: 6px 0; border-bottom: 1px solid var(--border); color: var(--ink); display: flex; gap: 8px; align-items: flex-start; }
-.service-list li:last-child { border: none; }
-.service-list li::before { content: '→'; color: var(--green); flex-shrink: 0; font-weight: 600; }
-
-.obj-pills { display: flex; flex-wrap: wrap; gap: 7px; }
-.obj-pill { background: var(--dark); color: #C8BFA8; border-radius: 20px; padding: 5px 13px; font-size: 13px; }
-
-.topics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.topic-item { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 9px 13px; font-size: 14px; color: var(--ink); display: flex; align-items: flex-start; gap: 7px; }
-.topic-item::before { content: '◈'; color: var(--yellow-mid); flex-shrink: 0; font-size: 11px; margin-top: 2px; }
-
-/* PAGE 2 */
-.p2-wrap { max-width: 920px; margin: 0 auto; padding: 48px 48px 80px; }
-.p2-intro { background: var(--dark); border-radius: 14px; padding: 28px 32px; margin-bottom: 44px; display: flex; align-items: center; gap: 24px; }
-.p2-intro-text h2 { font-family: 'Lora', serif; font-size: 26px; color: #F9FAFB; margin-bottom: 6px; }
-.p2-intro-text p { color: #D1D5DB; font-size: 15px; }
-.p2-intro-stat { background: rgba(232,168,0,0.12); border: 1px solid rgba(232,168,0,0.35); border-radius: 10px; padding: 14px 20px; text-align: center; white-space: nowrap; }
-.p2-intro-stat .n { font-family: 'Lora', serif; font-size: 28px; font-weight: 700; color: var(--yellow); line-height: 1; }
-.p2-intro-stat .l { font-size: 13px; color: #D1D5DB; margin-top: 4px; }
-
-.exp-block { display: grid; grid-template-columns: 130px 1fr; gap: 20px; padding: 26px 0; border-bottom: 1px solid var(--border); align-items: start; }
-.exp-block:last-child { border-bottom: none; }
-.exp-period { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--muted); line-height: 1.5; }
-.exp-dur { display: inline-block; background: var(--yellow-wash); color: #92610A; font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 2px 8px; border-radius: 10px; margin-top: 6px; }
-.exp-current .exp-dur { background: #DCFCE7; color: var(--green); }
-.exp-org { font-weight: 600; font-size: 18px; color: var(--dark); margin-bottom: 2px; }
-.exp-org a { color: inherit; text-decoration: none; }
-.exp-org a:hover { color: var(--green); }
-.exp-role { font-size: 15px; font-weight: 500; color: var(--green); margin-bottom: 3px; }
-.exp-loc { font-size: 14px; color: var(--muted); margin-bottom: 10px; }
-.exp-desc { font-size: 15px; color: var(--ink); line-height: 1.8; margin-bottom: 10px; }
-.exp-desc ul { margin: 8px 0 0 16px; }
-.exp-desc ul li { margin-bottom: 4px; }
-.exp-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-.etag { background: var(--warm2); border: 1px solid var(--border); border-radius: 20px; padding: 2px 10px; font-size: 12px; color: #374151; font-family: 'JetBrains Mono', monospace; }
-
-.cv-footer { background: var(--dark); text-align: center; padding: 20px; font-size: 13px; color: #9CA3AF; letter-spacing: 0.05em; }
-.cv-footer a { color: var(--yellow); text-decoration: none; }
-
-a { color: var(--blue-link); }
-a:hover { text-decoration: underline; }
-
-@media (max-width: 760px) {
-  .p1-body { grid-template-columns: 1fr; }
-  .p1-main { border-right: none; border-bottom: 1px solid var(--border); }
-  .prog-grid, .work-grid, .topics-grid { grid-template-columns: 1fr; }
-  .stats { grid-template-columns: repeat(2, 1fr); }
-  .hero-name { font-size: 36px; }
-  .hero-content { padding: 24px 24px 32px; }
-  .p1-main, .p1-side { padding: 28px 20px; }
-  .p2-wrap { padding: 28px 20px 60px; }
-  .exp-block { grid-template-columns: 1fr; gap: 8px; }
-  .p2-intro { flex-direction: column; }
-  .nav { padding: 0 16px; }
-}
+  @media (max-width: 760px) {
+    .hero { padding: 36px 24px 32px; }
+    .hero-name { font-size: 38px; }
+    .profile-body { grid-template-columns: 1fr; }
+    .main { padding: 36px 24px; border-right: none; border-bottom: 1px solid var(--rule); }
+    .aside { padding: 32px 24px; }
+    .numbers { flex-wrap: wrap; }
+    .num { min-width: 50%; }
+    .prog { grid-template-columns: 1fr; gap: 6px; }
+    .exp-wrap { padding: 36px 24px 60px; }
+    .exp-block { grid-template-columns: 1fr; gap: 6px; }
+    .nav { padding: 0 20px; }
+  }
 </style>
 </head>
 <body>
 
 <nav class="nav">
   <span class="nav-brand">Mihir Pathak</span>
-  <button class="nav-btn active" onclick="showPage('p1', this)">Profile</button>
-  <button class="nav-btn" onclick="showPage('p2', this)">Experience</button>
+  <button class="nav-btn active" onclick="showPage('p1',this)">Profile</button>
+  <button class="nav-btn" onclick="showPage('p2',this)">Experience</button>
 </nav>
 
-<!-- PAGE 1 -->
+<!-- ═══ PROFILE ═══ -->
 <div id="p1" class="page active">
 
   <div class="hero">
-    <div class="hero-img-wrap">
-      <img src="1767528724685.jpg" alt="Khojbeen Mandali — Nature, Theatre, Project Based Learning">
-    </div>
-    <div class="hero-content">
-      <div class="hero-accent"></div>
-      <div class="hero-name">Mihir <span>Pathak</span></div>
-      <div class="hero-role">Experiential Educator &nbsp;·&nbsp; Nature &nbsp;·&nbsp; Theatre &nbsp;·&nbsp; Project Based Learning</div>
-      <div class="hero-contacts">
-        <a class="hc" href="tel:+919537068736"><span class="hc-dot"></span>+91 9537068736</a>
-        <a class="hc" href="mailto:learningwalamihir@gmail.com"><span class="hc-dot"></span>learningwalamihir@gmail.com</a>
-<a class="hc" href="https://www.instagram.com/learningwala" target="_blank"><span class="hc-dot"></span>@learningwala</a>
-        <a class="hc" href="https://learningwala.in/about-me/" target="_blank"><span class="hc-dot"></span>About me</a>
-        <a class="hc" href="https://learningwala.in/about-me/media/" target="_blank"><span class="hc-dot"></span>Media Coverage</a>
-      </div>
+    <div class="hero-label">Experiential Educator · Ahmedabad, India</div>
+    <div class="hero-name">Mihir Pathak</div>
+    <div class="hero-tagline">Nature &nbsp;·&nbsp; Theatre &nbsp;·&nbsp; Project Based Learning</div>
+    <div class="hero-contacts">
+      <a class="hc" href="tel:+919537068736">+91 9537068736</a>
+      <a class="hc" href="mailto:learningwalamihir@gmail.com">learningwalamihir@gmail.com</a>
+      <a class="hc" href="https://www.instagram.com/learningwala" target="_blank">@learningwala</a>
+      <a class="hc" href="https://learningwala.in/about-me/" target="_blank">About Me</a>
+      <a class="hc" href="https://learningwala.in/about-me/media/" target="_blank">Media Coverage</a>
     </div>
   </div>
 
-  <div class="p1-body">
-    <div class="p1-main">
+  <div class="profile-body">
+    <div class="main">
 
-      <div class="belief">
+      <div class="quote">
         <p>"Transformative learning emerges through authentic relationships between children and adults, shaped by shared, powerful experiences."</p>
         <cite>— Core belief</cite>
       </div>
 
       <div class="section">
-        <div class="sh"><span class="sh-label">About Me</span><span class="sh-line"></span></div>
-        <p>Hi, I am Mihir - passionate Educator based in Ahmadabad - Gujarat. I am working with formal and informal learning spaces for the last 12years. I facilitate, experiential learning journeys for children & young adults.</p>
-       
+        <div class="sec-label">About</div>
+        <p style="font-size:15px;line-height:1.85;max-width:560px;">Hi, I'm Mihir — a passionate educator based in Ahmedabad, Gujarat. For 12 years I've worked across formal and informal learning spaces, facilitating experiential learning journeys for children and young adults.</p>
       </div>
 
-      <div class="stats">
-        <div class="stat"><div class="stat-n">12</div><div class="stat-l">Years of Practice</div></div>
-        <div class="stat"><div class="stat-n">50<sup>+</sup></div><div class="stat-l">Workshops with Children</div></div>
-        <div class="stat"><div class="stat-n">50<sup>+</sup></div><div class="stat-l">Workshops with Educators</div></div>
-        <div class="stat"><div class="stat-n">4<sup>+</sup></div><div class="stat-l">Fellowships &amp; Grants</div></div>
+      <div class="numbers">
+        <div class="num"><div class="num-n">12</div><div class="num-l">Years of<br>Practice</div></div>
+        <div class="num"><div class="num-n">50<sup>+</sup></div><div class="num-l">Workshops<br>with Children</div></div>
+        <div class="num"><div class="num-n">50<sup>+</sup></div><div class="num-l">Workshops<br>with Educators</div></div>
+        <div class="num"><div class="num-n">4<sup>+</sup></div><div class="num-l">Fellowships<br>&amp; Grants</div></div>
       </div>
 
       <div class="section">
-        <div class="sh"><span class="sh-label">My Offerings</span><span class="sh-line"></span></div>
-        <div class="prog-grid">
-          <div class="prog-card">
-            <div class="prog-age">AGES 3–11 YRS</div>
+        <div class="sec-label">My Offerings</div>
+        <div class="prog">
+          <div class="prog-age">Ages 3–11 yrs</div>
+          <div>
             <div class="prog-name">Nature Detective</div>
-            <div class="prog-desc">Outdoor science, arts &amp; nature-based exploratory program for young children. Fostering curiosity, creativity and a deep relationship with the natural world.</div>
-            <div class="prog-tags">
-              <span class="ptag">Art</span><span class="ptag">Theatre</span><span class="ptag">Nature</span><span class="ptag">Inquiry-Based</span>
-            </div>
+            <div class="prog-desc">Outdoor science, arts &amp; nature-based exploratory program fostering curiosity, creativity, and a deep relationship with the natural world.</div>
           </div>
-          <div class="prog-card">
-            <div class="prog-age">AGES 12+ YRS</div>
+        </div>
+        <div class="prog">
+          <div class="prog-age">Ages 12+ yrs</div>
+          <div>
             <div class="prog-name">Local Khoji</div>
-            <div class="prog-desc">Trans-disciplinary program where young adults make films about their place through an environment and civic lens.</div>
-            <div class="prog-tags">
-              <span class="ptag">Geo Inquiry</span><span class="ptag">Citizen Science</span><span class="ptag">Place-Based</span><span class="ptag">Film Making</span>
-            </div>
-          </div>
-        </div>
-        <div style="background:var(--white);border:1px solid var(--border);border-radius:12px;padding:20px 22px;">
-          <div style="font-weight:600;font-size:15px;color:var(--dark);margin-bottom:6px;">For NGOs, Schools, Learning Centers &amp; Homeschooling Groups</div>
-          <p style="font-size:13.5px;color:var(--muted);margin-bottom:14px;">Tailor-made workshops, residential camps, capacity building sessions, curriculum &amp; activity module development, and co-designing self-directed learning journeys / Gap Year for youth.</p>
-          <div class="topics-grid">
-            <div class="topic-item">Love &amp; Relationships in Education</div>
-            <div class="topic-item">Project &amp; Self-Directed Learning</div>
-            <div class="topic-item">Non-formal &amp; Third Learning Spaces</div>
-            <div class="topic-item">Child Development &amp; Learning</div>
-            <div class="topic-item">Language Pedagogy &amp; Theatre in Education</div>
-            <div class="topic-item">Life Skills &amp; Ecological Consciousness</div>
-            <div class="topic-item">Citizen Science &amp; Environmental Projects</div>
-            <div class="topic-item">Gap Year / Self-Designed Learning</div>
+            <div class="prog-desc">Citizen Science, Geo Inquiry, and Project-Based program for teenagers — grounding learning in local ecology, community, and place.</div>
           </div>
         </div>
       </div>
 
       <div class="section">
-        <div class="sh"><span class="sh-label">Notable Projects</span><span class="sh-line"></span></div>
-        <div class="work-grid">
-          <a class="wcard" href="https://www.eklavya.in/pdfs/Sandarbh/Sandarbh_139/51-58_Story_of_Food.pdf" target="_blank">
-            <div class="wbadge">Trans-disciplinary Camp</div>
-            <div class="wtitle">Food Camp</div>
-            <div class="wdesc">3-day residential camp exploring science, sociology, art &amp; culture of food with children. Published in Sandarbh magazine.</div>
-          </a>
-          <a class="wcard" href="https://www.instagram.com/p/Ct91MKxItVY/?img_index=1" target="_blank">
-            <div class="wbadge">Geo Inquiry Project</div>
-            <div class="wtitle">Voice of Vishwamitri</div>
-            <div class="wdesc">Teenagers studied Vishwamitri river, Vadodara and presented at Climate Festival, Bangalore. Collab: <strong>Nidhi Pal</strong>.</div>
-          </a>
-          <a class="wcard" href="https://3.basecamp.com/5637800/p/K1MsYmKBMRfR23aLMHDBsAJf/vault/6292717844" target="_blank">
-            <div class="wbadge">Place-Based Festival</div>
-            <div class="wtitle">Hoshangabad Sarita Mahotsav</div>
-            <div class="wdesc">3-day festival exploring the science, sociology, art &amp; culture of the Narmada river through full place-based immersion.</div>
-          </a>
-          <a class="wcard" href="https://public.3.basecamp.com/p/LZQcbKVxaVXu1iZ9SvLeau2F" target="_blank">
-            <div class="wbadge">Art Installation · Feb 2024</div>
-            <div class="wtitle">Time Exhibition</div>
-            <div class="wdesc">'A Matter of Time' — exploring time beyond clock and money. Art installation &amp; project-based learning. Collab: <strong>Nidhi Pal</strong>.</div>
-          </a>
+        <div class="sec-label">My Background</div>
+        <div class="bg-item">
+          <div class="bg-subject">Child Development, Learning &amp; Special Needs</div>
+          <div class="bg-where"><a href="https://ihe.du.ac.in/" target="_blank">Delhi University (IHE)</a> &amp; <a href="https://eklavya.in/" target="_blank">Eklavya Foundation, Bhopal</a></div>
+        </div>
+        <div class="bg-item">
+          <div class="bg-subject">Applied Theatre &amp; Theatre in Education</div>
+          <div class="bg-where"><a href="https://theatreprofessionals.co.in/" target="_blank">Theatre Professionals</a> &amp; <a href="https://www.instagram.com/rangbhumi_applied_theatre/" target="_blank">Rangbhumi, Mumbai</a></div>
+        </div>
+        <div class="bg-item">
+          <div class="bg-subject">Storytelling, Children's Literature &amp; Waldorf Education</div>
+          <div class="bg-where">With <a href="https://www.instagram.com/ankittellsstories/" target="_blank">Dr Ankit Dwivedi</a>, <a href="https://www.instagram.com/sheetal_paul/" target="_blank">Sheetal Paul</a>, <a href="https://zasha.info/directories/aban-bana/" target="_blank">Aban Bana</a></div>
+        </div>
+        <div class="bg-item">
+          <div class="bg-subject">Green Educator Course &amp; Geo-Inquiry Facilitation</div>
+          <div class="bg-where"><a href="https://www.youcan.in/" target="_blank">YouCan</a> · <a href="https://www.greenschool.org/" target="_blank">Green School Bali</a> · <a href="https://www.nationalgeographic.org/" target="_blank">National Geographic Society</a></div>
+        </div>
+        <div class="bg-item">
+          <div class="bg-subject">Creative Learning, Tinkering &amp; Creative Computing</div>
+          <div class="bg-where"><a href="https://education.mit.edu/" target="_blank">MIT Media Lab</a> (Eric Klopfer, Mitchel Resnick) &amp; <a href="https://www.exploratorium.edu/" target="_blank">Exploratorium</a> (Mike Petrich, Karen Wilkinson)</div>
         </div>
       </div>
 
       <div class="section">
-        <div class="sh"><span class="sh-label">My Background</span><span class="sh-line"></span></div>
-        <div style="display:grid;gap:10px;">
-          <div style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
-            <div class="edu-subject">Child Development, Learning &amp; Special Needs</div>
-            <div class="edu-where"><a href="https://ihe.du.ac.in/" target="_blank">Delhi University (IHE)</a> &amp; <a href="https://eklavya.in/" target="_blank">Eklavya Foundation, Bhopal</a></div>
-          </div>
-          <div style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
-            <div class="edu-subject">Applied Theatre &amp; Theatre in Education</div>
-            <div class="edu-where"><a href="https://theatreprofessionals.co.in/" target="_blank">Theatre Professionals</a> &amp; <a href="https://www.instagram.com/rangbhumi_applied_theatre/?hl=en" target="_blank">Rangbhumi, Mumbai</a></div>
-          </div>
-          <div style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
-            <div class="edu-subject">Storytelling, Children's Literature &amp; Waldorf Education</div>
-            <div class="edu-where">With <a href="https://www.instagram.com/ankittellsstories/" target="_blank">Dr Ankit Dwivedi</a>, <a href="https://www.instagram.com/sheetal_paul/" target="_blank">Sheetal Paul</a>, <a href="https://zasha.info/directories/aban-bana/" target="_blank">Aban Bana</a></div>
-          </div>
-          <div style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
-            <div class="edu-subject">Green Educator Course &amp; Geo-Inquiry Facilitation</div>
-            <div class="edu-where"><a href="https://www.youcan.in/" target="_blank">Youth Conservation Action Network</a> · <a href="https://www.greenschool.org/" target="_blank">Green School Bali</a> · <a href="https://www.nationalgeographic.org/society/" target="_blank">National Geographic Society</a></div>
-          </div>
-          <div style="background:var(--white);border:1px solid var(--border);border-radius:8px;padding:14px 16px;">
-            <div class="edu-subject">Creative Learning, Ed-Tech, Tinkering &amp; Creative Computing</div>
-            <div class="edu-where"><a href="https://education.mit.edu/person/eric_klopfer/" target="_blank">Eric Klopfer</a>, <a href="https://www.media.mit.edu/people/mres/overview/" target="_blank">Mitchel Resnick</a>, <a href="https://www.exploratorium.edu/tinkering/about/staff/mike-petrich" target="_blank">Mike Petrich</a> &amp; <a href="https://www.exploratorium.edu/tinkering/about/staff/karen-wilkinson" target="_blank">Karen Wilkinson</a> — MIT Media Lab &amp; Exploratorium</div>
-          </div>
+        <div class="sec-label">Independent Practice</div>
+        <ul class="practice-list">
+          <li>Facilitated <strong>'Child Development &amp; Learning'</strong> at Eklavya Foundation (Delhi University IHE)</li>
+          <li>Facilitated <strong>'Experiential Learning'</strong> with Tata Trust – CBSE initiative</li>
+          <li>50+ workshops each with educators &amp; children — <a href="https://learningwala.in/about-me/docu/" target="_blank">Work log</a></li>
+          <li>Published in <em>Teacher Plus</em>, <em>Farbas Gujarati</em>, <em>Sandarbh</em>, <em>Pathshala Bheetar – Bahar</em> — <a href="https://learningwala.in/writings/" target="_blank">Writings</a></li>
+          <li>Collaborated with GCERT, NCERT, MIT Media Lab, HBCSE, Srishti Manipal, MSU</li>
+          <li>Independently raised <strong>₹10 Lakh</strong> for a nature education project</li>
+          <li>Currently mentoring two organisations on experiential learning curriculum</li>
+        </ul>
+        <div class="practice-tags">
+          <span class="tag">Facilitation</span><span class="tag">Curriculum</span><span class="tag">Fundraising</span><span class="tag">Mentoring</span><span class="tag">GCERT · NCERT</span><span class="tag">MIT Media Lab</span>
         </div>
       </div>
-
-      <div class="section">
-        <div class="sh"><span class="sh-label">Independent Practice as an Educator</span><span class="sh-line"></span></div>
-        <div style="display:grid;grid-template-columns:130px 1fr;gap:20px;padding:26px 0;border-top:1px solid var(--border);">
-          <div>
-            <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);line-height:1.5;">2014<br>Present</div>
-            <div style="display:inline-block;background:#DCFCE7;color:var(--green);font-family:'JetBrains Mono',monospace;font-size:10px;padding:2px 8px;border-radius:10px;margin-top:6px;">12 yrs · Current</div>
-          </div>
-          <div>
-            <div style="font-weight:600;font-size:16px;color:var(--dark);margin-bottom:2px;">Independent Practice as Educator</div>
-            <div style="font-size:13px;font-weight:500;color:var(--green);margin-bottom:3px;">Educator · Facilitator · Fundraiser · Mentor</div>
-            <div style="font-size:12px;color:var(--muted);margin-bottom:10px;">📍 Pan-India</div>
-            <div style="font-size:14px;color:var(--ink);line-height:1.75;margin-bottom:10px;">
-              <ul style="margin:0 0 0 16px;">
-                <li>12 years of practice as an Educator across formal and informal learning spaces. <a href="https://learningwala.in/about-me/" target="_blank">Read my journey</a></li>
-                <li>Facilitated <strong>'Child Development &amp; Learning'</strong> course at <strong>Eklavya Foundation</strong> (in collaboration with Delhi University's IHE)</li>
-                <li>Facilitated <strong>'Experiential Learning'</strong> course with <strong>Tata Trust – CBSE initiative</strong></li>
-                <li>50+ workshops with Educators &amp; 50+ workshops with children. <a href="https://learningwala.in/about-me/docu/" target="_blank">Work log</a></li>
-                <li>Articles published in educational magazines: <em>Teacher Plus</em>, <em>Farbas Gujarati</em>, <em>Sandarbh</em>, <em>Pathshala Bheetar – Bahar</em>. <a href="https://learningwala.in/writings/" target="_blank">Read my writings</a></li>
-                <li>Collaborated with government educational bodies: <strong>GCERT</strong> and <strong>NCERT</strong></li>
-                <li>Collaborated with artists, researchers and educators from <strong>MIT Media Lab</strong>, <strong>Homi Bhabha Centre for Science Education</strong>, <strong>Srishti Manipal Institute of Design</strong>, and <strong>Maharaja Sayajirao University</strong></li>
-                <li>Independently raised <strong>₹10 Lakh</strong> in fundraising for a nature education project from HNI donors</li>
-                <li>Currently mentoring <strong>two organisations</strong> to develop their contextual experiential learning curriculum</li>
-              </ul>
-            </div>
-            <div style="display:flex;flex-wrap:wrap;gap:5px;">
-              <span class="etag">Facilitation</span><span class="etag">Curriculum Development</span><span class="etag">Fundraising</span><span class="etag">Mentoring</span><span class="etag">Published Author</span><span class="etag">GCERT · NCERT</span><span class="etag">MIT Media Lab</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
     </div>
 
     <!-- SIDEBAR -->
-    <div class="p1-side">
+    <div class="aside">
 
-      <div class="ss">
-        <div class="ss-title">Facilitation Tools</div>
-        <div class="tools">
-          <span class="tool">Theater</span><span class="tool">Storytelling</span><span class="tool">Nature Exploration</span><span class="tool">Music</span><span class="tool">Movement</span><span class="tool">Art</span><span class="tool">Tinkering</span><span class="tool">Inquiry Projects</span><span class="tool">Citizen Science</span><span class="tool">Film Making</span><span class="tool">Creative Writing</span><span class="tool">Traveling</span>
+      <div class="aside-section">
+        <div class="aside-label">Facilitation Tools</div>
+        <div class="chip-wrap">
+          <span class="chip">Theater</span><span class="chip">Storytelling</span><span class="chip">Nature Exploration</span><span class="chip">Music</span><span class="chip">Movement</span><span class="chip">Art</span><span class="chip">Tinkering</span><span class="chip">Inquiry Projects</span><span class="chip">Citizen Science</span><span class="chip">Film Making</span><span class="chip">Creative Writing</span><span class="chip">Traveling</span>
         </div>
       </div>
 
-      <div class="ss">
-        <div class="ss-title">Learning Objectives</div>
-        <div class="obj-pills">
-          <span class="obj-pill">Affective Domain</span><span class="obj-pill">Language</span><span class="obj-pill">Creativity</span><span class="obj-pill">Socio-Emotional Learning</span><span class="obj-pill">System Thinking</span><span class="obj-pill">Integrated Learning</span><span class="obj-pill">Environmental Consciousness</span>
+      <div class="aside-section">
+        <div class="aside-label">Fellowships &amp; Grants</div>
+        <div class="fellow">
+          <a href="https://www.youcan.in/earth-edu" target="_blank">Earth Educator Fellowship 2022–23</a>
+          <div class="fellow-meta">YouCan · National Geographic Society</div>
+        </div>
+        <div class="fellow">
+          <a href="https://invertedpassion.com/escape-velocity-grant/" target="_blank">Gaur &amp; Chopra Escape Velocity Grant</a>
+          <div class="fellow-meta">Inverted Passion · 2024–25</div>
+        </div>
+        <div class="fellow">
+          <a href="https://thejeshgn.com/projects/nagarathna-memorial-grant/" target="_blank">Nagarathna Memorial Grant</a>
+          <div class="fellow-meta">Thejesh GN · 2025</div>
+        </div>
+        <div class="fellow">
+          <a href="https://shikshantar.org/initiatives/walkouts-network/emperor-has-no-clothes-hacking-education-system-fellowship" target="_blank">Hacking The Education System Fellowship</a>
+          <div class="fellow-meta">Shikshantar · 2017</div>
         </div>
       </div>
 
-      <div class="ss">
-        <div class="ss-title">Fellowships &amp; Grants</div>
-        <div class="fellow-item">
-          <strong><a href="https://www.youcan.in/earth-edu" target="_blank">Earth Educator Fellowship 2022–23</a></strong>
-          <span class="fellow-year">YouCan · National Geographic Society</span>
-        </div>
-        <div class="fellow-item">
-          <strong><a href="https://invertedpassion.com/escape-velocity-grant/" target="_blank">Gaur &amp; Chopra Escape Velocity Grant</a></strong>
-          <span class="fellow-year">Inverted Passion · 2024–25</span>
-        </div>
-        <div class="fellow-item">
-          <strong><a href="https://thejeshgn.com/projects/nagarathna-memorial-grant/" target="_blank">Nagarathna Memorial Grant</a></strong>
-          <span class="fellow-year">Thejesh GN · 2025</span>
-        </div>
-        <div class="fellow-item">
-          <strong><a href="https://shikshantar.org/initiatives/walkouts-network/emperor-has-no-clothes-hacking-education-system-fellowship" target="_blank">Hacking The Education System Fellowship</a></strong>
-          <span class="fellow-year">Shikshantar · 2017</span>
-        </div>
-      </div>
-
-      <div class="ss">
-        <div class="ss-title">Services for Orgs</div>
+      <div class="aside-section">
+        <div class="aside-label">Services for Organisations</div>
         <ul class="service-list">
           <li>Tailor-made workshops &amp; residential camps</li>
           <li>Capacity building for educators</li>
           <li>Curriculum &amp; activity module development</li>
-          <li>Gap Year co-design for young adults</li>
+          <li>Gap year co-design for young adults</li>
           <li>Self-directed learning journeys</li>
         </ul>
       </div>
 
-      <div class="ss">
-        <div class="ss-title">Useful Links</div>
-        <ul class="chklist">
+      <div class="aside-section">
+        <div class="aside-label">Links</div>
+        <ul class="link-list">
           <li><a href="https://learningwala.in/about-me/" target="_blank">My Journey</a></li>
-          <li><a href="https://learningwala.in/about-me/docu/" target="_blank">Work Log / Documentation</a></li>
-          <li><a href="https://learningwala.in/about-me/writings/" target="_blank">Writings &amp; Articles</a></li>
+          <li><a href="https://learningwala.in/about-me/docu/" target="_blank">Work Log</a></li>
+          <li><a href="https://learningwala.in/writings/" target="_blank">Writings &amp; Articles</a></li>
           <li><a href="https://learningwala.in/tags/blog/" target="_blank">Blog</a></li>
           <li><a href="https://learningwala.in/about-me/media/" target="_blank">Media Coverage</a></li>
         </ul>
@@ -408,328 +445,230 @@ a:hover { text-decoration: underline; }
   </div>
 </div>
 
-<!-- PAGE 2 -->
+<!-- ═══ EXPERIENCE ═══ -->
 <div id="p2" class="page">
-  <div class="p2-wrap">
+  <div class="exp-wrap">
 
-    <div class="p2-intro">
-      <div class="p2-intro-text" style="flex:1;">
-        <h2>Detailed Work Experience</h2>
-        <p>12 years across formal schools, open schools, foundations, fellowships and independent practice — spanning tribal Gujarat to Bengaluru to Pan-India programs.</p>
-      </div>
-
+    <div class="exp-intro">
+      <h2>Work Experience</h2>
+      <p>12 years across formal schools, open schools, foundations, fellowships and independent practice — from tribal Gujarat to Bengaluru to Pan-India programs.</p>
     </div>
 
-    <div class="sh"><span class="sh-label">Experience Timeline</span><span class="sh-line"></span></div>
+    <div class="timeline-label">Timeline</div>
 
     <div class="exp-block exp-current">
-      <div class="exp-timeline">
-        <div class="exp-period">2014<br>Present</div>
-        <div class="exp-dur">12 yrs · Current</div>
-      </div>
+      <div><div class="exp-period">2014 – Present</div><div class="exp-dur">12 yrs · Current</div></div>
       <div>
         <div class="exp-org">Independent Practice as Educator</div>
         <div class="exp-role">Educator · Facilitator · Fundraiser · Mentor</div>
-        <div class="exp-loc">📍 Pan-India</div>
-        <div class="exp-desc">
-          <ul>
-            <li>12 years of practice as an Educator across formal and informal learning spaces. <a href="https://learningwala.in/about-me/docu/" target="_blank">Read my journey</a></li>
-            <li>Facilitated <strong>'Child Development &amp; Learning'</strong> course at <strong>Eklavya Foundation</strong> (in collaboration with Delhi University's IHE)</li>
-            <li>Facilitated <strong>'Experiential Learning'</strong> course with <strong>Tata Trust – CBSE initiative</strong></li>
-            <li>50+ workshops with Educators &amp; 50+ workshops with children. <a href="https://learningwala.in/about-me/docu/" target="_blank">Work log</a></li>
-            <li>Articles published in educational magazines: <em>Teacher Plus</em>, <em>Farbas Gujarati</em>, <em>Sandarbh</em>, <em>Pathshala Bheetar – Bahar</em>. <a href="https://learningwala.in/writings/" target="_blank">Read my writings</a></li>
-            <li>Collaborated with government educational bodies: <strong>GCERT</strong> and <strong>NCERT</strong></li>
-            <li>Collaborated with artists, researchers and educators from <strong>MIT Media Lab</strong>, <strong>Homi Bhabha Centre for Science Education</strong>, <strong>Srishti Manipal Institute of Design</strong>, and <strong>Maharaja Sayajirao University</strong></li>
-            <li>Independently raised <strong>₹10 Lakh</strong> in fundraising for a nature education project from HNI donors</li>
-            <li>Currently mentoring <strong>two organisations</strong> to develop their contextual experiential learning curriculum</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Facilitation</span><span class="etag">Curriculum Development</span><span class="etag">Fundraising</span><span class="etag">Mentoring</span><span class="etag">Published Author</span><span class="etag">GCERT · NCERT</span><span class="etag">MIT Media Lab</span>
-        </div>
+        <div class="exp-loc">Pan-India</div>
+        <div class="exp-desc"><ul>
+          <li>Facilitated <strong>'Child Development &amp; Learning'</strong> at Eklavya Foundation (Delhi University IHE)</li>
+          <li>Facilitated <strong>'Experiential Learning'</strong> with Tata Trust – CBSE initiative</li>
+          <li>50+ workshops each with educators &amp; children. <a href="https://learningwala.in/about-me/docu/" target="_blank">Work log</a></li>
+          <li>Published in <em>Teacher Plus</em>, <em>Farbas Gujarati</em>, <em>Sandarbh</em>, <em>Pathshala Bheetar – Bahar</em></li>
+          <li>Collaborated with GCERT, NCERT, MIT Media Lab, HBCSE, Srishti Manipal, MSU</li>
+          <li>Independently raised <strong>₹10 Lakh</strong> for a nature education project</li>
+          <li>Currently mentoring two organisations on experiential learning curriculum</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Facilitation</span><span class="etag">Curriculum</span><span class="etag">Fundraising</span><span class="etag">Mentoring</span><span class="etag">Published Author</span><span class="etag">MIT Media Lab</span></div>
       </div>
     </div>
 
     <div class="exp-block exp-current">
-      <div class="exp-timeline">
-        <div class="exp-period">Mar 2025<br>Present</div>
-        <div class="exp-dur">Current</div>
-      </div>
+      <div><div class="exp-period">Mar 2025 – Present</div><div class="exp-dur">Current</div></div>
       <div>
         <div class="exp-org">Bright Bal Gokulam Foundation</div>
         <div class="exp-role">Learning Facilitator</div>
-        <div class="exp-loc">📍 Ahmedabad, Gujarat</div>
-        <div class="exp-desc">Part of the curriculum development team building an experiential, nature-based, and project-based learning curriculum for children aged 1.5–8 years. Working at the intersection of vision, philosophy, and classroom practice — collaborating with curriculum designers and researchers while directly facilitating learning with children.
-          <ul>
-            <li><strong>Pilot — Ecological Consciousness (Age 3–6):</strong> Led a pilot focused on nurturing ecological consciousness — designing nature-based activities, developing facilitation methodology, and building age-appropriate assessment and portfolio-making processes.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Nature-Based Learning</span><span class="etag">Ecological Consciousness</span><span class="etag">Curriculum Design</span><span class="etag">Portfolio Assessment</span><span class="etag">Age 1.5–8 yrs</span>
-        </div>
+        <div class="exp-loc">Ahmedabad, Gujarat</div>
+        <div class="exp-desc">Curriculum team building experiential, nature-based learning for children aged 1.5–8 years.<ul>
+          <li><strong>Pilot — Ecological Consciousness (Age 3–6):</strong> Designed nature-based activities, facilitation methodology, and portfolio-making processes.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Nature-Based</span><span class="etag">Ecological Consciousness</span><span class="etag">Curriculum Design</span></div>
       </div>
     </div>
 
     <div class="exp-block exp-current">
-      <div class="exp-timeline">
-        <div class="exp-period">Jan 2021<br>Present</div>
-        <div class="exp-dur">5+ yrs · Current</div>
-      </div>
+      <div><div class="exp-period">Jan 2021 – Present</div><div class="exp-dur">5+ yrs · Current</div></div>
       <div>
-        <div class="exp-org">Khojbeen Mandali <span style="font-weight:400;font-size:13px;color:var(--muted)">(Independent)</span></div>
+        <div class="exp-org">Khojbeen Mandali <span style="font-weight:400;font-size:12px;color:var(--muted)">(Independent)</span></div>
         <div class="exp-role">Founder &amp; Learning Facilitator</div>
-        <div class="exp-loc">📍 Ahmedabad, Gujarat</div>
-        <div class="exp-desc">Self-run experiential learning initiative offering two distinct programs:
-          <ul>
-            <li><strong>Khoja Khoji (Age 3–11):</strong> Theater, Storytelling, Nature Exploration, and Arts-based program — fostering curiosity, creativity and deep relationship with the natural world.</li>
-            <li><strong>Local Khoji (Age 12+):</strong> Citizen Science, Geo Inquiry, and Project-Based program for teenagers — grounding learning in local ecology, community and place.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Theatre</span><span class="etag">Nature Exploration</span><span class="etag">Geo Inquiry</span><span class="etag">Citizen Science</span><span class="etag">Place-Based Learning</span>
-        </div>
+        <div class="exp-loc">Ahmedabad, Gujarat</div>
+        <div class="exp-desc">Self-run experiential learning initiative:<ul>
+          <li><strong>Khoja Khoji (Age 3–11):</strong> Theater, Storytelling, Nature Exploration, and Arts-based program.</li>
+          <li><strong>Local Khoji (Age 12+):</strong> Citizen Science, Geo Inquiry, and Project-Based program rooted in local ecology.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Theatre</span><span class="etag">Nature Exploration</span><span class="etag">Geo Inquiry</span><span class="etag">Citizen Science</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Nov 2024<br>Mar 2025</div>
-        <div class="exp-dur">5 months</div>
-      </div>
+      <div><div class="exp-period">Nov 2024 – Mar 2025</div><div class="exp-dur">5 months</div></div>
       <div>
         <div class="exp-org">Project DEFY</div>
         <div class="exp-role">Subject Matter Expert — Self-Directed Learning (Consultant)</div>
-        <div class="exp-loc">📍 Vadodara, Gujarat · Remote</div>
-        <div class="exp-desc">Mentored 'nook' facilitators to develop nooks as self-directed learning spaces. Supported facilitators in building the skills, mindsets and environments needed to enable genuine learner autonomy within DEFY's Third Space model.</div>
-        <div class="exp-tags">
-          <span class="etag">Self-Directed Learning</span><span class="etag">Coaching &amp; Mentoring</span><span class="etag">Third Space</span><span class="etag">Facilitation</span>
-        </div>
+        <div class="exp-loc">Vadodara, Gujarat · Remote</div>
+        <div class="exp-desc">Mentored 'nook' facilitators to develop self-directed learning spaces within DEFY's Third Space model.</div>
+        <div class="exp-tags"><span class="etag">Self-Directed Learning</span><span class="etag">Coaching</span><span class="etag">Third Space</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">May 2024<br>Nov 2024</div>
-        <div class="exp-dur">7 months</div>
-      </div>
+      <div><div class="exp-period">May 2024 – Nov 2024</div><div class="exp-dur">7 months</div></div>
       <div>
         <div class="exp-org">Pratham — Shah PraDigi Innovation Center</div>
         <div class="exp-role">Senior Content Developer, Learning for Life Team</div>
-        <div class="exp-loc">📍 Vadodara, Gujarat</div>
-        <div class="exp-desc">Wrote scripts and created videos and digital content on climate, nature and environment education. Developed content for Creativity Club — a project fostering creativity, collaboration, communication and problem-solving through project-based learning methodology.</div>
-        <div class="exp-tags">
-          <span class="etag">Climate Education</span><span class="etag">Digital Content</span><span class="etag">Project-Based Learning</span><span class="etag">Script Writing</span>
-        </div>
+        <div class="exp-loc">Vadodara, Gujarat</div>
+        <div class="exp-desc">Scripts and digital content on climate and nature education. Developed Creativity Club — fostering 4Cs through project-based learning.</div>
+        <div class="exp-tags"><span class="etag">Climate Education</span><span class="etag">Digital Content</span><span class="etag">PBL</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Jan 2019<br>Jul 2024</div>
-        <div class="exp-dur">5 yrs 7 mos</div>
-      </div>
+      <div><div class="exp-period">Jan 2019 – Jul 2024</div><div class="exp-dur">5 yrs 7 mos</div></div>
       <div>
         <div class="exp-org"><a href="https://eklavya.in/" target="_blank">Eklavya Foundation</a></div>
         <div class="exp-role">Learning Facilitator &amp; Project Associate</div>
-        <div class="exp-loc">📍 Hoshangabad, Madhya Pradesh</div>
-        <div class="exp-desc">Faculty for 'Child Development, Special Need and Learning' (with Delhi University's IHE). Facilitation team for 'Experiential Learning for 21st Century' — a Tata Trust–CBSE initiative to sensitise teachers to prioritise the process of learning.
-          <ul>
-            <li>Co-facilitated: Piaget's Developmental Stages, Constructivism, Concept of Childhood, Learning and Emotion.</li>
-            <li>Theater and Dance workshops for 50+ educators; Reflective Writing workshops; Experiential Learning sessions at Kashmir–Uri.</li>
-            <li>Hosted 3-day experiential Hoshangabad River Learning Festival.</li>
-            <li>Interviewed Arvind Gupta on Eklavya's 50 years. Published articles in Sandarbh &amp; Teacher Plus.</li>
-            <li>Awarded YouCan &amp; NatGeo Earth Educator Fellowship for nature-based learning.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Child Development</span><span class="etag">Theatre</span><span class="etag">Nature-Based</span><span class="etag">Experiential Learning</span><span class="etag">Tata Trust · CBSE</span>
-        </div>
+        <div class="exp-loc">Hoshangabad, Madhya Pradesh</div>
+        <div class="exp-desc">Faculty for 'Child Development, Special Need and Learning' (Delhi University IHE). Facilitation for 'Experiential Learning for 21st Century' — Tata Trust–CBSE initiative.<ul>
+          <li>Co-facilitated: Piaget's Stages, Constructivism, Concept of Childhood.</li>
+          <li>Theater and Dance workshops for 50+ educators; Reflective Writing; Experiential Learning at Kashmir–Uri.</li>
+          <li>Hosted 3-day Hoshangabad River Learning Festival.</li>
+          <li>Published in Sandarbh &amp; Teacher Plus; interviewed Arvind Gupta on Eklavya's 50 years.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Child Development</span><span class="etag">Theatre</span><span class="etag">Experiential Learning</span><span class="etag">Tata Trust · CBSE</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Dec 2022<br>Mar 2024</div>
-        <div class="exp-dur">1 yr 4 mos</div>
-      </div>
+      <div><div class="exp-period">Dec 2022 – Mar 2024</div><div class="exp-dur">1 yr 4 mos</div></div>
       <div>
         <div class="exp-org">BeMe — Democratic &amp; Alternate Learning Space</div>
         <div class="exp-role">Learning Facilitator</div>
-        <div class="exp-loc">📍 Bengaluru, Karnataka</div>
-        <div class="exp-desc">Open school where children aged 3–16 direct their own learning in a free, democratic environment.
-          <ul>
-            <li>Facilitated elective courses: Nature Detective, One Minute Games.</li>
-            <li>Co-facilitated: How About Seeing Bangalore, Portfolio Making.</li>
-            <li>Led Bird Watching Club, Game Club, Internships, Visitors Committee, BMDC Committee, and Content Team.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Democratic Education</span><span class="etag">Nature Detective</span><span class="etag">Portfolio Making</span><span class="etag">Child-Directed Learning</span>
-        </div>
+        <div class="exp-loc">Bengaluru, Karnataka</div>
+        <div class="exp-desc">Open school where children aged 3–16 direct their own learning.<ul>
+          <li>Facilitated: Nature Detective, One Minute Games, Seeing Bangalore, Portfolio Making.</li>
+          <li>Led Bird Watching Club, Game Club, Internships, Visitors &amp; Content Teams.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Democratic Education</span><span class="etag">Nature Detective</span><span class="etag">Portfolio Making</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Jun 2022<br>Jun 2023</div>
-        <div class="exp-dur">1 yr 1 mo</div>
-      </div>
+      <div><div class="exp-period">Jun 2022 – Jun 2023</div><div class="exp-dur">1 yr 1 mo</div></div>
       <div>
         <div class="exp-org"><a href="https://www.youcan.in/" target="_blank">Youth Conservation Action Network</a></div>
         <div class="exp-role">Earth Education Fellow — National Geographic Society</div>
-        <div class="exp-loc">📍 Pan-India</div>
-        <div class="exp-desc">Selected as one of 20 fellows across India for an 11-month journey to explore the natural world and lead positive environmental change.
-          <ul>
-            <li>Nature Education workshops with teachers (online &amp; offline). Facilitated Geo Inquiry and semester-long Nature Exploration sessions.</li>
-            <li>Mentored young educators to run eco clubs in schools and learning spaces.</li>
-            <li>Founded <strong>Ecobuddy Learning Network</strong> — a network of 5 eco clubs across India.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Geo Inquiry</span><span class="etag">Eco Clubs</span><span class="etag">NatGeo Fellowship</span><span class="etag">Ecobuddy Network</span><span class="etag">Youth Mentorship</span>
-        </div>
+        <div class="exp-loc">Pan-India</div>
+        <div class="exp-desc">One of 20 fellows across India for an 11-month journey to lead environmental change.<ul>
+          <li>Nature Education workshops with teachers; Geo Inquiry facilitation.</li>
+          <li>Founded <strong>Ecobuddy Learning Network</strong> — 5 eco clubs across India.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Geo Inquiry</span><span class="etag">Eco Clubs</span><span class="etag">NatGeo Fellowship</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Jul 2020<br>Sep 2022</div>
-        <div class="exp-dur">2 yrs 3 mos</div>
-      </div>
+      <div><div class="exp-period">Jul 2020 – Sep 2022</div><div class="exp-dur">2 yrs 3 mos</div></div>
       <div>
-        <div class="exp-org">Unstructured Studio <span style="font-weight:400;font-size:13px;color:var(--muted)">(Not-for-Profit, Toronto)</span></div>
+        <div class="exp-org">Unstructured Studio <span style="font-weight:400;font-size:12px;color:var(--muted)">(Not-for-Profit, Toronto)</span></div>
         <div class="exp-role">Learning Partner</div>
-        <div class="exp-loc">📍 Remote</div>
-        <div class="exp-desc">Developing educational tools and experiences to foster creative learning among youth in under-resourced settings — "planting seeds of tinkering in young minds."
-          <ul>
-            <li>Developed a collaboration platform for young makers and tinkerers.</li>
-            <li>Built a repository of low-cost making and tinkering activities.</li>
-            <li>Designed a program empowering teachers to facilitate tinkering in their communities.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Tinkering</span><span class="etag">Making</span><span class="etag">Creative Learning</span><span class="etag">Under-Resourced Settings</span>
-        </div>
+        <div class="exp-loc">Remote</div>
+        <div class="exp-desc">Educational tools to foster creative learning in under-resourced settings.<ul>
+          <li>Built a repository of low-cost making and tinkering activities.</li>
+          <li>Designed a program empowering teachers to facilitate tinkering in communities.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Tinkering</span><span class="etag">Making</span><span class="etag">Creative Learning</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Dec 2021</div>
-        <div class="exp-dur">1 month</div>
-      </div>
+      <div><div class="exp-period">Dec 2021</div><div class="exp-dur">1 month</div></div>
       <div>
         <div class="exp-org">Homi Bhabha Centre for Science Education, TIFR</div>
         <div class="exp-role">Short Term Visitor — Design &amp; Technology Education Lab</div>
-        <div class="exp-loc">📍 Mumbai, Maharashtra</div>
-        <div class="exp-desc">Worked with the D&amp;T Education Lab to develop and test activities for middle school children at India's premier science education research institute.</div>
-        <div class="exp-tags">
-          <span class="etag">D&T Education</span><span class="etag">Activity Design</span><span class="etag">TIFR</span>
-        </div>
+        <div class="exp-loc">Mumbai, Maharashtra</div>
+        <div class="exp-desc">Developed and tested activities for middle school children at India's premier science education research institute.</div>
+        <div class="exp-tags"><span class="etag">D&T Education</span><span class="etag">Activity Design</span><span class="etag">TIFR</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Aug 2021<br>Nov 2021</div>
-        <div class="exp-dur">4 months</div>
-      </div>
+      <div><div class="exp-period">Aug 2021 – Nov 2021</div><div class="exp-dur">4 months</div></div>
       <div>
         <div class="exp-org">Vijapura Vidya Sankul</div>
         <div class="exp-role">Project-Based Learning Facilitator</div>
-        <div class="exp-loc">📍 Jam Jodhpur, Gujarat</div>
-        <div class="exp-desc">Facilitated PBL Club and Eco Club with students. Mentored Grade 1–5 teachers for activity-based learning approaches.</div>
+        <div class="exp-loc">Jam Jodhpur, Gujarat</div>
+        <div class="exp-desc">Facilitated PBL Club and Eco Club. Mentored Grade 1–5 teachers for activity-based learning.</div>
         <div class="exp-tags"><span class="etag">PBL</span><span class="etag">Eco Club</span><span class="etag">Teacher Mentoring</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Aug 2020<br>Aug 2021</div>
-        <div class="exp-dur">1 yr 1 mo</div>
-      </div>
+      <div><div class="exp-period">Aug 2020 – Aug 2021</div><div class="exp-dur">1 yr 1 mo</div></div>
       <div>
         <div class="exp-org">Moinee Foundation</div>
         <div class="exp-role">Senior Project Coordinator</div>
-        <div class="exp-loc">📍 Ahmedabad, Gujarat</div>
-        <div class="exp-desc">Worked with 30 government schools and 3 community learning centres as part of Vodafone India Foundation's CSR project. Content development and translation for a quiz-based LMS. Capacity building for Community Learning Centre coordinators.</div>
-        <div class="exp-tags"><span class="etag">Govt. Schools</span><span class="etag">CSR</span><span class="etag">Capacity Building</span><span class="etag">Content Development</span></div>
+        <div class="exp-loc">Ahmedabad, Gujarat</div>
+        <div class="exp-desc">30 government schools and 3 community learning centres (Vodafone India Foundation CSR). Content development, LMS translation, and capacity building for CLC coordinators.</div>
+        <div class="exp-tags"><span class="etag">Govt. Schools</span><span class="etag">CSR</span><span class="etag">Capacity Building</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Nov 2018<br>Aug 2020</div>
-        <div class="exp-dur">1 yr 10 mos</div>
-      </div>
+      <div><div class="exp-period">Nov 2018 – Aug 2020</div><div class="exp-dur">1 yr 10 mos</div></div>
       <div>
         <div class="exp-org">The Shishukunj International School</div>
         <div class="exp-role">Teaching Fellow</div>
-        <div class="exp-loc">📍 Bhuj, Gujarat</div>
-        <div class="exp-desc">Worked with children aged 6–15 across subjects and clubs.
-          <ul>
-            <li><strong>Creative Computing (Grades 5–9):</strong> MIT Scratch, Python, Makey Makey, Arduino, Raspberry Pi in a participatory, collaborative environment.</li>
-            <li><strong>Eco Buddy Club:</strong> Nature walks, film screenings, cycling, plastic recycling &amp; upcycling, interdisciplinary projects.</li>
-            <li>Taught Gujarati using the Whole Language Approach. Supported teachers in developing activity-based lesson plans.</li>
-          </ul>
-        </div>
-        <div class="exp-tags">
-          <span class="etag">Creative Computing</span><span class="etag">Arduino · Raspberry Pi</span><span class="etag">Eco Club</span><span class="etag">Whole Language</span><span class="etag">Teacher Mentorship</span>
-        </div>
+        <div class="exp-loc">Bhuj, Gujarat</div>
+        <div class="exp-desc"><ul>
+          <li><strong>Creative Computing (Grades 5–9):</strong> MIT Scratch, Python, Makey Makey, Arduino, Raspberry Pi.</li>
+          <li><strong>Eco Buddy Club:</strong> Nature walks, film screenings, cycling, plastic upcycling.</li>
+          <li>Gujarati via Whole Language Approach. Teacher mentoring on activity-based lesson plans.</li>
+        </ul></div>
+        <div class="exp-tags"><span class="etag">Creative Computing</span><span class="etag">Arduino · Raspberry Pi</span><span class="etag">Eco Club</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">May 2018<br>Aug 2018</div>
-        <div class="exp-dur">4 months</div>
-      </div>
+      <div><div class="exp-period">May 2018 – Aug 2018</div><div class="exp-dur">4 months</div></div>
       <div>
         <div class="exp-org">The Polymath School</div>
         <div class="exp-role">Home Room Teacher — Grade 3</div>
-        <div class="exp-loc">📍 Mumbai, Maharashtra</div>
-        <div class="exp-desc">Cambridge Board school using Project-Based Learning as pedagogy. Attended teacher training workshop by EL Education, USA during this period.</div>
+        <div class="exp-loc">Mumbai, Maharashtra</div>
+        <div class="exp-desc">Cambridge Board school using Project-Based Learning. Attended EL Education teacher training, USA.</div>
         <div class="exp-tags"><span class="etag">PBL</span><span class="etag">Cambridge Board</span><span class="etag">EL Education</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">May 2016<br>May 2018</div>
-        <div class="exp-dur">2 yrs 1 mo</div>
-      </div>
+      <div><div class="exp-period">May 2016 – May 2018</div><div class="exp-dur">2 yrs 1 mo</div></div>
       <div>
         <div class="exp-org">Sarvoday Vidyalaya</div>
         <div class="exp-role">Teaching Fellow — Grade 1</div>
-        <div class="exp-loc">📍 Dharampur, Gujarat</div>
-        <div class="exp-desc">Co-taught first-grade tribal children using the Whole Language Approach for Gujarati — making language learning relevant, meaningful and creative for children speaking a different dialect.</div>
+        <div class="exp-loc">Dharampur, Gujarat</div>
+        <div class="exp-desc">Co-taught first-grade tribal children using the Whole Language Approach for Gujarati — making language learning relevant and meaningful for children speaking a different dialect.</div>
         <div class="exp-tags"><span class="etag">Whole Language</span><span class="etag">Tribal Education</span><span class="etag">Language Pedagogy</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Jan 2014<br>Dec 2015</div>
-        <div class="exp-dur">2 years</div>
-      </div>
+      <div><div class="exp-period">Jan 2014 – Dec 2015</div><div class="exp-dur">2 years</div></div>
       <div>
         <div class="exp-org">Baxipanch Ashram Shala</div>
         <div class="exp-role">Teaching Fellow</div>
-        <div class="exp-loc">📍 Vadodara, Gujarat</div>
-        <div class="exp-desc">Founded <strong>Prayog Ghar</strong> — a maker space where children self-directed projects based on their interests and community needs. Explored Design Thinking and innovation frameworks through community-centered, need-based projects.</div>
+        <div class="exp-loc">Vadodara, Gujarat</div>
+        <div class="exp-desc">Founded <strong>Prayog Ghar</strong> — a maker space where children self-directed projects based on their interests and community needs, using Design Thinking frameworks.</div>
         <div class="exp-tags"><span class="etag">Maker Space</span><span class="etag">Prayog Ghar</span><span class="etag">Design Thinking</span></div>
       </div>
     </div>
 
     <div class="exp-block">
-      <div class="exp-timeline">
-        <div class="exp-period">Jan 2014<br>Jan 2015</div>
-        <div class="exp-dur">1 year</div>
-      </div>
+      <div><div class="exp-period">Jan 2014 – Jan 2015</div><div class="exp-dur">1 year</div></div>
       <div>
         <div class="exp-org">InformationWorks Systems &amp; Solutions</div>
         <div class="exp-role">Educational Content Developer</div>
-        <div class="exp-loc">📍 Vadodara, Gujarat</div>
+        <div class="exp-loc">Vadodara, Gujarat</div>
         <div class="exp-desc">Content development for an online learning system based on Howard Gardner's Multiple Intelligence theory.</div>
         <div class="exp-tags"><span class="etag">Multiple Intelligence</span><span class="etag">Content Development</span><span class="etag">EdTech</span></div>
       </div>
@@ -738,11 +677,21 @@ a:hover { text-decoration: underline; }
   </div>
 </div>
 
-<div class="cv-footer">
+<div class="footer">
   <a href="https://learningwala.in" target="_blank">learningwala.in</a> &nbsp;·&nbsp;
-  <a href="/cdn-cgi/l/email-protection#19757c786b7770777e6e787578747071706b597e74787075377a7674"><span class="__cf_email__" data-cfemail="f8949d998a9691969f8f999499959190918ab89f95999194d69b9795">[email&#160;protected]</span></a> &nbsp;·&nbsp;
+  mihir@learningwala.in &nbsp;·&nbsp;
   +91 9537068736 &nbsp;·&nbsp;
   <a href="https://www.instagram.com/learningwala" target="_blank">@learningwala</a>
 </div>
 
-<script data-c
+<script>
+  function showPage(id, btn) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    btn.classList.add('active');
+    window.scrollTo(0, 0);
+  }
+</script>
+</body>
+</html>
