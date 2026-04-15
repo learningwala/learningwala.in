@@ -3,7 +3,7 @@ author = "Mihir Pathak"
 title = "Biology of Money"
 date = "2025-01-26"
 description = "Summary of Session"
-tags = ["Blog"]
+tags = ["Blog", "field note"]
 +++
 
 ## Summary of Today’s Session
