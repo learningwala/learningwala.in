@@ -18,7 +18,7 @@ In this sense, I am the butterfly.
 
 ---
 
-At some point I started noticing absences. Gaps so obvious, yet no one was attempting to fill them. Gaps that were out of my control.
+At some point I started noticing absences. Gaps so obvious, yet no one was attempting to fill them. Gaps that were out of my control. (Before looking at these as gaps, I have a deep interest and fascination to see all of these in reality: the creative process of magazine-making, nature education, community, public learning spaces, and theater.)
 
 **I wonder:**
 
@@ -27,7 +27,7 @@ At some point I started noticing absences. Gaps so obvious, yet no one was attem
 - Why is there no support system for independent educators?
 - Why are there no interesting learning opportunities for children and young adults in the city — theatre for young audiences, interdisciplinary exhibitions like Science Gallery Bengaluru, open makerspaces, open libraries? Opportunities beyond commercial workshops, events, and classes.
 
-Is it because these things are not commercially viable? Is it because people lack the skills? Or do they simply not have the intent to do things that serve a larger good — too caught up in other priorities?
+Is it because these things are not commercially viable? Is it because people lack the skills? Or do they simply not have the intent to do things that serve a larger good — too caught up in other priorities? 
 
 ---
 
