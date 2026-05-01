@@ -6,12 +6,6 @@ description = "Why we need Green literature in our learning spaces?"
 tags = ["Blog", "learning resources", "children's literature"]
 +++
 
-----
-
-🌿 **Human ideas, AI writing** — All thinking by Mihir · English polished with Claude
-
----
-
 Something has quietly shifted in childhood.
 
 A generation ago, children moved freely between indoors and out. They knew the name of the tree in the street. They watched monsoons arrive and felt the season change in their bodies. That texture of daily life — small, unstructured, alive — is increasingly rare.
