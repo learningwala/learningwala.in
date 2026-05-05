@@ -1,7 +1,7 @@
 baseURL = 'https://learningwala.in/'
 theme = "hugo-bearcub"
 title = "Mihir Pathak | મિહિર પાઠક"
-copyright = "Mihir Pathak (CC BY 4.0)"
+copyright = "Mihir Pathak (CC BY-NC-SA 4.0)"
 defaultContentLanguage = "en"
 languageCode = "en-US"
 
