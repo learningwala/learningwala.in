@@ -137,8 +137,6 @@ For an educator who has been doing nature walks, building a classroom library, a
 
 ---
 
-## A final word
-
 The children in your classroom are growing up inside a world that is changing faster than any previous generation has experienced. They feel it — in the heat, in the seasons, in the small absences that adults may not notice. What they often lack is language for what they are experiencing, and permission to take it seriously.
 
 Nature-based literature gives them both. It says: this bees matters. This tree has a name. Your experience of this summer is worth writing down. The world you are inheriting is extraordinary — and it needs your attention.
