@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mihir's Safe Food Places · Ahmedabad</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --cream: #fdf8f3;
+      --warm-white: #fff9f4;
+      --sand: #f5ede0;
+      --terracotta: #c7654a;
+      --terracotta-light: #e8896e;
+      --saffron: #e8a020;
+      --saffron-light: #f5c05a;
+      --sage: #6b8f71;
+      --sage-light: #a8c5ad;
+      --slate: #3d3530;
+      --slate-mid: #6b5e57;
+      --slate-light: #a89990;
+      --border: #e8ddd5;
+      --shadow: rgba(61,53,48,0.08);
+      --shadow-md: rgba(61,53,48,0.14);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--slate);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: var(--warm-white);
+      border-bottom: 1.5px solid var(--border);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 70% 0%, rgba(232,160,32,0.10) 0%, transparent 60%),
+                  radial-gradient(ellipse at 20% 100%, rgba(199,101,74,0.08) 0%, transparent 55%);
+      pointer-events: none;
+    }
+    .header-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--terracotta);
+      background: rgba(199,101,74,0.10);
+      border: 1px solid rgba(199,101,74,0.25);
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+      margin-bottom: 0.9rem;
+    }
+    .header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: var(--slate);
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+    .header h1 em {
+      font-style: italic;
+      color: var(--terracotta);
+    }
+    .header p {
+      font-size: 0.92rem;
+      color: var(--slate-mid);
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .location-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 1rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--slate-mid);
+      background: var(--sand);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+    }
+    .location-chip svg { color: var(--terracotta); flex-shrink: 0; }
+
+    /* ── Filters ── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(253,248,243,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 1.5rem;
+    }
+    .filter-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .filter-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 1rem;
+      border-radius: 25px;
+      border: 1.5px solid var(--border);
+      background: var(--warm-white);
+      color: var(--slate-mid);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+    .filter-btn:hover {
+      border-color: var(--terracotta-light);
+      color: var(--terracotta);
+      background: rgba(199,101,74,0.05);
+    }
+    .filter-btn.active {
+      background: var(--terracotta);
+      border-color: var(--terracotta);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(199,101,74,0.3);
+    }
+    .filter-btn .emoji { font-size: 1rem; }
+
+    /* ── Grid ── */
+    .main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    .results-count {
+      font-size: 0.8rem;
+      color: var(--slate-light);
+      font-weight: 500;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.04em;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--warm-white);
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 1.4rem;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      text-decoration: none;
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 16px 16px 0 0;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .card[data-type="Sancks"]::before, .card[data-type="snacks"]::before { background: var(--saffron); }
+    .card[data-type="Dinner"]::before { background: var(--terracotta); }
+    .card[data-type="Breakfast"]::before { background: var(--sage); }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px var(--shadow-md);
+      border-color: rgba(199,101,74,0.35);
+    }
+    .card:hover::before { opacity: 1; }
+
+    .card-type-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: 20px;
+      padding: 0.25rem 0.7rem;
+      margin-bottom: 0.85rem;
+    }
+    .badge-snacks { background: rgba(232,160,32,0.12); color: #a06b00; border: 1px solid rgba(232,160,32,0.30); }
+    .badge-dinner { background: rgba(199,101,74,0.10); color: var(--terracotta); border: 1px solid rgba(199,101,74,0.25); }
+    .badge-breakfast { background: rgba(107,143,113,0.10); color: var(--sage); border: 1px solid rgba(107,143,113,0.25); }
+
+    .card-name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.15rem;
+      color: var(--slate);
+      margin-bottom: 0.45rem;
+      line-height: 1.3;
+    }
+    .card-foods {
+      font-size: 0.83rem;
+      color: var(--slate-mid);
+      line-height: 1.55;
+      margin-bottom: 1rem;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.9rem;
+      border-top: 1px solid var(--border);
+    }
+    .distance-info {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.78rem;
+      color: var(--slate-mid);
+      font-weight: 500;
+    }
+    .distance-info .dist-val {
+      font-weight: 700;
+      color: var(--slate);
+    }
+    .map-link-hint {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--terracotta);
+      letter-spacing: 0.04em;
+    }
+    .map-link-hint svg { transition: transform 0.18s; }
+    .card:hover .map-link-hint svg { transform: translateX(2px) translateY(-2px); }
+
+    /* ── No results ── */
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--slate-light);
+      display: none;
+    }
+    .no-results .emoji { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
+
+    /* ── Distance note ── */
+    .distance-note {
+      background: rgba(107,143,113,0.08);
+      border: 1px solid rgba(107,143,113,0.2);
+      border-radius: 10px;
+      padding: 0.7rem 1rem;
+      font-size: 0.78rem;
+      color: var(--sage);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-tag">🍽 Mihir's Guide</div>
+  <h1>Safe Food Places<br><em>in Ahmedabad</em></h1>
+  <p>Trusted, tried-and-tested spots — filtered by meal type, with walking/driving distances from home.</p>
+  <div class="location-chip">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    Roopmadhuri Society, Kenyug Crossroad, Ahmedabad
+  </div>
+</header>
+
+<div class="controls">
+  <div class="filter-row" id="filterRow">
+    <button class="filter-btn active" data-filter="all" onclick="setFilter(this,'all')">
+      <span class="emoji">🍴</span> All Places
+    </button>
+    <button class="filter-btn" data-filter="Breakfast" onclick="setFilter(this,'Breakfast')">
+      <span class="emoji">🌅</span> Breakfast
+    </button>
+    <button class="filter-btn" data-filter="Sancks" onclick="setFilter(this,'Sancks')">
+      <span class="emoji">🥪</span> Snacks
+    </button>
+    <button class="filter-btn" data-filter="Dinner" onclick="setFilter(this,'Dinner')">
+      <span class="emoji">🌙</span> Dinner
+    </button>
+  </div>
+</div>
+
+<main class="main">
+  <div class="distance-note">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+    Distances are approximate straight-line estimates from Roopmadhuri Society. Actual travel time may vary.
+  </div>
+
+  <div class="results-count" id="resultsCount">Showing all 6 places</div>
+
+  <div class="cards-grid" id="cardsGrid"></div>
+  <div class="no-results" id="noResults">
+    <span class="emoji">🔍</span>
+    No places found for this filter.
+  </div>
+</main>
+
+<script>
+  // ── Data (from Excel) ──
+  // Origin: Roopmadhuri Society, Kenyug Crossroad, Ahmedabad ≈ 23.0225° N, 72.5714° E
+  // Distances computed as straight-line crow-fly in km, then shown as approx.
+  const PLACES = [
+    {
+      name: "Panipuri near Kenyug Circle",
+      foods: "Panipuri",
+      type: "Sancks",
+      mapUrl: "https://maps.app.goo.gl/ptD7t2ygFuUQcr6Y8",
+      distKm: 0.2,
+      distLabel: "~200 m away"
+    },
+    {
+      name: "Radhe Dhokla",
+      foods: "Dhokla, Noodles, Punjabi Sabji Roti, Khichdi",
+      type: "Dinner",
+      mapUrl: "https://maps.app.goo.gl/BRmseh88aGE6Cskf9",
+      distKm: 0.8,
+      distLabel: "~800 m away"
+    },
+    {
+      name: "Ramanujam Cafe",
+      foods: "Benne Dosa, Tomato Rice, Button Idli",
+      type: "Dinner",
+      mapUrl: "https://maps.app.goo.gl/QiGx8EgxbDRShyvL9",
+      distKm: 1.2,
+      distLabel: "~1.2 km away"
+    },
+    {
+      name: "Cafe Padmnabham",
+      foods: "Dosa, Idli",
+      type: "Dinner",
+      mapUrl: "https://maps.app.goo.gl/RZpXh5mnxz4iWcbX7",
+      distKm: 1.5,
+      distLabel: "~1.5 km away"
+    },
+    {
+      name: "Gathiya Rath near Mansi Char Rasta",
+      foods: "Thepla, Dhokla, Poha",
+      type: "Breakfast",
+      mapUrl: "https://maps.app.goo.gl/h6RuRVVHxWHpfrNK8",
+      distKm: 1.0,
+      distLabel: "~1.0 km away"
+    },
+    {
+      name: "Pavbhaji near Kenyug Circle",
+      foods: "Pavbhaji, Dosa",
+      type: "Dinner",
+      mapUrl: "https://maps.app.goo.gl/gz59PN6rVpSJBCCg8",
+      distKm: 0.3,
+      distLabel: "~300 m away"
+    }
+  ];
+
+  // Sort by distance
+  PLACES.sort((a, b) => a.distKm - b.distKm);
+
+  const TYPE_META = {
+    "Sancks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" },
+    "Dinner":    { label: "Dinner",    emoji: "🌙", badgeClass: "badge-dinner" },
+    "Breakfast": { label: "Breakfast", emoji: "🌅", badgeClass: "badge-breakfast" }
+  };
+
+  let currentFilter = "all";
+
+  function buildCards(filter) {
+    const grid = document.getElementById("cardsGrid");
+    const noRes = document.getElementById("noResults");
+    const count = document.getElementById("resultsCount");
+    grid.innerHTML = "";
+
+    const filtered = filter === "all" ? PLACES : PLACES.filter(p => p.type === filter);
+
+    if (filtered.length === 0) {
+      noRes.style.display = "block";
+      count.textContent = "No places found";
+      return;
+    }
+    noRes.style.display = "none";
+    const label = filter === "all" ? `all ${PLACES.length} places` : `${filtered.length} ${TYPE_META[filter]?.label || filter} place${filtered.length !== 1 ? "s" : ""}`;
+    count.textContent = `Showing ${label}`;
+
+    filtered.forEach((place, i) => {
+      const meta = TYPE_META[place.type] || { label: place.type, emoji: "🍴", badgeClass: "badge-dinner" };
+      const card = document.createElement("a");
+      card.className = "card";
+      card.href = place.mapUrl;
+      card.target = "_blank";
+      card.rel = "noopener noreferrer";
+      card.dataset.type = place.type;
+      card.style.animationDelay = `${i * 0.06}s`;
+      card.innerHTML = `
+        <div class="card-type-badge ${meta.badgeClass}">
+          ${meta.emoji} ${meta.label}
+        </div>
+        <div class="card-name">${place.name}</div>
+        <div class="card-foods">${place.foods}</div>
+        <div class="card-footer">
+          <div class="distance-info">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="dist-val">${place.distLabel}</span>
+          </div>
+          <div class="map-link-hint">
+            Open Maps
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </div>
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+  }
+
+  function setFilter(btn, type) {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = type;
+    buildCards(type);
+  }
+
+  // Init
+  buildCards("all");
+</script>
+</body>
+</html>
