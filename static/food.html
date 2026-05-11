@@ -183,7 +183,7 @@
       opacity: 0;
       transition: opacity 0.2s;
     }
-    .card[data-type="Sancks"]::before, .card[data-type="snacks"]::before { background: var(--saffron); }
+    .card[data-type="Sancks"]::before, .card[data-type="Snacks"]::before, .card[data-type="snacks"]::before { background: var(--saffron); }
     .card[data-type="Dinner"]::before { background: var(--terracotta); }
     .card[data-type="Breakfast"]::before { background: var(--sage); }
 
@@ -298,7 +298,7 @@
     <button class="filter-btn" data-filter="Breakfast" onclick="setFilter(this,'Breakfast')">
       <span class="emoji">🌅</span> Breakfast
     </button>
-    <button class="filter-btn" data-filter="Sancks" onclick="setFilter(this,'Sancks')">
+    <button class="filter-btn" data-filter="Snacks" onclick="setFilter(this,'Snacks')">
       <span class="emoji">🥪</span> Snacks
     </button>
     <button class="filter-btn" data-filter="Dinner" onclick="setFilter(this,'Dinner')">
@@ -313,7 +313,7 @@
     Distances are approximate straight-line estimates from Roopmadhuri Society. Actual travel time may vary.
   </div>
 
-  <div class="results-count" id="resultsCount">Showing all 6 places</div>
+  <div class="results-count" id="resultsCount">Loading food spots...</div>
 
   <div class="cards-grid" id="cardsGrid"></div>
   <div class="no-results" id="noResults">
@@ -323,70 +323,46 @@
 </main>
 
 <script>
-  // ── Data (from Excel) ──
-  // Origin: Roopmadhuri Society, Kenyug Crossroad, Ahmedabad ≈ 23.0225° N, 72.5714° E
-  // Distances computed as straight-line crow-fly in km, then shown as approx.
-  const PLACES = [
-    {
-      name: "Panipuri near Kenyug Circle",
-      foods: "Panipuri",
-      type: "Sancks",
-      mapUrl: "https://maps.app.goo.gl/ptD7t2ygFuUQcr6Y8",
-      distKm: 0.2,
-      distLabel: "~200 m away"
-    },
-    {
-      name: "Radhe Dhokla",
-      foods: "Dhokla, Noodles, Punjabi Sabji Roti, Khichdi",
-      type: "Dinner",
-      mapUrl: "https://maps.app.goo.gl/BRmseh88aGE6Cskf9",
-      distKm: 0.8,
-      distLabel: "~800 m away"
-    },
-    {
-      name: "Ramanujam Cafe",
-      foods: "Benne Dosa, Tomato Rice, Button Idli",
-      type: "Dinner",
-      mapUrl: "https://maps.app.goo.gl/QiGx8EgxbDRShyvL9",
-      distKm: 1.2,
-      distLabel: "~1.2 km away"
-    },
-    {
-      name: "Cafe Padmnabham",
-      foods: "Dosa, Idli",
-      type: "Dinner",
-      mapUrl: "https://maps.app.goo.gl/RZpXh5mnxz4iWcbX7",
-      distKm: 1.5,
-      distLabel: "~1.5 km away"
-    },
-    {
-      name: "Gathiya Rath near Mansi Char Rasta",
-      foods: "Thepla, Dhokla, Poha",
-      type: "Breakfast",
-      mapUrl: "https://maps.app.goo.gl/h6RuRVVHxWHpfrNK8",
-      distKm: 1.0,
-      distLabel: "~1.0 km away"
-    },
-    {
-      name: "Pavbhaji near Kenyug Circle",
-      foods: "Pavbhaji, Dosa",
-      type: "Dinner",
-      mapUrl: "https://maps.app.goo.gl/gz59PN6rVpSJBCCg8",
-      distKm: 0.3,
-      distLabel: "~300 m away"
-    }
-  ];
-
-  // Sort by distance
-  PLACES.sort((a, b) => a.distKm - b.distKm);
+  // ── Configuration ──
+  const API_URL = "https://sheetdb.io/api/v1/03bu21k7us8bs";
 
   const TYPE_META = {
-    "Sancks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" },
+    "Snacks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" },
+    "Sancks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" }, // Handling the typo in your sheet
     "Dinner":    { label: "Dinner",    emoji: "🌙", badgeClass: "badge-dinner" },
     "Breakfast": { label: "Breakfast", emoji: "🌅", badgeClass: "badge-breakfast" }
   };
 
+  let PLACES = [];
   let currentFilter = "all";
+
+  // ── Fetch Data ──
+  async function loadData() {
+    try {
+      const response = await fetch(API_URL);
+      if (!response.ok) throw new Error("Could not fetch data");
+      
+      const data = await response.json();
+      
+      // Map JSON to the format used by buildCards
+      PLACES = data.map(item => ({
+        name: item.name || "Unnamed Place",
+        foods: item.foods || "",
+        type: item.type || "Dinner",
+        mapUrl: item.mapUrl || "#",
+        distKm: parseFloat(item.distKm) || 0,
+        distLabel: item.distLabel || `${item.distKm} km away`
+      }));
+
+      // Sort by distance (closest first)
+      PLACES.sort((a, b) => a.distKm - b.distKm);
+
+      buildCards("all");
+    } catch (error) {
+      console.error(error);
+      document.getElementById("resultsCount").textContent = "Error loading data. Check your SheetDB API.";
+    }
+  }
 
   function buildCards(filter) {
     const grid = document.getElementById("cardsGrid");
@@ -394,15 +370,22 @@
     const count = document.getElementById("resultsCount");
     grid.innerHTML = "";
 
-    const filtered = filter === "all" ? PLACES : PLACES.filter(p => p.type === filter);
+    // Normalize filter for "Snacks" vs "Sancks"
+    const filtered = filter === "all" 
+      ? PLACES 
+      : PLACES.filter(p => {
+          if (filter === "Snacks") return p.type === "Snacks" || p.type === "Sancks";
+          return p.type === filter;
+        });
 
     if (filtered.length === 0) {
       noRes.style.display = "block";
       count.textContent = "No places found";
       return;
     }
+    
     noRes.style.display = "none";
-    const label = filter === "all" ? `all ${PLACES.length} places` : `${filtered.length} ${TYPE_META[filter]?.label || filter} place${filtered.length !== 1 ? "s" : ""}`;
+    const label = filter === "all" ? `all ${PLACES.length} places` : `${filtered.length} ${filter} place${filtered.length !== 1 ? "s" : ""}`;
     count.textContent = `Showing ${label}`;
 
     filtered.forEach((place, i) => {
@@ -442,8 +425,8 @@
     buildCards(type);
   }
 
-  // Init
-  buildCards("all");
+  // Load data on page start
+  loadData();
 </script>
 </body>
 </html>
