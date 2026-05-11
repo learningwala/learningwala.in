@@ -11,16 +11,12 @@
       --warm-white: #fff9f4;
       --sand: #f5ede0;
       --terracotta: #c7654a;
-      --terracotta-light: #e8896e;
       --saffron: #e8a020;
-      --saffron-light: #f5c05a;
       --sage: #6b8f71;
-      --sage-light: #a8c5ad;
+      --lunch-blue: #4a76c7;
       --slate: #3d3530;
       --slate-mid: #6b5e57;
-      --slate-light: #a89990;
       --border: #e8ddd5;
-      --shadow: rgba(61,53,48,0.08);
       --shadow-md: rgba(61,53,48,0.14);
     }
 
@@ -33,399 +29,278 @@
       min-height: 100vh;
     }
 
-    /* ── Header ── */
+    /* ── Updated Screenshot-Style Header ── */
     .header {
       background: var(--warm-white);
-      border-bottom: 1.5px solid var(--border);
-      padding: 2.5rem 1.5rem 2rem;
+      padding: 4rem 1.5rem 3rem;
       text-align: center;
       position: relative;
-      overflow: hidden;
     }
-    .header::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 70% 0%, rgba(232,160,32,0.10) 0%, transparent 60%),
-                  radial-gradient(ellipse at 20% 100%, rgba(199,101,74,0.08) 0%, transparent 55%);
-      pointer-events: none;
-    }
+
     .header-tag {
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.14em;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--terracotta);
-      background: rgba(199,101,74,0.10);
-      border: 1px solid rgba(199,101,74,0.25);
-      border-radius: 20px;
-      padding: 0.3rem 0.9rem;
-      margin-bottom: 0.9rem;
+      color: #8c7365;
+      background: #f2e8df;
+      border: 1px solid #e0d1c5;
+      border-radius: 50px;
+      padding: 0.4rem 1.2rem;
+      margin-bottom: 1.5rem;
     }
+
     .header h1 {
       font-family: 'DM Serif Display', serif;
-      font-size: clamp(2rem, 5vw, 3rem);
-      color: var(--slate);
-      line-height: 1.15;
-      margin-bottom: 0.5rem;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      color: #3d3530;
+      line-height: 1.1;
+      margin-bottom: 1rem;
     }
+
     .header h1 em {
       font-style: italic;
-      color: var(--terracotta);
+      color: #c7654a;
     }
+
     .header p {
-      font-size: 0.92rem;
-      color: var(--slate-mid);
-      max-width: 480px;
-      margin: 0 auto;
+      font-size: 1rem;
+      color: #6b5e57;
+      max-width: 550px;
+      margin: 0 auto 1.5rem;
       line-height: 1.6;
     }
+
     .location-chip {
       display: inline-flex;
       align-items: center;
-      gap: 0.35rem;
-      margin-top: 1rem;
-      font-size: 0.78rem;
+      gap: 0.5rem;
+      font-size: 0.85rem;
       font-weight: 500;
-      color: var(--slate-mid);
-      background: var(--sand);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 0.3rem 0.9rem;
+      color: #8c7365;
+      background: #f2e8df;
+      border: 1px solid #e0d1c5;
+      border-radius: 50px;
+      padding: 0.5rem 1.2rem;
     }
-    .location-chip svg { color: var(--terracotta); flex-shrink: 0; }
 
-    /* ── Filters ── */
+    /* ── Controls & Filters ── */
     .controls {
       position: sticky;
       top: 0;
       z-index: 10;
-      background: rgba(253,248,243,0.92);
+      background: rgba(253,248,243,0.95);
       backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
-      padding: 0.9rem 1.5rem;
+      padding: 1.2rem 1rem;
     }
+
     .filter-row {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.75rem;
       flex-wrap: wrap;
       justify-content: center;
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
     }
+
     .filter-btn {
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
-      padding: 0.45rem 1rem;
-      border-radius: 25px;
-      border: 1.5px solid var(--border);
-      background: var(--warm-white);
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 50px;
+      border: 1px solid var(--border);
+      background: white;
       color: var(--slate-mid);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.82rem;
+      font-size: 0.9rem;
       font-weight: 500;
       cursor: pointer;
-      transition: all 0.18s ease;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .filter-btn:hover {
-      border-color: var(--terracotta-light);
-      color: var(--terracotta);
-      background: rgba(199,101,74,0.05);
-    }
-    .filter-btn.active {
-      background: var(--terracotta);
-      border-color: var(--terracotta);
-      color: #fff;
-      box-shadow: 0 2px 8px rgba(199,101,74,0.3);
-    }
-    .filter-btn .emoji { font-size: 1rem; }
 
-    /* ── Grid ── */
-    .main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1.25rem 4rem;
+    .filter-btn.active {
+      background: #c7654a;
+      border-color: #c7654a;
+      color: white;
+      box-shadow: 0 4px 12px rgba(199, 101, 74, 0.3);
     }
-    .results-count {
-      font-size: 0.8rem;
-      color: var(--slate-light);
-      font-weight: 500;
-      margin-bottom: 1.25rem;
-      letter-spacing: 0.04em;
+
+    /* ── Main Grid & Distance Note ── */
+    .main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    .distance-note {
+      background: #f0f4f1;
+      border: 1px solid #d1dbd3;
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      font-size: 0.85rem;
+      color: #5a7a5f;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
     }
+
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
     }
 
-    /* ── Card ── */
+    /* ── Cards ── */
     .card {
-      background: var(--warm-white);
-      border: 1.5px solid var(--border);
-      border-radius: 16px;
-      padding: 1.4rem;
-      cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
       text-decoration: none;
-      display: block;
-      position: relative;
-      overflow: hidden;
+      color: inherit;
+      transition: all 0.3s ease;
     }
-    .card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      border-radius: 16px 16px 0 0;
-      opacity: 0;
-      transition: opacity 0.2s;
-    }
-    .card[data-type="Sancks"]::before, .card[data-type="Snacks"]::before, .card[data-type="snacks"]::before { background: var(--saffron); }
-    .card[data-type="Dinner"]::before { background: var(--terracotta); }
-    .card[data-type="Breakfast"]::before { background: var(--sage); }
 
     .card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 24px var(--shadow-md);
-      border-color: rgba(199,101,74,0.35);
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px var(--shadow-md);
+      border-color: var(--terracotta);
     }
-    .card:hover::before { opacity: 1; }
 
-    .card-type-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
+    .badge {
+      display: inline-block;
       font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
+      font-weight: 700;
       text-transform: uppercase;
-      border-radius: 20px;
-      padding: 0.25rem 0.7rem;
-      margin-bottom: 0.85rem;
-    }
-    .badge-snacks { background: rgba(232,160,32,0.12); color: #a06b00; border: 1px solid rgba(232,160,32,0.30); }
-    .badge-dinner { background: rgba(199,101,74,0.10); color: var(--terracotta); border: 1px solid rgba(199,101,74,0.25); }
-    .badge-breakfast { background: rgba(107,143,113,0.10); color: var(--sage); border: 1px solid rgba(107,143,113,0.25); }
-
-    .card-name {
-      font-family: 'DM Serif Display', serif;
-      font-size: 1.15rem;
-      color: var(--slate);
-      margin-bottom: 0.45rem;
-      line-height: 1.3;
-    }
-    .card-foods {
-      font-size: 0.83rem;
-      color: var(--slate-mid);
-      line-height: 1.55;
+      border-radius: 50px;
+      padding: 0.3rem 0.8rem;
       margin-bottom: 1rem;
     }
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 0.9rem;
-      border-top: 1px solid var(--border);
-    }
-    .distance-info {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-size: 0.78rem;
-      color: var(--slate-mid);
-      font-weight: 500;
-    }
-    .distance-info .dist-val {
-      font-weight: 700;
-      color: var(--slate);
-    }
-    .map-link-hint {
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--terracotta);
-      letter-spacing: 0.04em;
-    }
-    .map-link-hint svg { transition: transform 0.18s; }
-    .card:hover .map-link-hint svg { transform: translateX(2px) translateY(-2px); }
+    .badge-breakfast { background: #e7f5e9; color: #2e7d32; }
+    .badge-lunch { background: #e3f2fd; color: #1565c0; }
+    .badge-snacks { background: #fff8e1; color: #f57f17; }
+    .badge-dinner { background: #fbe9e7; color: #d84315; }
 
-    /* ── No results ── */
-    .no-results {
-      text-align: center;
-      padding: 3rem 1rem;
-      color: var(--slate-light);
-      display: none;
+    .card-name { font-family: 'DM Serif Display', serif; font-size: 1.3rem; margin-bottom: 0.5rem; color: #3d3530; }
+    .card-foods { font-size: 0.9rem; color: #6b5e57; margin-bottom: 1.2rem; line-height: 1.6; }
+    .card-footer { 
+      display: flex; justify-content: space-between; align-items: center; 
+      border-top: 1px solid var(--border); padding-top: 1rem; font-size: 0.85rem; 
     }
-    .no-results .emoji { font-size: 2.5rem; display: block; margin-bottom: 0.75rem; }
-
-    /* ── Distance note ── */
-    .distance-note {
-      background: rgba(107,143,113,0.08);
-      border: 1px solid rgba(107,143,113,0.2);
-      border-radius: 10px;
-      padding: 0.7rem 1rem;
-      font-size: 0.78rem;
-      color: var(--sage);
-      margin-bottom: 1.25rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
+    .dist-val { font-weight: 700; color: #c7654a; }
   </style>
 </head>
 <body>
 
 <header class="header">
-  <div class="header-tag">🍽 Mihir's Guide</div>
+  <div class="header-tag">🍴 Mihir's Guide</div>
   <h1>Safe Food Places<br><em>in Ahmedabad</em></h1>
   <p>Trusted, tried-and-tested spots — filtered by meal type, with walking/driving distances from home.</p>
   <div class="location-chip">
-    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
     Roopmadhuri Society, Kenyug Crossroad, Ahmedabad
   </div>
 </header>
 
 <div class="controls">
-  <div class="filter-row" id="filterRow">
-    <button class="filter-btn active" data-filter="all" onclick="setFilter(this,'all')">
-      <span class="emoji">🍴</span> All Places
-    </button>
-    <button class="filter-btn" data-filter="Breakfast" onclick="setFilter(this,'Breakfast')">
-      <span class="emoji">🌅</span> Breakfast
-    </button>
-    <button class="filter-btn" data-filter="Snacks" onclick="setFilter(this,'Snacks')">
-      <span class="emoji">🥪</span> Snacks
-    </button>
-    <button class="filter-btn" data-filter="Dinner" onclick="setFilter(this,'Dinner')">
-      <span class="emoji">🌙</span> Dinner
-    </button>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="setFilter(this,'all')">🍴 All Places</button>
+    <button class="filter-btn" onclick="setFilter(this,'Breakfast')">🌅 Breakfast</button>
+    <button class="filter-btn" onclick="setFilter(this,'Lunch')">🥙 Lunch</button>
+    <button class="filter-btn" onclick="setFilter(this,'Snacks')">🥪 Snacks</button>
+    <button class="filter-btn" onclick="setFilter(this,'Dinner')">🌙 Dinner</button>
   </div>
 </div>
 
 <main class="main">
   <div class="distance-note">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
     Distances are approximate straight-line estimates from Roopmadhuri Society. Actual travel time may vary.
   </div>
 
-  <div class="results-count" id="resultsCount">Loading food spots...</div>
-
+  <div id="status" style="margin-bottom: 1.5rem; font-weight: 600; color: #a89990;">Fetching latest menu...</div>
   <div class="cards-grid" id="cardsGrid"></div>
-  <div class="no-results" id="noResults">
-    <span class="emoji">🔍</span>
-    No places found for this filter.
-  </div>
 </main>
 
 <script>
-  // ── Configuration ──
   const API_URL = "https://sheetdb.io/api/v1/03bu21k7us8bs";
+  const HOME = { lat: 23.0336, lng: 72.5362 }; // Coordinates for Roopmadhuri Society
 
-  const TYPE_META = {
-    "Snacks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" },
-    "Sancks":    { label: "Snacks",    emoji: "🥪", badgeClass: "badge-snacks" }, // Handling the typo in your sheet
-    "Dinner":    { label: "Dinner",    emoji: "🌙", badgeClass: "badge-dinner" },
-    "Breakfast": { label: "Breakfast", emoji: "🌅", badgeClass: "badge-breakfast" }
+  const META = {
+    "Breakfast": { emoji: "🌅", class: "badge-breakfast" },
+    "Lunch":     { emoji: "🥙", class: "badge-lunch" },
+    "Snacks":    { emoji: "🥪", class: "badge-snacks" },
+    "Sancks":    { emoji: "🥪", class: "badge-snacks" },
+    "Dinner":    { emoji: "🌙", class: "badge-dinner" }
   };
 
   let PLACES = [];
-  let currentFilter = "all";
 
-  // ── Fetch Data ──
+  function getDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  }
+
   async function loadData() {
     try {
       const response = await fetch(API_URL);
-      if (!response.ok) throw new Error("Could not fetch data");
-      
       const data = await response.json();
       
-      // Map JSON to the format used by buildCards
-      PLACES = data.map(item => ({
-        name: item.name || "Unnamed Place",
-        foods: item.foods || "",
-        type: item.type || "Dinner",
-        mapUrl: item.mapUrl || "#",
-        distKm: parseFloat(item.distKm) || 0,
-        distLabel: item.distLabel || `${item.distKm} km away`
-      }));
+      PLACES = data.map(item => {
+        const d = getDistance(HOME.lat, HOME.lng, parseFloat(item.lat), parseFloat(item.lng));
+        return {
+          ...item,
+          calculatedDist: d,
+          distText: d < 1 ? `${(d * 1000).toFixed(0)}m away` : `${d.toFixed(1)}km away`
+        };
+      });
 
-      // Sort by distance (closest first)
-      PLACES.sort((a, b) => a.distKm - b.distKm);
-
-      buildCards("all");
-    } catch (error) {
-      console.error(error);
-      document.getElementById("resultsCount").textContent = "Error loading data. Check your SheetDB API.";
+      PLACES.sort((a, b) => a.calculatedDist - b.calculatedDist);
+      render("all");
+      document.getElementById("status").textContent = `Showing all ${PLACES.length} places`;
+    } catch (e) {
+      document.getElementById("status").textContent = "Check Google Sheet for columns: name, lat, lng, type, foods, mapUrl";
     }
   }
 
-  function buildCards(filter) {
+  function render(filter) {
     const grid = document.getElementById("cardsGrid");
-    const noRes = document.getElementById("noResults");
-    const count = document.getElementById("resultsCount");
     grid.innerHTML = "";
-
-    // Normalize filter for "Snacks" vs "Sancks"
-    const filtered = filter === "all" 
-      ? PLACES 
-      : PLACES.filter(p => {
-          if (filter === "Snacks") return p.type === "Snacks" || p.type === "Sancks";
-          return p.type === filter;
-        });
-
-    if (filtered.length === 0) {
-      noRes.style.display = "block";
-      count.textContent = "No places found";
-      return;
-    }
     
-    noRes.style.display = "none";
-    const label = filter === "all" ? `all ${PLACES.length} places` : `${filtered.length} ${filter} place${filtered.length !== 1 ? "s" : ""}`;
-    count.textContent = `Showing ${label}`;
-
-    filtered.forEach((place, i) => {
-      const meta = TYPE_META[place.type] || { label: place.type, emoji: "🍴", badgeClass: "badge-dinner" };
-      const card = document.createElement("a");
-      card.className = "card";
-      card.href = place.mapUrl;
-      card.target = "_blank";
-      card.rel = "noopener noreferrer";
-      card.dataset.type = place.type;
-      card.style.animationDelay = `${i * 0.06}s`;
-      card.innerHTML = `
-        <div class="card-type-badge ${meta.badgeClass}">
-          ${meta.emoji} ${meta.label}
-        </div>
-        <div class="card-name">${place.name}</div>
-        <div class="card-foods">${place.foods}</div>
-        <div class="card-footer">
-          <div class="distance-info">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span class="dist-val">${place.distLabel}</span>
+    const filtered = filter === "all" ? PLACES : PLACES.filter(p => {
+        if(filter === "Snacks") return p.type === "Snacks" || p.type === "Sancks";
+        return p.type === filter;
+    });
+    
+    filtered.forEach(p => {
+      const m = META[p.type] || { emoji: "🍴", class: "badge-dinner" };
+      grid.innerHTML += `
+        <a class="card" href="${p.mapUrl}" target="_blank">
+          <div class="badge ${m.class}">${m.emoji} ${p.type === 'Sancks' ? 'Snacks' : p.type}</div>
+          <div class="card-name">${p.name}</div>
+          <div class="card-foods">${p.foods}</div>
+          <div class="card-footer">
+            <span class="dist-val">📍 ${p.distText}</span>
+            <span style="color: #c7654a; font-weight:700;">Open Map →</span>
           </div>
-          <div class="map-link-hint">
-            Open Maps
-            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-          </div>
-        </div>
+        </a>
       `;
-      grid.appendChild(card);
     });
   }
 
   function setFilter(btn, type) {
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
-    currentFilter = type;
-    buildCards(type);
+    render(type);
   }
 
-  // Load data on page start
   loadData();
 </script>
 </body>
