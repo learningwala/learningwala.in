@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mihir & Nidhi — Work Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --moss:    #3d5a3e;
+      --fern:    #5a7d4f;
+      --sage:    #8aad7a;
+      --mist:    #d6e8c8;
+      --cream:   #f7f3ec;
+      --bark:    #4a3728;
+      --clay:    #b5704a;
+      --sky:     #4a7fa5;
+      --dusk:    #7c5fa5;
+      --gold:    #c49a2e;
+      --ink:     #1e1e1e;
+      --smoke:   #6b7280;
+      --fog:     #e8e4dc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+
+    /* ── Textured background ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0; z-index: 0;
+      background-image:
+        radial-gradient(ellipse 80% 60% at 10% 20%, rgba(90,125,79,0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 90% 70%, rgba(74,127,165,0.06) 0%, transparent 60%),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%233d5a3e' fill-opacity='0.025'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .page { position: relative; z-index: 1; max-width: 1080px; margin: 0 auto; padding: 3rem 2rem 5rem; }
+
+    /* ── Header ── */
+    header {
+      margin-bottom: 4rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .header-left {}
+
+    .header-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--fern); margin-bottom: 1rem;
+    }
+    .header-eyebrow::before {
+      content: '';
+      display: inline-block; width: 24px; height: 1.5px; background: var(--fern);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.6rem, 5vw, 4rem);
+      font-weight: 700;
+      line-height: 1.1;
+      color: var(--moss);
+      margin-bottom: 1rem;
+    }
+    h1 em { font-style: italic; color: var(--clay); }
+
+    .header-bio {
+      font-size: 15px; color: var(--smoke); line-height: 1.75;
+      max-width: 520px; font-weight: 300;
+    }
+
+    .header-stats {
+      display: flex; gap: 2rem; margin-top: 2rem;
+    }
+    .stat { text-align: center; }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem; font-weight: 700; color: var(--moss);
+      display: block; line-height: 1;
+    }
+    .stat-label { font-size: 11px; color: var(--smoke); letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
+
+    .header-right {
+      display: flex; flex-direction: column; gap: 10px; align-items: flex-end;
+    }
+
+    /* ── Filter Bar ── */
+    .filter-bar {
+      display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 3rem;
+      padding-bottom: 2rem; border-bottom: 1px solid var(--fog);
+    }
+    .filter-btn {
+      padding: 6px 16px; border-radius: 999px;
+      border: 1.5px solid var(--fog); background: white;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px; font-weight: 500; cursor: pointer;
+      color: var(--smoke); transition: all 0.2s;
+    }
+    .filter-btn:hover { border-color: var(--sage); color: var(--moss); }
+    .filter-btn.active {
+      background: var(--moss); border-color: var(--moss);
+      color: white; box-shadow: 0 2px 8px rgba(61,90,62,0.25);
+    }
+
+    /* ── Era Section ── */
+    .era-section { margin-bottom: 3.5rem; }
+
+    .era-heading {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 1.5rem;
+    }
+    .era-line {
+      height: 1px; flex: 1; background: linear-gradient(to right, var(--fog), transparent);
+    }
+    .era-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--smoke);
+      white-space: nowrap;
+    }
+    .era-count {
+      background: var(--fog); color: var(--smoke);
+      font-size: 11px; font-weight: 600;
+      padding: 2px 8px; border-radius: 999px;
+    }
+
+    /* ── Cards Grid ── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 18px 20px;
+      border: 1px solid var(--fog);
+      position: relative; overflow: hidden;
+      transition: transform 0.25s, box-shadow 0.25s;
+      display: flex; flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    /* colour stripe per type */
+    .card::after {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+    }
+    .card.t-nature::after    { background: var(--fern); }
+    .card.t-educator::after  { background: var(--sky); }
+    .card.t-camp::after      { background: var(--dusk); }
+    .card.t-arts::after      { background: var(--gold); }
+    .card.t-community::after { background: var(--clay); }
+    .card.t-research::after  { background: #db2777; }
+    .card.t-story::after     { background: var(--bark); }
+    .card.t-article::after   { background: var(--moss); }
+    .card.t-magazine::after  { background: var(--clay); }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 10px; font-weight: 700; letter-spacing: 0.8px;
+      text-transform: uppercase; padding: 3px 10px;
+      border-radius: 999px; margin-bottom: 10px;
+      width: fit-content;
+    }
+    .tag-nature    { background: #d1fae5; color: #065f46; }
+    .tag-educator  { background: #dbeafe; color: #1e40af; }
+    .tag-camp      { background: #ede9fe; color: #5b21b6; }
+    .tag-arts      { background: #fef3c7; color: #92400e; }
+    .tag-community { background: #fff7ed; color: #9a3412; }
+    .tag-research  { background: #fce7f3; color: #9d174d; }
+    .tag-story     { background: #f5f0e8; color: #4a3728; }
+    .tag-article   { background: #d1fae5; color: #065f46; }
+    .tag-magazine  { background: #fff7ed; color: #9a3412; }
+
+    .card-title {
+      font-size: 13.5px; font-weight: 500;
+      color: var(--ink); line-height: 1.45;
+      flex: 1; margin-bottom: 10px;
+    }
+
+    .card-footer {
+      display: flex; align-items: center;
+      justify-content: space-between; margin-top: auto;
+    }
+    .card-date {
+      font-size: 11px; color: var(--smoke); font-weight: 300;
+    }
+    .card-link {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 600; color: var(--moss);
+      text-decoration: none; padding: 4px 10px;
+      border: 1px solid var(--mist); border-radius: 6px;
+      transition: all 0.2s;
+    }
+    .card-link:hover { background: var(--moss); color: white; border-color: var(--moss); }
+    .card-link svg { width: 10px; height: 10px; }
+
+    .card.hidden { display: none; }
+
+    /* ── Loading / Status ── */
+    #status-bar {
+      text-align: center; padding: 2rem; display: none;
+    }
+    #status-bar.visible { display: block; }
+
+    .spinner {
+      width: 32px; height: 32px; border-radius: 50%;
+      border: 3px solid var(--fog); border-top-color: var(--fern);
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .status-text { font-size: 14px; color: var(--smoke); }
+    .status-error { color: #dc2626; background: #fee2e2; padding: 1rem; border-radius: 8px; font-size: 14px; }
+
+    /* ── Setup Banner ── */
+    #setup-banner {
+      background: white; border: 1.5px dashed var(--sage);
+      border-radius: 16px; padding: 2.5rem; margin-bottom: 2rem;
+      text-align: center;
+    }
+    #setup-banner h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem; color: var(--moss); margin-bottom: 0.5rem;
+    }
+    #setup-banner p { font-size: 14px; color: var(--smoke); margin-bottom: 1.5rem; line-height: 1.7; }
+    #setup-banner code {
+      display: block; background: var(--fog); padding: 0.75rem 1rem;
+      border-radius: 8px; font-size: 13px; color: var(--bark);
+      word-break: break-all; margin: 0.5rem 0; text-align: left;
+    }
+    .setup-steps { text-align: left; margin: 1.5rem auto; max-width: 480px; }
+    .setup-steps li {
+      font-size: 13px; color: var(--smoke); margin-bottom: 8px;
+      padding-left: 8px; line-height: 1.6;
+    }
+    .setup-steps li strong { color: var(--ink); }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 4rem; padding-top: 2rem;
+      border-top: 1px solid var(--fog);
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .footer-text { font-size: 12px; color: var(--smoke); }
+    .footer-text span { color: var(--fern); font-weight: 500; }
+
+    .refresh-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--moss); color: white;
+      border: none; padding: 9px 20px; border-radius: 8px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px; font-weight: 500; cursor: pointer;
+      transition: all 0.2s;
+    }
+    .refresh-btn:hover { background: var(--fern); transform: translateY(-1px); }
+    .refresh-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .refresh-btn .btn-spinner {
+      width: 12px; height: 12px; border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.4); border-top-color: white;
+      animation: spin 0.7s linear infinite; display: none;
+    }
+    .refresh-btn.loading .btn-spinner { display: inline-block; }
+    .refresh-btn.loading .btn-label { opacity: 0.7; }
+
+    @media (max-width: 680px) {
+      header { grid-template-columns: 1fr; }
+      .header-right { align-items: flex-start; }
+      .header-stats { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-left">
+      <div class="header-eyebrow">Work Portfolio</div>
+      <h1>Mihir <em>&</em> Nidhi</h1>
+      <p class="header-bio">
+        Working with children, young adults & educators around life skills, ecological
+        consciousness and interdisciplinary learning — through workshops, residential camps,
+        regular programs and more.
+      </p>
+      <div class="header-stats">
+        <div class="stat">
+          <span class="stat-num" id="total-count">—</span>
+          <div class="stat-label">Sessions</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="era-count">—</span>
+          <div class="stat-label">Eras</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="linked-count">—</span>
+          <div class="stat-label">Documented</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Setup Banner (shown until SheetDB URL is configured) ── -->
+  <div id="setup-banner">
+    <h3>🌿 Connect your Google Sheet</h3>
+    <p>
+      This portfolio reads live data from your Google Sheet via <strong>SheetDB</strong>.<br>
+      It takes 2 minutes to set up — no backend needed.
+    </p>
+    <ol class="setup-steps">
+      <li><strong>Step 1:</strong> Go to <a href="https://sheetdb.io" target="_blank" style="color:var(--fern)">sheetdb.io</a> → Sign up free → "Create new API"</li>
+      <li><strong>Step 2:</strong> Paste your Google Sheet URL and create the API</li>
+      <li><strong>Step 3:</strong> Copy the API URL — looks like:<br>
+        <code>https://sheetdb.io/api/v1/xxxxxxxxxxxxxxx</code>
+      </li>
+      <li><strong>Step 4:</strong> Open this HTML file, find <code>SHEETDB_URL</code> near the top of the &lt;script&gt; and replace it with your URL</li>
+      <li><strong>Step 5:</strong> Make sure your sheet tab is named <strong>Work log</strong> and has columns: <strong>Era, Title, Type, Date, Link</strong></li>
+    </ol>
+    <p style="font-size:12px; color:var(--smoke);">SheetDB free tier: 500 requests/month — plenty for a portfolio page.</p>
+  </div>
+
+  <!-- ── Filter Bar ── -->
+  <div class="filter-bar" id="filter-bar" style="display:none">
+    <button class="filter-btn active" data-filter="all">All</button>
+  </div>
+
+  <!-- ── Status ── -->
+  <div id="status-bar" class="visible">
+    <div class="spinner"></div>
+    <div class="status-text">Loading portfolio data…</div>
+  </div>
+
+  <!-- ── Portfolio Content ── -->
+  <div id="portfolio-content"></div>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-text">
+      Live data via SheetDB · Last synced: <span id="last-synced">never</span>
+    </div>
+    <button class="refresh-btn" id="refresh-btn" onclick="loadData(true)">
+      <span class="btn-spinner"></span>
+      <span class="btn-label">Refresh</span>
+    </button>
+  </footer>
+
+</div>
+
+<script>
+  // ─────────────────────────────────────────────
+  //  ▶ CONFIGURE THIS — paste your SheetDB URL
+  // ─────────────────────────────────────────────
+  const SHEETDB_URL = 'https://sheetdb.io/api/v1/6rkay02kxhbp9';
+  //  Example: 'https://sheetdb.io/api/v1/abc123xyz456'
+  //  Sheet tab name must be: Work log
+  // ─────────────────────────────────────────────
+
+  const SHEET_NAME = 'Work log';
+
+  // Type → CSS class mapping
+  const typeClass = {
+    'Nature ed':        { card: 't-nature',    tag: 'tag-nature',    label: 'Nature Ed' },
+    'Nature Education': { card: 't-nature',    tag: 'tag-nature',    label: 'Nature Ed' },
+    'Educator Training':{ card: 't-educator',  tag: 'tag-educator',  label: 'Educator' },
+    'Camp':             { card: 't-camp',      tag: 'tag-camp',      label: 'Camp' },
+    'Creative Arts':    { card: 't-arts',      tag: 'tag-arts',      label: 'Creative Arts' },
+    'Creative art':     { card: 't-arts',      tag: 'tag-arts',      label: 'Creative Arts' },
+    'Community':        { card: 't-community', tag: 'tag-community',  label: 'Community' },
+    'Research':         { card: 't-research',  tag: 'tag-research',  label: 'Research' },
+    'Story Book':       { card: 't-story',     tag: 'tag-story',     label: 'Story Book' },
+    'Article':          { card: 't-article',   tag: 'tag-article',   label: 'Article' },
+    'Magazine':         { card: 't-magazine',  tag: 'tag-magazine',  label: 'Magazine' },
+  };
+
+  function getType(raw) {
+    return typeClass[raw?.trim()] || { card: 't-nature', tag: 'tag-nature', label: raw || 'Activity' };
+  }
+
+  // ── ERA ordering — known eras sorted newest first ──
+  const ERA_ORDER = [
+    'Ahmedabad - March 2025 to Present',
+    'Vadodara - Jan 2025 - Feb 2025',
+    'Vadodara - May 2024 to Dec 2024',
+    'Aug 2023 to Feb 2024',
+    'Earth Educator Fellowship Jun 2022 - Jul 2023',
+    'Publications',
+  ];
+
+  function sortEras(eras) {
+    return eras.sort((a, b) => {
+      const ai = ERA_ORDER.indexOf(a), bi = ERA_ORDER.indexOf(b);
+      if (ai === -1 && bi === -1) return a.localeCompare(b);
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    });
+  }
+
+  // ── Render ──
+  function render(entries) {
+    const content = document.getElementById('portfolio-content');
+    const filterBar = document.getElementById('filter-bar');
+
+    if (!entries || entries.length === 0) {
+      content.innerHTML = '<p style="text-align:center;color:var(--smoke);padding:2rem">No entries found. Check your sheet has data rows.</p>';
+      return;
+    }
+
+    // Group by era
+    const grouped = {};
+    entries.forEach(e => {
+      const era = e.Era || 'Uncategorized';
+      if (!grouped[era]) grouped[era] = [];
+      grouped[era].push(e);
+    });
+
+    // Stats
+    const linked = entries.filter(e => e.Link && e.Link.trim()).length;
+    document.getElementById('total-count').textContent = entries.length;
+    document.getElementById('era-count').textContent = Object.keys(grouped).length;
+    document.getElementById('linked-count').textContent = linked;
+
+    // Unique types for filter bar
+    const types = [...new Set(entries.map(e => e.Type?.trim()).filter(Boolean))];
+    filterBar.innerHTML = '<button class="filter-btn active" data-filter="all">All</button>';
+    types.forEach(t => {
+      const info = getType(t);
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.filter = t;
+      btn.textContent = info.label;
+      filterBar.appendChild(btn);
+    });
+    filterBar.style.display = 'flex';
+
+    // Build HTML
+    let html = '';
+    const orderedEras = sortEras(Object.keys(grouped));
+
+    orderedEras.forEach(era => {
+      const items = grouped[era];
+      html += `
+        <section class="era-section" data-era="${era}">
+          <div class="era-heading">
+            <span class="era-label">${era}</span>
+            <span class="era-count">${items.length}</span>
+            <div class="era-line"></div>
+          </div>
+          <div class="cards-grid">
+      `;
+      items.forEach(e => {
+        const t = getType(e.Type);
+        const linkHtml = e.Link?.trim()
+          ? `<a href="${e.Link.trim()}" target="_blank" rel="noopener" class="card-link">
+               View
+               <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4.5M9.5 2.5V7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+             </a>`
+          : '';
+        html += `
+          <div class="card ${t.card}" data-type="${e.Type?.trim() || ''}">
+            <span class="card-tag ${t.tag}">${t.label}</span>
+            <p class="card-title">${e.Title || 'Untitled'}</p>
+            <div class="card-footer">
+              <span class="card-date">${e.Date || ''}</span>
+              ${linkHtml}
+            </div>
+          </div>
+        `;
+      });
+      html += '</div></section>';
+    });
+
+    content.innerHTML = html;
+    bindFilters();
+  }
+
+  // ── Filter logic ──
+  function bindFilters() {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.card').forEach(card => {
+          if (filter === 'all' || card.dataset.type === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+        // Hide empty era sections
+        document.querySelectorAll('.era-section').forEach(sec => {
+          const visible = sec.querySelectorAll('.card:not(.hidden)').length;
+          sec.style.display = visible ? '' : 'none';
+        });
+      });
+    });
+  }
+
+  // ── Load data from SheetDB ──
+  async function loadData(isRefresh = false) {
+    const btn = document.getElementById('refresh-btn');
+    const statusBar = document.getElementById('status-bar');
+
+    if (SHEETDB_URL === 'YOUR_SHEETDB_API_URL_HERE') {
+      // Show setup banner, hide spinner
+      statusBar.style.display = 'none';
+      return;
+    }
+
+    // Hide setup banner
+    document.getElementById('setup-banner').style.display = 'none';
+
+    btn.classList.add('loading');
+    btn.disabled = true;
+    if (!isRefresh) {
+      statusBar.classList.add('visible');
+      statusBar.style.display = 'block';
+    }
+
+    try {
+      const url = `${SHEETDB_URL}?sheet=${encodeURIComponent(SHEET_NAME)}&_=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+
+      if (!res.ok) throw new Error(`HTTP ${res.status} — check your SheetDB URL and sheet sharing settings.`);
+
+      const data = await res.json();
+      const entries = Array.isArray(data) ? data : data.data || [];
+
+      statusBar.style.display = 'none';
+      render(entries);
+
+      const now = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      document.getElementById('last-synced').textContent = now;
+
+    } catch (err) {
+      statusBar.innerHTML = `<div class="status-error">⚠ ${err.message}</div>`;
+    } finally {
+      btn.classList.remove('loading');
+      btn.disabled = false;
+    }
+  }
+
+  // ── Boot ──
+  loadData();
+</script>
+</body>
+</html>
