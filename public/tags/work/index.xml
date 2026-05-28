@@ -8,9 +8,112 @@
     <language>en-US</language>
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
-    <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <copyright>Mihir Pathak (CC BY-NC-SA 4.0)</copyright>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Engineer the Butterfly Effect</title>
+      <link>https://learningwala.in/blog/butterfly-effect/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/blog/butterfly-effect/</guid>
+      <description>&lt;p&gt;I believe in experimentation — tinkering, trying things, staying curious. And I believe in the butterfly effect.&lt;/p&gt;&#xA;&lt;p&gt;I work as a full-time educator in a school, spending time daily with children — designing learning experiences, facilitating sessions, doing experiments. Whenever I see a need or feel the urge to try something new, I do. I believe in the power of nature-based and project-based learning, so I design sessions around them. I was looking for good rhymes and songs to sing with children and couldn&amp;rsquo;t find what I needed — so I wrote and composed my own. I noticed most educators rely on oral storytelling and rarely use theatre or puppets as a medium — so I tried that. I collaborated with artists, makers, and other educators to make it possible.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I believe in experimentation — tinkering, trying things, staying curious. And I believe in the butterfly effect.</p>
+<p>I work as a full-time educator in a school, spending time daily with children — designing learning experiences, facilitating sessions, doing experiments. Whenever I see a need or feel the urge to try something new, I do. I believe in the power of nature-based and project-based learning, so I design sessions around them. I was looking for good rhymes and songs to sing with children and couldn&rsquo;t find what I needed — so I wrote and composed my own. I noticed most educators rely on oral storytelling and rarely use theatre or puppets as a medium — so I tried that. I collaborated with artists, makers, and other educators to make it possible.</p>
+<p>I did all of this in my small bubble — my classroom. Because I had the intent, the skills, and enough financial stability to experiment.</p>
+<p>This might become a butterfly effect. The children I work with may grow more curious about nature, develop an interest in art and literature, or discover the joy of making things. Maybe now, maybe years later. There is no guarantee. That is the nature of the butterfly effect — you flap, and you trust.</p>
+<p>In this sense, I am the butterfly.</p>
+<hr>
+<p>At some point I started noticing absences. Gaps so obvious, yet no one was attempting to fill them. Gaps that were out of my control. (Before looking at these as gaps, I have a deep interest and fascination to see all of these in reality: the creative process of magazine-making, nature education, community, public learning spaces, and theater.)</p>
+<p><strong>I wonder:</strong></p>
+<ul>
+<li>Why is there no good children&rsquo;s literature magazine in Gujarati? There are plenty of publishers and plenty of organisations working in education — but no one is attempting this.</li>
+<li>Why is there no contextual nature education material for Gujarat?</li>
+<li>Why is there no support system for independent educators?</li>
+<li>Why are there no interesting learning opportunities for children and young adults in the city — theatre for young audiences, interdisciplinary exhibitions like Science Gallery Bengaluru, open makerspaces, open libraries? Opportunities beyond commercial workshops, events, and classes.</li>
+</ul>
+<p>Is it because these things are not commercially viable? Is it because people lack the skills? Or do they simply not have the intent to do things that serve a larger good — too caught up in other priorities?</p>
+<hr>
+<h2 id="the-triangle-of-fulfilment">The Triangle of Fulfilment</h2>
+<p>Kailash Nadh — CTO of Zerodha, hobbyist developer, absurdist — asks a similar question in his 2022 essay: <em>why do obvious things not exist?</em></p>
+<p>His answer is the <strong>Triangle of Fulfilment</strong>. For any idea to become real, three things must come together simultaneously:</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>🔥 <strong>Intent</strong></td>
+          <td>Intrinsic drive. Cannot be bought or practiced into existence.</td>
+      </tr>
+      <tr>
+          <td>🛠️ <strong>Skills</strong></td>
+          <td>Knowledge and craft to execute. Can be learned.</td>
+      </tr>
+      <tr>
+          <td>🌱 <strong>Resources</strong></td>
+          <td>Time, money, material. Can be gathered.</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p><em>&ldquo;The pool of people globally who can build a certain thing drops down exponentially from millions to often just a handful — or sometimes even one — when selected for the presence of all three factors.&rdquo;</em></p>
+<p>— Kailash Nadh, <a href="https://nadh.in/blog/triangle-of-fulfilment/">Triangle of Fulfilment</a></p></blockquote>
+<p>When all three align in one person, the effect is disproportionate to the cause.</p>
+<p>What strikes me about Kailash is that he lives this duality openly. He is himself a butterfly — building open-source tools like Listmonk because he saw a gap and had the triangular fulfilment to fill it. But he also engineers butterflies — by open-sourcing everything he builds, by writing essays like this one, by making his thinking available to anyone who needs it. And then he took it one step further: he founded <strong>Samagata Foundation</strong>, a non-profit built on exactly this idea. Samagata supports individuals and organisations passionately committed to projects that bring positive societal change — focusing not on immediately measurable outcomes, but on unquantifiable positive changes that ripple and compound over time. The name itself says it: <em>samāgata</em> — the coming together of intent, skills, and resources.</p>
+<p>His essay is itself a butterfly. It gave me clarity.</p>
+<p>This framework answered my questions — and pointed me toward something. How can I enable small, positive ripples that have the potential to generate bigger outcomes in this infinitely chaotic world?</p>
+<p>What I can offer is my skills and time. I can help people who already have intent and some resources — but need the missing side of their triangle.</p>
+<p>But here is what I have come to realise: the roles are not fixed. Sometimes I am the butterfly — flapping, experimenting, trusting. Sometimes I am the one engineering conditions for other butterflies to emerge. And sometimes, in the same project, I am both at once.</p>
+<hr>
+<h2 id="my-engineering-efforts">My Engineering Efforts</h2>
+<p><em>Projects where I see value, potential, and where I can contribute:</em></p>
+<p>I feel the need for critical, creative, and contextual children&rsquo;s literature in Gujarati. I really enjoy writing. I write stories and songs with my class, and I wish other parents, educators, and children would also explore this type of literature.</p>
+<p>Last year, I tried to self-publish a poetry and essay book with the help of some friends. Recently, I started working with a friend to publish a children&rsquo;s magazine in Gujarati. It is a difficult but meaningful project we have taken on.</p>
+<p>Intent :</p>
+<ul>
+<li>We both are passionate about language and children.</li>
+</ul>
+<p>Skills :</p>
+<ul>
+<li>My friend have skills to curate and edit.</li>
+<li>Folks from eklavya foundation are ready to mentor us for publication process</li>
+<li>I started writing orignal stories and poems.</li>
+</ul>
+<p>Resources :</p>
+<ul>
+<li>We received one small grant.</li>
+</ul>
+<p>This triangular alignment gave us the confidence to take it forward. I don&rsquo;t know how long we will be able to keep it going, but we are taking it one day at a time.</p>
+<p>Here I am the butterfly — this magazine may or may not survive, but if it does, it becomes a platform where other writers, educators, artists, and children can find each other. Writers get the opportunity and support to write good children&rsquo;s literature. Educators get exposure to using it in the classroom. Parents get tools to engage with their children. And children get the opportunity to explore good literature instead of — or beyond — screens. The butterfly engineers more butterflies.</p>
+<p>I also have plans to produce original theatre performances for young audiences and interdisciplinary exhibitions — These types of projects have many stakeholders and audiences, both of whom are impacted through the experience.</p>
+<p><em>Here I am engineering — building something others can pick up and flap with.</em></p>
+<ul>
+<li><strong>Nature Detective &amp; Local Khoji</strong> — Open-source nature education programs, documented for any educator to pick up and use. I am working with a visual designer to make this possible. This is a work in progress.</li>
+<li><strong>Free mentoring calls</strong> — For schools and NGOs building nature-based and experiential learning spaces. I am currently engaging with two organisations.</li>
+<li><strong>Writing</strong> — Sharing my insights and experiences from the field through blog posts and articles in magazines such as <em>Sandarbh</em> and <em>Teacher Plus</em>.</li>
+<li><strong>Eklavya Foundation, Bhopal</strong> — I have been part of the faculty for the Child Development, Learning and Special Needs course for the last 8 years. Every year I work with 15 to 20 educators.</li>
+<li><strong>Youth Conservation Action Network</strong> <em>(coming soon)</em> — Mentoring nature education fellows.</li>
+<li><strong>Nature Educator Meetup</strong> <em>(coming soon)</em> — Creating a community of practice that isolated educators need but currently don&rsquo;t have.</li>
+<li><strong>Designing, building, and managing websites</strong> — I have built around 6 websites for different non-profit organisations and schools, and I am currently managing one website for a school in rural Gujarat.</li>
+</ul>
+<hr>
+<p>This is how I try to engineer the butterfly effect in my little corner. Nidhi is my partner and collaborator in all of this — sometimes as an active contributor, sometimes as a quiet supporter.</p>
+<p>We are in the process of registering a not-for-profit organisation called <strong>Khojbeen Mandali</strong> — a legal structure that will allow us to receive resources and funds for the projects we are doing. Our focus is:</p>
+<ul>
+<li>Nature-based, theatre-based, and project-based experiential learning for children and young adults</li>
+<li>Children&rsquo;s literature in Indian languages</li>
+<li>Experiments in interdisciplinary learning — exhibitions, film festivals, theatre, zines, third spaces like libraries and makerspaces</li>
+<li>Open, informal, self-directed learning opportunities in the city</li>
+<li>Community of educators — knowledge sharing and collaboration between educators and organisations</li>
+</ul>
+<p>I do not always know whether I am the butterfly or the engineer. Perhaps that distinction does not matter. What matters is staying close to the gaps, showing up with whatever triangle I have, and trusting that something will carry.</p>
+<blockquote>
+<p><em>The butterfly effect is not a promise. It is a practice. It requires showing up daily, staying close to what is real, and trusting that the wind will carry your wing-flap somewhere worth going — even if you never get to know where.</em></p></blockquote>
+]]></content:encoded>
+    </item>
     <item>
       <title>How to Build Your Portfolio</title>
       <link>https://learningwala.in/blog/how-to-make-portfolio/</link>
@@ -63,7 +166,7 @@
 <p>The decision always comes from a combination of these four factors, weighted by where life is right now.</p>
 <hr>
 <h2 id="after-stability-comes-the-butterfly-effect">After Stability Comes the Butterfly Effect</h2>
-<p>Once I have meaningful work aligned with my ethos, financial stability, and a daily practice ground — I invest remaining time and energy into what I call the <em>butterfly effect</em>: small, intentional acts in a chaotic world. Unpredictable in outcome, long in impact. An investment in the ecosystem.</p>
+<p>Once I have meaningful work aligned with my ethos, financial stability, and a daily practice ground — I invest remaining time and energy into something called the <em><a href="https://en.wikipedia.org/wiki/Butterfly_effect">butterfly effect</a></em>: small, intentional acts in a chaotic world. Unpredictable in outcome, long in impact. An investment in the ecosystem.</p>
 <p>This is where side projects come in.</p>
 <hr>
 <h2 id="how-i-choose-side-projects">How I Choose Side Projects</h2>

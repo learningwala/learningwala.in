@@ -8,13 +8,13 @@
     <language>en-US</language>
     <managingEditor>learningwalamihir@gmail.com (Mihir Pathak)</managingEditor>
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
-    <copyright>Mihir Pathak (CC BY 4.0)</copyright>
-    <lastBuildDate>Sun, 29 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <copyright>Mihir Pathak (CC BY-NC-SA 4.0)</copyright>
+    <lastBuildDate>Sun, 24 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://learningwala.in/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>
       <link>https://learningwala.in/tags/personal/</link>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/personal/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -22,7 +22,7 @@
     <item>
       <title>Weekly-Notes</title>
       <link>https://learningwala.in/tags/weekly-notes/</link>
-      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -30,23 +30,39 @@
     <item>
       <title>Blog</title>
       <link>https://learningwala.in/tags/blog/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Children&#39;s Literature</title>
+      <link>https://learningwala.in/tags/childrens-literature/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/childrens-literature/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Learning Resources</title>
       <link>https://learningwala.in/tags/learning-resources/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/learning-resources/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Field Note</title>
+      <link>https://learningwala.in/tags/field-note/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <guid>https://learningwala.in/tags/field-note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Work</title>
       <link>https://learningwala.in/tags/work/</link>
-      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/work/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -56,14 +72,6 @@
       <link>https://learningwala.in/tags/environmental-consciousness/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/environmental-consciousness/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Field Note</title>
-      <link>https://learningwala.in/tags/field-note/</link>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/field-note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -144,14 +152,6 @@
       <link>https://learningwala.in/tags/status/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/tags/status/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Children&#39;s Literature</title>
-      <link>https://learningwala.in/tags/childrens-literature/</link>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/tags/childrens-literature/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

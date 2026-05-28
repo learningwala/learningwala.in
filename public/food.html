@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mihir's Safe Food Places · Ahmedabad</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --cream: #fdf8f3;
+      --warm-white: #fff9f4;
+      --sand: #f5ede0;
+      --terracotta: #c7654a;
+      --saffron: #e8a020;
+      --sage: #6b8f71;
+      --lunch-blue: #4a76c7;
+      --slate: #3d3530;
+      --slate-mid: #6b5e57;
+      --border: #e8ddd5;
+      --shadow-md: rgba(61,53,48,0.14);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--slate);
+      min-height: 100vh;
+    }
+
+    /* ── Updated Screenshot-Style Header ── */
+    .header {
+      background: var(--warm-white);
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .header-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #8c7365;
+      background: #f2e8df;
+      border: 1px solid #e0d1c5;
+      border-radius: 50px;
+      padding: 0.4rem 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      color: #3d3530;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    .header h1 em {
+      font-style: italic;
+      color: #c7654a;
+    }
+
+    .header p {
+      font-size: 1rem;
+      color: #6b5e57;
+      max-width: 550px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.6;
+    }
+
+    .location-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #8c7365;
+      background: #f2e8df;
+      border: 1px solid #e0d1c5;
+      border-radius: 50px;
+      padding: 0.5rem 1.2rem;
+    }
+
+    /* ── Controls & Filters ── */
+    .controls {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(253,248,243,0.95);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 1.2rem 1rem;
+    }
+
+    .filter-row {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .filter-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 50px;
+      border: 1px solid var(--border);
+      background: white;
+      color: var(--slate-mid);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .filter-btn.active {
+      background: #c7654a;
+      border-color: #c7654a;
+      color: white;
+      box-shadow: 0 4px 12px rgba(199, 101, 74, 0.3);
+    }
+
+    /* ── Main Grid & Distance Note ── */
+    .main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+    .distance-note {
+      background: #f0f4f1;
+      border: 1px solid #d1dbd3;
+      border-radius: 12px;
+      padding: 1rem 1.5rem;
+      font-size: 0.85rem;
+      color: #5a7a5f;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px var(--shadow-md);
+      border-color: var(--terracotta);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 50px;
+      padding: 0.3rem 0.8rem;
+      margin-bottom: 1rem;
+    }
+    .badge-breakfast { background: #e7f5e9; color: #2e7d32; }
+    .badge-lunch { background: #e3f2fd; color: #1565c0; }
+    .badge-snacks { background: #fff8e1; color: #f57f17; }
+    .badge-dinner { background: #fbe9e7; color: #d84315; }
+
+    .card-name { font-family: 'DM Serif Display', serif; font-size: 1.3rem; margin-bottom: 0.5rem; color: #3d3530; }
+    .card-foods { font-size: 0.9rem; color: #6b5e57; margin-bottom: 1.2rem; line-height: 1.6; }
+    .card-footer { 
+      display: flex; justify-content: space-between; align-items: center; 
+      border-top: 1px solid var(--border); padding-top: 1rem; font-size: 0.85rem; 
+    }
+    .dist-val { font-weight: 700; color: #c7654a; }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-tag">🍴 Mihir's Guide</div>
+  <h1>Safe Food Places<br><em>in Ahmedabad</em></h1>
+  <p>Trusted, tried-and-tested spots — filtered by meal type, with walking/driving distances from home.</p>
+  <div class="location-chip">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    Roopmadhuri Society, Kenyug Crossroad, Ahmedabad
+  </div>
+</header>
+
+<div class="controls">
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="setFilter(this,'all')">🍴 All Places</button>
+    <button class="filter-btn" onclick="setFilter(this,'Breakfast')">🌅 Breakfast</button>
+    <button class="filter-btn" onclick="setFilter(this,'Lunch')">🥙 Lunch</button>
+    <button class="filter-btn" onclick="setFilter(this,'Snacks')">🥪 Snacks</button>
+    <button class="filter-btn" onclick="setFilter(this,'Dinner')">🌙 Dinner</button>
+  </div>
+</div>
+
+<main class="main">
+  <div class="distance-note">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+    Distances are approximate straight-line estimates from Roopmadhuri Society. Actual travel time may vary.
+  </div>
+
+  <div id="status" style="margin-bottom: 1.5rem; font-weight: 600; color: #a89990;">Fetching latest menu...</div>
+  <div class="cards-grid" id="cardsGrid"></div>
+</main>
+
+<script>
+  const API_URL = "https://sheetdb.io/api/v1/03bu21k7us8bs";
+  const HOME = { lat: 23.0336, lng: 72.5362 }; // Coordinates for Roopmadhuri Society
+
+  const META = {
+    "Breakfast": { emoji: "🌅", class: "badge-breakfast" },
+    "Lunch":     { emoji: "🥙", class: "badge-lunch" },
+    "Snacks":    { emoji: "🥪", class: "badge-snacks" },
+    "Sancks":    { emoji: "🥪", class: "badge-snacks" },
+    "Dinner":    { emoji: "🌙", class: "badge-dinner" }
+  };
+
+  let PLACES = [];
+
+  function getDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  }
+
+  async function loadData() {
+    try {
+      const response = await fetch(API_URL);
+      const data = await response.json();
+      
+      PLACES = data.map(item => {
+        const d = getDistance(HOME.lat, HOME.lng, parseFloat(item.lat), parseFloat(item.lng));
+        return {
+          ...item,
+          calculatedDist: d,
+          distText: d < 1 ? `${(d * 1000).toFixed(0)}m away` : `${d.toFixed(1)}km away`
+        };
+      });
+
+      PLACES.sort((a, b) => a.calculatedDist - b.calculatedDist);
+      render("all");
+      document.getElementById("status").textContent = `Showing all ${PLACES.length} places`;
+    } catch (e) {
+      document.getElementById("status").textContent = "Check Google Sheet for columns: name, lat, lng, type, foods, mapUrl";
+    }
+  }
+
+  function render(filter) {
+    const grid = document.getElementById("cardsGrid");
+    grid.innerHTML = "";
+    
+    const filtered = filter === "all" ? PLACES : PLACES.filter(p => {
+        if(filter === "Snacks") return p.type === "Snacks" || p.type === "Sancks";
+        return p.type === filter;
+    });
+    
+    filtered.forEach(p => {
+      const m = META[p.type] || { emoji: "🍴", class: "badge-dinner" };
+      grid.innerHTML += `
+        <a class="card" href="${p.mapUrl}" target="_blank">
+          <div class="badge ${m.class}">${m.emoji} ${p.type === 'Sancks' ? 'Snacks' : p.type}</div>
+          <div class="card-name">${p.name}</div>
+          <div class="card-foods">${p.foods}</div>
+          <div class="card-footer">
+            <span class="dist-val">📍 ${p.distText}</span>
+            <span style="color: #c7654a; font-weight:700;">Open Map →</span>
+          </div>
+        </a>
+      `;
+    });
+  }
+
+  function setFilter(btn, type) {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    render(type);
+  }
+
+  loadData();
+</script>
+</body>
+</html>
