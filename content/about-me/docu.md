@@ -17,6 +17,7 @@ This page is list / documentation of work they are doing at different places.
 ---------
 ### Ahemdabad - March 2025 to Present
 
+- Mihir took workshop on *'Introduction to Children's Literature and Storytelling for Early Years Children'* with Planet Discovery School - CEE teachers | 26th May 2026
 - Mihir took storytelling (with puppets) session at CEE Planet Discovery Learning Center | 27th March 2026
 - Nidhi took two sessions at Mihir's work place (1. with children on leaf art 2. with educator on naure based learning)
 - Nidhi and Himanshi developed nature education module for middle school children and did teacher training for the same at Mumbai | Thinktac Project

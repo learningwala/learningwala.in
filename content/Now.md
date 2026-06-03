@@ -14,24 +14,17 @@ I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nid
 
 ### (Full time engagement)
 
-**Learning Facilitator / [Balgokulam Foundation](https://www.linkedin.com/company/bright-balgokulam/posts/?feedView=all)**, Ahmadabad
+**Program Manager / [TIDE Foundation](https://tideinternational.org/)**, Ahmadabad
 
-I work with curriculum designers, researchers, learning facilitators and children to design and test the experiential learning curriculum for children age 3 to 8yrs.
+we are a group of passionate educators, researchers & volunteers facilitating transformational learning experiences with children and young adults through civic - climate action based projects.
 
 ---
 
 ### (Side Projects)
 
-**Learning Facilitator / [Khojbeen Mandali](/offerings)** (<-- check out the offering page)
+- Gujarati children literature magazine - Patrngo (Team : Mihir, Bansi)
 
-We (Mihir & Nidhi) are facilitating experiential learning journeys for children and young adults through Nature exploration - Theater - Inquiry projects.
-
-**Current Work :**
-
-- Writing literature (stories, poems, songs, theater) for children age 3 to 10yrs.
-- learning calls with Sajhe Sapne (every Saturday) and The circuit project (once in a month)
-- Documenting past projects, creating zine / articles
-
+I am trying to minimize my side projects and converting / merging all with my full-time work. Core is 'Education for harmony' through PBL, Nature edu, Theater, Children literature (tools)
 
 ---
 
@@ -41,7 +34,7 @@ We (Mihir & Nidhi) are facilitating experiential learning journeys for children 
 - [Now March 2025](/archive/now-march-2025/)
 - [Now Oct 2025](/archive/now-oct-2025/)
 - [Now Jan 2026](/archive/now-jan-2026/)
-
+- [Now June 2026](/archive/now-june-2026/)
 ---
 
-*Inspiration: [nownownow.com](nownownow.com) | last updated on 19th Jan 2026*
+*Inspiration: [nownownow.com](nownownow.com) | last updated on 1st June 2026*
