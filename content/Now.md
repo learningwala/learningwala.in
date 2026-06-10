@@ -8,7 +8,7 @@ weight:	6
 
 I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nidhi_pal16/). I regularly write [weekly notes](/tags/weekly-notes) and occasionally write [blog posts](/tags/blog/). You can read my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
 
----
+----
 
 ## Work
 
