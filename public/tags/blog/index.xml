@@ -28,7 +28,8 @@
 <p>Cognitive linguistics research tells us that language shapes perception. A child who knows the word &ldquo;heron&rdquo; sees a specific, irreplaceable living being when one stands by a river. A child without that word sees only a large grey bird. The word is not decoration — it is the organ of attention.</p>
 <blockquote>
 <p><em>We cannot love what we cannot name. We cannot protect what we have no language for.</em>
-— Robert Macfarlane, <em>Landmarks</em> (2015)</p></blockquote>
+— Robert Macfarlane, <em>Landmarks</em> (2015)</p>
+</blockquote>
 <p>When children lose nature vocabulary, they lose the capacity to notice the living world with precision and care. And what we do not notice, we do not protect.</p>
 <h3 id="disconnection-from-nature-has-a-real-developmental-cost">Disconnection from nature has a real developmental cost</h3>
 <p>Environmental psychologists call it the &ldquo;extinction of experience&rdquo; — a cascading loss of familiarity with local species, seasonal rhythms, and ecological processes. The consequences are not only environmental. Research links nature disconnection in childhood to elevated anxiety, diminished attention, and a weakened sense of belonging to something larger than oneself (Kellert, 1997).</p>
@@ -206,30 +207,31 @@
 <p>Kailash Nadh — CTO of Zerodha, hobbyist developer, absurdist — asks a similar question in his 2022 essay: <em>why do obvious things not exist?</em></p>
 <p>His answer is the <strong>Triangle of Fulfilment</strong>. For any idea to become real, three things must come together simultaneously:</p>
 <table>
-  <thead>
-      <tr>
-          <th></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>🔥 <strong>Intent</strong></td>
-          <td>Intrinsic drive. Cannot be bought or practiced into existence.</td>
-      </tr>
-      <tr>
-          <td>🛠️ <strong>Skills</strong></td>
-          <td>Knowledge and craft to execute. Can be learned.</td>
-      </tr>
-      <tr>
-          <td>🌱 <strong>Resources</strong></td>
-          <td>Time, money, material. Can be gathered.</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>🔥 <strong>Intent</strong></td>
+					<td>Intrinsic drive. Cannot be bought or practiced into existence.</td>
+			</tr>
+			<tr>
+					<td>🛠️ <strong>Skills</strong></td>
+					<td>Knowledge and craft to execute. Can be learned.</td>
+			</tr>
+			<tr>
+					<td>🌱 <strong>Resources</strong></td>
+					<td>Time, money, material. Can be gathered.</td>
+			</tr>
+	</tbody>
 </table>
 <blockquote>
 <p><em>&ldquo;The pool of people globally who can build a certain thing drops down exponentially from millions to often just a handful — or sometimes even one — when selected for the presence of all three factors.&rdquo;</em></p>
-<p>— Kailash Nadh, <a href="https://nadh.in/blog/triangle-of-fulfilment/">Triangle of Fulfilment</a></p></blockquote>
+<p>— Kailash Nadh, <a href="https://nadh.in/blog/triangle-of-fulfilment/">Triangle of Fulfilment</a></p>
+</blockquote>
 <p>When all three align in one person, the effect is disproportionate to the cause.</p>
 <p>What strikes me about Kailash is that he lives this duality openly. He is himself a butterfly — building open-source tools like Listmonk because he saw a gap and had the triangular fulfilment to fill it. But he also engineers butterflies — by open-sourcing everything he builds, by writing essays like this one, by making his thinking available to anyone who needs it. And then he took it one step further: he founded <strong>Samagata Foundation</strong>, a non-profit built on exactly this idea. Samagata supports individuals and organisations passionately committed to projects that bring positive societal change — focusing not on immediately measurable outcomes, but on unquantifiable positive changes that ripple and compound over time. The name itself says it: <em>samāgata</em> — the coming together of intent, skills, and resources.</p>
 <p>His essay is itself a butterfly. It gave me clarity.</p>
@@ -280,7 +282,8 @@
 </ul>
 <p>I do not always know whether I am the butterfly or the engineer. Perhaps that distinction does not matter. What matters is staying close to the gaps, showing up with whatever triangle I have, and trusting that something will carry.</p>
 <blockquote>
-<p><em>The butterfly effect is not a promise. It is a practice. It requires showing up daily, staying close to what is real, and trusting that the wind will carry your wing-flap somewhere worth going — even if you never get to know where.</em></p></blockquote>
+<p><em>The butterfly effect is not a promise. It is a practice. It requires showing up daily, staying close to what is real, and trusting that the wind will carry your wing-flap somewhere worth going — even if you never get to know where.</em></p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -364,7 +367,7 @@
       <link>https://learningwala.in/blog/affective-domain-ece/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/affective-domain-ece/</guid>
-      <description>&lt;p&gt;A group of children sits in a circle.&lt;/p&gt;&#xA;&lt;p&gt;I show them a picture of a man cutting a tree.&lt;/p&gt;&#xA;&lt;p&gt;I ask a simple question:&lt;br&gt;&#xA;&lt;strong&gt;&amp;ldquo;How do you feel when you look at this picture?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hands go up.&lt;/p&gt;&#xA;&lt;p&gt;One child says,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I don&amp;rsquo;t like it. We should not cut trees. Trees give us oxygen.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Another adds,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It is nice. We can make a table from the wood.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;A third says thoughtfully,&lt;/p&gt;</description>
+      <description>&lt;p&gt;A group of children sits in a circle.&lt;/p&gt;&#xA;&lt;p&gt;I show them a picture of a man cutting a tree.&lt;/p&gt;&#xA;&lt;p&gt;I ask a simple question:&lt;br&gt;&#xA;&lt;strong&gt;&amp;ldquo;How do you feel when you look at this picture?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hands go up.&lt;/p&gt;&#xA;&lt;p&gt;One child says,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I don&amp;rsquo;t like it. We should not cut trees. Trees give us oxygen.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Another adds,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It is nice. We can make a table from the wood.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;A third says thoughtfully,&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A group of children sits in a circle.</p>
 <p>I show them a picture of a man cutting a tree.</p>
 <p>I ask a simple question:<br>
@@ -372,13 +375,16 @@
 <p>Hands go up.</p>
 <p>One child says,</p>
 <blockquote>
-<p>&ldquo;I don&rsquo;t like it. We should not cut trees. Trees give us oxygen.&rdquo;</p></blockquote>
+<p>&ldquo;I don&rsquo;t like it. We should not cut trees. Trees give us oxygen.&rdquo;</p>
+</blockquote>
 <p>Another adds,</p>
 <blockquote>
-<p>&ldquo;It is nice. We can make a table from the wood.&rdquo;</p></blockquote>
+<p>&ldquo;It is nice. We can make a table from the wood.&rdquo;</p>
+</blockquote>
 <p>A third says thoughtfully,</p>
 <blockquote>
-<p>&ldquo;If we cut a big tree, we can get fruits easily from the top.&rdquo;</p></blockquote>
+<p>&ldquo;If we cut a big tree, we can get fruits easily from the top.&rdquo;</p>
+</blockquote>
 <p>Later, I show another picture—a man killing an ant by stepping on it.</p>
 <p>Responses come quickly:</p>
 <ul>
@@ -493,7 +499,8 @@ Some think about human needs.</p>
 <p>Instead of resolving this, name it:</p>
 <blockquote>
 <p>&ldquo;Different feelings are present here.<br>
-More than one feeling can exist at the same time.&rdquo;</p></blockquote>
+More than one feeling can exist at the same time.&rdquo;</p>
+</blockquote>
 <p>This itself is deep affective learning.</p>
 <hr>
 <h3 id="4-be-careful-with-abstractions"><strong>4. Be Careful with Abstractions</strong></h3>
@@ -543,7 +550,8 @@ More than one feeling can exist at the same time.&rdquo;</p></blockquote>
 <hr>
 <blockquote>
 <h3 id="affective-education-is-not-about-telling-children-what-to-value"><strong>Affective education is not about telling children what to value.</strong></h3>
-<h3 id="it-is-about-keeping-their-ability-to-feel-deeply-alive"><strong>It is about keeping their ability to feel deeply alive.</strong></h3></blockquote>
+<h3 id="it-is-about-keeping-their-ability-to-feel-deeply-alive"><strong>It is about keeping their ability to feel deeply alive.</strong></h3>
+</blockquote>
 <hr>
 <p><em>This blog post is written with the help of ChatGPT. Prompt and final editing is done by <a href="https://learningwala.in/">Mihir Pathak</a>.</em></p>
 ]]></content:encoded>
@@ -591,10 +599,10 @@ They shape how we see the world — and how we treat it.</p>
       <link>https://learningwala.in/blog/semantic-grammar/</link>
       <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/semantic-grammar/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;In early childhood education, language is often treated as a technical skill—letters first, sounds next, grammar rules soon after. But children do not enter the world thinking in alphabets or sentence structures. They enter the world &lt;strong&gt;experiencing meaning&lt;/strong&gt;—through the body, emotions, relationships, and action.&lt;/p&gt;&#xA;&lt;p&gt;This is where the idea of &lt;strong&gt;semantic grammar&lt;/strong&gt; becomes important.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In early childhood education, language is often treated as a technical skill—letters first, sounds next, grammar rules soon after. But children do not enter the world thinking in alphabets or sentence structures. They enter the world &lt;strong&gt;experiencing meaning&lt;/strong&gt;—through the body, emotions, relationships, and action.&lt;/p&gt;&#xA;&lt;p&gt;This is where the idea of &lt;strong&gt;semantic grammar&lt;/strong&gt; becomes important.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>In early childhood education, language is often treated as a technical skill—letters first, sounds next, grammar rules soon after. But children do not enter the world thinking in alphabets or sentence structures. They enter the world <strong>experiencing meaning</strong>—through the body, emotions, relationships, and action.</p>
 <p>This is where the idea of <strong>semantic grammar</strong> becomes important.</p>
@@ -710,9 +718,11 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 <p><strong>Semantic grammar reminds us that education is not about filling children with correct words, but about helping them discover and express what they already understand.</strong></p>
 <hr>
 <blockquote>
-<p>Grammar should enter education not as a set of rules to be mastered, but as a reflective tool that helps children notice, refine, and deepen the meanings they are already living.</p></blockquote>
+<p>Grammar should enter education not as a set of rules to be mastered, but as a reflective tool that helps children notice, refine, and deepen the meanings they are already living.</p>
+</blockquote>
 <blockquote>
-<p>Children’s literature, theatre, and libraries do not teach language; they cultivate the soil in which language, thought, and social understanding can grow.</p></blockquote>
+<p>Children’s literature, theatre, and libraries do not teach language; they cultivate the soil in which language, thought, and social understanding can grow.</p>
+</blockquote>
 <hr>
 <p>This blog post is written with the help of ChatGPT. Prompt and final editing is done by <a href="https://learningwala.in/">Mihir Pathak</a>.</p>
 ]]></content:encoded>
@@ -752,10 +762,10 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/itsok/itsok-1_hu_75ec3176eb6bc312.webp" type="image/webp">
-      <source srcset="/itsok/itsok-1_hu_e893234e99d69ce1.jpeg" type="image/jpeg">
+      <source srcset="/itsok/itsok-1_hu_800e13814cf7ef0c.webp" type="image/webp">
+      <source srcset="/itsok/itsok-1_hu_c9ac3e74bc361dc4.jpeg" type="image/jpeg">
       <img
-        src="/itsok/itsok-1_hu_e893234e99d69ce1.jpeg"
+        src="/itsok/itsok-1_hu_c9ac3e74bc361dc4.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -781,10 +791,10 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/itsok/itsok-2_hu_c97c5ce271217926.webp" type="image/webp">
-      <source srcset="/itsok/itsok-2_hu_30e313fecc710366.jpeg" type="image/jpeg">
+      <source srcset="/itsok/itsok-2_hu_c326e20577a2c6c5.webp" type="image/webp">
+      <source srcset="/itsok/itsok-2_hu_88a1612c31c6186b.jpeg" type="image/jpeg">
       <img
-        src="/itsok/itsok-2_hu_30e313fecc710366.jpeg"
+        src="/itsok/itsok-2_hu_88a1612c31c6186b.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -810,10 +820,10 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/itsok/itsok-3_hu_2add3740b79c594e.webp" type="image/webp">
-      <source srcset="/itsok/itsok-3_hu_ea931cd2e87c2a6.jpeg" type="image/jpeg">
+      <source srcset="/itsok/itsok-3_hu_94d91241d64cd8bd.webp" type="image/webp">
+      <source srcset="/itsok/itsok-3_hu_eaae4a54c191b4de.jpeg" type="image/jpeg">
       <img
-        src="/itsok/itsok-3_hu_ea931cd2e87c2a6.jpeg"
+        src="/itsok/itsok-3_hu_eaae4a54c191b4de.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -839,10 +849,10 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/itsok/itsok-4_hu_4853fb12f8618e47.webp" type="image/webp">
-      <source srcset="/itsok/itsok-4_hu_484951a44ce2233e.jpeg" type="image/jpeg">
+      <source srcset="/itsok/itsok-4_hu_ec96f3ca2807e7d2.webp" type="image/webp">
+      <source srcset="/itsok/itsok-4_hu_7520c72f00ef684a.jpeg" type="image/jpeg">
       <img
-        src="/itsok/itsok-4_hu_484951a44ce2233e.jpeg"
+        src="/itsok/itsok-4_hu_7520c72f00ef684a.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -994,7 +1004,7 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
       <link>https://learningwala.in/blog/affectivedomain/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/affectivedomain/</guid>
-      <description>&lt;p&gt;Most education systems are very good at answering two questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What does a child know?&lt;/li&gt;&#xA;&lt;li&gt;What can a child do?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;But a far more important question often remains invisible:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;What does the child care about?&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;The answer to this question lives in the affective domain of learning.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-the-affective-domain-of-learning&#34;&gt;What is the affective domain of learning?&lt;/h2&gt;&#xA;&lt;p&gt;The affective domain refers to learning related to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;emotions and feelings&lt;/li&gt;&#xA;&lt;li&gt;attitudes and dispositions&lt;/li&gt;&#xA;&lt;li&gt;values and ethics&lt;/li&gt;&#xA;&lt;li&gt;motivation and interest&lt;/li&gt;&#xA;&lt;li&gt;empathy, care, and sense of belonging&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It is one of the three domains of learning:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Most education systems are very good at answering two questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What does a child know?&lt;/li&gt;&#xA;&lt;li&gt;What can a child do?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;But a far more important question often remains invisible:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;What does the child care about?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The answer to this question lives in the affective domain of learning.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-the-affective-domain-of-learning&#34;&gt;What is the affective domain of learning?&lt;/h2&gt;&#xA;&lt;p&gt;The affective domain refers to learning related to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;emotions and feelings&lt;/li&gt;&#xA;&lt;li&gt;attitudes and dispositions&lt;/li&gt;&#xA;&lt;li&gt;values and ethics&lt;/li&gt;&#xA;&lt;li&gt;motivation and interest&lt;/li&gt;&#xA;&lt;li&gt;empathy, care, and sense of belonging&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It is one of the three domains of learning:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most education systems are very good at answering two questions:</p>
 <ul>
 <li>What does a child know?</li>
@@ -1002,7 +1012,8 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 </ul>
 <p>But a far more important question often remains invisible:</p>
 <blockquote>
-<p><strong>What does the child care about?</strong></p></blockquote>
+<p><strong>What does the child care about?</strong></p>
+</blockquote>
 <p>The answer to this question lives in the affective domain of learning.</p>
 <hr>
 <h2 id="what-is-the-affective-domain-of-learning">What is the affective domain of learning?</h2>
@@ -1021,7 +1032,8 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
 <li>Affective – feeling, valuing, relating</li>
 </ul>
 <blockquote>
-<p>If cognitive learning shapes the mind and psychomotor learning shapes the body, affective learning shapes the inner compass of a child.</p></blockquote>
+<p>If cognitive learning shapes the mind and psychomotor learning shapes the body, affective learning shapes the inner compass of a child.</p>
+</blockquote>
 <p>It is not about teaching “good behaviour” or inserting moral lessons.<br>
 It is about how meaning, care, and values slowly form through lived experience.</p>
 <hr>
@@ -1042,7 +1054,8 @@ It is about how meaning, care, and values slowly form through lived experience.<
 <li>allows children to hold complexity and ambiguity</li>
 </ul>
 <blockquote>
-<p>In a world shaped by polarisation, propaganda, and speed, children do not need more answers — they need sensitivity, discernment, and inner freedom.</p></blockquote>
+<p>In a world shaped by polarisation, propaganda, and speed, children do not need more answers — they need sensitivity, discernment, and inner freedom.</p>
+</blockquote>
 <hr>
 <h2 id="affective-learning-is-not-value-education">Affective learning is not “value education”</h2>
 <p>Unlike traditional value education:</p>
@@ -1164,7 +1177,8 @@ Young people explore a local issue without being told what position to take.</p>
 </ul>
 <blockquote>
 <p>Affective learning always moves through:<br>
-<strong>experience → emotion → reflection → meaning</strong></p></blockquote>
+<strong>experience → emotion → reflection → meaning</strong></p>
+</blockquote>
 <hr>
 <h2 id="facilitation-tips-how-to-be-a-conscious-affective-educator">Facilitation tips: how to be a conscious affective educator</h2>
 <h3 id="create-emotional-safety">Create emotional safety</h3>
@@ -1180,7 +1194,8 @@ Young people explore a local issue without being told what position to take.</p>
 <h3 id="be-aware-of-your-power">Be aware of your power</h3>
 <p>Acknowledge your perspective without imposing it.</p>
 <blockquote>
-<p>“This is how I see it — and I may be wrong.”</p></blockquote>
+<p>“This is how I see it — and I may be wrong.”</p>
+</blockquote>
 <h3 id="welcome-disagreement">Welcome disagreement</h3>
 <p>Dissent is a sign of thinking, not failure.</p>
 <hr>
@@ -1202,7 +1217,8 @@ It is the ground on which all meaningful learning stands.</p>
 but what they come to care about will shape the world they build.</p>
 <hr>
 <blockquote>
-<p>This blog post is written with the help of ChatGPT. Prompt and final editing is done by <a href="https://learningwala.in/">Mihir Pathak</a>.</p></blockquote>
+<p>This blog post is written with the help of ChatGPT. Prompt and final editing is done by <a href="https://learningwala.in/">Mihir Pathak</a>.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -1589,7 +1605,8 @@ Doesn&rsquo;t everything die at last, and too soon?</p>
 with your one wild and precious life?</p>
 <hr>
 <blockquote>
-<p><em>&ldquo;The Summer Day&rdquo; from House of Light by Mary Oliver, published by Beacon Press, Boston</em></p></blockquote>
+<p><em>&ldquo;The Summer Day&rdquo; from House of Light by Mary Oliver, published by Beacon Press, Boston</em></p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -1625,78 +1642,78 @@ bharathhushan</li>
 <hr>
 <h1 id="64-kalā-in-classroom-ages-38">64 Kalā in Classroom (Ages 3–8)</h1>
 <table>
-  <thead>
-      <tr>
-          <th><strong>Kalā Cluster</strong></th>
-          <th><strong>Classroom of 3–8 yr old</strong></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Singing, Music, Rhythm</strong></td>
-          <td>Singing seasonal songs, circle time songs, pentatonic flute, clapping games</td>
-      </tr>
-      <tr>
-          <td><strong>Dancing, Drama, Mime</strong></td>
-          <td>Circle dances, rhythmic movement games, eurythmy / Garaba, role-play in stories</td>
-      </tr>
-      <tr>
-          <td><strong>Storytelling, Recitation</strong></td>
-          <td>Daily tales &amp; nature stories, rhymes, verses, puppet plays</td>
-      </tr>
-      <tr>
-          <td><strong>Painting, Drawing, Decoration</strong></td>
-          <td>Wet-on-wet watercolor painting, form drawing (Class 1), beeswax modeling, seasonal nature table decoration</td>
-      </tr>
-      <tr>
-          <td><strong>Crafts (Weaving, Sewing, Handwork)</strong></td>
-          <td>Finger knitting, simple sewing, braiding, paper folding, Class 1 knitting with needles</td>
-      </tr>
-      <tr>
-          <td><strong>Cooking &amp; Food Arts</strong></td>
-          <td>Baking bread, chopping fruits/vegetables, making butter, festival cooking</td>
-      </tr>
-      <tr>
-          <td><strong>Gardening &amp; Nature Care</strong></td>
-          <td>Watering plants, simple gardening, caring for classroom plants, nature walks</td>
-      </tr>
-      <tr>
-          <td><strong>Flower &amp; Garland Arts</strong></td>
-          <td>Making flower crowns, seasonal crafts (lanterns, leaf collages)</td>
-      </tr>
-      <tr>
-          <td><strong>Jewelry &amp; Ornamentation</strong></td>
-          <td>Bead stringing, natural material crafts, shell or seed necklaces</td>
-      </tr>
-      <tr>
-          <td><strong>Games &amp; Play</strong></td>
-          <td>Cooperative circle games, clapping games, finger plays, ball passing games</td>
-      </tr>
-      <tr>
-          <td><strong>Riddles &amp; Wordplay</strong></td>
-          <td>Simple riddles, rhyming games, tongue twisters, playful language verses</td>
-      </tr>
-      <tr>
-          <td><strong>Animal, Plant, Tree Knowledge</strong></td>
-          <td>Nature walks, stories and songs, gardening, seasonal festivals</td>
-      </tr>
-      <tr>
-          <td><strong>Mineral &amp; Nature Arts</strong></td>
-          <td>Playing with stones, shells, sand play, beeswax modeling, nature art, playing with soil</td>
-      </tr>
-      <tr>
-          <td><strong>Household Arts</strong></td>
-          <td>Helping with chores: folding cloths, sweeping, tidying, table setting, rangola, decorating center piece</td>
-      </tr>
-      <tr>
-          <td><strong>Conversation &amp; Gesture Arts</strong></td>
-          <td>Verse recitation with gesture, circle time movements</td>
-      </tr>
-      <tr>
-          <td><strong>Mechanical / Building Arts</strong></td>
-          <td>Building with blocks, simple woodworking (Class 1), outdoor imaginative construction from soil/sand</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th><strong>Kalā Cluster</strong></th>
+					<th><strong>Classroom of 3–8 yr old</strong></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Singing, Music, Rhythm</strong></td>
+					<td>Singing seasonal songs, circle time songs, pentatonic flute, clapping games</td>
+			</tr>
+			<tr>
+					<td><strong>Dancing, Drama, Mime</strong></td>
+					<td>Circle dances, rhythmic movement games, eurythmy / Garaba, role-play in stories</td>
+			</tr>
+			<tr>
+					<td><strong>Storytelling, Recitation</strong></td>
+					<td>Daily tales &amp; nature stories, rhymes, verses, puppet plays</td>
+			</tr>
+			<tr>
+					<td><strong>Painting, Drawing, Decoration</strong></td>
+					<td>Wet-on-wet watercolor painting, form drawing (Class 1), beeswax modeling, seasonal nature table decoration</td>
+			</tr>
+			<tr>
+					<td><strong>Crafts (Weaving, Sewing, Handwork)</strong></td>
+					<td>Finger knitting, simple sewing, braiding, paper folding, Class 1 knitting with needles</td>
+			</tr>
+			<tr>
+					<td><strong>Cooking &amp; Food Arts</strong></td>
+					<td>Baking bread, chopping fruits/vegetables, making butter, festival cooking</td>
+			</tr>
+			<tr>
+					<td><strong>Gardening &amp; Nature Care</strong></td>
+					<td>Watering plants, simple gardening, caring for classroom plants, nature walks</td>
+			</tr>
+			<tr>
+					<td><strong>Flower &amp; Garland Arts</strong></td>
+					<td>Making flower crowns, seasonal crafts (lanterns, leaf collages)</td>
+			</tr>
+			<tr>
+					<td><strong>Jewelry &amp; Ornamentation</strong></td>
+					<td>Bead stringing, natural material crafts, shell or seed necklaces</td>
+			</tr>
+			<tr>
+					<td><strong>Games &amp; Play</strong></td>
+					<td>Cooperative circle games, clapping games, finger plays, ball passing games</td>
+			</tr>
+			<tr>
+					<td><strong>Riddles &amp; Wordplay</strong></td>
+					<td>Simple riddles, rhyming games, tongue twisters, playful language verses</td>
+			</tr>
+			<tr>
+					<td><strong>Animal, Plant, Tree Knowledge</strong></td>
+					<td>Nature walks, stories and songs, gardening, seasonal festivals</td>
+			</tr>
+			<tr>
+					<td><strong>Mineral &amp; Nature Arts</strong></td>
+					<td>Playing with stones, shells, sand play, beeswax modeling, nature art, playing with soil</td>
+			</tr>
+			<tr>
+					<td><strong>Household Arts</strong></td>
+					<td>Helping with chores: folding cloths, sweeping, tidying, table setting, rangola, decorating center piece</td>
+			</tr>
+			<tr>
+					<td><strong>Conversation &amp; Gesture Arts</strong></td>
+					<td>Verse recitation with gesture, circle time movements</td>
+			</tr>
+			<tr>
+					<td><strong>Mechanical / Building Arts</strong></td>
+					<td>Building with blocks, simple woodworking (Class 1), outdoor imaginative construction from soil/sand</td>
+			</tr>
+	</tbody>
 </table>
 ]]></content:encoded>
     </item>
@@ -1737,7 +1754,8 @@ and could have done.</p>
 in the center of the still night sea,<br>
 your toes pointing again and again<br>
 down,<br>
-down into the black depths.</p></blockquote>
+down into the black depths.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
@@ -1780,11 +1798,11 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/sagarrano/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/sagarrano/</guid>
-      <description>&lt;p&gt;Found this very very interesting poem by Zaverchand Meghani.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1Um4_2ubQcs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;[લોકગીતોના ઢાળોમાંથી ઘડેલો ઢાળ]&lt;/p&gt;&#xA;&lt;p&gt;માળા ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે.&lt;/p&gt;&#xA;&lt;p&gt;ધરતીને હૈયે પે’રાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;આઘે આઘે એની અનુપમ વાડી,&lt;/p&gt;&#xA;&lt;p&gt;ચાંદો સૂરજ રૂડા રાખ્યા બે માળી,&lt;/p&gt;&#xA;&lt;p&gt;વિધ વિધ વેલડી વાવે&lt;/p&gt;</description>
+      <description>&lt;p&gt;Found this very very interesting poem by Zaverchand Meghani.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1Um4_2ubQcs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;[લોકગીતોના ઢાળોમાંથી ઘડેલો ઢાળ]&lt;/p&gt;&#xA;&lt;p&gt;માળા ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે.&lt;/p&gt;&#xA;&lt;p&gt;ધરતીને હૈયે પે’રાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;આઘે આઘે એની અનુપમ વાડી,&lt;/p&gt;&#xA;&lt;p&gt;ચાંદો સૂરજ રૂડા રાખ્યા બે માળી,&lt;/p&gt;&#xA;&lt;p&gt;વિધ વિધ વેલડી વાવે&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Found this very very interesting poem by Zaverchand Meghani.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1Um4_2ubQcs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1Um4_2ubQcs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <hr>
 <p>[લોકગીતોના ઢાળોમાંથી ઘડેલો ઢાળ]</p>
@@ -1869,82 +1887,82 @@ down into the black depths.</p></blockquote>
 <p>Comparison of <strong>Platonic Aesthetics</strong> and <strong>Indian Aesthetics</strong> to help you understand the essential differences:</p>
 <h3 id="-platonic-aesthetics-westerngreek-tradition">📘 <strong>Platonic Aesthetics</strong> (Western/Greek Tradition)</h3>
 <table>
-  <thead>
-      <tr>
-          <th><strong>Aspect</strong></th>
-          <th><strong>Platonic Aesthetics</strong></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Core Idea of Beauty</strong></td>
-          <td>Beauty is <strong>objective</strong>, eternal, and exists in the realm of <strong>ideal Forms</strong> (like the perfect “Form” of a flower or a tree).</td>
-      </tr>
-      <tr>
-          <td><strong>Source of Beauty</strong></td>
-          <td>Beauty lies in <strong>symmetry, proportion, order, and perfection</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Relation with Nature</strong></td>
-          <td>Nature is <strong>an imperfect copy</strong> of the ideal world. Real beauty is not in material nature but in the <strong>abstract, ideal world</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Human-Nature Relationship</strong></td>
-          <td>Dualistic: the <strong>observer is separate</strong> from the observed world. Nature is a subject for intellectual contemplation.</td>
-      </tr>
-      <tr>
-          <td><strong>Purpose of Aesthetic Experience</strong></td>
-          <td>To lead the soul upward — from sensory beauty to <strong>spiritual truth</strong> and knowledge of the <strong>ideal</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Emotion and Body</strong></td>
-          <td>The body and emotions are often seen as <strong>lower</strong> or <strong>distracting</strong> from pure beauty and truth.</td>
-      </tr>
-      <tr>
-          <td><strong>Approach</strong></td>
-          <td>Philosophical, intellectual, <strong>abstract</strong>. Beauty is understood through <strong>reason</strong>.</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th><strong>Aspect</strong></th>
+					<th><strong>Platonic Aesthetics</strong></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Core Idea of Beauty</strong></td>
+					<td>Beauty is <strong>objective</strong>, eternal, and exists in the realm of <strong>ideal Forms</strong> (like the perfect “Form” of a flower or a tree).</td>
+			</tr>
+			<tr>
+					<td><strong>Source of Beauty</strong></td>
+					<td>Beauty lies in <strong>symmetry, proportion, order, and perfection</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Relation with Nature</strong></td>
+					<td>Nature is <strong>an imperfect copy</strong> of the ideal world. Real beauty is not in material nature but in the <strong>abstract, ideal world</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Human-Nature Relationship</strong></td>
+					<td>Dualistic: the <strong>observer is separate</strong> from the observed world. Nature is a subject for intellectual contemplation.</td>
+			</tr>
+			<tr>
+					<td><strong>Purpose of Aesthetic Experience</strong></td>
+					<td>To lead the soul upward — from sensory beauty to <strong>spiritual truth</strong> and knowledge of the <strong>ideal</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Emotion and Body</strong></td>
+					<td>The body and emotions are often seen as <strong>lower</strong> or <strong>distracting</strong> from pure beauty and truth.</td>
+			</tr>
+			<tr>
+					<td><strong>Approach</strong></td>
+					<td>Philosophical, intellectual, <strong>abstract</strong>. Beauty is understood through <strong>reason</strong>.</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="-indian-aesthetics-indic-tradition">🪷 <strong>Indian Aesthetics</strong> (Indic Tradition)</h3>
 <table>
-  <thead>
-      <tr>
-          <th><strong>Aspect</strong></th>
-          <th><strong>Indian Aesthetics</strong></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Core Idea of Beauty</strong></td>
-          <td>Beauty (Saundarya) is <strong>relational, experiential, and sacred</strong>. It is found in <strong>inner and outer harmony</strong>, <strong>rasa</strong> (emotional essence), and <strong>presence</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Source of Beauty</strong></td>
-          <td>Beauty arises when <strong>emotion (bhāva)</strong>, <strong>perception</strong>, and <strong>consciousness</strong> come into harmony — <strong>through art, nature, or devotion</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Relation with Nature</strong></td>
-          <td>Nature is <strong>alive, sacred, and interconnected</strong> with the self (Tat tvam asi). Beauty in nature is an expression of <strong>dharma</strong> (cosmic harmony).</td>
-      </tr>
-      <tr>
-          <td><strong>Human-Nature Relationship</strong></td>
-          <td><strong>Non-dualistic</strong>: No separation between self and nature. Experiencing beauty is a form of <strong>union or yoga</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Purpose of Aesthetic Experience</strong></td>
-          <td>To <strong>evoke rasa</strong> (emotional states like love, peace, wonder), awaken consciousness, and lead to <strong>self-realization or compassion</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Emotion and Body</strong></td>
-          <td>Emotions, sensations, and the body are <strong>essential</strong> to aesthetic experience. They are <strong>instruments of realization</strong>.</td>
-      </tr>
-      <tr>
-          <td><strong>Approach</strong></td>
-          <td><strong>Sensory, emotional, poetic</strong>, spiritual. Beauty is felt through <strong>direct experience</strong> and reflection.</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th><strong>Aspect</strong></th>
+					<th><strong>Indian Aesthetics</strong></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Core Idea of Beauty</strong></td>
+					<td>Beauty (Saundarya) is <strong>relational, experiential, and sacred</strong>. It is found in <strong>inner and outer harmony</strong>, <strong>rasa</strong> (emotional essence), and <strong>presence</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Source of Beauty</strong></td>
+					<td>Beauty arises when <strong>emotion (bhāva)</strong>, <strong>perception</strong>, and <strong>consciousness</strong> come into harmony — <strong>through art, nature, or devotion</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Relation with Nature</strong></td>
+					<td>Nature is <strong>alive, sacred, and interconnected</strong> with the self (Tat tvam asi). Beauty in nature is an expression of <strong>dharma</strong> (cosmic harmony).</td>
+			</tr>
+			<tr>
+					<td><strong>Human-Nature Relationship</strong></td>
+					<td><strong>Non-dualistic</strong>: No separation between self and nature. Experiencing beauty is a form of <strong>union or yoga</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Purpose of Aesthetic Experience</strong></td>
+					<td>To <strong>evoke rasa</strong> (emotional states like love, peace, wonder), awaken consciousness, and lead to <strong>self-realization or compassion</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Emotion and Body</strong></td>
+					<td>Emotions, sensations, and the body are <strong>essential</strong> to aesthetic experience. They are <strong>instruments of realization</strong>.</td>
+			</tr>
+			<tr>
+					<td><strong>Approach</strong></td>
+					<td><strong>Sensory, emotional, poetic</strong>, spiritual. Beauty is felt through <strong>direct experience</strong> and reflection.</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 ]]></content:encoded>
@@ -2005,10 +2023,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/river-film-making-workshop/filmmaking1_hu_26443c4fd7aa7639.webp" type="image/webp">
-      <source srcset="/river-film-making-workshop/filmmaking1_hu_915adb0690dddc02.jpg" type="image/jpeg">
+      <source srcset="/river-film-making-workshop/filmmaking1_hu_e7c29be3c182b162.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking1_hu_229fd539d9751047.jpg" type="image/jpeg">
       <img
-        src="/river-film-making-workshop/filmmaking1_hu_915adb0690dddc02.jpg"
+        src="/river-film-making-workshop/filmmaking1_hu_229fd539d9751047.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2034,10 +2052,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/river-film-making-workshop/filmmaking2_hu_1a1571cfd7ebe908.webp" type="image/webp">
-      <source srcset="/river-film-making-workshop/filmmaking2_hu_41085f757d242ac2.jpg" type="image/jpeg">
+      <source srcset="/river-film-making-workshop/filmmaking2_hu_56eaefb39e04b1fa.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking2_hu_19268e7a5bcbb075.jpg" type="image/jpeg">
       <img
-        src="/river-film-making-workshop/filmmaking2_hu_41085f757d242ac2.jpg"
+        src="/river-film-making-workshop/filmmaking2_hu_19268e7a5bcbb075.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2063,10 +2081,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/river-film-making-workshop/filmmaking3_hu_be441bcdbb6e7e39.webp" type="image/webp">
-      <source srcset="/river-film-making-workshop/filmmaking3_hu_e06d28412b1e35f3.jpg" type="image/jpeg">
+      <source srcset="/river-film-making-workshop/filmmaking3_hu_18a902bc1ae37230.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking3_hu_ff75710e06907c4d.jpg" type="image/jpeg">
       <img
-        src="/river-film-making-workshop/filmmaking3_hu_e06d28412b1e35f3.jpg"
+        src="/river-film-making-workshop/filmmaking3_hu_ff75710e06907c4d.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2092,10 +2110,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/river-film-making-workshop/filmmaking4_hu_3b39ffd801cd0503.webp" type="image/webp">
-      <source srcset="/river-film-making-workshop/filmmaking4_hu_16f95d3308fea90.jpg" type="image/jpeg">
+      <source srcset="/river-film-making-workshop/filmmaking4_hu_b815dd5e38c85803.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking4_hu_afd9eba87becb143.jpg" type="image/jpeg">
       <img
-        src="/river-film-making-workshop/filmmaking4_hu_16f95d3308fea90.jpg"
+        src="/river-film-making-workshop/filmmaking4_hu_afd9eba87becb143.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2121,10 +2139,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/river-film-making-workshop/filmmaking5_hu_c5d3c84a8075ae7f.webp" type="image/webp">
-      <source srcset="/river-film-making-workshop/filmmaking5_hu_2522c97a5e92a364.jpg" type="image/jpeg">
+      <source srcset="/river-film-making-workshop/filmmaking5_hu_68b9d7f445cbb57e.webp" type="image/webp">
+      <source srcset="/river-film-making-workshop/filmmaking5_hu_7fa28a65b1e0aa4d.jpg" type="image/jpeg">
       <img
-        src="/river-film-making-workshop/filmmaking5_hu_2522c97a5e92a364.jpg"
+        src="/river-film-making-workshop/filmmaking5_hu_7fa28a65b1e0aa4d.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2175,235 +2193,236 @@ down into the black depths.</p></blockquote>
 <p>Thank you to everyone who made this experience unforgettable!</p>
 <p>Saurabh Raval Nidhi Pal Aniruddha Parasram</p>
 <blockquote
-    class="instagram-media"
-    data-instgrm-captioned
-    data-instgrm-permalink="https://www.instagram.com/p/DKgY-Kpx8Vy"
-    data-instgrm-version="14"
-    style="
-      background: #fff;
-      border: 0;
-      border-radius: 3px;
-      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-      margin: 1px;
-      max-width: 540px;
-      min-width: 326px;
-      padding: 0;
-      width: 99.375%;
-      width: -webkit-calc(100% - 2px);
-      width: calc(100% - 2px);
-    "
-  >
-    <div style="padding: 16px">
-      <a
-        href="https://www.instagram.com/p/DKgY-Kpx8Vy"
-        style="
-          background: #ffffff;
-          line-height: 0;
-          padding: 0 0;
-          text-align: center;
-          text-decoration: none;
-          width: 100%;
-        "
-        target="_blank"
-      >
-        <div style="display: flex; flex-direction: row; align-items: center">
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 50%;
-              flex-grow: 0;
-              height: 40px;
-              margin-right: 14px;
-              width: 40px;
-            "
-          ></div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              flex-grow: 1;
-              justify-content: center;
-            "
-          >
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 4px;
-                flex-grow: 0;
-                height: 14px;
-                margin-bottom: 6px;
-                width: 100px;
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 4px;
-                flex-grow: 0;
-                height: 14px;
-                width: 60px;
-              "
-            ></div>
-          </div>
-        </div>
-        <div style="padding: 19% 0"></div>
-        <div
-          style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
-        >
-          <svg
-            width="50px"
-            height="50px"
-            viewBox="0 0 60 60"
-            version="1.1"
-            xmlns="https://www.w3.org/2000/svg"
-            xmlns:xlink="https://www.w3.org/1999/xlink"
-          >
-            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                <g>
-                  <path
-                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
-                  ></path>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div style="padding-top: 8px">
-          <div
-            style="
-              color: #3897f0;
-              font-family: Arial, sans-serif;
-              font-size: 14px;
-              font-style: normal;
-              font-weight: 550;
-              line-height: 18px;
-            "
-          >
-            View this post on Instagram
-          </div>
-        </div>
-        <div style="padding: 12.5% 0"></div>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 14px;
-            align-items: center;
-          "
-        >
-          <div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                height: 12.5px;
-                width: 12.5px;
-                transform: translateX(0px) translateY(7px);
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                height: 12.5px;
-                transform: rotate(-45deg) translateX(3px) translateY(1px);
-                width: 12.5px;
-                flex-grow: 0;
-                margin-right: 14px;
-                margin-left: 2px;
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                height: 12.5px;
-                width: 12.5px;
-                transform: translateX(9px) translateY(-18px);
-              "
-            ></div>
-          </div>
-          <div style="margin-left: 8px">
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                flex-grow: 0;
-                height: 20px;
-                width: 20px;
-              "
-            ></div>
-            <div
-              style="
-                width: 0;
-                height: 0;
-                border-top: 2px solid transparent;
-                border-left: 6px solid #f4f4f4;
-                border-bottom: 2px solid transparent;
-                transform: translateX(16px) translateY(-4px) rotate(30deg);
-              "
-            ></div>
-          </div>
-          <div style="margin-left: auto">
-            <div
-              style="
-                width: 0px;
-                border-top: 8px solid #f4f4f4;
-                border-right: 8px solid transparent;
-                transform: translateY(16px);
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                flex-grow: 0;
-                height: 12px;
-                width: 16px;
-                transform: translateY(-4px);
-              "
-            ></div>
-            <div
-              style="
-                width: 0;
-                height: 0;
-                border-top: 8px solid #f4f4f4;
-                border-left: 8px solid transparent;
-                transform: translateY(-4px) translateX(8px);
-              "
-            ></div>
-          </div>
-        </div>
-        <div
-          style="
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-            justify-content: center;
-            margin-bottom: 24px;
-          "
-        >
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 4px;
-              flex-grow: 0;
-              height: 14px;
-              margin-bottom: 6px;
-              width: 224px;
-            "
-          ></div>
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 4px;
-              flex-grow: 0;
-              height: 14px;
-              width: 144px;
-            "
-          ></div></div
-      ></a>
-    </div>
-  </blockquote><script async src="https://www.instagram.com/embed.js"></script>
+	class="instagram-media"
+	data-instgrm-captioned
+	data-instgrm-permalink="https://www.instagram.com/p/DKgY-Kpx8Vy"
+	data-instgrm-version="14"
+	style="
+	background: #fff;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+	margin: 1px;
+	max-width: 540px;
+	min-width: 326px;
+	padding: 0;
+	width: 99.375%;
+	width: -webkit-calc(100% - 2px);
+	width: calc(100% - 2px);
+	"
+>
+	<div style="padding: 16px">
+		<a
+			href="https://www.instagram.com/p/DKgY-Kpx8Vy"
+			style="
+			background: #ffffff;
+			line-height: 0;
+			padding: 0 0;
+			text-align: center;
+			text-decoration: none;
+			width: 100%;
+			"
+			target="_blank"
+		>
+			<div style="display: flex; flex-direction: row; align-items: center">
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 50%;
+					flex-grow: 0;
+					height: 40px;
+					margin-right: 14px;
+					width: 40px;
+					"
+				></div>
+				<div
+					style="
+					display: flex;
+					flex-direction: column;
+					flex-grow: 1;
+					justify-content: center;
+					"
+				>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 4px;
+						flex-grow: 0;
+						height: 14px;
+						margin-bottom: 6px;
+						width: 100px;
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 4px;
+						flex-grow: 0;
+						height: 14px;
+						width: 60px;
+						"
+					></div>
+				</div>
+			</div>
+			<div style="padding: 19% 0"></div>
+			<div
+				style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+			>
+				<svg
+					width="50px"
+					height="50px"
+					viewBox="0 0 60 60"
+					version="1.1"
+					xmlns="https://www.w3.org/2000/svg"
+					xmlns:xlink="https://www.w3.org/1999/xlink"
+				>
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g transform="translate(-511.000000, -20.000000)" fill="#000000">
+							<g>
+								<path
+									d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+								></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div style="padding-top: 8px">
+				<div
+					style="
+					color: #3897f0;
+					font-family: Arial, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 550;
+					line-height: 18px;
+					"
+				>
+					View this post on Instagram
+				</div>
+			</div>
+			<div style="padding: 12.5% 0"></div>
+			<div
+				style="
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 14px;
+				align-items: center;
+				"
+			>
+				<div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						height: 12.5px;
+						width: 12.5px;
+						transform: translateX(0px) translateY(7px);
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						height: 12.5px;
+						transform: rotate(-45deg) translateX(3px) translateY(1px);
+						width: 12.5px;
+						flex-grow: 0;
+						margin-right: 14px;
+						margin-left: 2px;
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						height: 12.5px;
+						width: 12.5px;
+						transform: translateX(9px) translateY(-18px);
+						"
+					></div>
+				</div>
+				<div style="margin-left: 8px">
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						flex-grow: 0;
+						height: 20px;
+						width: 20px;
+						"
+					></div>
+					<div
+						style="
+						width: 0;
+						height: 0;
+						border-top: 2px solid transparent;
+						border-left: 6px solid #f4f4f4;
+						border-bottom: 2px solid transparent;
+						transform: translateX(16px) translateY(-4px) rotate(30deg);
+						"
+					></div>
+				</div>
+				<div style="margin-left: auto">
+					<div
+						style="
+						width: 0px;
+						border-top: 8px solid #f4f4f4;
+						border-right: 8px solid transparent;
+						transform: translateY(16px);
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						flex-grow: 0;
+						height: 12px;
+						width: 16px;
+						transform: translateY(-4px);
+						"
+					></div>
+					<div
+						style="
+						width: 0;
+						height: 0;
+						border-top: 8px solid #f4f4f4;
+						border-left: 8px solid transparent;
+						transform: translateY(-4px) translateX(8px);
+						"
+					></div>
+				</div>
+			</div>
+			<div
+				style="
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				justify-content: center;
+				margin-bottom: 24px;
+				"
+			>
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 4px;
+					flex-grow: 0;
+					height: 14px;
+					margin-bottom: 6px;
+					width: 224px;
+					"
+				></div>
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 4px;
+					flex-grow: 0;
+					height: 14px;
+					width: 144px;
+					"
+				></div></div
+			>
+		</a>
+	</div>
+</blockquote><script async src="https://www.instagram.com/embed.js"></script>
 ]]></content:encoded>
     </item>
     <item>
@@ -2423,7 +2442,7 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/ecologylanguage/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/ecologylanguage/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_59d04f15c59611f6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_49d79535976b52f1.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_49d79535976b52f1.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e0b6c1981cbf2c50.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[
 
 
@@ -2438,10 +2457,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/ecology&amp;language/aartikumar_hu_59d04f15c59611f6.webp" type="image/webp">
-      <source srcset="/ecology&amp;language/aartikumar_hu_49d79535976b52f1.jpg" type="image/jpeg">
+      <source srcset="/ecology&amp;language/aartikumar_hu_e0b6c1981cbf2c50.webp" type="image/webp">
+      <source srcset="/ecology&amp;language/aartikumar_hu_e3817209b4b07e9.jpg" type="image/jpeg">
       <img
-        src="/ecology&amp;language/aartikumar_hu_49d79535976b52f1.jpg"
+        src="/ecology&amp;language/aartikumar_hu_e3817209b4b07e9.jpg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2523,7 +2542,7 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/summerworkshopattatvic/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/summerworkshopattatvic/</guid>
-      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_96f0b64f5bc69955.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_bcaf6e0c39f10a93.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_9fe0739317834e2.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color2_hu_9fe0739317834e2.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_c1ea0f7afe9c7971.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_f9bc15dc89a960aa.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_dfeb133962022e66.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color4_hu_dfeb133962022e66.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_d62357a7e7d6b408.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_4d76f58f8e629b27.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science1_hu_4d76f58f8e629b27.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_a997e5ef5cdb9d30.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_f5713ccd5bf717b6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_9a78ba12e35cea46.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science3_hu_9a78ba12e35cea46.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_d7b8580102c9a2a.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_200d3cf6afe9a502.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_3705802131db4bdb.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science5_hu_3705802131db4bdb.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_626b8cce5d952513.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_424bf65480836375.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science6_hu_424bf65480836375.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Summer Workshop | Vijaya Foundation, Ahemdabad | 19th &amp;amp; 20th April 2025&lt;/p&gt;</description>
+      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_118d730a89af3acc.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_a6f47257b3dce653.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_c83f77928844695e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_1765369bb9fbd92b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_8314006ee0414e51.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science1_hu_d27cce819ecaa28c.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science1_hu_d27cce819ecaa28c.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_2f5afacc15908e6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science2_hu_6b659a995825d337.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science2_hu_6b659a995825d337.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_53c6fe7d8303c199.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science3_hu_6f233f2a505f500d.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science3_hu_6f233f2a505f500d.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_dae74e424ed20d88.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_cd4cb84a841748f1.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science5_hu_c15e7f91a238ed08.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science5_hu_c15e7f91a238ed08.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_80d30caa013e1732.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w16.2025/science6_hu_b3ff778502f8f37e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w16.2025/science6_hu_b3ff778502f8f37e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Summer Workshop | Vijaya Foundation, Ahemdabad | 19th &amp;amp; 20th April 2025&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Day 1 | Natural Color Making</p>
 <div class="img-grid">
   
@@ -2541,10 +2560,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/color1_hu_96f0b64f5bc69955.webp" type="image/webp">
-      <source srcset="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/color1_hu_118d730a89af3acc.webp" type="image/webp">
+      <source srcset="/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/color1_hu_4c6af2debd8fe2d8.jpeg"
+        src="/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2570,10 +2589,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/color2_hu_bcaf6e0c39f10a93.webp" type="image/webp">
-      <source srcset="/w16.2025/color2_hu_9fe0739317834e2.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/color2_hu_a6f47257b3dce653.webp" type="image/webp">
+      <source srcset="/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/color2_hu_9fe0739317834e2.jpeg"
+        src="/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2599,10 +2618,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/color3_hu_c1ea0f7afe9c7971.webp" type="image/webp">
-      <source srcset="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/color3_hu_c83f77928844695e.webp" type="image/webp">
+      <source srcset="/w16.2025/color3_hu_d5b485a37f72f915.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/color3_hu_ef5cf3e5dfe18b2f.jpeg"
+        src="/w16.2025/color3_hu_d5b485a37f72f915.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2628,10 +2647,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/color4_hu_f9bc15dc89a960aa.webp" type="image/webp">
-      <source srcset="/w16.2025/color4_hu_dfeb133962022e66.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/color4_hu_1765369bb9fbd92b.webp" type="image/webp">
+      <source srcset="/w16.2025/color4_hu_b6729e81c7fe7801.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/color4_hu_dfeb133962022e66.jpeg"
+        src="/w16.2025/color4_hu_b6729e81c7fe7801.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2686,10 +2705,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science1_hu_d62357a7e7d6b408.webp" type="image/webp">
-      <source srcset="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science1_hu_8314006ee0414e51.webp" type="image/webp">
+      <source srcset="/w16.2025/science1_hu_d27cce819ecaa28c.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science1_hu_4d76f58f8e629b27.jpeg"
+        src="/w16.2025/science1_hu_d27cce819ecaa28c.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2715,10 +2734,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science2_hu_a997e5ef5cdb9d30.webp" type="image/webp">
-      <source srcset="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science2_hu_2f5afacc15908e6.webp" type="image/webp">
+      <source srcset="/w16.2025/science2_hu_6b659a995825d337.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science2_hu_4bdbf7c6b781913b.jpeg"
+        src="/w16.2025/science2_hu_6b659a995825d337.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2744,10 +2763,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science3_hu_f5713ccd5bf717b6.webp" type="image/webp">
-      <source srcset="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science3_hu_53c6fe7d8303c199.webp" type="image/webp">
+      <source srcset="/w16.2025/science3_hu_6f233f2a505f500d.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science3_hu_9a78ba12e35cea46.jpeg"
+        src="/w16.2025/science3_hu_6f233f2a505f500d.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2773,10 +2792,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science4_hu_d7b8580102c9a2a.webp" type="image/webp">
-      <source srcset="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science4_hu_dae74e424ed20d88.webp" type="image/webp">
+      <source srcset="/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science4_hu_ad60abc8c7e9e57e.jpeg"
+        src="/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2802,10 +2821,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science5_hu_200d3cf6afe9a502.webp" type="image/webp">
-      <source srcset="/w16.2025/science5_hu_3705802131db4bdb.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science5_hu_cd4cb84a841748f1.webp" type="image/webp">
+      <source srcset="/w16.2025/science5_hu_c15e7f91a238ed08.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science5_hu_3705802131db4bdb.jpeg"
+        src="/w16.2025/science5_hu_c15e7f91a238ed08.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2831,10 +2850,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/w16.2025/science6_hu_626b8cce5d952513.webp" type="image/webp">
-      <source srcset="/w16.2025/science6_hu_424bf65480836375.jpeg" type="image/jpeg">
+      <source srcset="/w16.2025/science6_hu_80d30caa013e1732.webp" type="image/webp">
+      <source srcset="/w16.2025/science6_hu_b3ff778502f8f37e.jpeg" type="image/jpeg">
       <img
-        src="/w16.2025/science6_hu_424bf65480836375.jpeg"
+        src="/w16.2025/science6_hu_b3ff778502f8f37e.jpeg"
         alt=""
         loading="lazy"
         decoding="async"
@@ -2880,7 +2899,7 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/bvc7ws2/</link>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/bvc7ws2/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_5b1cfcb261713881.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg&#34;&#xA;        alt=&#34;BVC 7 Workshop 2- Group Photo&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;BVC 7 Workshop 2- Group Photo - 11th to 15th April 2025&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_3e01bbebda2451ea.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_bbae49955f5c29ac.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/bvc7ws2/bvc7ws2_hu_bbae49955f5c29ac.jpeg&#34;&#xA;        alt=&#34;BVC 7 Workshop 2- Group Photo&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;BVC 7 Workshop 2- Group Photo - 11th to 15th April 2025&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
       <content:encoded><![CDATA[
 
 
@@ -2895,10 +2914,10 @@ down into the black depths.</p></blockquote>
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/bvc7ws2/bvc7ws2_hu_5b1cfcb261713881.webp" type="image/webp">
-      <source srcset="/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg" type="image/jpeg">
+      <source srcset="/bvc7ws2/bvc7ws2_hu_3e01bbebda2451ea.webp" type="image/webp">
+      <source srcset="/bvc7ws2/bvc7ws2_hu_bbae49955f5c29ac.jpeg" type="image/jpeg">
       <img
-        src="/bvc7ws2/bvc7ws2_hu_e550ec85bfeeaac9.jpeg"
+        src="/bvc7ws2/bvc7ws2_hu_bbae49955f5c29ac.jpeg"
         alt="BVC 7 Workshop 2- Group Photo"
         loading="lazy"
         decoding="async"
@@ -2919,36 +2938,36 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/elementsofgoodchildrenliterature/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/elementsofgoodchildrenliterature/</guid>
-      <description>&lt;p&gt;Riyaz - 3rd batch - Ceremony&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EREawDT7S6k?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Story writing for children&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/VSyYaj9MJqM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Shaikshik Samvad - Shushil Shukla&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Zo8OgExpMI0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Third Bal Sahitya Parisad&lt;/p&gt;</description>
+      <description>&lt;p&gt;Riyaz - 3rd batch - Ceremony&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EREawDT7S6k?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Story writing for children&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/VSyYaj9MJqM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Shaikshik Samvad - Shushil Shukla&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Zo8OgExpMI0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Third Bal Sahitya Parisad&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Riyaz - 3rd batch - Ceremony</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EREawDT7S6k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EREawDT7S6k?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Story writing for children</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VSyYaj9MJqM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VSyYaj9MJqM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Shaikshik Samvad - Shushil Shukla</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Zo8OgExpMI0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Zo8OgExpMI0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Third Bal Sahitya Parisad</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KWAy29aYZ84?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KWAy29aYZ84?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Prabhat</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RzvHjemtarg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RzvHjemtarg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Creating good children books</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EkF8jxYDl-A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EkF8jxYDl-A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 ]]></content:encoded>
     </item>
@@ -2957,11 +2976,11 @@ down into the black depths.</p></blockquote>
       <link>https://learningwala.in/blog/tantra-in-day-to-day-life/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/tantra-in-day-to-day-life/</guid>
-      <description>&lt;p&gt;It was my long due wish to write a reflective note about a video of Subhash Bhatt on tantra vidhya.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/uzpMhsLbNQw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Tantra is not black magic :)&lt;/p&gt;&#xA;&lt;h3 id=&#34;principles-of-tantra-&#34;&gt;Principles of tantra :&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;પૃથ્વી પરના જીવન - રંગ, રસ , રૂપ માં જે આનંદ લે છે.. ઉત્સવ બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનને સમગ્રતા થી સ્વીકાર કરે છે. ઉજાસ ને સ્વીકારે છે.&lt;/li&gt;&#xA;&lt;li&gt;તંત્ર ડેમોક્રેટિક છે. બધાનો સ્વીકાર છે. જાતિ, જેન્ડર, ધર્મ, અમીર - ગરીબ&lt;/li&gt;&#xA;&lt;li&gt;વિઘ્નો સાધન છે. યાત્રા સાધ્ય છે. વિઘ્નો સાધના નો ભાગ છે. વિઘ્નો તમને વધુ મજબૂત બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;આ ક્રિયા યોગ છે. અશક્તિ વિનાનો આનંદ છે. આનંદ માટે નીકળ્યા હોય ત્યારે નામ ન પૂછો. જીવનમાં સમગ્રતા થી ભાગ લે.&lt;/li&gt;&#xA;&lt;li&gt;પળની અંદર સંગ્રતા થી ભાગ લે અને પળને શાશ્વતી બનાવી લે. Live the moment, it will give you sense of eternity.&lt;/li&gt;&#xA;&lt;li&gt;ઇન્દ્રિયો પારનો રસ્તો ઇન્દ્રિયો માં થઈ ને જાય છે. પરમ નો રસ્તો નગર માં થઈ ને જાય છે. જે માણસ નદી ઓળંગે અને ભીંજાય નહીં એનો કોઈ અર્થ નહીં. હું ભીંજાવ, છોળો ઉછાળતો જાવ..&lt;/li&gt;&#xA;&lt;li&gt;અસલામતી માં જીવન પાંગરે છે. જીવન ખાતર જુગાર છે. તક મળે તો જુગાર રમી લેવાનો.&lt;/li&gt;&#xA;&lt;li&gt;જેને શ્રેષ્ઠ જીવવું છે એને શ્રેષ્ઠ દાવ પર પણ મૂકવું પડે છે.&lt;/li&gt;&#xA;&lt;li&gt;પતન એ ઉત્થાનનો જ ભાગ છે. ભટકવું, ખોવાઈ જવું એ બધું જ.. અંધકાર એ ઉજાસનો જ ભાગ છે.&lt;/li&gt;&#xA;&lt;li&gt;સ્થૂળ માંથી પસાર થયા વગર સૂક્ષ્મ પમાતુ નથી. જેને દેહનો પ્રેમ નથી કર્યો એ મનના સ્તરે શુ જશે, જે મનના સ્તરે નથી ગયો એ આત્માના સ્તરે શુ જશે.&lt;/li&gt;&#xA;&lt;li&gt;પૃથ્વીનો સંપર્ક છૂટી જાય એ વૃક્ષ ફળ નથી આપતું. જીવન સાથેનો સંપર્ક અચૂક રાખવો. ચૈતન્યનું લક્ષણ વિસ્તાર છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનમાં જે સર્જાય છે.. સંગીત, ચિત્ર, બધાને બે હાથ પહોળા કરીને આવકાર.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tantra-in-day-to-day-life&#34;&gt;Tantra in day to day life&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;વધુ ઇન્દ્રિયમય બનો. ઇન્દ્રિયોને ધિક્કારો નહિ. Trust your senses&lt;/p&gt;</description>
+      <description>&lt;p&gt;It was my long due wish to write a reflective note about a video of Subhash Bhatt on tantra vidhya.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/uzpMhsLbNQw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Tantra is not black magic :)&lt;/p&gt;&#xA;&lt;h3 id=&#34;principles-of-tantra-&#34;&gt;Principles of tantra :&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;પૃથ્વી પરના જીવન - રંગ, રસ , રૂપ માં જે આનંદ લે છે.. ઉત્સવ બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનને સમગ્રતા થી સ્વીકાર કરે છે. ઉજાસ ને સ્વીકારે છે.&lt;/li&gt;&#xA;&lt;li&gt;તંત્ર ડેમોક્રેટિક છે. બધાનો સ્વીકાર છે. જાતિ, જેન્ડર, ધર્મ, અમીર - ગરીબ&lt;/li&gt;&#xA;&lt;li&gt;વિઘ્નો સાધન છે. યાત્રા સાધ્ય છે. વિઘ્નો સાધના નો ભાગ છે. વિઘ્નો તમને વધુ મજબૂત બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;આ ક્રિયા યોગ છે. અશક્તિ વિનાનો આનંદ છે. આનંદ માટે નીકળ્યા હોય ત્યારે નામ ન પૂછો. જીવનમાં સમગ્રતા થી ભાગ લે.&lt;/li&gt;&#xA;&lt;li&gt;પળની અંદર સંગ્રતા થી ભાગ લે અને પળને શાશ્વતી બનાવી લે. Live the moment, it will give you sense of eternity.&lt;/li&gt;&#xA;&lt;li&gt;ઇન્દ્રિયો પારનો રસ્તો ઇન્દ્રિયો માં થઈ ને જાય છે. પરમ નો રસ્તો નગર માં થઈ ને જાય છે. જે માણસ નદી ઓળંગે અને ભીંજાય નહીં એનો કોઈ અર્થ નહીં. હું ભીંજાવ, છોળો ઉછાળતો જાવ..&lt;/li&gt;&#xA;&lt;li&gt;અસલામતી માં જીવન પાંગરે છે. જીવન ખાતર જુગાર છે. તક મળે તો જુગાર રમી લેવાનો.&lt;/li&gt;&#xA;&lt;li&gt;જેને શ્રેષ્ઠ જીવવું છે એને શ્રેષ્ઠ દાવ પર પણ મૂકવું પડે છે.&lt;/li&gt;&#xA;&lt;li&gt;પતન એ ઉત્થાનનો જ ભાગ છે. ભટકવું, ખોવાઈ જવું એ બધું જ.. અંધકાર એ ઉજાસનો જ ભાગ છે.&lt;/li&gt;&#xA;&lt;li&gt;સ્થૂળ માંથી પસાર થયા વગર સૂક્ષ્મ પમાતુ નથી. જેને દેહનો પ્રેમ નથી કર્યો એ મનના સ્તરે શુ જશે, જે મનના સ્તરે નથી ગયો એ આત્માના સ્તરે શુ જશે.&lt;/li&gt;&#xA;&lt;li&gt;પૃથ્વીનો સંપર્ક છૂટી જાય એ વૃક્ષ ફળ નથી આપતું. જીવન સાથેનો સંપર્ક અચૂક રાખવો. ચૈતન્યનું લક્ષણ વિસ્તાર છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનમાં જે સર્જાય છે.. સંગીત, ચિત્ર, બધાને બે હાથ પહોળા કરીને આવકાર.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tantra-in-day-to-day-life&#34;&gt;Tantra in day to day life&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;વધુ ઇન્દ્રિયમય બનો. ઇન્દ્રિયોને ધિક્કારો નહિ. Trust your senses&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was my long due wish to write a reflective note about a video of Subhash Bhatt on tantra vidhya.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uzpMhsLbNQw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uzpMhsLbNQw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>Tantra is not black magic :)</p>
 <h3 id="principles-of-tantra-">Principles of tantra :</h3>
@@ -3364,235 +3383,236 @@ leave this : this is good , that is bad</p>
 </li>
 </ul>
 <blockquote
-    class="instagram-media"
-    data-instgrm-captioned
-    data-instgrm-permalink="https://www.instagram.com/p/C3eld_uSrjj"
-    data-instgrm-version="14"
-    style="
-      background: #fff;
-      border: 0;
-      border-radius: 3px;
-      box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-      margin: 1px;
-      max-width: 540px;
-      min-width: 326px;
-      padding: 0;
-      width: 99.375%;
-      width: -webkit-calc(100% - 2px);
-      width: calc(100% - 2px);
-    "
-  >
-    <div style="padding: 16px">
-      <a
-        href="https://www.instagram.com/p/C3eld_uSrjj"
-        style="
-          background: #ffffff;
-          line-height: 0;
-          padding: 0 0;
-          text-align: center;
-          text-decoration: none;
-          width: 100%;
-        "
-        target="_blank"
-      >
-        <div style="display: flex; flex-direction: row; align-items: center">
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 50%;
-              flex-grow: 0;
-              height: 40px;
-              margin-right: 14px;
-              width: 40px;
-            "
-          ></div>
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              flex-grow: 1;
-              justify-content: center;
-            "
-          >
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 4px;
-                flex-grow: 0;
-                height: 14px;
-                margin-bottom: 6px;
-                width: 100px;
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 4px;
-                flex-grow: 0;
-                height: 14px;
-                width: 60px;
-              "
-            ></div>
-          </div>
-        </div>
-        <div style="padding: 19% 0"></div>
-        <div
-          style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
-        >
-          <svg
-            width="50px"
-            height="50px"
-            viewBox="0 0 60 60"
-            version="1.1"
-            xmlns="https://www.w3.org/2000/svg"
-            xmlns:xlink="https://www.w3.org/1999/xlink"
-          >
-            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                <g>
-                  <path
-                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
-                  ></path>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-        <div style="padding-top: 8px">
-          <div
-            style="
-              color: #3897f0;
-              font-family: Arial, sans-serif;
-              font-size: 14px;
-              font-style: normal;
-              font-weight: 550;
-              line-height: 18px;
-            "
-          >
-            View this post on Instagram
-          </div>
-        </div>
-        <div style="padding: 12.5% 0"></div>
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 14px;
-            align-items: center;
-          "
-        >
-          <div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                height: 12.5px;
-                width: 12.5px;
-                transform: translateX(0px) translateY(7px);
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                height: 12.5px;
-                transform: rotate(-45deg) translateX(3px) translateY(1px);
-                width: 12.5px;
-                flex-grow: 0;
-                margin-right: 14px;
-                margin-left: 2px;
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                height: 12.5px;
-                width: 12.5px;
-                transform: translateX(9px) translateY(-18px);
-              "
-            ></div>
-          </div>
-          <div style="margin-left: 8px">
-            <div
-              style="
-                background-color: #f4f4f4;
-                border-radius: 50%;
-                flex-grow: 0;
-                height: 20px;
-                width: 20px;
-              "
-            ></div>
-            <div
-              style="
-                width: 0;
-                height: 0;
-                border-top: 2px solid transparent;
-                border-left: 6px solid #f4f4f4;
-                border-bottom: 2px solid transparent;
-                transform: translateX(16px) translateY(-4px) rotate(30deg);
-              "
-            ></div>
-          </div>
-          <div style="margin-left: auto">
-            <div
-              style="
-                width: 0px;
-                border-top: 8px solid #f4f4f4;
-                border-right: 8px solid transparent;
-                transform: translateY(16px);
-              "
-            ></div>
-            <div
-              style="
-                background-color: #f4f4f4;
-                flex-grow: 0;
-                height: 12px;
-                width: 16px;
-                transform: translateY(-4px);
-              "
-            ></div>
-            <div
-              style="
-                width: 0;
-                height: 0;
-                border-top: 8px solid #f4f4f4;
-                border-left: 8px solid transparent;
-                transform: translateY(-4px) translateX(8px);
-              "
-            ></div>
-          </div>
-        </div>
-        <div
-          style="
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-            justify-content: center;
-            margin-bottom: 24px;
-          "
-        >
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 4px;
-              flex-grow: 0;
-              height: 14px;
-              margin-bottom: 6px;
-              width: 224px;
-            "
-          ></div>
-          <div
-            style="
-              background-color: #f4f4f4;
-              border-radius: 4px;
-              flex-grow: 0;
-              height: 14px;
-              width: 144px;
-            "
-          ></div></div
-      ></a>
-    </div>
-  </blockquote><script async src="https://www.instagram.com/embed.js"></script>
+	class="instagram-media"
+	data-instgrm-captioned
+	data-instgrm-permalink="https://www.instagram.com/p/C3eld_uSrjj"
+	data-instgrm-version="14"
+	style="
+	background: #fff;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+	margin: 1px;
+	max-width: 540px;
+	min-width: 326px;
+	padding: 0;
+	width: 99.375%;
+	width: -webkit-calc(100% - 2px);
+	width: calc(100% - 2px);
+	"
+>
+	<div style="padding: 16px">
+		<a
+			href="https://www.instagram.com/p/C3eld_uSrjj"
+			style="
+			background: #ffffff;
+			line-height: 0;
+			padding: 0 0;
+			text-align: center;
+			text-decoration: none;
+			width: 100%;
+			"
+			target="_blank"
+		>
+			<div style="display: flex; flex-direction: row; align-items: center">
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 50%;
+					flex-grow: 0;
+					height: 40px;
+					margin-right: 14px;
+					width: 40px;
+					"
+				></div>
+				<div
+					style="
+					display: flex;
+					flex-direction: column;
+					flex-grow: 1;
+					justify-content: center;
+					"
+				>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 4px;
+						flex-grow: 0;
+						height: 14px;
+						margin-bottom: 6px;
+						width: 100px;
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 4px;
+						flex-grow: 0;
+						height: 14px;
+						width: 60px;
+						"
+					></div>
+				</div>
+			</div>
+			<div style="padding: 19% 0"></div>
+			<div
+				style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+			>
+				<svg
+					width="50px"
+					height="50px"
+					viewBox="0 0 60 60"
+					version="1.1"
+					xmlns="https://www.w3.org/2000/svg"
+					xmlns:xlink="https://www.w3.org/1999/xlink"
+				>
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g transform="translate(-511.000000, -20.000000)" fill="#000000">
+							<g>
+								<path
+									d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+								></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div style="padding-top: 8px">
+				<div
+					style="
+					color: #3897f0;
+					font-family: Arial, sans-serif;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 550;
+					line-height: 18px;
+					"
+				>
+					View this post on Instagram
+				</div>
+			</div>
+			<div style="padding: 12.5% 0"></div>
+			<div
+				style="
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 14px;
+				align-items: center;
+				"
+			>
+				<div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						height: 12.5px;
+						width: 12.5px;
+						transform: translateX(0px) translateY(7px);
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						height: 12.5px;
+						transform: rotate(-45deg) translateX(3px) translateY(1px);
+						width: 12.5px;
+						flex-grow: 0;
+						margin-right: 14px;
+						margin-left: 2px;
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						height: 12.5px;
+						width: 12.5px;
+						transform: translateX(9px) translateY(-18px);
+						"
+					></div>
+				</div>
+				<div style="margin-left: 8px">
+					<div
+						style="
+						background-color: #f4f4f4;
+						border-radius: 50%;
+						flex-grow: 0;
+						height: 20px;
+						width: 20px;
+						"
+					></div>
+					<div
+						style="
+						width: 0;
+						height: 0;
+						border-top: 2px solid transparent;
+						border-left: 6px solid #f4f4f4;
+						border-bottom: 2px solid transparent;
+						transform: translateX(16px) translateY(-4px) rotate(30deg);
+						"
+					></div>
+				</div>
+				<div style="margin-left: auto">
+					<div
+						style="
+						width: 0px;
+						border-top: 8px solid #f4f4f4;
+						border-right: 8px solid transparent;
+						transform: translateY(16px);
+						"
+					></div>
+					<div
+						style="
+						background-color: #f4f4f4;
+						flex-grow: 0;
+						height: 12px;
+						width: 16px;
+						transform: translateY(-4px);
+						"
+					></div>
+					<div
+						style="
+						width: 0;
+						height: 0;
+						border-top: 8px solid #f4f4f4;
+						border-left: 8px solid transparent;
+						transform: translateY(-4px) translateX(8px);
+						"
+					></div>
+				</div>
+			</div>
+			<div
+				style="
+				display: flex;
+				flex-direction: column;
+				flex-grow: 1;
+				justify-content: center;
+				margin-bottom: 24px;
+				"
+			>
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 4px;
+					flex-grow: 0;
+					height: 14px;
+					margin-bottom: 6px;
+					width: 224px;
+					"
+				></div>
+				<div
+					style="
+					background-color: #f4f4f4;
+					border-radius: 4px;
+					flex-grow: 0;
+					height: 14px;
+					width: 144px;
+					"
+				></div></div
+			>
+		</a>
+	</div>
+</blockquote><script async src="https://www.instagram.com/embed.js"></script>
 <ul>
 <li>
 <p>In Feb I have visited Chennai beach to see turtle nesting with Harshit (student from BeMe). <a href="https://www.instagram.com/p/C30Qx76tfhv/?img_index=1">It was very new experience for me</a>.</p>
@@ -3626,235 +3646,236 @@ Aaakansha also offered 1 year - Escape Velosity Grant to us. So with all of supp
 </ul>
 <p>detail report about the work - <a href="https://www.canva.com/design/DAGaq8utmtg/O439oGkID5vYzoAcNmCFkQ/view?utm_content=DAGaq8utmtg&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=h2c229f4669#1">here</a></p>
 <blockquote
-     class="instagram-media"
-     data-instgrm-captioned
-     data-instgrm-permalink="https://www.instagram.com/p/DEMta_IIDL6"
-     data-instgrm-version="14"
-     style="
-       background: #fff;
-       border: 0;
-       border-radius: 3px;
-       box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-       margin: 1px;
-       max-width: 540px;
-       min-width: 326px;
-       padding: 0;
-       width: 99.375%;
-       width: -webkit-calc(100% - 2px);
-       width: calc(100% - 2px);
-     "
-   >
-     <div style="padding: 16px">
-       <a
-         href="https://www.instagram.com/p/DEMta_IIDL6"
-         style="
-           background: #ffffff;
-           line-height: 0;
-           padding: 0 0;
-           text-align: center;
-           text-decoration: none;
-           width: 100%;
-         "
-         target="_blank"
-       >
-         <div style="display: flex; flex-direction: row; align-items: center">
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 50%;
-               flex-grow: 0;
-               height: 40px;
-               margin-right: 14px;
-               width: 40px;
-             "
-           ></div>
-           <div
-             style="
-               display: flex;
-               flex-direction: column;
-               flex-grow: 1;
-               justify-content: center;
-             "
-           >
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 4px;
-                 flex-grow: 0;
-                 height: 14px;
-                 margin-bottom: 6px;
-                 width: 100px;
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 4px;
-                 flex-grow: 0;
-                 height: 14px;
-                 width: 60px;
-               "
-             ></div>
-           </div>
-         </div>
-         <div style="padding: 19% 0"></div>
-         <div
-           style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
-         >
-           <svg
-             width="50px"
-             height="50px"
-             viewBox="0 0 60 60"
-             version="1.1"
-             xmlns="https://www.w3.org/2000/svg"
-             xmlns:xlink="https://www.w3.org/1999/xlink"
-           >
-             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-               <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                 <g>
-                   <path
-                     d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
-                   ></path>
-                 </g>
-               </g>
-             </g>
-           </svg>
-         </div>
-         <div style="padding-top: 8px">
-           <div
-             style="
-               color: #3897f0;
-               font-family: Arial, sans-serif;
-               font-size: 14px;
-               font-style: normal;
-               font-weight: 550;
-               line-height: 18px;
-             "
-           >
-             View this post on Instagram
-           </div>
-         </div>
-         <div style="padding: 12.5% 0"></div>
-         <div
-           style="
-             display: flex;
-             flex-direction: row;
-             margin-bottom: 14px;
-             align-items: center;
-           "
-         >
-           <div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 height: 12.5px;
-                 width: 12.5px;
-                 transform: translateX(0px) translateY(7px);
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 height: 12.5px;
-                 transform: rotate(-45deg) translateX(3px) translateY(1px);
-                 width: 12.5px;
-                 flex-grow: 0;
-                 margin-right: 14px;
-                 margin-left: 2px;
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 height: 12.5px;
-                 width: 12.5px;
-                 transform: translateX(9px) translateY(-18px);
-               "
-             ></div>
-           </div>
-           <div style="margin-left: 8px">
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 flex-grow: 0;
-                 height: 20px;
-                 width: 20px;
-               "
-             ></div>
-             <div
-               style="
-                 width: 0;
-                 height: 0;
-                 border-top: 2px solid transparent;
-                 border-left: 6px solid #f4f4f4;
-                 border-bottom: 2px solid transparent;
-                 transform: translateX(16px) translateY(-4px) rotate(30deg);
-               "
-             ></div>
-           </div>
-           <div style="margin-left: auto">
-             <div
-               style="
-                 width: 0px;
-                 border-top: 8px solid #f4f4f4;
-                 border-right: 8px solid transparent;
-                 transform: translateY(16px);
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 flex-grow: 0;
-                 height: 12px;
-                 width: 16px;
-                 transform: translateY(-4px);
-               "
-             ></div>
-             <div
-               style="
-                 width: 0;
-                 height: 0;
-                 border-top: 8px solid #f4f4f4;
-                 border-left: 8px solid transparent;
-                 transform: translateY(-4px) translateX(8px);
-               "
-             ></div>
-           </div>
-         </div>
-         <div
-           style="
-             display: flex;
-             flex-direction: column;
-             flex-grow: 1;
-             justify-content: center;
-             margin-bottom: 24px;
-           "
-         >
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 4px;
-               flex-grow: 0;
-               height: 14px;
-               margin-bottom: 6px;
-               width: 224px;
-             "
-           ></div>
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 4px;
-               flex-grow: 0;
-               height: 14px;
-               width: 144px;
-             "
-           ></div></div
-       ></a>
-     </div>
-   </blockquote><script async src="https://www.instagram.com/embed.js"></script>
+ 	class="instagram-media"
+ 	data-instgrm-captioned
+ 	data-instgrm-permalink="https://www.instagram.com/p/DEMta_IIDL6"
+ 	data-instgrm-version="14"
+ 	style="
+ 	background: #fff;
+ 	border: 0;
+ 	border-radius: 3px;
+ 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+ 	margin: 1px;
+ 	max-width: 540px;
+ 	min-width: 326px;
+ 	padding: 0;
+ 	width: 99.375%;
+ 	width: -webkit-calc(100% - 2px);
+ 	width: calc(100% - 2px);
+ 	"
+ >
+ 	<div style="padding: 16px">
+ 		<a
+ 			href="https://www.instagram.com/p/DEMta_IIDL6"
+ 			style="
+ 			background: #ffffff;
+ 			line-height: 0;
+ 			padding: 0 0;
+ 			text-align: center;
+ 			text-decoration: none;
+ 			width: 100%;
+ 			"
+ 			target="_blank"
+ 		>
+ 			<div style="display: flex; flex-direction: row; align-items: center">
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 50%;
+ 					flex-grow: 0;
+ 					height: 40px;
+ 					margin-right: 14px;
+ 					width: 40px;
+ 					"
+ 				></div>
+ 				<div
+ 					style="
+ 					display: flex;
+ 					flex-direction: column;
+ 					flex-grow: 1;
+ 					justify-content: center;
+ 					"
+ 				>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 4px;
+ 						flex-grow: 0;
+ 						height: 14px;
+ 						margin-bottom: 6px;
+ 						width: 100px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 4px;
+ 						flex-grow: 0;
+ 						height: 14px;
+ 						width: 60px;
+ 						"
+ 					></div>
+ 				</div>
+ 			</div>
+ 			<div style="padding: 19% 0"></div>
+ 			<div
+ 				style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+ 			>
+ 				<svg
+ 					width="50px"
+ 					height="50px"
+ 					viewBox="0 0 60 60"
+ 					version="1.1"
+ 					xmlns="https://www.w3.org/2000/svg"
+ 					xmlns:xlink="https://www.w3.org/1999/xlink"
+ 				>
+ 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+ 						<g transform="translate(-511.000000, -20.000000)" fill="#000000">
+ 							<g>
+ 								<path
+ 									d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+ 								></path>
+ 							</g>
+ 						</g>
+ 					</g>
+ 				</svg>
+ 			</div>
+ 			<div style="padding-top: 8px">
+ 				<div
+ 					style="
+ 					color: #3897f0;
+ 					font-family: Arial, sans-serif;
+ 					font-size: 14px;
+ 					font-style: normal;
+ 					font-weight: 550;
+ 					line-height: 18px;
+ 					"
+ 				>
+ 					View this post on Instagram
+ 				</div>
+ 			</div>
+ 			<div style="padding: 12.5% 0"></div>
+ 			<div
+ 				style="
+ 				display: flex;
+ 				flex-direction: row;
+ 				margin-bottom: 14px;
+ 				align-items: center;
+ 				"
+ 			>
+ 				<div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						height: 12.5px;
+ 						width: 12.5px;
+ 						transform: translateX(0px) translateY(7px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						height: 12.5px;
+ 						transform: rotate(-45deg) translateX(3px) translateY(1px);
+ 						width: 12.5px;
+ 						flex-grow: 0;
+ 						margin-right: 14px;
+ 						margin-left: 2px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						height: 12.5px;
+ 						width: 12.5px;
+ 						transform: translateX(9px) translateY(-18px);
+ 						"
+ 					></div>
+ 				</div>
+ 				<div style="margin-left: 8px">
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						flex-grow: 0;
+ 						height: 20px;
+ 						width: 20px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						width: 0;
+ 						height: 0;
+ 						border-top: 2px solid transparent;
+ 						border-left: 6px solid #f4f4f4;
+ 						border-bottom: 2px solid transparent;
+ 						transform: translateX(16px) translateY(-4px) rotate(30deg);
+ 						"
+ 					></div>
+ 				</div>
+ 				<div style="margin-left: auto">
+ 					<div
+ 						style="
+ 						width: 0px;
+ 						border-top: 8px solid #f4f4f4;
+ 						border-right: 8px solid transparent;
+ 						transform: translateY(16px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						flex-grow: 0;
+ 						height: 12px;
+ 						width: 16px;
+ 						transform: translateY(-4px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						width: 0;
+ 						height: 0;
+ 						border-top: 8px solid #f4f4f4;
+ 						border-left: 8px solid transparent;
+ 						transform: translateY(-4px) translateX(8px);
+ 						"
+ 					></div>
+ 				</div>
+ 			</div>
+ 			<div
+ 				style="
+ 				display: flex;
+ 				flex-direction: column;
+ 				flex-grow: 1;
+ 				justify-content: center;
+ 				margin-bottom: 24px;
+ 				"
+ 			>
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 4px;
+ 					flex-grow: 0;
+ 					height: 14px;
+ 					margin-bottom: 6px;
+ 					width: 224px;
+ 					"
+ 				></div>
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 4px;
+ 					flex-grow: 0;
+ 					height: 14px;
+ 					width: 144px;
+ 					"
+ 				></div></div
+ 			>
+ 		</a>
+ 	</div>
+ </blockquote><script async src="https://www.instagram.com/embed.js"></script>
 <h3 id="work-at-pratham">Work at Pratham</h3>
 <p>Pratham was roller coaster experience. In the beginning I was very happy that I got remote job so I can stay in vadodra and also do other work. Secondly it was content development job in environment domain. My team was producing videos for topics like climate change, plastic literacy and more. There was interesting project called creativity club in our account too. Where we need to develop prompt videos for children age 10+ yrs to foster their creativity, collaboration, communication and problem solving skills.</p>
 <p>Overall work was interesting but I could sustain there for more than 7 months.</p>
@@ -3962,235 +3983,236 @@ I am suffering from stomach problems and Nidhi is suffering from skin - hair iss
 </li>
 </ul>
 <blockquote
-     class="instagram-media"
-     data-instgrm-captioned
-     data-instgrm-permalink="https://www.instagram.com/p/DD_peFtyIJ_"
-     data-instgrm-version="14"
-     style="
-       background: #fff;
-       border: 0;
-       border-radius: 3px;
-       box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-       margin: 1px;
-       max-width: 540px;
-       min-width: 326px;
-       padding: 0;
-       width: 99.375%;
-       width: -webkit-calc(100% - 2px);
-       width: calc(100% - 2px);
-     "
-   >
-     <div style="padding: 16px">
-       <a
-         href="https://www.instagram.com/p/DD_peFtyIJ_"
-         style="
-           background: #ffffff;
-           line-height: 0;
-           padding: 0 0;
-           text-align: center;
-           text-decoration: none;
-           width: 100%;
-         "
-         target="_blank"
-       >
-         <div style="display: flex; flex-direction: row; align-items: center">
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 50%;
-               flex-grow: 0;
-               height: 40px;
-               margin-right: 14px;
-               width: 40px;
-             "
-           ></div>
-           <div
-             style="
-               display: flex;
-               flex-direction: column;
-               flex-grow: 1;
-               justify-content: center;
-             "
-           >
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 4px;
-                 flex-grow: 0;
-                 height: 14px;
-                 margin-bottom: 6px;
-                 width: 100px;
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 4px;
-                 flex-grow: 0;
-                 height: 14px;
-                 width: 60px;
-               "
-             ></div>
-           </div>
-         </div>
-         <div style="padding: 19% 0"></div>
-         <div
-           style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
-         >
-           <svg
-             width="50px"
-             height="50px"
-             viewBox="0 0 60 60"
-             version="1.1"
-             xmlns="https://www.w3.org/2000/svg"
-             xmlns:xlink="https://www.w3.org/1999/xlink"
-           >
-             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-               <g transform="translate(-511.000000, -20.000000)" fill="#000000">
-                 <g>
-                   <path
-                     d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
-                   ></path>
-                 </g>
-               </g>
-             </g>
-           </svg>
-         </div>
-         <div style="padding-top: 8px">
-           <div
-             style="
-               color: #3897f0;
-               font-family: Arial, sans-serif;
-               font-size: 14px;
-               font-style: normal;
-               font-weight: 550;
-               line-height: 18px;
-             "
-           >
-             View this post on Instagram
-           </div>
-         </div>
-         <div style="padding: 12.5% 0"></div>
-         <div
-           style="
-             display: flex;
-             flex-direction: row;
-             margin-bottom: 14px;
-             align-items: center;
-           "
-         >
-           <div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 height: 12.5px;
-                 width: 12.5px;
-                 transform: translateX(0px) translateY(7px);
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 height: 12.5px;
-                 transform: rotate(-45deg) translateX(3px) translateY(1px);
-                 width: 12.5px;
-                 flex-grow: 0;
-                 margin-right: 14px;
-                 margin-left: 2px;
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 height: 12.5px;
-                 width: 12.5px;
-                 transform: translateX(9px) translateY(-18px);
-               "
-             ></div>
-           </div>
-           <div style="margin-left: 8px">
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 border-radius: 50%;
-                 flex-grow: 0;
-                 height: 20px;
-                 width: 20px;
-               "
-             ></div>
-             <div
-               style="
-                 width: 0;
-                 height: 0;
-                 border-top: 2px solid transparent;
-                 border-left: 6px solid #f4f4f4;
-                 border-bottom: 2px solid transparent;
-                 transform: translateX(16px) translateY(-4px) rotate(30deg);
-               "
-             ></div>
-           </div>
-           <div style="margin-left: auto">
-             <div
-               style="
-                 width: 0px;
-                 border-top: 8px solid #f4f4f4;
-                 border-right: 8px solid transparent;
-                 transform: translateY(16px);
-               "
-             ></div>
-             <div
-               style="
-                 background-color: #f4f4f4;
-                 flex-grow: 0;
-                 height: 12px;
-                 width: 16px;
-                 transform: translateY(-4px);
-               "
-             ></div>
-             <div
-               style="
-                 width: 0;
-                 height: 0;
-                 border-top: 8px solid #f4f4f4;
-                 border-left: 8px solid transparent;
-                 transform: translateY(-4px) translateX(8px);
-               "
-             ></div>
-           </div>
-         </div>
-         <div
-           style="
-             display: flex;
-             flex-direction: column;
-             flex-grow: 1;
-             justify-content: center;
-             margin-bottom: 24px;
-           "
-         >
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 4px;
-               flex-grow: 0;
-               height: 14px;
-               margin-bottom: 6px;
-               width: 224px;
-             "
-           ></div>
-           <div
-             style="
-               background-color: #f4f4f4;
-               border-radius: 4px;
-               flex-grow: 0;
-               height: 14px;
-               width: 144px;
-             "
-           ></div></div
-       ></a>
-     </div>
-   </blockquote><script async src="https://www.instagram.com/embed.js"></script>
+ 	class="instagram-media"
+ 	data-instgrm-captioned
+ 	data-instgrm-permalink="https://www.instagram.com/p/DD_peFtyIJ_"
+ 	data-instgrm-version="14"
+ 	style="
+ 	background: #fff;
+ 	border: 0;
+ 	border-radius: 3px;
+ 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+ 	margin: 1px;
+ 	max-width: 540px;
+ 	min-width: 326px;
+ 	padding: 0;
+ 	width: 99.375%;
+ 	width: -webkit-calc(100% - 2px);
+ 	width: calc(100% - 2px);
+ 	"
+ >
+ 	<div style="padding: 16px">
+ 		<a
+ 			href="https://www.instagram.com/p/DD_peFtyIJ_"
+ 			style="
+ 			background: #ffffff;
+ 			line-height: 0;
+ 			padding: 0 0;
+ 			text-align: center;
+ 			text-decoration: none;
+ 			width: 100%;
+ 			"
+ 			target="_blank"
+ 		>
+ 			<div style="display: flex; flex-direction: row; align-items: center">
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 50%;
+ 					flex-grow: 0;
+ 					height: 40px;
+ 					margin-right: 14px;
+ 					width: 40px;
+ 					"
+ 				></div>
+ 				<div
+ 					style="
+ 					display: flex;
+ 					flex-direction: column;
+ 					flex-grow: 1;
+ 					justify-content: center;
+ 					"
+ 				>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 4px;
+ 						flex-grow: 0;
+ 						height: 14px;
+ 						margin-bottom: 6px;
+ 						width: 100px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 4px;
+ 						flex-grow: 0;
+ 						height: 14px;
+ 						width: 60px;
+ 						"
+ 					></div>
+ 				</div>
+ 			</div>
+ 			<div style="padding: 19% 0"></div>
+ 			<div
+ 				style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
+ 			>
+ 				<svg
+ 					width="50px"
+ 					height="50px"
+ 					viewBox="0 0 60 60"
+ 					version="1.1"
+ 					xmlns="https://www.w3.org/2000/svg"
+ 					xmlns:xlink="https://www.w3.org/1999/xlink"
+ 				>
+ 					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+ 						<g transform="translate(-511.000000, -20.000000)" fill="#000000">
+ 							<g>
+ 								<path
+ 									d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
+ 								></path>
+ 							</g>
+ 						</g>
+ 					</g>
+ 				</svg>
+ 			</div>
+ 			<div style="padding-top: 8px">
+ 				<div
+ 					style="
+ 					color: #3897f0;
+ 					font-family: Arial, sans-serif;
+ 					font-size: 14px;
+ 					font-style: normal;
+ 					font-weight: 550;
+ 					line-height: 18px;
+ 					"
+ 				>
+ 					View this post on Instagram
+ 				</div>
+ 			</div>
+ 			<div style="padding: 12.5% 0"></div>
+ 			<div
+ 				style="
+ 				display: flex;
+ 				flex-direction: row;
+ 				margin-bottom: 14px;
+ 				align-items: center;
+ 				"
+ 			>
+ 				<div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						height: 12.5px;
+ 						width: 12.5px;
+ 						transform: translateX(0px) translateY(7px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						height: 12.5px;
+ 						transform: rotate(-45deg) translateX(3px) translateY(1px);
+ 						width: 12.5px;
+ 						flex-grow: 0;
+ 						margin-right: 14px;
+ 						margin-left: 2px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						height: 12.5px;
+ 						width: 12.5px;
+ 						transform: translateX(9px) translateY(-18px);
+ 						"
+ 					></div>
+ 				</div>
+ 				<div style="margin-left: 8px">
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						border-radius: 50%;
+ 						flex-grow: 0;
+ 						height: 20px;
+ 						width: 20px;
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						width: 0;
+ 						height: 0;
+ 						border-top: 2px solid transparent;
+ 						border-left: 6px solid #f4f4f4;
+ 						border-bottom: 2px solid transparent;
+ 						transform: translateX(16px) translateY(-4px) rotate(30deg);
+ 						"
+ 					></div>
+ 				</div>
+ 				<div style="margin-left: auto">
+ 					<div
+ 						style="
+ 						width: 0px;
+ 						border-top: 8px solid #f4f4f4;
+ 						border-right: 8px solid transparent;
+ 						transform: translateY(16px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						background-color: #f4f4f4;
+ 						flex-grow: 0;
+ 						height: 12px;
+ 						width: 16px;
+ 						transform: translateY(-4px);
+ 						"
+ 					></div>
+ 					<div
+ 						style="
+ 						width: 0;
+ 						height: 0;
+ 						border-top: 8px solid #f4f4f4;
+ 						border-left: 8px solid transparent;
+ 						transform: translateY(-4px) translateX(8px);
+ 						"
+ 					></div>
+ 				</div>
+ 			</div>
+ 			<div
+ 				style="
+ 				display: flex;
+ 				flex-direction: column;
+ 				flex-grow: 1;
+ 				justify-content: center;
+ 				margin-bottom: 24px;
+ 				"
+ 			>
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 4px;
+ 					flex-grow: 0;
+ 					height: 14px;
+ 					margin-bottom: 6px;
+ 					width: 224px;
+ 					"
+ 				></div>
+ 				<div
+ 					style="
+ 					background-color: #f4f4f4;
+ 					border-radius: 4px;
+ 					flex-grow: 0;
+ 					height: 14px;
+ 					width: 144px;
+ 					"
+ 				></div></div
+ 			>
+ 		</a>
+ 	</div>
+ </blockquote><script async src="https://www.instagram.com/embed.js"></script>
 <h3 id="what-next-">What next ?</h3>
 <ul>
 <li>Work front : till 15th March 2025 - Project DEFY&rsquo;s work is there.</li>
@@ -4235,8 +4257,8 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
 <p><a href="https://www.youtube.com/watch?v=QEZMSbeziEw&amp;t=870s">14:30</a> What motivates engineers?</p>
 <p><strong>Full episode :</strong></p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QEZMSbeziEw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-    </div>
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QEZMSbeziEw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
 
 <p>I resonate with this idea so much so sharing here as a self note :)</p>
 <p>I found some interesting blog posts on same topic :</p>
@@ -4692,7 +4714,7 @@ If you merge it all together :</p>
       <link>https://learningwala.in/blog/i-never-bought-a-new-laptop/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>https://learningwala.in/blog/i-never-bought-a-new-laptop/</guid>
-      <description>&lt;p&gt;I have never bought new laptop in my life. I had P4 computer at home around 2008 - 9&#xA;After that when I dropped out of school and started working in different organisation, people helped me with their old laptops.&lt;/p&gt;&#xA;&lt;p&gt;My first laptop was &lt;strong&gt;Asuse eee pc&lt;/strong&gt;. I was using it with &lt;strong&gt;Ubuntu &amp;amp; openSUSE&lt;/strong&gt; later on..&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/laptop/eee_hu_a0b140f696879c1e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/laptop/eee_hu_e9aeee88e6f05731.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/laptop/eee_hu_e9aeee88e6f05731.jpg&#34;&#xA;        alt=&#34;Asuse eee pc&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Asuse eee pc with [makey makey circuit](https://makeymakey.com/)&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;I remember going to Jigish Bhai&amp;rsquo;s office and making live USB boot for openSUSE Linux distro. That was my first introduction to open source &amp;amp; free software world. My mama Nirmal Pathak is fedora contributor. I remember reading Kartik Bhai&amp;rsquo;s blog about debian &amp;amp; Wikipedia. Doing wikipedia meetup at goraj muni seva ashram.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I have never bought new laptop in my life. I had P4 computer at home around 2008 - 9&#xA;After that when I dropped out of school and started working in different organisation, people helped me with their old laptops.&lt;/p&gt;&#xA;&lt;p&gt;My first laptop was &lt;strong&gt;Asuse eee pc&lt;/strong&gt;. I was using it with &lt;strong&gt;Ubuntu &amp;amp; openSUSE&lt;/strong&gt; later on..&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/laptop/eee_hu_3ab316d0ce0ab5fa.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/laptop/eee_hu_fe535bd5f1423ed3.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/laptop/eee_hu_fe535bd5f1423ed3.jpg&#34;&#xA;        alt=&#34;Asuse eee pc&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Asuse eee pc with [makey makey circuit](https://makeymakey.com/)&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;I remember going to Jigish Bhai&amp;rsquo;s office and making live USB boot for openSUSE Linux distro. That was my first introduction to open source &amp;amp; free software world. My mama Nirmal Pathak is fedora contributor. I remember reading Kartik Bhai&amp;rsquo;s blog about debian &amp;amp; Wikipedia. Doing wikipedia meetup at goraj muni seva ashram.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I have never bought new laptop in my life. I had P4 computer at home around 2008 - 9
 After that when I dropped out of school and started working in different organisation, people helped me with their old laptops.</p>
 <p>My first laptop was <strong>Asuse eee pc</strong>. I was using it with <strong>Ubuntu &amp; openSUSE</strong> later on..</p>
@@ -4710,10 +4732,10 @@ After that when I dropped out of school and started working in different organis
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/laptop/eee_hu_a0b140f696879c1e.webp" type="image/webp">
-      <source srcset="/laptop/eee_hu_e9aeee88e6f05731.jpg" type="image/jpeg">
+      <source srcset="/laptop/eee_hu_3ab316d0ce0ab5fa.webp" type="image/webp">
+      <source srcset="/laptop/eee_hu_fe535bd5f1423ed3.jpg" type="image/jpeg">
       <img
-        src="/laptop/eee_hu_e9aeee88e6f05731.jpg"
+        src="/laptop/eee_hu_fe535bd5f1423ed3.jpg"
         alt="Asuse eee pc"
         loading="lazy"
         decoding="async"
@@ -4753,10 +4775,10 @@ After that when I dropped out of school and started working in different organis
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/laptop/mac_hu_154127f9cc44259a.webp" type="image/webp">
-      <source srcset="/laptop/mac_hu_1577d4861fd8ad12.jpg" type="image/jpeg">
+      <source srcset="/laptop/mac_hu_c7d152a364f027dd.webp" type="image/webp">
+      <source srcset="/laptop/mac_hu_969122eff37a4109.jpg" type="image/jpeg">
       <img
-        src="/laptop/mac_hu_1577d4861fd8ad12.jpg"
+        src="/laptop/mac_hu_969122eff37a4109.jpg"
         alt="Macbook Air 2013"
         loading="lazy"
         decoding="async"
@@ -4789,10 +4811,10 @@ After that when I dropped out of school and started working in different organis
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/laptop/book_hu_a441aff5803537bf.webp" type="image/webp">
-      <source srcset="/laptop/book_hu_5c9bcf7b8c06ff0b.jpeg" type="image/jpeg">
+      <source srcset="/laptop/book_hu_ebaad56a9da957d4.webp" type="image/webp">
+      <source srcset="/laptop/book_hu_9717f5b93347ddd1.jpeg" type="image/jpeg">
       <img
-        src="/laptop/book_hu_5c9bcf7b8c06ff0b.jpeg"
+        src="/laptop/book_hu_9717f5b93347ddd1.jpeg"
         alt="Code Swaraj"
         loading="lazy"
         decoding="async"
@@ -4821,10 +4843,10 @@ After that when I dropped out of school and started working in different organis
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/laptop/usb_hu_b4bac1e2576d39c2.webp" type="image/webp">
-      <source srcset="/laptop/usb_hu_f6e042cb61a3d7fb.jpeg" type="image/jpeg">
+      <source srcset="/laptop/usb_hu_bf8b7b50064cfd1b.webp" type="image/webp">
+      <source srcset="/laptop/usb_hu_1e687746e906bcba.jpeg" type="image/jpeg">
       <img
-        src="/laptop/usb_hu_f6e042cb61a3d7fb.jpeg"
+        src="/laptop/usb_hu_1e687746e906bcba.jpeg"
         alt="Thinkpad X1 Carbon"
         loading="lazy"
         decoding="async"
@@ -4854,10 +4876,10 @@ After so much of comparing and testing I finally bought refurbished Thinkpad X1 
 
   <figure class="img-responsive">
     <picture>
-      <source srcset="/laptop/thinkpad_hu_a98d20c82f016c47.webp" type="image/webp">
-      <source srcset="/laptop/thinkpad_hu_80d8fee7752c2383.jpeg" type="image/jpeg">
+      <source srcset="/laptop/thinkpad_hu_36f16bce82a710a6.webp" type="image/webp">
+      <source srcset="/laptop/thinkpad_hu_27bed44ee42b4065.jpeg" type="image/jpeg">
       <img
-        src="/laptop/thinkpad_hu_80d8fee7752c2383.jpeg"
+        src="/laptop/thinkpad_hu_27bed44ee42b4065.jpeg"
         alt="Thinkpad X1 Carbon"
         loading="lazy"
         decoding="async"
