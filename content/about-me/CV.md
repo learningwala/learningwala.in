@@ -5,7 +5,7 @@ weight:
 ---
 
 
-- [Mihir - CV (Nov 2024)](/about-me/mihir-cv/)
+- [Mihir - CV (May 2026)](/about-me/mihir-cv/)
 
 ### Portfolio, CV & Reflective Notes (Archive)
 

@@ -37,13 +37,13 @@ weight: 5
 
 [Article about our work at eco clubs / Eklavya Foundation (अज़ीम प्रेमजी प्रकाशन द्वारा निबंधों के संग्रह में पहली बार प्रकाशित।) - प्रकृति-कला के ज़रिए कलाबोध का विकास ](https://www.natureclassrooms.org/post/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF-%E0%A4%95%E0%A4%B2%E0%A4%BE-%E0%A4%95%E0%A5%87-%E0%A4%9C-%E0%A4%B0%E0%A4%BF%E0%A4%8F-%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%AC%E0%A5%8B%E0%A4%A7-%E0%A4%95%E0%A4%BE-%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B8), [Same article at Vikalpsangam website](https://vikalpsangam.org/article/prakriti-kala-ke-zariye-kalabodh-ka-vikas-in-hindi/)
 
-
+[Reopening Children’s Imagination - How a Child’s Relationship with the Living World Shapes Who They Become](https://vikalpsangam.org/article/reopening-childrens-imagination/)
 
 ### Self Published Books
 
 [Silent Zone | Hindi Story](https://drive.google.com/file/d/16O6eJYkJ6MTyihHiA0RhVPBX9Cjs36vR/view?usp=sharing)
 
-[Bilori Kaanch | Gujarati Book - Poems & Essays by Mihir](https://public.3.basecamp.com/p/sVWy21WAwi49BcVfHuY5zhi6)
+[Bilori Kaanch | Gujarati Book - Poems & Essays by Mihir](https://drive.google.com/file/d/10PkdKyATXe81KzhQN2SBnwbiIN3fp4mR/view?usp=sharing)
 
 [Kiki & Krisha | Gujarati Story Book](https://drive.google.com/file/d/1gHdtX9g-0WuWmTsu3rjST2f44zAfTGjh/view?usp=drive_link) 
 

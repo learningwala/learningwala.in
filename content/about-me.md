@@ -28,9 +28,9 @@ During this decade long journey, I worked in a formal & informal learning spaces
 
 **I create transformative learning journeys for children, young adults and educators using experiential methodologies, including theater, nature-based explorations, and interdisciplinary projects.**
 
-My programs, workshops and intervention are just an anchor. My strong intention is to create a space of healing, acceptance, and co-creation.
+My programs, workshops and intervention are just an anchor. My strong intention is to create a space of dialogue and co-creation.
 
-A space which act as an incubation center for everyone.Where we learn, experiment, challenge ourselves, and thereby break barriers and grow in our lives. 
+A space which act as an incubation center for everyone. Where we learn, experiment, challenge ourselves, and thereby break barriers and grow in our lives. 
 
 **My current core interest areas are** 
 
