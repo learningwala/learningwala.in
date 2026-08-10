@@ -36,3 +36,6 @@ You can read my writings / short notes around classroom experiences and facilita
 
 
 **Email :** [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com)  
+
+{{< img src="index/footer.png">}}
+

@@ -22,7 +22,7 @@ Theater · Storytelling · Nature Exploration · Music · Movement · Art · Tin
 
 ---
 
-## Education & Training
+## Education & learning
 
 - **Child Development, Learning & Special Needs** — [Institute of Home Economics, Delhi University](https://ihe.du.ac.in/) & [Eklavya Foundation, Bhopal](https://eklavya.in/)
 - **Applied Theatre & Theatre in Education** — [Theatre Professionals](https://theatreprofessionals.co.in/) & [Rangbhumi, Mumbai](https://www.instagram.com/rangbhumi_applied_theatre/?hl=en)

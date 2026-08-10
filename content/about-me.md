@@ -55,6 +55,11 @@ When I’m not with children or educators, I immerse myself in writing poetry or
 
 Music, long walks, bird watching, singing, and sketching are my favorite time accelerators.
 
+-----
+
+**Short bio**
+
+Mihir is a writer, educator, and barefoot philosopher based in Ahmedabad, with 13 years of practice across formal and informal learning spaces in India. He facilitates transformative learning experiences for children and young adults through nature- theatre and project -based experiential pedagogies. He loves writing poems for and with children. He has self-published two books in Gujarati. He is a recipient of the Earth Educator Fellowship, and is part of the faculty team for Eklavya Foundation's course on Child Development, Learning and Special Needs. His work is rooted in a deeper question: what does education look like when our collective purpose is to live together harmoniously?
 
 
 --------

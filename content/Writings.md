@@ -39,7 +39,9 @@ weight: 5
 
 [Reopening Children’s Imagination - How a Child’s Relationship with the Living World Shapes Who They Become](https://vikalpsangam.org/article/reopening-childrens-imagination/)
 
-### Self Published Books
+### Self Published Books & Magazine
+
+[Patrango - children's magazine in Gujarati - May 2006 - summer issue](https://archive.org/details/patrango-29-05-2026-print-file) (Co created with Bansi / Khojbeen Mandali)
 
 [Silent Zone | Hindi Story](https://drive.google.com/file/d/16O6eJYkJ6MTyihHiA0RhVPBX9Cjs36vR/view?usp=sharing)
 
