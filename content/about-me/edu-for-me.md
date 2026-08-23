@@ -16,7 +16,7 @@ When I say “learning,” I don’t only mean academic or text-based learning b
 
 **Education for me :**
 
-**पारस्परिक सम्बंध के द्वारा उभरते 'सीखने के अनुभवो'के द्वारा -** मानव बाल की सर्जनशीलता, विचारशीलता, संवेदनशीलता और विवेकशीलता खिले और -
+**पारस्परिक सम्बंध के बीच उभरते 'सीखने के अनुभवो'के द्वारा -** मानव बाल की सर्जनशीलता, विचारशीलता, संवेदनशीलता और विवेकशीलता खिले और -
 उन्हें अपनी स्वतंत्रता का अहेसास हो पाए। 
 
 मानव बाल का मानसिक, शारीरिक, भावात्मक, मनोक्रियात्मक और चैतसिक विकास ।
@@ -72,4 +72,26 @@ I facilitate transformative learning through tools I have discovered during my j
 
 
 > I feel that the most basic learning that can happen is regarding ourselves, our conditioning, the conflicts in our minds and the social expression they have, the nature of our hopes, desires, ambitions and frustrations, and about what it means to live a fundamentally deep and peaceful life. My educational practice is an exploration of these questions.
+
 -------
+
+*(Updated on 18th Aug 2026)* - draft
+
+Irrelationships caused by modern education : 
+
+1. Disconnection from oneself
+2. Disconnection from community and society
+3. Disconnection from Earth / biosphere / land
+4. Disconnection between subjects and disciplines
+5. Disconnection between "learning" and real-world engagement
+
+**What are the characteristics of 'transformative pedagogy'?**
+
+- Experiential - direct contact with the world 
+- Embodied - integration different subjects and disciplines 
+- Relational / Contextual 
+- Dialogic / Reciprocal 
+- Contemplative / Inquiry driven 
+
+
+{{< img src="/eduforme/circle.webp" alt="education for me" caption="Source : Towards a Curriculum for ‘Belonging’ by Yuvan Aves">}}

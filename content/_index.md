@@ -6,24 +6,13 @@ weight: 1
 
 {{< img src="index/mihirprofile.png" alt="Mihir Pathak" caption="">}}
 
-**Mihir Pathak | Experiential Educator | Nature - Theater - Project based learning**
+**Mihir Pathak | Writer, Educator, and Barefoot Philosopher**
 
 -------------
 
-Hi, This is Mihir aka learningwala.
+Hi, I'm Mihir — a writer, educator, and barefoot philosopher based in Ahmedabad, with 13 years of practice across formal and informal learning spaces in India. I facilitate transformative learning experiences for children and young adults through nature, theatre, and project-based experiential pedagogies. I love writing poems and essays, and making zines. I've self-published two books in Gujarati, and I'm currently co-publishing a children's magazine called Patrango. I'm a recipient of the Earth Educator Fellowship '23 and a faculty member for the 'Child Development, Learning & Special Needs' course by Eklavya Foundation. My work is rooted in a deeper question: what does education look like when our collective purpose is to live together harmoniously?
 
-I am passionate educator, working with formal and informal learning environments for the last 12 years. 
-
-I work directly with children, young adults, educators, researchers, learning experience designers on daily basis. You can read about my current engagements at **[now](/now)** page.
-
-**My current areas of interest are :** 
-
-- Project based learning 
-- Nature Education 
-- Experiential learning
-- Theater in Education
-- Children literature 
-- Informal learning spaces / third space and self directed learning
+You can read about my current engagements at **[now](/now)** page.
 
 I tried to capture my decade long journey, my personal educational philosophy and my offerings at [about me](/about-me) page.
 
