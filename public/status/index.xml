@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Statuses on Mihir Pathak | મિહિર પાઠક</title>
-    <link>https://learningwala.in/status/</link>
+    <link>http://localhost:1313/status/</link>
     <description>Recent content in Statuses on Mihir Pathak | મિહિર પાઠક</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,22 +10,22 @@
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY-NC-SA 4.0)</copyright>
     <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://learningwala.in/status/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ggg</title>
-      <link>https://learningwala.in/status/12-07-2025-copy/</link>
+      <link>http://localhost:1313/status/12-07-2025-copy/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/status/12-07-2025-copy/</guid>
+      <guid>http://localhost:1313/status/12-07-2025-copy/</guid>
       <description>&lt;p&gt;Heard a beautiful birdsong today near the banyan tree 🌳🎶&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Heard a beautiful birdsong today near the banyan tree 🌳🎶</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>mmmm</title>
-      <link>https://learningwala.in/status/12-07-2025-another-copy/</link>
+      <link>http://localhost:1313/status/12-07-2025-another-copy/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/status/12-07-2025-another-copy/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w27.2025/github_hu_a5c499c50cd8ab17.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/w27.2025/github_hu_992349d069fa42f.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/w27.2025/github_hu_992349d069fa42f.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
+      <guid>http://localhost:1313/status/12-07-2025-another-copy/</guid>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w27.2025/github_hu_a5c499c50cd8ab17.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w27.2025/github_hu_992349d069fa42f.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w27.2025/github_hu_992349d069fa42f.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;</description>
       <content:encoded><![CDATA[
 
 

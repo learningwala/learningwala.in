@@ -23,3 +23,15 @@ Article shared by Mahendra Chotalia
 Book about Awe / Wonder 
 
 - [Awe: The New Science of Everyday Wonder and How It Can Transform Your Life by Dacher Keltner](https://www.theguardian.com/books/2023/jan/05/awe-by-dacher-keltner-review-the-transformative-power-of-wonder)
+
+
+[Audio notes](https://drive.google.com/drive/folders/11V0QUgW2wYumRl-vucpnclPZfh-7M1y1?usp=sharing) by Chaya on Aesthetics sense development & development of affective doamin
+
+**Why aesthetic?**
+
+1. Beauty is all around us and we have forgotten to see it and therefore we have become non-aesthetic 
+2. Being human means seeing patterns, designs around us - which is in our DNA, which children have, -- to provide a support system to the child to protect her asthetics
+3. Because it gives happiness 
+4. Because AI will make us free and we should be prepared to spend spare time humanly - meaningfully - aesthetically 
+5. Levels of aesthetics has connections with happiness neutral connections (!?!!) 
+6. Jobs - human touch will be expensive

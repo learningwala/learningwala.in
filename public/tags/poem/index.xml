@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Poem on Mihir Pathak | મિહિર પાઠક</title>
-    <link>https://learningwala.in/tags/poem/</link>
+    <link>http://localhost:1313/tags/poem/</link>
     <description>Recent content in Poem on Mihir Pathak | મિહિર પાઠક</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,12 +10,12 @@
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY-NC-SA 4.0)</copyright>
     <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://learningwala.in/tags/poem/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/poem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Summer Day</title>
-      <link>https://learningwala.in/blog/summerday/</link>
+      <link>http://localhost:1313/blog/summerday/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/summerday/</guid>
+      <guid>http://localhost:1313/blog/summerday/</guid>
       <description>&lt;p&gt;&lt;em&gt;by Mary Oliver&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Who made the world?&lt;br&gt;&#xA;Who made the swan, and the black bear?&lt;br&gt;&#xA;Who made the grasshopper?&lt;/p&gt;&#xA;&lt;p&gt;This grasshopper, I mean—&lt;br&gt;&#xA;the one who has flung herself out of the grass,&lt;br&gt;&#xA;the one who is eating sugar out of my hand,&lt;br&gt;&#xA;who is moving her jaws back and forth&lt;br&gt;&#xA;instead of up and down—&lt;br&gt;&#xA;who is gazing around&lt;br&gt;&#xA;with her enormous and complicated eyes.&lt;/p&gt;&#xA;&lt;p&gt;Now she lifts her pale forearms&lt;br&gt;&#xA;and thoroughly washes her face.&lt;br&gt;&#xA;Now she snaps her wings open,&lt;br&gt;&#xA;and floats away.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><em>by Mary Oliver</em></p>
 <hr>
@@ -53,9 +53,9 @@ with your one wild and precious life?</p>
     </item>
     <item>
       <title>Things to Do in the Belly of the Whale</title>
-      <link>https://learningwala.in/blog/whale/</link>
+      <link>http://localhost:1313/blog/whale/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/whale/</guid>
+      <guid>http://localhost:1313/blog/whale/</guid>
       <description>&lt;p&gt;By Dan Albergotti&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Measure the walls.&lt;br&gt;&#xA;Count the ribs.&lt;br&gt;&#xA;Notch the long days.&lt;/p&gt;&#xA;&lt;p&gt;Look up for blue sky through the spout.&lt;br&gt;&#xA;Make small fires with the broken hulls of fishing boats.&lt;br&gt;&#xA;Practice smoke signals.&lt;/p&gt;&#xA;&lt;p&gt;Call old friends,&lt;br&gt;&#xA;and listen for echoes of distant voices.&lt;/p&gt;&#xA;&lt;p&gt;Organize your calendar.&lt;br&gt;&#xA;Dream of the beach.&lt;br&gt;&#xA;Look each way for the dim glow of light.&lt;/p&gt;&#xA;&lt;p&gt;Work on your reports.&lt;br&gt;&#xA;Review each of your life’s ten million choices.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>By Dan Albergotti</p>
 <blockquote>
@@ -94,9 +94,9 @@ down into the black depths.</p>
     </item>
     <item>
       <title>મોરલા હો ! મુંને થોડી ઘડી… – રવિન્દ્રનાથ ટાગોર (અનુ. ઝવેરચંદ મેઘાણી)</title>
-      <link>https://learningwala.in/blog/morlaho/</link>
+      <link>http://localhost:1313/blog/morlaho/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/morlaho/</guid>
+      <guid>http://localhost:1313/blog/morlaho/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;રવિન્દ્રનાથ ટાગોર (અનુ. ઝવેરચંદ મેઘાણી)&lt;/p&gt;&#xA;&lt;p&gt;સ્વર : શ્યામલ – સૌમિલ – આરતી મુન્શી&lt;/p&gt;&#xA;&lt;p&gt;સંગીત : શ્યામલ – સૌમિલ મુન્શી&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tahuko.com/?p=3145&#34;&gt;Audio&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;મોરલા હો ! મુંને થોડી ઘડી&#xA;તારો આપ અષાઢીલો કંઠ :&#xA;ખોવાયેલી વાદળીને હું&#xA;છેલ્લી વાર સાદ પાડી લઉં.&lt;/p&gt;&#xA;&lt;p&gt;ઇંન્દ્રધનુષ ! તારા રંગ-ધોધોમાંથી&#xA;એક માગું લીલું બુન્દ :&#xA;સાંભરતાંને આંકવા કાજે&#xA;પીંછી મારી બોળવા દેજે !&lt;/p&gt;&#xA;&lt;p&gt;મેઘમાલા ! તારા લાખ તારોમાંથી&#xA;ખેંચવા દે એક તાર :&#xA;બેસાડીને સૂર બાકીના&#xA;પાછી સોંપી દૈશ હું વીણા.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<hr>
 <p>રવિન્દ્રનાથ ટાગોર (અનુ. ઝવેરચંદ મેઘાણી)</p>
@@ -129,9 +129,9 @@ down into the black depths.</p>
     </item>
     <item>
       <title>સાગર રાણો - ઝવેરચંદ મેઘાણી</title>
-      <link>https://learningwala.in/blog/sagarrano/</link>
+      <link>http://localhost:1313/blog/sagarrano/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/sagarrano/</guid>
+      <guid>http://localhost:1313/blog/sagarrano/</guid>
       <description>&lt;p&gt;Found this very very interesting poem by Zaverchand Meghani.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1Um4_2ubQcs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;[લોકગીતોના ઢાળોમાંથી ઘડેલો ઢાળ]&lt;/p&gt;&#xA;&lt;p&gt;માળા ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે.&lt;/p&gt;&#xA;&lt;p&gt;ધરતીને હૈયે પે’રાવે&lt;/p&gt;&#xA;&lt;p&gt;સાગર રાણો ફૂલડાં ગૂંથી ગૂંથી લાવે&lt;/p&gt;&#xA;&lt;p&gt;આઘે આઘે એની અનુપમ વાડી,&lt;/p&gt;&#xA;&lt;p&gt;ચાંદો સૂરજ રૂડા રાખ્યા બે માળી,&lt;/p&gt;&#xA;&lt;p&gt;વિધ વિધ વેલડી વાવે&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Found this very very interesting poem by Zaverchand Meghani.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">

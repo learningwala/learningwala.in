@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Learning Resources on Mihir Pathak | મિહિર પાઠક</title>
-    <link>https://learningwala.in/tags/learning-resources/</link>
+    <link>http://localhost:1313/tags/learning-resources/</link>
     <description>Recent content in Learning Resources on Mihir Pathak | મિહિર પાઠક</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -10,12 +10,12 @@
     <webMaster>learningwalamihir@gmail.com (Mihir Pathak)</webMaster>
     <copyright>Mihir Pathak (CC BY-NC-SA 4.0)</copyright>
     <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://learningwala.in/tags/learning-resources/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/learning-resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why we need Green literature in our learning spaces?</title>
-      <link>https://learningwala.in/blog/green-literature/</link>
+      <link>http://localhost:1313/blog/green-literature/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/green-literature/</guid>
+      <guid>http://localhost:1313/blog/green-literature/</guid>
       <description>&lt;p&gt;Something has quietly shifted in childhood.&lt;/p&gt;&#xA;&lt;p&gt;A generation ago, children moved freely between indoors and out. They knew the name of the tree in the street. They watched monsoons arrive and felt the season change in their bodies. That texture of daily life — small, unstructured, alive — is increasingly rare.&lt;/p&gt;&#xA;&lt;p&gt;Today, the average child spends fewer than seven minutes a day in unstructured outdoor contact with nature (Louv, 2005). They spend more than seven hours with screens. The living world has moved from background to backdrop — and for many urban children, it has disappeared from daily experience almost entirely.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Something has quietly shifted in childhood.</p>
 <p>A generation ago, children moved freely between indoors and out. They knew the name of the tree in the street. They watched monsoons arrive and felt the season change in their bodies. That texture of daily life — small, unstructured, alive — is increasingly rare.</p>
@@ -121,9 +121,9 @@
     </item>
     <item>
       <title>Reopening Children&#39;s Imagination</title>
-      <link>https://learningwala.in/blog/reopening-childrens-imagination/</link>
+      <link>http://localhost:1313/blog/reopening-childrens-imagination/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/reopening-childrens-imagination/</guid>
+      <guid>http://localhost:1313/blog/reopening-childrens-imagination/</guid>
       <description>&lt;h2 id=&#34;i-a-child-watching-an-ant&#34;&gt;I. A Child Watching an Ant&lt;/h2&gt;&#xA;&lt;p&gt;Watch a young child encounter an ant. They crouch down, lean in close, and follow its path with their eyes — absorbed, unhurried, full of questions. They want to know where it is going, what it is carrying, whether it can feel anything. This quality of attention, quiet and entirely unselfconscious, is one of the most striking things about young children in nature. They are not yet afraid. They are curious.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="i-a-child-watching-an-ant">I. A Child Watching an Ant</h2>
 <p>Watch a young child encounter an ant. They crouch down, lean in close, and follow its path with their eyes — absorbed, unhurried, full of questions. They want to know where it is going, what it is carrying, whether it can feel anything. This quality of attention, quiet and entirely unselfconscious, is one of the most striking things about young children in nature. They are not yet afraid. They are curious.</p>
@@ -183,9 +183,9 @@
     </item>
     <item>
       <title>How to Build Your Persanal Brand</title>
-      <link>https://learningwala.in/blog/personal-branding/</link>
+      <link>http://localhost:1313/blog/personal-branding/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/personal-branding/</guid>
+      <guid>http://localhost:1313/blog/personal-branding/</guid>
       <description>&lt;p&gt;9 Lessons and Tips in Personal Branding for modern knowledge workers, especially as work becomes more distributed and remote!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://saurabhgarg.com/personal-branding-101/&#34;&gt;Personal Branding 101 by Saurabh Garag&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>9 Lessons and Tips in Personal Branding for modern knowledge workers, especially as work becomes more distributed and remote!</p>
 <p><a href="https://saurabhgarg.com/personal-branding-101/">Personal Branding 101 by Saurabh Garag</a></p>
@@ -193,9 +193,9 @@
     </item>
     <item>
       <title>Nurturing Environmental Consciousness in Early Childhood (3–6 years)</title>
-      <link>https://learningwala.in/blog/affective-domain-ece/</link>
+      <link>http://localhost:1313/blog/affective-domain-ece/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/affective-domain-ece/</guid>
+      <guid>http://localhost:1313/blog/affective-domain-ece/</guid>
       <description>&lt;p&gt;A group of children sits in a circle.&lt;/p&gt;&#xA;&lt;p&gt;I show them a picture of a man cutting a tree.&lt;/p&gt;&#xA;&lt;p&gt;I ask a simple question:&lt;br&gt;&#xA;&lt;strong&gt;&amp;ldquo;How do you feel when you look at this picture?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hands go up.&lt;/p&gt;&#xA;&lt;p&gt;One child says,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I don&amp;rsquo;t like it. We should not cut trees. Trees give us oxygen.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Another adds,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It is nice. We can make a table from the wood.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;A third says thoughtfully,&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>A group of children sits in a circle.</p>
 <p>I show them a picture of a man cutting a tree.</p>
@@ -387,9 +387,9 @@ More than one feeling can exist at the same time.&rdquo;</p>
     </item>
     <item>
       <title>Semantic Grammar and Young Children: Why Meaning Comes Before Words</title>
-      <link>https://learningwala.in/blog/semantic-grammar/</link>
+      <link>http://localhost:1313/blog/semantic-grammar/</link>
       <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/semantic-grammar/</guid>
+      <guid>http://localhost:1313/blog/semantic-grammar/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;In early childhood education, language is often treated as a technical skill—letters first, sounds next, grammar rules soon after. But children do not enter the world thinking in alphabets or sentence structures. They enter the world &lt;strong&gt;experiencing meaning&lt;/strong&gt;—through the body, emotions, relationships, and action.&lt;/p&gt;&#xA;&lt;p&gt;This is where the idea of &lt;strong&gt;semantic grammar&lt;/strong&gt; becomes important.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/IwAJkepXf-E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
@@ -520,9 +520,9 @@ They need to be supported in <strong>making sense of the world</strong>.</p>
     </item>
     <item>
       <title>Teaching the Heart: An Educator’s Guide to the Affective Domain of Learning</title>
-      <link>https://learningwala.in/blog/affectivedomain/</link>
+      <link>http://localhost:1313/blog/affectivedomain/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/affectivedomain/</guid>
+      <guid>http://localhost:1313/blog/affectivedomain/</guid>
       <description>&lt;p&gt;Most education systems are very good at answering two questions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What does a child know?&lt;/li&gt;&#xA;&lt;li&gt;What can a child do?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;But a far more important question often remains invisible:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;What does the child care about?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The answer to this question lives in the affective domain of learning.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-the-affective-domain-of-learning&#34;&gt;What is the affective domain of learning?&lt;/h2&gt;&#xA;&lt;p&gt;The affective domain refers to learning related to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;emotions and feelings&lt;/li&gt;&#xA;&lt;li&gt;attitudes and dispositions&lt;/li&gt;&#xA;&lt;li&gt;values and ethics&lt;/li&gt;&#xA;&lt;li&gt;motivation and interest&lt;/li&gt;&#xA;&lt;li&gt;empathy, care, and sense of belonging&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It is one of the three domains of learning:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Most education systems are very good at answering two questions:</p>
 <ul>
@@ -742,9 +742,9 @@ but what they come to care about will shape the world they build.</p>
     </item>
     <item>
       <title>Teacher&#39;s Riyaz</title>
-      <link>https://learningwala.in/blog/teachersday/</link>
+      <link>http://localhost:1313/blog/teachersday/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/teachersday/</guid>
+      <guid>http://localhost:1313/blog/teachersday/</guid>
       <description>&lt;h2 id=&#34;the-question&#34;&gt;The Question&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s Teacher&amp;rsquo;s Day, and I have a question for you.&lt;/p&gt;&#xA;&lt;p&gt;Just as a musician has their riyaz (daily practice), and a writer has theirs, what would you say is the riyaz of a teacher? What should a teacher engage in every day—not tied to any particular subject or grade, but as a practice of life itself? Could you share 2–3 such practices that you personally follow? I would be delighted to hear them.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="the-question">The Question</h2>
 <p>It&rsquo;s Teacher&rsquo;s Day, and I have a question for you.</p>
@@ -1090,9 +1090,9 @@ Physical fitness helps balance my emotions, and thus allows me to understand mys
     </item>
     <item>
       <title>Notes on 64 Kalā (कला) and Application in Early Childhood Education</title>
-      <link>https://learningwala.in/blog/64kala/</link>
+      <link>http://localhost:1313/blog/64kala/</link>
       <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/64kala/</guid>
+      <guid>http://localhost:1313/blog/64kala/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kalā (कला)&lt;/strong&gt; refers to a specialized skill, art, or science a cultivated capacity that blends practical technique, aesthetic sensibility, and deeper philosophical grounding.&lt;/li&gt;&#xA;&lt;li&gt;Traditionally, the 64 Kalās are considered a comprehensive set of human accomplishments - spanning arts, crafts, sciences, and life skills - aimed at holistic development.&lt;/li&gt;&#xA;&lt;li&gt;Never seen as &lt;strong&gt;&amp;ldquo;hobbies&amp;rdquo;&lt;/strong&gt; but as integral parts of education, contributing to a balanced personality physical, intellectual, aesthetic, and spiritual.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interconnected:&lt;/strong&gt; Many Kalās integrate Ganita Vidyā, āyurveda, music theory, vāstu, and philosophy.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pedagogical:&lt;/strong&gt; Traditionally taught through gurukula, apprenticeship, and paramparā, blending experiential learning with scriptural study.&#xA;bharathhushan&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;how-can-we-include-these-things-in-life-of-3-to-8yr-old-children-&#34;&gt;How can we include these things in life of 3 to 8yr old children ?&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;At this age, skills are given in seed form — not as formal training but through play, rhythm, imitation, and imagination.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><strong>Kalā (कला)</strong> refers to a specialized skill, art, or science a cultivated capacity that blends practical technique, aesthetic sensibility, and deeper philosophical grounding.</li>
@@ -1198,9 +1198,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Indian Knowledge System &amp; Education</title>
-      <link>https://learningwala.in/blog/iks/</link>
+      <link>http://localhost:1313/blog/iks/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/iks/</guid>
+      <guid>http://localhost:1313/blog/iks/</guid>
       <description>&lt;h2 id=&#34;version-1---simple-&#34;&gt;Version 1 - simple :&lt;/h2&gt;&#xA;&lt;p&gt;Our true nature is a state of inner joy, peace, clarity, and connection — where we feel light, open, and deeply at home in ourselves and with the world. A person living from this true nature acts with compassion, wisdom, and balance, responding to life rather than reacting from fear or habit. Yet, we are not able to live in this space every moment because our mind gets clouded by avidyā — ignorance of who we really are — which shows up as old habits, emotions, beliefs, and conditioning that cover our inner light. Vidyā, or true knowledge, is the process of clearing these clouds so the sun of our real self can shine naturally. To do this, we walk paths that engage the whole being through the Panchakosha framework: yoga practices to align body, breath, and mind; the 64 kalās to refine our senses, skills, and creativity; and Rasa theory to understand and harmonize our emotions. Together, these tools help children and adults alike live more and more from their true nature, moment to moment.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="version-1---simple-">Version 1 - simple :</h2>
 <p>Our true nature is a state of inner joy, peace, clarity, and connection — where we feel light, open, and deeply at home in ourselves and with the world. A person living from this true nature acts with compassion, wisdom, and balance, responding to life rather than reacting from fear or habit. Yet, we are not able to live in this space every moment because our mind gets clouded by avidyā — ignorance of who we really are — which shows up as old habits, emotions, beliefs, and conditioning that cover our inner light. Vidyā, or true knowledge, is the process of clearing these clouds so the sun of our real self can shine naturally. To do this, we walk paths that engage the whole being through the Panchakosha framework: yoga practices to align body, breath, and mind; the 64 kalās to refine our senses, skills, and creativity; and Rasa theory to understand and harmonize our emotions. Together, these tools help children and adults alike live more and more from their true nature, moment to moment.</p>
@@ -1212,9 +1212,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Indian Art &amp; Aesthetics</title>
-      <link>https://learningwala.in/blog/indian-art-aesthetics/</link>
+      <link>http://localhost:1313/blog/indian-art-aesthetics/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/indian-art-aesthetics/</guid>
+      <guid>http://localhost:1313/blog/indian-art-aesthetics/</guid>
       <description>&lt;p&gt;I recently watched :&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/fRcsXvgAM24?si=MdJmDzpCO3lcJ_oq&#34;&gt;Master class on Indian Art and Aesthetics by Udayan Vajpeyii&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;My takeaway :&lt;/strong&gt; The role of aesthetics in Indian thought is to evoke rasa — the emotional essence that touches the heart deeply. This rasa becomes a gateway to self-awareness, inviting you to notice what is happening inside you as you watch, listen, or experience something.&lt;/p&gt;&#xA;&lt;p&gt;When you are able to give full attention to that inner movement, viveka (discernment) or prajñā (wisdom) begins to awaken. From this awakening, your actions can emerge from a dhārmik space — not just in a moral or religious sense, but in alignment with inner truth, right relationship, and the greater harmony of life.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I recently watched :</p>
 <p><a href="https://youtu.be/fRcsXvgAM24?si=MdJmDzpCO3lcJ_oq">Master class on Indian Art and Aesthetics by Udayan Vajpeyii</a></p>
@@ -1312,9 +1312,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Resources for Nature Journaling</title>
-      <link>https://learningwala.in/blog/nature-journaling/</link>
+      <link>http://localhost:1313/blog/nature-journaling/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/nature-journaling/</guid>
+      <guid>http://localhost:1313/blog/nature-journaling/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://archive.org/details/isbn_9780674057579&#34;&gt;Field notes on science and nature&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://johnmuirlaws.com/journaling-curriculum/&#34;&gt;How to teach natural journaling&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hachettebookgroup.com/titles/clare-walker-leslie/keeping-a-nature-journal-3rd-edition/9781635862294/&#34;&gt;Keeping a natural jornal&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=n0YKFFUp3Nk&amp;amp;pp=ygUic2FuZ2VldGEga3VkdXIgbmF0dXJhbCBqb3VybmFsaW5nIA%3D%3D&#34;&gt;Natural Journaling 101&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://archive.org/details/isbn_9780674057579">Field notes on science and nature</a></li>
@@ -1326,9 +1326,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Integrated learning for early years</title>
-      <link>https://learningwala.in/blog/integratedlearning/</link>
+      <link>http://localhost:1313/blog/integratedlearning/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/integratedlearning/</guid>
+      <guid>http://localhost:1313/blog/integratedlearning/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-wDj8t_ZjRrY5lZWTJ6eo03RSR8hjDcH/view?usp=drive_link&#34;&gt;Integrated learning for early years - Pholosophy (Gujarati)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/16nwIZX79I8NDnMJOC5WSbGBHLRYFxwJl/view?usp=sharing&#34;&gt;Pedagogy (Gujarati)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://drive.google.com/file/d/1-wDj8t_ZjRrY5lZWTJ6eo03RSR8hjDcH/view?usp=drive_link">Integrated learning for early years - Pholosophy (Gujarati)</a></li>
@@ -1338,10 +1338,10 @@ bharathhushan</li>
     </item>
     <item>
       <title>Ecology &amp; Language</title>
-      <link>https://learningwala.in/blog/ecologylanguage/</link>
+      <link>http://localhost:1313/blog/ecologylanguage/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/ecologylanguage/</guid>
-      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e0b6c1981cbf2c50.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;https://learningwala.in/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/blog/ecologylanguage/</guid>
+      <description>&lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/ecology&amp;amp;language/aartikumar_hu_e0b6c1981cbf2c50.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/ecology&amp;amp;language/aartikumar_hu_e3817209b4b07e9.jpg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Picture by Arati Kumar Rao&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/speaking-river-speaking-rain/&#34;&gt;Speaking River, Speaking Rain by Yuvan Aves&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://vikalpsangam.org/article/forty-names-of-clouds/&#34;&gt;Forty Names of Clouds by Arati Kumar-Rao&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.eklavya.in/magazine-activity/sandarbh-magazines/302-sandarbh-101-to-110/350-sandarbh-issue-108/1741-bhasha-or-paryawaran&#34;&gt;भाषा और पर्यावरण by अनुपम मिश्र&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[
 
 
@@ -1382,18 +1382,18 @@ bharathhushan</li>
     </item>
     <item>
       <title>Podcast with Arvind Gupta</title>
-      <link>https://learningwala.in/blog/arvindguptapodcast/</link>
+      <link>http://localhost:1313/blog/arvindguptapodcast/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/arvindguptapodcast/</guid>
+      <guid>http://localhost:1313/blog/arvindguptapodcast/</guid>
       <description>&lt;p&gt;Podcast with &lt;a href=&#34;https://www.arvindguptatoys.com/&#34;&gt;Arvind Gupta&lt;/a&gt; on 50years of Eklavya - &lt;a href=&#34;https://drive.google.com/file/d/1MYPv4dF9M8Ex8MZ1C-7zs1nYb3LRUH67/view?usp=drive_link&#34;&gt;Raw audio file&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Podcast with <a href="https://www.arvindguptatoys.com/">Arvind Gupta</a> on 50years of Eklavya - <a href="https://drive.google.com/file/d/1MYPv4dF9M8Ex8MZ1C-7zs1nYb3LRUH67/view?usp=drive_link">Raw audio file</a></p>
 ]]></content:encoded>
     </item>
     <item>
       <title>childhood in India</title>
-      <link>https://learningwala.in/blog/childhoodinindia/</link>
+      <link>http://localhost:1313/blog/childhoodinindia/</link>
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/childhoodinindia/</guid>
+      <guid>http://localhost:1313/blog/childhoodinindia/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ZNPmtqzqL_CVjMp-rCUaRtH9n8zREy9h/view?usp=sharing&#34;&gt;Studying childhood in India&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VPAe-_q3qVpEsiHumDAGnQ1Art5j03C0/view?usp=sharing&#34;&gt;Children&amp;rsquo;s lives and Indian Context&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://drive.google.com/file/d/1ZNPmtqzqL_CVjMp-rCUaRtH9n8zREy9h/view?usp=sharing">Studying childhood in India</a></li>
@@ -1403,9 +1403,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Educator&#39;s guide for reflective writing</title>
-      <link>https://learningwala.in/blog/reflectivewriting/</link>
+      <link>http://localhost:1313/blog/reflectivewriting/</link>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/reflectivewriting/</guid>
+      <guid>http://localhost:1313/blog/reflectivewriting/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1V1cW9XR7DrkzV8eY_b1PhtZ94KCLrnsx/view?usp=sharing&#34;&gt;Can reflective practice be taught? - Rohit Dhankar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/13tXsvl9ocxZZbxXgDexcxNJKTHEZ-IKz/view?usp=sharing&#34;&gt;Reflective Writing - some initial guidance for students. - Jenny Moon, University of Exeter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Reflective writing examples : &lt;a href=&#34;https://docs.google.com/document/d/1GTH_RrI5GkY1PsHbPYZLAafMpsocz6Jw/edit?usp=drive_link&amp;amp;ouid=113150938384148569470&amp;amp;rtpof=true&amp;amp;sd=true&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://docs.google.com/document/d/1WFO4U_dpSGyA_ojxgVgN5vOB5x32XyGM/edit?usp=sharing&amp;amp;ouid=113150938384148569470&amp;amp;rtpof=true&amp;amp;sd=true&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://docs.google.com/document/d/1FGcIDs3SUa2PxFftjh_M4oUWpChRNcAi/edit?usp=sharing&amp;amp;ouid=113150938384148569470&amp;amp;rtpof=true&amp;amp;sd=true&#34;&gt;3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li><a href="https://drive.google.com/file/d/1V1cW9XR7DrkzV8eY_b1PhtZ94KCLrnsx/view?usp=sharing">Can reflective practice be taught? - Rohit Dhankar</a></li>
@@ -1416,9 +1416,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Play and education</title>
-      <link>https://learningwala.in/blog/play/</link>
+      <link>http://localhost:1313/blog/play/</link>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/play/</guid>
+      <guid>http://localhost:1313/blog/play/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1K5rUmhh9wllS94HwhE99vyaTyYAqkO5k/view?usp=sharing&#34;&gt;Play and Education - CN Subramaniam&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1HviuMcCBXoBRG1xrMeYW0BGSymqDTuYu/view?usp=sharing&#34;&gt;Play as a Foundation for Hunter Gatherer Social Existence - Peter Gray&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/103KdOHVQre1_zo2inYhXvHK155eMP9YJ/view?usp=sharing&#34;&gt;Tools of Mind&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.jinankb.in/&#34;&gt;Jinan KB&amp;rsquo;s work&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<ul>
 <li>
@@ -1438,9 +1438,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>Elements of good children&#39;s literature</title>
-      <link>https://learningwala.in/blog/elementsofgoodchildrenliterature/</link>
+      <link>http://localhost:1313/blog/elementsofgoodchildrenliterature/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/elementsofgoodchildrenliterature/</guid>
+      <guid>http://localhost:1313/blog/elementsofgoodchildrenliterature/</guid>
       <description>&lt;p&gt;Riyaz - 3rd batch - Ceremony&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EREawDT7S6k?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Story writing for children&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/VSyYaj9MJqM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Shaikshik Samvad - Shushil Shukla&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Zo8OgExpMI0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Third Bal Sahitya Parisad&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Riyaz - 3rd batch - Ceremony</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1476,9 +1476,9 @@ bharathhushan</li>
     </item>
     <item>
       <title>તંત્ર એટલે શું? - Philosophy of tantra in day to day life</title>
-      <link>https://learningwala.in/blog/tantra-in-day-to-day-life/</link>
+      <link>http://localhost:1313/blog/tantra-in-day-to-day-life/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/tantra-in-day-to-day-life/</guid>
+      <guid>http://localhost:1313/blog/tantra-in-day-to-day-life/</guid>
       <description>&lt;p&gt;It was my long due wish to write a reflective note about a video of Subhash Bhatt on tantra vidhya.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/uzpMhsLbNQw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Tantra is not black magic :)&lt;/p&gt;&#xA;&lt;h3 id=&#34;principles-of-tantra-&#34;&gt;Principles of tantra :&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;પૃથ્વી પરના જીવન - રંગ, રસ , રૂપ માં જે આનંદ લે છે.. ઉત્સવ બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનને સમગ્રતા થી સ્વીકાર કરે છે. ઉજાસ ને સ્વીકારે છે.&lt;/li&gt;&#xA;&lt;li&gt;તંત્ર ડેમોક્રેટિક છે. બધાનો સ્વીકાર છે. જાતિ, જેન્ડર, ધર્મ, અમીર - ગરીબ&lt;/li&gt;&#xA;&lt;li&gt;વિઘ્નો સાધન છે. યાત્રા સાધ્ય છે. વિઘ્નો સાધના નો ભાગ છે. વિઘ્નો તમને વધુ મજબૂત બનાવે છે.&lt;/li&gt;&#xA;&lt;li&gt;આ ક્રિયા યોગ છે. અશક્તિ વિનાનો આનંદ છે. આનંદ માટે નીકળ્યા હોય ત્યારે નામ ન પૂછો. જીવનમાં સમગ્રતા થી ભાગ લે.&lt;/li&gt;&#xA;&lt;li&gt;પળની અંદર સંગ્રતા થી ભાગ લે અને પળને શાશ્વતી બનાવી લે. Live the moment, it will give you sense of eternity.&lt;/li&gt;&#xA;&lt;li&gt;ઇન્દ્રિયો પારનો રસ્તો ઇન્દ્રિયો માં થઈ ને જાય છે. પરમ નો રસ્તો નગર માં થઈ ને જાય છે. જે માણસ નદી ઓળંગે અને ભીંજાય નહીં એનો કોઈ અર્થ નહીં. હું ભીંજાવ, છોળો ઉછાળતો જાવ..&lt;/li&gt;&#xA;&lt;li&gt;અસલામતી માં જીવન પાંગરે છે. જીવન ખાતર જુગાર છે. તક મળે તો જુગાર રમી લેવાનો.&lt;/li&gt;&#xA;&lt;li&gt;જેને શ્રેષ્ઠ જીવવું છે એને શ્રેષ્ઠ દાવ પર પણ મૂકવું પડે છે.&lt;/li&gt;&#xA;&lt;li&gt;પતન એ ઉત્થાનનો જ ભાગ છે. ભટકવું, ખોવાઈ જવું એ બધું જ.. અંધકાર એ ઉજાસનો જ ભાગ છે.&lt;/li&gt;&#xA;&lt;li&gt;સ્થૂળ માંથી પસાર થયા વગર સૂક્ષ્મ પમાતુ નથી. જેને દેહનો પ્રેમ નથી કર્યો એ મનના સ્તરે શુ જશે, જે મનના સ્તરે નથી ગયો એ આત્માના સ્તરે શુ જશે.&lt;/li&gt;&#xA;&lt;li&gt;પૃથ્વીનો સંપર્ક છૂટી જાય એ વૃક્ષ ફળ નથી આપતું. જીવન સાથેનો સંપર્ક અચૂક રાખવો. ચૈતન્યનું લક્ષણ વિસ્તાર છે.&lt;/li&gt;&#xA;&lt;li&gt;જીવનમાં જે સર્જાય છે.. સંગીત, ચિત્ર, બધાને બે હાથ પહોળા કરીને આવકાર.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tantra-in-day-to-day-life&#34;&gt;Tantra in day to day life&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;વધુ ઇન્દ્રિયમય બનો. ઇન્દ્રિયોને ધિક્કારો નહિ. Trust your senses&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>It was my long due wish to write a reflective note about a video of Subhash Bhatt on tantra vidhya.</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1523,10 +1523,10 @@ leave this : this is good , that is bad</p>
     </item>
     <item>
       <title>Aesthetics Sense Develoment</title>
-      <link>https://learningwala.in/blog/aesthetics-sense-develoment-/</link>
+      <link>http://localhost:1313/blog/aesthetics-sense-develoment-/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/aesthetics-sense-develoment-/</guid>
-      <description>&lt;p&gt;I am planning to do action reserch around aesthetics sense develoment in primary grade children through nature based activities. This post is list of resources for the same.&lt;/p&gt;&#xA;&lt;p&gt;Document shared by Srivi (22nd Jan 2025)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://plato.stanford.edu/entries/environmental-aesthetics/&#34;&gt;Environmental Aesthetics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gk9XlbKBeac&#34;&gt;Connecting with Nature_Connecting with Ourselves&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sriviliveshere.com/publications.html&#34;&gt;Research work of srivi kalyan&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Article shared by Mahendra Chotalia&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1biH5YOCG1NRPSQmEC1dHyPFjWedktfTt/view?usp=sharing&#34;&gt;સૌંદર્યની કેળવણીનો કીમિયો&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1lV-npncLs-psLMCGzKs1e3eUPxhXI_Dj/view?usp=sharing&#34;&gt;સૌંદર્ય વિશેષાંક - કોડિયું &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Book about Awe / Wonder&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.theguardian.com/books/2023/jan/05/awe-by-dacher-keltner-review-the-transformative-power-of-wonder&#34;&gt;Awe: The New Science of Everyday Wonder and How It Can Transform Your Life by Dacher Keltner&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/blog/aesthetics-sense-develoment-/</guid>
+      <description>&lt;p&gt;I am planning to do action reserch around aesthetics sense develoment in primary grade children through nature based activities. This post is list of resources for the same.&lt;/p&gt;&#xA;&lt;p&gt;Document shared by Srivi (22nd Jan 2025)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://plato.stanford.edu/entries/environmental-aesthetics/&#34;&gt;Environmental Aesthetics&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=gk9XlbKBeac&#34;&gt;Connecting with Nature_Connecting with Ourselves&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sriviliveshere.com/publications.html&#34;&gt;Research work of srivi kalyan&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Article shared by Mahendra Chotalia&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1biH5YOCG1NRPSQmEC1dHyPFjWedktfTt/view?usp=sharing&#34;&gt;સૌંદર્યની કેળવણીનો કીમિયો&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1lV-npncLs-psLMCGzKs1e3eUPxhXI_Dj/view?usp=sharing&#34;&gt;સૌંદર્ય વિશેષાંક - કોડિયું &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Book about Awe / Wonder&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.theguardian.com/books/2023/jan/05/awe-by-dacher-keltner-review-the-transformative-power-of-wonder&#34;&gt;Awe: The New Science of Everyday Wonder and How It Can Transform Your Life by Dacher Keltner&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/11V0QUgW2wYumRl-vucpnclPZfh-7M1y1?usp=sharing&#34;&gt;Audio notes&lt;/a&gt; by Chaya on Aesthetics sense development &amp;amp; development of affective doamin&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am planning to do action reserch around aesthetics sense develoment in primary grade children through nature based activities. This post is list of resources for the same.</p>
 <p>Document shared by Srivi (22nd Jan 2025)</p>
 <ul>
@@ -1544,13 +1544,23 @@ leave this : this is good , that is bad</p>
 <ul>
 <li><a href="https://www.theguardian.com/books/2023/jan/05/awe-by-dacher-keltner-review-the-transformative-power-of-wonder">Awe: The New Science of Everyday Wonder and How It Can Transform Your Life by Dacher Keltner</a></li>
 </ul>
+<p><a href="https://drive.google.com/drive/folders/11V0QUgW2wYumRl-vucpnclPZfh-7M1y1?usp=sharing">Audio notes</a> by Chaya on Aesthetics sense development &amp; development of affective doamin</p>
+<p><strong>Why aesthetic?</strong></p>
+<ol>
+<li>Beauty is all around us and we have forgotten to see it and therefore we have become non-aesthetic</li>
+<li>Being human means seeing patterns, designs around us - which is in our DNA, which children have, &ndash; to provide a support system to the child to protect her asthetics</li>
+<li>Because it gives happiness</li>
+<li>Because AI will make us free and we should be prepared to spend spare time humanly - meaningfully - aesthetically</li>
+<li>Levels of aesthetics has connections with happiness neutral connections (!?!!)</li>
+<li>Jobs - human touch will be expensive</li>
+</ol>
 ]]></content:encoded>
     </item>
     <item>
       <title>Resources for Panchkosha development / Indian Knowledge System</title>
-      <link>https://learningwala.in/blog/panchkosh/</link>
+      <link>http://localhost:1313/blog/panchkosh/</link>
       <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/panchkosh/</guid>
+      <guid>http://localhost:1313/blog/panchkosh/</guid>
       <description>&lt;p&gt;I am writing this post to share documents, research papers and list of resource person on panchkosha and IKS. I will keep updating this post as I find new stuff.&lt;/p&gt;&#xA;&lt;p&gt;Documents shared by &lt;a href=&#34;http://www.kedithepath.org/trustees.aspx&#34;&gt;Dr.Mahendra Chotalia&lt;/a&gt; (3rd March 2025)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1eNSHsGTBIrxBp142cYExXT_cPMgsdBb4/view?usp=sharing&#34;&gt;पंचकोश विवेक (हिंदी) - परमहंस स्वामी योगानंद &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1EjhcFzdchJOiqKva9SK-ULZjZu28wx1N/view?usp=sharing&#34;&gt;શિક્ષણનું સમગ્રવિકાસ પ્રતિમાન (ભારતીય ગ્રંથમાળા 2 ) - ઇન્દુમતી કાટકરે &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/10Lf1Z-Vp-iHODG3-YFMVA6O5MaNNpo_S/view?usp=sharing&#34;&gt;भारतीय शिक्षा में पंचकोशाकत्मक एवं समग्र विकास की संकल्पना &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1TpRm90ZsRLcj64VqIvun-qMWPqTsH1T-/view?usp=sharing&#34;&gt;PANCH KOSHA - A HOLISTIC MODEL FOR EDUCATION&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Resource person / places&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I am writing this post to share documents, research papers and list of resource person on panchkosha and IKS. I will keep updating this post as I find new stuff.</p>
 <p>Documents shared by <a href="http://www.kedithepath.org/trustees.aspx">Dr.Mahendra Chotalia</a> (3rd March 2025)</p>
@@ -1571,9 +1581,9 @@ leave this : this is good , that is bad</p>
     </item>
     <item>
       <title>Micro Grant</title>
-      <link>https://learningwala.in/blog/micro-grant/</link>
+      <link>http://localhost:1313/blog/micro-grant/</link>
       <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/micro-grant/</guid>
+      <guid>http://localhost:1313/blog/micro-grant/</guid>
       <description>&lt;h3 id=&#34;list-of-micro-grant-for-personal-projects&#34;&gt;List of micro grant for personal projects&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://saurabhgarg.com/the-sog-grant-draft/&#34;&gt;saurabh Garg&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://invertedpassion.com/escape-velocity-grant/&#34;&gt;Gaur &amp;amp; Chopra Escape Velocity Grant&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://vijaya.foundation/&#34;&gt;Vijaya Foundation, Ravi Pathak&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://thejeshgn.com/projects/nagarathna-memorial-grant/&#34;&gt;Nagarathna Memorial Grant&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://inlaksfoundation.org/&#34;&gt;Inlaks Grants&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Sudha Mahesh Grants for educators and teachers - email : &lt;a href=&#34;mailto:sudhamaheshgrants@gmail.com&#34;&gt;sudhamaheshgrants@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/nayafia/microgrants&#34;&gt;International micro grants&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://samagata.org/&#34;&gt;Samagata Foundation&lt;/a&gt; (&lt;em&gt;Kailash Nadh from Zerodha is associated with this foundation. They support small projects for public good&lt;/em&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       <content:encoded><![CDATA[<h3 id="list-of-micro-grant-for-personal-projects">List of micro grant for personal projects</h3>
 <ul>
@@ -1606,9 +1616,9 @@ leave this : this is good , that is bad</p>
     </item>
     <item>
       <title>What motivates engineers?</title>
-      <link>https://learningwala.in/blog/what-motivates-engineers/</link>
+      <link>http://localhost:1313/blog/what-motivates-engineers/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/what-motivates-engineers/</guid>
+      <guid>http://localhost:1313/blog/what-motivates-engineers/</guid>
       <description>&lt;p&gt;I was listening to a podcast from Scaler called ScalerPod. Where they interview CTOs from different startups. They ask about their journey, challenges and how their typical day looks like.&lt;/p&gt;&#xA;&lt;p&gt;Till now I have seen two episodes.&lt;/p&gt;&#xA;&lt;p&gt;Kalish Nadh (CTO, Zerodha)&#xA;Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)&lt;/p&gt;&#xA;&lt;p&gt;I like both the episodes so much. Apart from tech both the episodes were filled with philosophies. Here I would like to share one thought shared by Jacob about motivation for the work.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I was listening to a podcast from Scaler called ScalerPod. Where they interview CTOs from different startups. They ask about their journey, challenges and how their typical day looks like.</p>
 <p>Till now I have seen two episodes.</p>
@@ -1657,9 +1667,9 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
     </item>
     <item>
       <title>Database of Inspirational Organizations</title>
-      <link>https://learningwala.in/blog/database-of-inspirational-organizations/</link>
+      <link>http://localhost:1313/blog/database-of-inspirational-organizations/</link>
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/database-of-inspirational-organizations/</guid>
+      <guid>http://localhost:1313/blog/database-of-inspirational-organizations/</guid>
       <description>&lt;p&gt;Here is your list of organizations working in youth development, life skills, active citizenship, civic-environment problem solving, self-directed learning, student agency, project-based learning, and vocational training, formatted in Markdown:&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;database-of-inspirational-organizations&#34;&gt;Database of Inspirational Organizations&lt;/h3&gt;&#xA;&lt;h3 id=&#34;1-pravah&#34;&gt;1. Pravah&lt;/h3&gt;&#xA;&lt;p&gt;Focuses on nurturing leadership and social responsibility among youth.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.pravahindia.org/&#34;&gt;Pravah&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-commutiny---the-youth-collective&#34;&gt;2. ComMutiny - The Youth Collective&lt;/h3&gt;&#xA;&lt;p&gt;Aims to create a supportive ecosystem for youth-led social change.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://commutiny.in/&#34;&gt;ComMutiny&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-reap-benefit&#34;&gt;3. Reap Benefit&lt;/h3&gt;&#xA;&lt;p&gt;Engages young people in solving local civic and environmental issues.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Here is your list of organizations working in youth development, life skills, active citizenship, civic-environment problem solving, self-directed learning, student agency, project-based learning, and vocational training, formatted in Markdown:</p>
 <hr>
@@ -1790,9 +1800,9 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
     </item>
     <item>
       <title>Insights from ASER - Beyond Basics</title>
-      <link>https://learningwala.in/blog/insights-from-aser---beyond-basics/</link>
+      <link>http://localhost:1313/blog/insights-from-aser---beyond-basics/</link>
       <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/insights-from-aser---beyond-basics/</guid>
+      <guid>http://localhost:1313/blog/insights-from-aser---beyond-basics/</guid>
       <description>&lt;p&gt;Recently I read the &lt;a href=&#34;https://asercentre.org/aser-2023-beyond-basics/&#34;&gt;ASER ‘Byond Basics’&lt;/a&gt; report. It is all about young adults age 14 to 18yrs&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Do they have technology access / smart phone &lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What are their aspirations &lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Can they read and do basic maths &lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;All these questions will give a window to a world of possibilities. How are they using smartphones and for what purpose ? Do they use it for learning ? If not, how can we encourage them to do that?&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Recently I read the <a href="https://asercentre.org/aser-2023-beyond-basics/">ASER ‘Byond Basics’</a> report. It is all about young adults age 14 to 18yrs</p>
 <ul>
@@ -1889,9 +1899,9 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
     </item>
     <item>
       <title>Interesting Podcast / Courses / Blogs </title>
-      <link>https://learningwala.in/blog/interesting-podcast-courses-blogs/</link>
+      <link>http://localhost:1313/blog/interesting-podcast-courses-blogs/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/interesting-podcast-courses-blogs/</guid>
+      <guid>http://localhost:1313/blog/interesting-podcast-courses-blogs/</guid>
       <description>&lt;p&gt;These are some podcasts / courses / blogs I go and explore frequently. I will keep adding new things here as I discover them.&lt;/p&gt;&#xA;&lt;h3 id=&#34;philosophy--ideas-by-anand-gandhi&#34;&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLf5poopYVc5Ty7AJQcL4xsJPCav-UK_7w&#34;&gt;Philosophy &amp;amp; Ideas by Anand Gandhi&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Memetics, Films, Storyteeling, evolutionary biology, Game Theory, Philosophy&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;lecture-collection--human-behavioral-biology---robert-sapolsky&#34;&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL848F2368C90DDC3D&#34;&gt;Lecture Collection | Human Behavioral Biology - Robert Sapolsky&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Free will, Behavioral Biology &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;philosophy--ideas-by-paras-chpra&#34;&gt;Philosophy &amp;amp; Ideas by Paras Chpra&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLf5poopYVc5T8wNOcuapPVszayqsvN-6d&#34;&gt;Podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://invertedpassion.com/&#34;&gt;Website/blog&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Biology, Startup, AI, Philosophy, Science, Money&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;jubin&#34;&gt;&lt;a href=&#34;https://jubinsblog.com/&#34;&gt;Jubin&amp;rsquo;s Blog&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Philosophy&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;thejesh-gn-blog&#34;&gt;&lt;a href=&#34;https://thejeshgn.com/&#34;&gt;Thejesh GN Blog&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;FOSS, Open Data, Open Street Map&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;kartik-mistry-blog&#34;&gt;&lt;a href=&#34;https://kartikm.wordpress.com/&#34;&gt;Kartik Mistry Blog&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;FOSS, Linux, Wikipedia, Gujarati&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ei-diloge&#34;&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL6EJV4-csFcffLethrp5EmfdmzNHagVZ7&#34;&gt;EI Diloge&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;NGO, CSR, Education Reform, Work at Scale&lt;/code&gt;&lt;/pre&gt;</description>
       <content:encoded><![CDATA[<p>These are some podcasts / courses / blogs I go and explore frequently. I will keep adding new things here as I discover them.</p>
 <h3 id="philosophy--ideas-by-anand-gandhi"><a href="https://www.youtube.com/playlist?list=PLf5poopYVc5Ty7AJQcL4xsJPCav-UK_7w">Philosophy &amp; Ideas by Anand Gandhi</a></h3>
@@ -1942,9 +1952,9 @@ Jacob Singh (CTO in Residence for Sequoia Capital in South East Asia and India)<
     </item>
     <item>
       <title>जड़ - पत्ति - बीज - फूल और हम</title>
-      <link>https://learningwala.in/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/</link>
+      <link>http://localhost:1313/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
-      <guid>https://learningwala.in/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/</guid>
+      <guid>http://localhost:1313/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/</guid>
       <description>&lt;p&gt;Resources to introduce children to the world of leafs - seeds - roots - flowers - biodiversity around us&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://storyweaver.org.in/en/stories/267499-bhaanti-bhaanti-kee-pattiyaan&#34;&gt;भाँति-भाँति की पत्तियाँ&lt;/a&gt; (Picture Book)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_6_Hindi/03_Pattiyon_Se_Jaan_Pehchan.pdf&#34;&gt;पत्तियों से जान-पहचान&lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_6_Hindi/11_Jad_Patti_aur_Beej.pdf&#34;&gt;जड़ - पत्ति - बीज&lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_7_Hindi/03_Phoolon_se_jan_pehchan.pdf&#34;&gt;फूलो से जान पहचान&lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_7_Hindi/06_Poudhon_me_prajanan.pdf&#34;&gt;पौधों में प्रजनन &lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_7_Hindi/21_Poudhon_mei_poshan.pdf&#34;&gt;पौधों में पोषण &lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_6_Hindi/08_Beej_aur_Unka_Ankuran.pdf&#34;&gt;बीज और उनका अंकुरण &lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_6_Hindi/09_Beejo_ka_Bikharna.pdf&#34;&gt;बीज का बिखरना &lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.eklavya.in/pdfs/Books/HSTP/Bal_Vaigyanik_Current_Edition/Bal_Vaigyanik_Kaksha_6_Hindi/16_Jeevjagat_Me_Vividhta.pdf&#34;&gt;जीव जगत में विविधता &lt;/a&gt; (Module)&lt;/p&gt;&#xA;&lt;p&gt;Source - &lt;a href=&#34;https://eklavya.in/&#34;&gt;Eklavya Foundation&lt;/a&gt;, &lt;a href=&#34;https://storyweaver.org.in&#34;&gt;Storyweaver&lt;/a&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Resources to introduce children to the world of leafs - seeds - roots - flowers - biodiversity around us</p>
 <p><a href="https://storyweaver.org.in/en/stories/267499-bhaanti-bhaanti-kee-pattiyaan">भाँति-भाँति की पत्तियाँ</a> (Picture Book)</p>
