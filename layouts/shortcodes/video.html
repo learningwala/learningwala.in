@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $video := resources.Get $src -}}
+
+{{- if $video -}}
+<div class="video-wrapper">
+    <video width="100%" controls preload="metadata" {{ if .Get "autoplay" }}autoplay{{ end }} {{ if .Get "muted" }}muted{{ end }} {{ if .Get "loop" }}loop{{ end }}>
+        <source src="{{ $video.Permalink }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+{{- else -}}
+    <!-- Helpful error message if Hugo can't find the file -->
+    <p style="color: red;">Video not found: assets/{{ $src }}</p>
+{{- end -}}

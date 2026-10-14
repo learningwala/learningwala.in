@@ -8,27 +8,24 @@ weight: 1
 
 **Mihir Pathak | Storyteller & Educator**
 
-Hi, I'm Mihir — a storyteller & educator based in Ahmedabad. My work is non linear - it intersects at education philosophy, pedagogy/learning experience design and creative practices.
+Hi, I’m storyteller & educator with specific interest in **'Education for harmony'.** 
 
-with 13 years of practice across formal and informal learning spaces in India. I facilitate transformative learning experiences with children and young adults through nature, theatre, and project-based experiential pedagogies.
+My work is non linear and lies at the intersections of educational philosophy, pedagogy/learning experience design and creative practices.
 
-I love writing poems and essays, and making zines. I've self-published two books in Gujarati, and I'm currently co-publishing a children's magazine called Patrango.
+With 13 years of practice across formal and informal learning spaces in India, I facilitate transformative learning experiences with children and young adults through experiential pedagogies.
 
-I'm a recipient of the Earth Educator Fellowship '23 and a faculty member for the 'Child Development, Learning & Special Needs' course by Eklavya Foundation.
+I’m a recipient of the Earth Educator fellowship, Rewilding Storyteller fellowship and a faculty member for the ‘Child Development, Learning & Special Needs’ course by Eklavya Foundation.
 
-**My work is rooted in a deeper question:** what does education look like when our collective purpose is to live together harmoniously?
+I am interested in writing, theater and multi sensorial storytelling. I’ve self-published two books in Gujarati, and I’m currently co-publishing a children’s magazine called Patrango.
 
----
+**My work is rooted in a deeper question:** what does education & creative practice look like when our collective purpose is to live together harmoniously?
 
-You can read about my current engagements at **[now](/now)** page.
+<p align="center">⁂</p>
 
-I tried to capture my decade long journey, my personal educational philosophy and my offerings at [about me](/about-me) page.
-
-You can read my writings / short notes around classroom experiences and facilitation [here](/writings). I also write regular [weekly notes](/tags/weekly-notes) & [blog posts](/tags/blog). You can also explore my raw notes and ideas [here](http://simp.ly/p/x3bLyC) at my digital garden.
-
-**Use this [RSS Feed](/index.xml) to read my blog posts & weekly notes in your feed reader**
+<p align="center">This website is living portfolio of my work and philosophy.</p>
 
 -----
+
 **Find me on :** [Instagram](https://www.instagram.com/learningwala/) | [Medium](https://medium.com/learningwala) | [LinkedIn](https://www.linkedin.com/in/learningwalamihir/)
 
 
