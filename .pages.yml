@@ -1,0 +1,147 @@
+# Pages CMS config for learningwala.in (Hugo + hugo-bearcub)
+# Place at the repository root.
+
+settings:
+  content:
+    merge: true        # keep any front matter keys not listed below
+
+media:
+  - name: assets
+    label: Images
+    input: assets
+    output: /assets    # change to match how your site references images
+    rename: safe       # cleans phone filenames like "IMG 1234.JPG"
+    extensions: [jpg, jpeg, png, webp, gif]
+
+content:
+  # ---------- Weekly notes ----------
+  - name: weekly-notes
+    label: Weekly Notes
+    type: collection
+    path: content/blog
+    format: toml-frontmatter
+    delimiters: "+++"
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: author
+        label: Author
+        type: string
+        default: Mihir Pathak
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: description
+        label: Description
+        type: string
+        default: weekly notes
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        default: [weekly-notes]
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          media: assets
+          path: assets/weekly-notes
+          rename: safe
+
+  # ---------- Blog ----------
+  - name: blog
+    label: Blog
+    type: collection
+    path: content/blog
+    format: toml-frontmatter
+    delimiters: "+++"
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: author
+        label: Author
+        type: string
+        default: Mihir Pathak
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: description
+        label: Description
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+        default: [blog]
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          media: assets
+          path: assets/blog
+          rename: safe
+
+  # ---------- Everything in content/ ----------
+  - name: all-content
+    label: All Content
+    type: collection
+    path: content
+    subfolders: true
+    format: toml-frontmatter
+    delimiters: "+++"
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: author
+        label: Author
+        type: string
+      - name: date
+        label: Date
+        type: date
+        default: ""
+        options:
+          format: yyyy-MM-dd
+      - name: description
+        label: Description
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          media: assets
+          rename: safe
