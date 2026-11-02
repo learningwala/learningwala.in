@@ -1,0 +1,165 @@
+<script>
+(function () {
+  if (window.__lightbox) return;
+  window.__lightbox = true;
+
+  var reduce = matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  /* ---------- the viewer (built the first time a photo is opened) ---------- */
+  var dlg, scroll, img, cap, prev, next, list = [], idx = 0, opener = null;
+
+  function build() {
+    dlg = document.createElement('dialog');
+    dlg.className = 'glb';
+    dlg.setAttribute('aria-label', 'Photo viewer');
+    dlg.innerHTML =
+      '<button type="button" class="glb-x">Close ✕</button>' +
+      '<button type="button" class="glb-nav glb-prev" aria-label="Previous photo">&lsaquo;</button>' +
+      '<div class="glb-scroll"><img alt=""></div>' +
+      '<button type="button" class="glb-nav glb-next" aria-label="Next photo">&rsaquo;</button>' +
+      '<p class="glb-cap"></p>';
+    document.body.appendChild(dlg);
+    scroll = dlg.querySelector('.glb-scroll');
+    img = dlg.querySelector('img');
+    cap = dlg.querySelector('.glb-cap');
+    prev = dlg.querySelector('.glb-prev');
+    next = dlg.querySelector('.glb-next');
+
+    dlg.querySelector('.glb-x').addEventListener('click', close);
+    prev.addEventListener('click', function () { go(-1); });
+    next.addEventListener('click', function () { go(1); });
+
+    /* click the photo to zoom in / out; click the dark area to close */
+    img.addEventListener('click', function (e) {
+      e.stopPropagation();
+      dlg.classList.toggle('is-full');
+      if (!dlg.classList.contains('is-full')) scroll.scrollTo(0, 0);
+    });
+    scroll.addEventListener('click', function (e) {
+      if (e.target === scroll) close();
+    });
+    dlg.addEventListener('click', function (e) {
+      if (e.target === dlg) close();
+    });
+
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(1); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1); }
+    });
+    dlg.addEventListener('close', function () {
+      dlg.classList.remove('is-full');
+      img.removeAttribute('src');
+      if (opener && opener.focus) opener.focus();
+    });
+
+    /* swipe left / right on phones */
+    var sx = 0, sy = 0;
+    scroll.addEventListener('touchstart', function (e) {
+      sx = e.touches[0].clientX; sy = e.touches[0].clientY;
+    }, { passive: true });
+    scroll.addEventListener('touchend', function (e) {
+      if (dlg.classList.contains('is-full')) return;
+      var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) go(dx < 0 ? 1 : -1);
+    }, { passive: true });
+  }
+
+  function show(i) {
+    idx = (i + list.length) % list.length;
+    var a = list[idx], t = a.querySelector('img'), fc = a.parentNode.querySelector('figcaption');
+    dlg.classList.remove('is-full');
+    scroll.scrollTo(0, 0);
+    img.src = a.getAttribute('href');
+    img.alt = t ? t.alt : '';
+    cap.textContent = fc ? fc.textContent : (t ? t.alt : '');
+    prev.hidden = next.hidden = list.length < 2;
+    /* load the neighbours quietly so arrows feel instant */
+    [idx - 1, idx + 1].forEach(function (k) {
+      if (list.length < 2) return;
+      var n = list[(k + list.length) % list.length];
+      new Image().src = n.getAttribute('href');
+    });
+  }
+  function go(d) { if (list.length > 1) show(idx + d); }
+
+  function open(a) {
+    if (!dlg) build();
+    opener = a;
+    var g = a.closest('.gal');
+    list = g ? [].slice.call(g.querySelectorAll('a.zoom')) : [a];
+    show(list.indexOf(a));
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+  }
+  function close() {
+    if (dlg.close) dlg.close(); else dlg.removeAttribute('open');
+  }
+
+  document.addEventListener('click', function (e) {
+    if (e.ctrlKey || e.metaKey || e.shiftKey || e.button) return;
+    var a = e.target.closest && e.target.closest('a.zoom');
+    if (!a) return;
+    e.preventDefault();
+    open(a);
+  });
+
+  /* ---------- the swipeable row ---------- */
+  function initGal(g) {
+    if (g.dataset.ready) return;
+    g.dataset.ready = '1';
+    var tr = g.querySelector('.gal-track'),
+        pv = g.querySelector('.gal-prev'),
+        nx = g.querySelector('.gal-next');
+    g.classList.add('is-js');
+
+    function max() { return Math.max(tr.scrollWidth - tr.clientWidth, 0); }
+    function edge() {
+      var l = tr.scrollLeft, m = max();
+      pv.disabled = l <= 4;
+      nx.disabled = l >= m - 4;
+      g.classList.toggle('at-end', l >= m - 4);
+    }
+    function step(d) {
+      tr.scrollBy({ left: d * Math.max(tr.clientWidth * 0.8, 200), behavior: reduce ? 'auto' : 'smooth' });
+    }
+    pv.addEventListener('click', function () { step(-1); });
+    nx.addEventListener('click', function () { step(1); });
+    tr.addEventListener('scroll', edge, { passive: true });
+    window.addEventListener('resize', edge);
+    window.addEventListener('load', edge);
+    edge();
+    tr.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    tr.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
+      else if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
+    });
+
+    /* drag with the mouse (a drag never opens the viewer) */
+    var down = false, moved = false, x0 = 0, l0 = 0;
+    tr.addEventListener('pointerdown', function (e) {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      down = true; moved = false; x0 = e.clientX; l0 = tr.scrollLeft;
+    });
+    window.addEventListener('pointermove', function (e) {
+      if (!down) return;
+      var dx = e.clientX - x0;
+      if (!moved && Math.abs(dx) > 5) { moved = true; tr.style.scrollSnapType = 'none'; tr.style.cursor = 'grabbing'; }
+      if (moved) tr.scrollLeft = l0 - dx;
+    });
+    function end() {
+      if (!down) return;
+      down = false;
+      tr.style.scrollSnapType = '';
+      tr.style.cursor = '';
+    }
+    window.addEventListener('pointerup', end);
+    window.addEventListener('pointercancel', end);
+    tr.addEventListener('click', function (e) {
+      if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
+    }, true);
+  }
+
+  function initAll() { [].slice.call(document.querySelectorAll('[data-gal]')).forEach(initGal); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAll);
+  else initAll();
+})();
+</script>

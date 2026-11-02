@@ -1,0 +1,11 @@
+{{- /*
+  One project in the Selected work grid.
+  Params: title, image, alt, kicker, tags (comma separated),
+          link (optional), tape (yellow | blue | pink | green | lilac, optional).
+  The text between the opening and closing tags is the short description.
+*/ -}}
+<a class="wk-card"{{ with .Get "link" }} href="{{ . }}"{{ else }} role="button" tabindex="0"{{ end }}{{ with .Get "tape" }} data-tape="{{ . }}"{{ end }} data-title="{{ .Get "title" }}" data-kicker="{{ .Get "kicker" }}" data-tags="{{ .Get "tags" }}">
+  <span class="wk-pic"><img src="{{ .Get "image" | relURL }}" alt="{{ .Get "alt" | default (.Get "title") }}" loading="lazy" decoding="async"></span>
+  <span class="wk-name">{{ .Get "title" }}</span>
+  <span class="wk-desc" hidden>{{ .Inner | plainify | strings.TrimSpace }}</span>
+</a>

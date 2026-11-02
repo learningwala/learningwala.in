@@ -42,8 +42,8 @@
   
 	<meta itemprop="name" content="Personal">
 	<meta itemprop="description" content="Mihir Pathak">
-	<meta itemprop="datePublished" content="2026-10-04T00:00:00+00:00">
-	<meta itemprop="dateModified" content="2026-10-04T00:00:00+00:00">
+	<meta itemprop="datePublished" content="2026-10-25T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-10-25T00:00:00+00:00">
 	<meta itemprop="image" content="http://localhost:1313/images/share.webp">
 
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -71,7 +71,245 @@
 
 <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/png" />
 
-</head>
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+  
+  
+
+  
+  
+    
+  
+    
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+
+<script>
+(function(){
+  var root=document.documentElement;
+  
+  try{var saved=localStorage.getItem('theme');if(saved)root.setAttribute('data-theme',saved)}catch(e){}
+
+  var MENU=[{"c":[{"n":"Storyteller","u":"/storyteller/"},{"n":"Philosophy","u":"/philosophy/"},{"n":"Educator","u":"/educator/"},{"n":"Media Coverage","u":"/media/"},{"n":"Journey","u":"/journey/"}],"n":"All +","u":"#"},{"c":[{"n":"Weekly Notes","u":"/tags/weekly-notes/"},{"n":"Posts","u":"/tags/blog/"}],"n":"Blog","u":"#"},{"c":[],"n":"Media","u":"/media/"},{"c":[],"n":"Now","u":"/now/"},{"c":[],"n":"🔍","u":"/search/"}];
+  window.FN_MENU=MENU;
+  var HOME="/";
+  var FAV="http://localhost:1313/images/favicon.png";
+
+  function isDark(){
+    var t=root.getAttribute('data-theme');
+    return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  }
+  function on(path,u){
+    if(!u||u==='#')return false;
+    return (u==='/')?path==='/':path.indexOf(u)===0;
+  }
+
+  function build(){
+    var path=location.pathname;
+
+    
+    var nav=document.createElement('nav');
+    nav.className='floatnav';
+    nav.setAttribute('aria-label','Main');
+
+    var h='<a class="fn-icon" href="'+HOME+'" aria-label="Home"><img src="'+FAV+'" alt=""></a><span class="fn-sep"></span>';
+    MENU.forEach(function(m){
+      if(m.c&&m.c.length){
+        var childActive=m.c.some(function(k){return on(path,k.u)});
+        h+='<div class="fn-item"><button type="button" class="fn-link'+(childActive?' is-active':'')+'" aria-haspopup="true">'+m.n+'<span class="fn-caret">▴</span></button><div class="fn-drop">';
+        m.c.forEach(function(k){
+          h+='<a href="'+k.u+'"'+(on(path,k.u)?' class="is-active"':'')+'>'+k.n+'</a>';
+        });
+        h+='</div></div>';
+      }else{
+        h+='<a class="fn-link'+(on(path,m.u)?' is-active':'')+'" href="'+m.u+'">'+m.n+'</a>';
+      }
+    });
+    h+='<span class="fn-sep"></span><button class="fn-icon" id="fn-theme" type="button" aria-label="Toggle theme">'
+      +'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 010 18z" fill="currentColor"/></svg></button>';
+    nav.innerHTML=h;
+    document.body.appendChild(nav);
+
+    
+    nav.querySelectorAll('.fn-item > button').forEach(function(b){
+      b.addEventListener('click',function(e){
+        e.stopPropagation();
+        var item=b.parentNode,was=item.classList.contains('open');
+        nav.querySelectorAll('.fn-item.open').forEach(function(i){i.classList.remove('open')});
+        if(!was)item.classList.add('open');
+      });
+    });
+    document.addEventListener('click',function(){
+      nav.querySelectorAll('.fn-item.open').forEach(function(i){i.classList.remove('open')});
+    });
+
+    
+    document.getElementById('fn-theme').addEventListener('click',function(){
+      var next=isDark()?'light':'dark';
+      root.setAttribute('data-theme',next);
+      try{localStorage.setItem('theme',next)}catch(e){}
+    });
+  }
+
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();
+})();
+</script>
+
+<script>
+ 
+(function(){
+  var PF_URL="/pagefind/pagefind.js";
+  var pf=null,tried=false,box,input,list,rows=[],sel=0;
+
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+
+  function quick(){
+    var out=[];
+    (window.FN_MENU||[]).forEach(function(m){
+      if(m.c&&m.c.length){m.c.forEach(function(k){out.push({t:k.n,u:k.u})})}
+      else if(m.u&&m.u!=='#'&&!/\/search\/?$/.test(m.u)){out.push({t:m.n,u:m.u})}
+    });
+    return out;
+  }
+
+  function show(r,label,empty){
+    rows=r;sel=0;
+    var h=label?'<div class="sp-label">'+label+'</div>':'';
+    if(!r.length&&empty)h+='<div class="sp-empty">'+empty+'</div>';
+    r.forEach(function(x,i){
+      h+='<a class="sp-item'+(i===0?' is-sel':'')+'" href="'+x.u+'" data-i="'+i+'"><span class="sp-t">'+esc(x.t)+'</span>'+(x.x?'<span class="sp-ex">'+x.x+'</span>':'')+'</a>';
+    });
+    list.innerHTML=h;
+  }
+
+  function run(){
+    var q=input.value.trim();
+    if(!q){show(quick(),'Jump to');return Promise.resolve()}
+    return (pf?Promise.resolve():load()).then(function(){
+      if(!pf){show([],'','Search is not available right now.');return}
+      return pf.debouncedSearch(q,{},180).then(function(res){
+        if(res===null||input.value.trim()!==q)return;
+        return Promise.all(res.results.slice(0,8).map(function(r){return r.data()})).then(function(d){
+          if(input.value.trim()!==q)return;
+          show(d.map(function(x){return {t:(x.meta&&x.meta.title)||x.url,u:x.url,x:x.excerpt}}),'Results','No results for “'+esc(q)+'”.');
+        });
+      });
+    });
+  }
+
+  function load(){
+    if(tried)return Promise.resolve();
+    tried=true;
+    return import(PF_URL).then(function(m){pf=m}).catch(function(e){
+      console.warn('Pagefind index not found. Build it with: npx pagefind --site public',e);
+    });
+  }
+
+  function move(d){
+    if(!rows.length)return;
+    var els=list.querySelectorAll('.sp-item');
+    els[sel].classList.remove('is-sel');
+    sel=(sel+d+rows.length)%rows.length;
+    els[sel].classList.add('is-sel');
+    els[sel].scrollIntoView({block:'nearest'});
+  }
+
+  function build(){
+    box=document.createElement('div');
+    box.className='sp';box.hidden=true;
+    var mac=/Mac|iPhone|iPad/.test(navigator.platform);
+    box.innerHTML='<div class="sp-card" role="dialog" aria-modal="true" aria-label="Search">'
+      +'<div class="sp-head"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'
+      +'<input class="sp-input" type="text" placeholder="Search" autocomplete="off" spellcheck="false" aria-label="Search">'
+      +'<button class="sp-close" type="button" aria-label="Close">✕</button></div>'
+      +'<div class="sp-list"></div>'
+      +'<div class="sp-foot"><kbd>'+(mac?'⌘ K':'Ctrl K')+'</kbd><span>↑ ↓ move &nbsp; Enter open &nbsp; Esc close</span></div></div>';
+    document.body.appendChild(box);
+    input=box.querySelector('.sp-input');
+    list=box.querySelector('.sp-list');
+
+    input.addEventListener('input',run);
+    input.addEventListener('keydown',function(e){
+      if(e.key==='ArrowDown'){e.preventDefault();move(1)}
+      else if(e.key==='ArrowUp'){e.preventDefault();move(-1)}
+      else if(e.key==='Enter'&&rows[sel]){e.preventDefault();location.href=rows[sel].u}
+    });
+    list.addEventListener('mouseover',function(e){
+      var a=e.target.closest('.sp-item');if(!a)return;
+      var els=list.querySelectorAll('.sp-item');
+      els[sel]&&els[sel].classList.remove('is-sel');
+      sel=+a.getAttribute('data-i');a.classList.add('is-sel');
+    });
+    box.addEventListener('click',function(e){if(e.target===box)close()});
+    box.querySelector('.sp-close').addEventListener('click',close);
+  }
+
+  function open(){
+    if(!box)build();
+    box.hidden=false;
+    document.documentElement.classList.add('sp-lock');
+    input.value='';
+    show(quick(),'Jump to');
+    input.focus();
+    load(); 
+  }
+  function close(){
+    if(!box)return;
+    box.hidden=true;
+    document.documentElement.classList.remove('sp-lock');
+  }
+
+  document.addEventListener('keydown',function(e){
+    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();(box&&!box.hidden)?close():open()}
+    else if(e.key==='Escape'&&box&&!box.hidden){close()}
+  });
+  
+  document.addEventListener('click',function(e){
+    if(e.ctrlKey||e.metaKey||e.shiftKey)return;
+    var a=e.target.closest&&e.target.closest('a[href$="/search/"],a[href$="/search"]');
+    if(a){e.preventDefault();open()}
+  });
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Public+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Noto+Serif+Gujarati:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap"></head>
 
 <body>
   <header><a href="/">
@@ -90,28 +328,30 @@
 
   
   <ul class="menu">
-  <li class="menu-item ">
-    <a href="/">Home</a>
-
-    
-  </li>
-
   <li class="menu-item has-children">
-    <a href="#">About</a>
+    <a href="#">All &#43;</a>
 
     
       <ul class="submenu">
         
           <li>
-            <a href="/about-me/">Bio</a>
+            <a href="/storyteller/">Storyteller</a>
           </li>
         
           <li>
-            <a href="/writings/">Writing</a>
+            <a href="/philosophy/">Philosophy</a>
           </li>
         
           <li>
-            <a href="/media/">Media</a>
+            <a href="/educator/">Educator</a>
+          </li>
+        
+          <li>
+            <a href="/media/">Media Coverage</a>
+          </li>
+        
+          <li>
+            <a href="/journey/">Journey</a>
           </li>
         
       </ul>
@@ -137,7 +377,7 @@
   </li>
 
   <li class="menu-item ">
-    <a href="/offerings/">Offerings</a>
+    <a href="/media/">Media</a>
 
     
   </li>
@@ -167,1653 +407,1396 @@
 
   
   <main id="main-content">
-<content>
+
+<div class="pl">
+  <header class="pl-head">
+    <h1>Personal</h1>
+    <p class="pl-sub">128 entries</p>
+    
+    <nav class="pl-tabs" aria-label="Sections">
+      <a href="/tags/weekly-notes/">Weekly Notes</a>
+      <a href="/tags/blog/">Posts</a>
+    </nav>
+  </header>
+
   
-    <h3 class="blog-filter">Filtering for "Personal"</h3>
   
-  <ul class="blog-posts">
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-10-04' pubdate>
-            2026-10-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-40-2026/">Week 40 /2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-09-27' pubdate>
-            2026-09-27
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-38-39-2026/">Week 38 &amp; 39 /2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-09-13' pubdate>
-            2026-09-13
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-37-2026/">Week 37/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-09-06' pubdate>
-            2026-09-06
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-35-36-2026/">Week 35 - 36 /2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-08-23' pubdate>
-            2026-08-23
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-34-2026/">Week 34/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-08-16' pubdate>
-            2026-08-16
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-33-2026/">Week 33/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-08-09' pubdate>
-            2026-08-09
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-30-31-32-2026/">Week 30-31-32/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-07-19' pubdate>
-            2026-07-19
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-29-2026/">Week 29/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-07-13' pubdate>
-            2026-07-13
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-26-27-28-2026/">Week 26-27-28/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-06-21' pubdate>
-            2026-06-21
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-25-2026/">Week 25/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-06-14' pubdate>
-            2026-06-14
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-23-24-2026/">Week 23 - 24/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-05-25' pubdate>
-            2026-05-25
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-22-2026/">Week 22/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-05-24' pubdate>
-            2026-05-24
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-21-2026/">Week 21/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-05-17' pubdate>
-            2026-05-17
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-20-2026/">Week 20/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-05-10' pubdate>
-            2026-05-10
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-19-2026/">Week 19/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-05-03' pubdate>
-            2026-05-03
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-18-2026/">Week 18/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-04-26' pubdate>
-            2026-04-26
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-17-2026/">Week 17/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-04-19' pubdate>
-            2026-04-19
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-16-2026/">Week 16/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-04-12' pubdate>
-            2026-04-12
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-13-14-2026/">Week 14 &amp; 15/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-04-07' pubdate>
-            2026-04-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/butterfly-effect/">How I Engineer the Butterfly Effect</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-03-29' pubdate>
-            2026-03-29
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-13-2026/">Week 13/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-03-22' pubdate>
-            2026-03-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-12-2026/">Week 12/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-03-16' pubdate>
-            2026-03-16
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-11-2026/">Week 11/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-03-08' pubdate>
-            2026-03-08
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-10-2026/">Week 10/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-03-01' pubdate>
-            2026-03-01
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-9-2026/">Week 09/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-22' pubdate>
-            2026-02-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/how-to-make-portfolio/">How to Build Your Portfolio</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-22' pubdate>
-            2026-02-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-8-2026/">Week 08/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-18' pubdate>
-            2026-02-18
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/matrix-of-selecting-work/">My Matrix for Choosing Work and Side Projects</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-15' pubdate>
-            2026-02-15
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-7-2026/">Week 07/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-08' pubdate>
-            2026-02-08
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-6-2026/">Week 06/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-02-01' pubdate>
-            2026-02-01
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-5-2026/">Week 05/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-25' pubdate>
-            2026-01-25
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-4-2026/">Week 04/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-18' pubdate>
-            2026-01-18
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-3-2026/">Week 03/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-11' pubdate>
-            2026-01-11
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-2-2026/">Week 02/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-05' pubdate>
-            2026-01-05
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/itsok/">It&#39;s Ok - Khojbeen Mandali Work Updates 2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-05' pubdate>
-            2026-01-05
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/2025-reflections/">Year 2025 - reflections</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2026-01-04' pubdate>
-            2026-01-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-1-2026/">Week 01/2026</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-12-28' pubdate>
-            2025-12-28
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-52-2025/">Week 52/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-12-20' pubdate>
-            2025-12-20
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-50-51-2025/">Week 50 &amp; 51 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-12-07' pubdate>
-            2025-12-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-48-49-2025/">Week 48 &amp; 49 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-11-23' pubdate>
-            2025-11-23
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-46-47-2025/">Week 46 &amp; 47 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-11-10' pubdate>
-            2025-11-10
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-45-2025/">Week 45 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-11-03' pubdate>
-            2025-11-03
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-44-2025/">Week 44 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-10-26' pubdate>
-            2025-10-26
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-42-43-2025/">Week 42 &amp; 43 /2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-10-11' pubdate>
-            2025-10-11
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-41-2025/">Week 41/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-10-05' pubdate>
-            2025-10-05
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-40-2025/">Week 40/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-09-30' pubdate>
-            2025-09-30
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-39-2025/">Week 39/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-09-22' pubdate>
-            2025-09-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-38-2025/">Week 38/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-09-14' pubdate>
-            2025-09-14
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-37-2025/">Week 37/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-09-07' pubdate>
-            2025-09-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-36-2025/">Week 36/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-08-31' pubdate>
-            2025-08-31
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-35-2025/">Week 35/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-08-24' pubdate>
-            2025-08-24
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-34-2025/">Week 34/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-08-17' pubdate>
-            2025-08-17
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-33-2025/">Week 33/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-08-09' pubdate>
-            2025-08-09
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-32-2025/">Week 32/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-08-02' pubdate>
-            2025-08-02
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-31-2025/">Week 31/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-07-27' pubdate>
-            2025-07-27
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-30-2025/">Week 30/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-07-20' pubdate>
-            2025-07-20
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-29-2025/">Week 29/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-07-13' pubdate>
-            2025-07-13
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-28-2025/">Week 28/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-07-06' pubdate>
-            2025-07-06
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-27-2025/">Week 27/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-06-29' pubdate>
-            2025-06-29
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-26-2025/">Week 26/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-06-22' pubdate>
-            2025-06-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-25-2025/">Week 25/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-06-15' pubdate>
-            2025-06-15
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-24-2025/">Week 24/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-06-08' pubdate>
-            2025-06-08
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-22-23-2025/">Week 21-22/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-05-25' pubdate>
-            2025-05-25
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-21-2025/">Week 21/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-05-18' pubdate>
-            2025-05-18
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-20-2025/">Week 20/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-05-11' pubdate>
-            2025-05-11
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-19-2025/">Week 19/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-05-04' pubdate>
-            2025-05-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-18-2025/">Week 18/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-04-27' pubdate>
-            2025-04-27
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-17-2025/">Week 17/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-04-20' pubdate>
-            2025-04-20
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-16-2025/">Week 16/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-04-16' pubdate>
-            2025-04-16
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-15-2025/">Week 15/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-04-06' pubdate>
-            2025-04-06
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-14-2025/">Week 14/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-03-30' pubdate>
-            2025-03-30
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-13-2025/">Week 13/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-03-22' pubdate>
-            2025-03-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-12-2025/">Week 12/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-03-15' pubdate>
-            2025-03-15
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-11-2025/">Week 11/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-03-07' pubdate>
-            2025-03-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-10-2025/">Week 10/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-02-28' pubdate>
-            2025-02-28
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-9-2025/">Week 9/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-02-21' pubdate>
-            2025-02-21
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-8-2025/">Week 8/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-02-14' pubdate>
-            2025-02-14
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-7-2025/">Week 7/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-02-10' pubdate>
-            2025-02-10
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-6-2025/">Week 6/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-01-31' pubdate>
-            2025-01-31
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-5-2025/">Week 5/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-01-24' pubdate>
-            2025-01-24
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-4-2025/">Week 4/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-01-18' pubdate>
-            2025-01-18
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-3-2025/">Week 3/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-01-11' pubdate>
-            2025-01-11
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-2-2025/">Week 2/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2025-01-04' pubdate>
-            2025-01-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-1-2025/">Week 1/2025</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-12-31' pubdate>
-            2024-12-31
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/2024-reflections/">Year 2024 - reflections</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-12-28' pubdate>
-            2024-12-28
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-52-2024/">Week 52/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-12-21' pubdate>
-            2024-12-21
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-51-2024/">Week 51/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-12-14' pubdate>
-            2024-12-14
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-50-2024/">Week 50/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-12-07' pubdate>
-            2024-12-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-49-2024/">Week 49/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-11-29' pubdate>
-            2024-11-29
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-48-2024/">Week 48/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-11-22' pubdate>
-            2024-11-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-47-2024/">Week 47/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-11-15' pubdate>
-            2024-11-15
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-46-2024/">Week 46/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-11-08' pubdate>
-            2024-11-08
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-45-2024/">Week 45/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-11-02' pubdate>
-            2024-11-02
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-44-2024/">Week 44/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-10-26' pubdate>
-            2024-10-26
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-43-2024/">Week 43/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-10-18' pubdate>
-            2024-10-18
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-42-2024/">Week 42/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-10-11' pubdate>
-            2024-10-11
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-41-2024/">Week 41/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-10-04' pubdate>
-            2024-10-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-40-2024/">Week 40/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-09-27' pubdate>
-            2024-09-27
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-39-2024/">Week 39/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-09-21' pubdate>
-            2024-09-21
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-38-2024/">Week 38/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-09-14' pubdate>
-            2024-09-14
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-37-2024/">Week 37/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-09-07' pubdate>
-            2024-09-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-36-2024/">Week 36/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-08-31' pubdate>
-            2024-08-31
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-35-2024/">Week 35/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-08-24' pubdate>
-            2024-08-24
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-34-2024/">Week 34/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-08-17' pubdate>
-            2024-08-17
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-33-2024/">Week 33/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-08-10' pubdate>
-            2024-08-10
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-32-2024/">Week 32/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-08-03' pubdate>
-            2024-08-03
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-31-2024/">Week 31/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-27' pubdate>
-            2024-07-27
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-30-2024/">Week 30/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-20' pubdate>
-            2024-07-20
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-29-2024/">Week 29/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-13' pubdate>
-            2024-07-13
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-28-2024/">Week 28/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-07-05' pubdate>
-            2024-07-05
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-27-2024/">Week 27/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-06-29' pubdate>
-            2024-06-29
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-26-2024/">Week 26/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-06-22' pubdate>
-            2024-06-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-25-2024/">Week 25/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-06-15' pubdate>
-            2024-06-15
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-24-2024/">Week 24/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-06-08' pubdate>
-            2024-06-08
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-23-2024/">Week 23/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-06-01' pubdate>
-            2024-06-01
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-22-2024/">Week 22/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-05-25' pubdate>
-            2024-05-25
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-21-2024/">Week 21/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-05-19' pubdate>
-            2024-05-19
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-20-2024/">Week 20/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-05-12' pubdate>
-            2024-05-12
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-19-2024/">Week 19/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-05-04' pubdate>
-            2024-05-04
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-18-2024/">Week 18/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-04-30' pubdate>
-            2024-04-30
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-17-2024/">Week 17/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-04-22' pubdate>
-            2024-04-22
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-16-2024/">Week 16/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-04-16' pubdate>
-            2024-04-16
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-15-2024/">Week 15/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-04-07' pubdate>
-            2024-04-07
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-14-2024/">Week 14/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-03-31' pubdate>
-            2024-03-31
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-13-2024/">Week 13/2024</a>
-      
-    </li>
-    
-    <li>
-      <span>
-        <i>
-          <time datetime='2024-03-24' pubdate>
-            2024-03-24
-          </time>
-        </i>
-      </span>
-      
-        <a href="/blog/week-12-2024/">Week 12/2024</a>
-      
-    </li>
-    
-  </ul>
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Oct <i>’26</i></span></div>
+    <h2 class="pl-month-sm">October 2026</h2>
+    
+    <a class="pc" href="/blog/week-42-43-2026/">
+      <span class="pc-date"><b>25</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 42 - 43 /2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-41-2026/">
+      <span class="pc-date"><b>11</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 41 /2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-40-2026/">
+      <span class="pc-date"><b>04</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 40 /2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
   
-</content>
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Sep <i>’26</i></span></div>
+    <h2 class="pl-month-sm">September 2026</h2>
+    
+    <a class="pc" href="/blog/week-38-39-2026/">
+      <span class="pc-date"><b>27</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 38 &amp; 39 /2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-37-2026/">
+      <span class="pc-date"><b>13</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 37/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-35-36-2026/">
+      <span class="pc-date"><b>06</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 35 - 36 /2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Aug <i>’26</i></span></div>
+    <h2 class="pl-month-sm">August 2026</h2>
+    
+    <a class="pc" href="/blog/week-34-2026/">
+      <span class="pc-date"><b>23</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 34/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-33-2026/">
+      <span class="pc-date"><b>16</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 33/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-30-31-32-2026/">
+      <span class="pc-date"><b>09</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 30-31-32/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jul <i>’26</i></span></div>
+    <h2 class="pl-month-sm">July 2026</h2>
+    
+    <a class="pc" href="/blog/week-29-2026/">
+      <span class="pc-date"><b>19</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 29/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-26-27-28-2026/">
+      <span class="pc-date"><b>13</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 26-27-28/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jun <i>’26</i></span></div>
+    <h2 class="pl-month-sm">June 2026</h2>
+    
+    <a class="pc" href="/blog/week-25-2026/">
+      <span class="pc-date"><b>21</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 25/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-23-24-2026/">
+      <span class="pc-date"><b>14</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 23 - 24/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>May <i>’26</i></span></div>
+    <h2 class="pl-month-sm">May 2026</h2>
+    
+    <a class="pc" href="/blog/week-22-2026/">
+      <span class="pc-date"><b>25</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 22/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-21-2026/">
+      <span class="pc-date"><b>24</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 21/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-20-2026/">
+      <span class="pc-date"><b>17</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 20/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-19-2026/">
+      <span class="pc-date"><b>10</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 19/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-18-2026/">
+      <span class="pc-date"><b>03</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 18/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Apr <i>’26</i></span></div>
+    <h2 class="pl-month-sm">April 2026</h2>
+    
+    <a class="pc" href="/blog/week-17-2026/">
+      <span class="pc-date"><b>26</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 17/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-16-2026/">
+      <span class="pc-date"><b>19</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 16/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-13-14-2026/">
+      <span class="pc-date"><b>12</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 14 &amp; 15/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/butterfly-effect/">
+      <span class="pc-date"><b>07</b><small>Tue</small></span>
+      <span class="pc-body">
+        <span class="pc-title">How I Engineer the Butterfly Effect</span>
+        <span class="pc-sum">butterfly effect</span>
+        <span class="pc-meta">7 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Mar <i>’26</i></span></div>
+    <h2 class="pl-month-sm">March 2026</h2>
+    
+    <a class="pc" href="/blog/week-13-2026/">
+      <span class="pc-date"><b>29</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 13/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-12-2026/">
+      <span class="pc-date"><b>22</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 12/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-11-2026/">
+      <span class="pc-date"><b>16</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 11/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-10-2026/">
+      <span class="pc-date"><b>08</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 10/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-9-2026/">
+      <span class="pc-date"><b>01</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 09/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Feb <i>’26</i></span></div>
+    <h2 class="pl-month-sm">February 2026</h2>
+    
+    <a class="pc" href="/blog/week-8-2026/">
+      <span class="pc-date"><b>22</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 08/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">9 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/how-to-make-portfolio/">
+      <span class="pc-date"><b>22</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">How to Build Your Portfolio</span>
+        <span class="pc-sum">How to Build Your Portfolio and Get Work Aligned with Your Ethos</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/matrix-of-selecting-work/">
+      <span class="pc-date"><b>18</b><small>Wed</small></span>
+      <span class="pc-body">
+        <span class="pc-title">My Matrix for Choosing Work and Side Projects</span>
+        <span class="pc-sum">My Matrix to Select Work in the Education Sector</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-7-2026/">
+      <span class="pc-date"><b>15</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 07/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-6-2026/">
+      <span class="pc-date"><b>08</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 06/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-5-2026/">
+      <span class="pc-date"><b>01</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 05/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jan <i>’26</i></span></div>
+    <h2 class="pl-month-sm">January 2026</h2>
+    
+    <a class="pc" href="/blog/week-4-2026/">
+      <span class="pc-date"><b>25</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 04/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-3-2026/">
+      <span class="pc-date"><b>18</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 03/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-2-2026/">
+      <span class="pc-date"><b>11</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 02/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/2025-reflections/">
+      <span class="pc-date"><b>05</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Year 2025 - reflections</span>
+        <span class="pc-sum">Year end reflection</span>
+        <span class="pc-meta">8 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/itsok/">
+      <span class="pc-date"><b>05</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">It&#39;s Ok - Khojbeen Mandali Work Updates 2025</span>
+        <span class="pc-sum">Reflection</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-1-2026/">
+      <span class="pc-date"><b>04</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 01/2026</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Dec <i>’25</i></span></div>
+    <h2 class="pl-month-sm">December 2025</h2>
+    
+    <a class="pc" href="/blog/week-52-2025/">
+      <span class="pc-date"><b>28</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 52/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-50-51-2025/">
+      <span class="pc-date"><b>20</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 50 &amp; 51 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-48-49-2025/">
+      <span class="pc-date"><b>07</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 48 &amp; 49 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Nov <i>’25</i></span></div>
+    <h2 class="pl-month-sm">November 2025</h2>
+    
+    <a class="pc" href="/blog/week-46-47-2025/">
+      <span class="pc-date"><b>23</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 46 &amp; 47 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-45-2025/">
+      <span class="pc-date"><b>10</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 45 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-44-2025/">
+      <span class="pc-date"><b>03</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 44 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Oct <i>’25</i></span></div>
+    <h2 class="pl-month-sm">October 2025</h2>
+    
+    <a class="pc" href="/blog/week-42-43-2025/">
+      <span class="pc-date"><b>26</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 42 &amp; 43 /2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-41-2025/">
+      <span class="pc-date"><b>11</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 41/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-40-2025/">
+      <span class="pc-date"><b>05</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 40/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Sep <i>’25</i></span></div>
+    <h2 class="pl-month-sm">September 2025</h2>
+    
+    <a class="pc" href="/blog/week-39-2025/">
+      <span class="pc-date"><b>30</b><small>Tue</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 39/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-38-2025/">
+      <span class="pc-date"><b>22</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 38/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-37-2025/">
+      <span class="pc-date"><b>14</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 37/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-36-2025/">
+      <span class="pc-date"><b>07</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 36/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Aug <i>’25</i></span></div>
+    <h2 class="pl-month-sm">August 2025</h2>
+    
+    <a class="pc" href="/blog/week-35-2025/">
+      <span class="pc-date"><b>31</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 35/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">7 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-34-2025/">
+      <span class="pc-date"><b>24</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 34/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">7 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-33-2025/">
+      <span class="pc-date"><b>17</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 33/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-32-2025/">
+      <span class="pc-date"><b>09</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 32/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-31-2025/">
+      <span class="pc-date"><b>02</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 31/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jul <i>’25</i></span></div>
+    <h2 class="pl-month-sm">July 2025</h2>
+    
+    <a class="pc" href="/blog/week-30-2025/">
+      <span class="pc-date"><b>27</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 30/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-29-2025/">
+      <span class="pc-date"><b>20</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 29/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-28-2025/">
+      <span class="pc-date"><b>13</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 28/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-27-2025/">
+      <span class="pc-date"><b>06</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 27/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jun <i>’25</i></span></div>
+    <h2 class="pl-month-sm">June 2025</h2>
+    
+    <a class="pc" href="/blog/week-26-2025/">
+      <span class="pc-date"><b>29</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 26/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-25-2025/">
+      <span class="pc-date"><b>22</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 25/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-24-2025/">
+      <span class="pc-date"><b>15</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 24/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-22-23-2025/">
+      <span class="pc-date"><b>08</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 21-22/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>May <i>’25</i></span></div>
+    <h2 class="pl-month-sm">May 2025</h2>
+    
+    <a class="pc" href="/blog/week-21-2025/">
+      <span class="pc-date"><b>25</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 21/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-20-2025/">
+      <span class="pc-date"><b>18</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 20/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-19-2025/">
+      <span class="pc-date"><b>11</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 19/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-18-2025/">
+      <span class="pc-date"><b>04</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 18/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Apr <i>’25</i></span></div>
+    <h2 class="pl-month-sm">April 2025</h2>
+    
+    <a class="pc" href="/blog/week-17-2025/">
+      <span class="pc-date"><b>27</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 17/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-16-2025/">
+      <span class="pc-date"><b>20</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 16/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-15-2025/">
+      <span class="pc-date"><b>16</b><small>Wed</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 15/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">7 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-14-2025/">
+      <span class="pc-date"><b>06</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 14/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Mar <i>’25</i></span></div>
+    <h2 class="pl-month-sm">March 2025</h2>
+    
+    <a class="pc" href="/blog/week-13-2025/">
+      <span class="pc-date"><b>30</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 13/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-12-2025/">
+      <span class="pc-date"><b>22</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 12/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-11-2025/">
+      <span class="pc-date"><b>15</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 11/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">6 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-10-2025/">
+      <span class="pc-date"><b>07</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 10/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Feb <i>’25</i></span></div>
+    <h2 class="pl-month-sm">February 2025</h2>
+    
+    <a class="pc" href="/blog/week-9-2025/">
+      <span class="pc-date"><b>28</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 9/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-8-2025/">
+      <span class="pc-date"><b>21</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 8/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-7-2025/">
+      <span class="pc-date"><b>14</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 7/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-6-2025/">
+      <span class="pc-date"><b>10</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 6/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jan <i>’25</i></span></div>
+    <h2 class="pl-month-sm">January 2025</h2>
+    
+    <a class="pc" href="/blog/week-5-2025/">
+      <span class="pc-date"><b>31</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 5/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-4-2025/">
+      <span class="pc-date"><b>24</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 4/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-3-2025/">
+      <span class="pc-date"><b>18</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 3/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-2-2025/">
+      <span class="pc-date"><b>11</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 2/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-1-2025/">
+      <span class="pc-date"><b>04</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 1/2025</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Dec <i>’24</i></span></div>
+    <h2 class="pl-month-sm">December 2024</h2>
+    
+    <a class="pc" href="/blog/2024-reflections/">
+      <span class="pc-date"><b>31</b><small>Tue</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Year 2024 - reflections</span>
+        <span class="pc-sum">Year end reflection</span>
+        <span class="pc-meta">14 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-52-2024/">
+      <span class="pc-date"><b>28</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 52/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-51-2024/">
+      <span class="pc-date"><b>21</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 51/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-50-2024/">
+      <span class="pc-date"><b>14</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 50/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-49-2024/">
+      <span class="pc-date"><b>07</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 49/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Nov <i>’24</i></span></div>
+    <h2 class="pl-month-sm">November 2024</h2>
+    
+    <a class="pc" href="/blog/week-48-2024/">
+      <span class="pc-date"><b>29</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 48/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-47-2024/">
+      <span class="pc-date"><b>22</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 47/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-46-2024/">
+      <span class="pc-date"><b>15</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 46/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-45-2024/">
+      <span class="pc-date"><b>08</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 45/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-44-2024/">
+      <span class="pc-date"><b>02</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 44/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Oct <i>’24</i></span></div>
+    <h2 class="pl-month-sm">October 2024</h2>
+    
+    <a class="pc" href="/blog/week-43-2024/">
+      <span class="pc-date"><b>26</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 43/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-42-2024/">
+      <span class="pc-date"><b>18</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 42/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-41-2024/">
+      <span class="pc-date"><b>11</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 41/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-40-2024/">
+      <span class="pc-date"><b>04</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 40/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Sep <i>’24</i></span></div>
+    <h2 class="pl-month-sm">September 2024</h2>
+    
+    <a class="pc" href="/blog/week-39-2024/">
+      <span class="pc-date"><b>27</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 39/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-38-2024/">
+      <span class="pc-date"><b>21</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 38/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-37-2024/">
+      <span class="pc-date"><b>14</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 37/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-36-2024/">
+      <span class="pc-date"><b>07</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 36/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Aug <i>’24</i></span></div>
+    <h2 class="pl-month-sm">August 2024</h2>
+    
+    <a class="pc" href="/blog/week-35-2024/">
+      <span class="pc-date"><b>31</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 35/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-34-2024/">
+      <span class="pc-date"><b>24</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 34/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-33-2024/">
+      <span class="pc-date"><b>17</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 33/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">3 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-32-2024/">
+      <span class="pc-date"><b>10</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 32/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">4 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-31-2024/">
+      <span class="pc-date"><b>03</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 31/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jul <i>’24</i></span></div>
+    <h2 class="pl-month-sm">July 2024</h2>
+    
+    <a class="pc" href="/blog/week-30-2024/">
+      <span class="pc-date"><b>27</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 30/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-29-2024/">
+      <span class="pc-date"><b>20</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 29/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-28-2024/">
+      <span class="pc-date"><b>13</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 28/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-27-2024/">
+      <span class="pc-date"><b>05</b><small>Fri</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 27/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Jun <i>’24</i></span></div>
+    <h2 class="pl-month-sm">June 2024</h2>
+    
+    <a class="pc" href="/blog/week-26-2024/">
+      <span class="pc-date"><b>29</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 26/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-25-2024/">
+      <span class="pc-date"><b>22</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 25/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-24-2024/">
+      <span class="pc-date"><b>15</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 24/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-23-2024/">
+      <span class="pc-date"><b>08</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 23/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-22-2024/">
+      <span class="pc-date"><b>01</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 22/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>May <i>’24</i></span></div>
+    <h2 class="pl-month-sm">May 2024</h2>
+    
+    <a class="pc" href="/blog/week-21-2024/">
+      <span class="pc-date"><b>25</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 21/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-20-2024/">
+      <span class="pc-date"><b>19</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 20/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-19-2024/">
+      <span class="pc-date"><b>12</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 19/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-18-2024/">
+      <span class="pc-date"><b>04</b><small>Sat</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 18/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">1 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Apr <i>’24</i></span></div>
+    <h2 class="pl-month-sm">April 2024</h2>
+    
+    <a class="pc" href="/blog/week-17-2024/">
+      <span class="pc-date"><b>30</b><small>Tue</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 17/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-16-2024/">
+      <span class="pc-date"><b>22</b><small>Mon</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 16/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">2 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-15-2024/">
+      <span class="pc-date"><b>16</b><small>Tue</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 15/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-14-2024/">
+      <span class="pc-date"><b>07</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 14/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">9 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+  
+  <section class="pl-group">
+    <div class="pl-month" aria-hidden="true"><span>Mar <i>’24</i></span></div>
+    <h2 class="pl-month-sm">March 2024</h2>
+    
+    <a class="pc" href="/blog/week-13-2024/">
+      <span class="pc-date"><b>31</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 13/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+    <a class="pc" href="/blog/week-12-2024/">
+      <span class="pc-date"><b>24</b><small>Sun</small></span>
+      <span class="pc-body">
+        <span class="pc-title">Week 12/2024</span>
+        <span class="pc-sum">weekly notes</span>
+        <span class="pc-meta">5 min read</span>
+      </span>
+    </a>
+    
+  </section>
+  
+</div>
 
   </main>
 

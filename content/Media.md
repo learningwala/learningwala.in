@@ -1,10 +1,12 @@
 ---
 title: "Media"
-menu: 
+menu: "main"
 weight: 4
 ---
 
-### Media coverage about my work
+
+# Media coverage
+
 
 **English**
 

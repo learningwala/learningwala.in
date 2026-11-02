@@ -88,28 +88,41 @@ weight = 2
 
 # About section
 [[menu.main]]
-name = "About"
+name = "All +"
 identifier = "about"
 url = "#"
 weight = 2
 
 [[menu.main]]
-name = "Bio"
+name = "Storyteller"
 parent = "about"
-url = "/about-me/"
-weight = 1
-
-[[menu.main]]
-name = "Writing"
-parent = "about"
-url = "/writings/"
+url = "/storyteller/"
 weight = 2
 
 [[menu.main]]
-name = "Media"
+name = "Philosophy"
+parent = "about"
+url = "/philosophy/"
+weight = 3
+
+[[menu.main]]
+name = "Educator"
+parent = "about"
+url = "/educator/"
+weight = 4
+
+[[menu.main]]
+name = "Media Coverage"
 parent = "about"
 url = "/media/"
-weight = 3
+weight = 5
+
+[[menu.main]]
+name = "Journey"
+parent = "about"
+url = "/journey/"
+weight = 6
+
 
 [[menu.main]]
 name = "🔍"
