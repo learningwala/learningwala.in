@@ -1,7 +1,7 @@
 ---
 title: "Media"
-menu: "main"
-weight: 4
+menu:
+weight: 
 ---
 
 

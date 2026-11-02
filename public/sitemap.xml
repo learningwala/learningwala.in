@@ -6,8 +6,6 @@
   </url><url>
     <loc>http://localhost:1313/educator/</loc>
   </url><url>
-    <loc>http://localhost:1313/media/</loc>
-  </url><url>
     <loc>http://localhost:1313/storyteller/</loc>
   </url><url>
     <loc>http://localhost:1313/now/</loc>
@@ -610,6 +608,8 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/colophon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/media/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/now-2024/</loc>
   </url><url>
