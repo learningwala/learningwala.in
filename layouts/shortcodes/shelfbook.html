@@ -1,0 +1,5 @@
+{{- /*
+  One book in a {{< shelf >}}.
+  Params: title, image, link, meta (small grey line), label (optional screen reader text).
+*/ -}}
+<a class="bks-book" href="{{ .Get "link" }}" target="_blank" rel="noopener" aria-label="{{ .Get "label" | default (printf "%s. %s" (.Get "title") (.Get "meta")) }}"><img src="{{ .Get "image" | relURL }}" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">{{ .Get "title" }}</span>{{ with .Get "meta" }}<span class="bks-m">{{ . }}</span>{{ end }}</a>

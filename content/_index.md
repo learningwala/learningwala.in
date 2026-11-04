@@ -8,9 +8,9 @@ weight: 1
 
 **Mihir Pathak | Storyteller & Educator**
 
-Hi, I’m storyteller & educator with specific interest in **'Education for harmony'.** 
+Hi, I’m storyteller & educator with specific interest in **'Relational Education'.** 
 
-My work is non linear and lies at the intersections of educational philosophy, pedagogy/learning experience design and creative practices.
+My work is non linear and lies at the intersections of educational [philosophy](/philosophy), [pedagogy/learning experience design](/educator) and [creative practices](/storyteller).
 
 With 13 years of practice across formal and informal learning spaces in India, I facilitate transformative learning experiences with children and young adults through experiential pedagogies.
 

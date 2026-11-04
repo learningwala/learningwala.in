@@ -1,0 +1,27 @@
+{{- /*
+  A swipeable row of photos that open in a zoom viewer.
+  Put {{< gimg >}} items inside. Use the angle-bracket form.
+  Optional params:
+    label  screen reader name for the row
+    auto   "true" for a slow drift (35 pixels a second), or a number for your own speed
+           (for example auto="20" is slower). It pauses on hover, touch and when the viewer is open.
+*/ -}}
+{{- $auto := .Get "auto" -}}
+{{- if eq $auto "true" }}{{ $auto = "35" }}{{ end -}}
+<div class="gal" data-gal{{ with $auto }} data-auto="{{ . }}"{{ end }}>
+  <div class="gal-view">
+    <div class="gal-track" tabindex="0" role="group" aria-label="{{ .Get "label" | default "Photos" }}">
+{{ .Inner }}
+      <span class="gal-end" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="gal-nav">
+    <button type="button" class="gal-btn gal-prev" aria-label="Previous photos">&lsaquo;</button>
+    <button type="button" class="gal-btn gal-next" aria-label="Next photos">&rsaquo;</button>
+    <span class="gal-hint">swipe or use the arrows · tap a photo to enlarge</span>
+  </div>
+</div>
+{{- if not (.Page.Scratch.Get "lightbox-js") }}
+{{- .Page.Scratch.Set "lightbox-js" true }}
+{{- partial "lightbox.html" . }}
+{{- end }}

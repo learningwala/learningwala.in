@@ -1,0 +1,22 @@
+{{- /*
+  One photo inside {{< gallery >}}. Click opens the zoom viewer.
+  Params: src, alt, caption (optional), full (optional larger version shown in the viewer).
+
+  If src points to a file in your assets folder (for example "journey/baxipanch.jpg"
+  for assets/journey/baxipanch.jpg), Hugo makes a small thumbnail for the row and a
+  larger copy for the viewer, so the page loads fast. If the file is not in assets,
+  src is used as it is (for example "/images/..." from the static folder).
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default (.Get "caption") -}}
+{{- $thumb := $src -}}
+{{- $full := .Get "full" | default $src -}}
+{{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+  {{- $t := . -}}
+  {{- $f := . -}}
+  {{- if gt .Width 600 }}{{ $t = .Resize "600x q80" }}{{ end -}}
+  {{- if gt .Width 2000 }}{{ $f = .Resize "2000x q85" }}{{ end -}}
+  {{- $thumb = $t.RelPermalink -}}
+  {{- $full = $f.RelPermalink -}}
+{{- end -}}
+<figure><a class="zoom" href="{{ $full }}"><img src="{{ $thumb }}" alt="{{ $alt }}" loading="lazy" decoding="async" draggable="false"></a>{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>

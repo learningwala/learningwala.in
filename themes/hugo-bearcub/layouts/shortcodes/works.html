@@ -1,0 +1,130 @@
+{{- /*
+  Selected work grid. Put one {{< work >}} inside for each project.
+  The viewer script is added once per page.
+*/ -}}
+<div class="wk">
+  <div class="wk-grid">
+{{ .Inner }}
+  </div>
+</div>
+{{- if not (.Page.Scratch.Get "wk-js") }}
+{{- .Page.Scratch.Set "wk-js" true }}
+<script>
+(function () {
+  var cards = [].slice.call(document.querySelectorAll('.wk-card'));
+  if (!cards.length || typeof HTMLDialogElement === 'undefined') return;
+
+  var ARROW = '<svg viewBox="0 0 22 12" aria-hidden="true"><path d="M1 6h19M15 1.2 20 6l-5 4.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var CROSS = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 1.5l9 9M10.5 1.5l-9 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+
+  var dlg = document.createElement('dialog');
+  dlg.className = 'wkm';
+  dlg.setAttribute('aria-labelledby', 'wkm-t');
+  dlg.innerHTML =
+    '<div class="wkm-card">' +
+      '<button type="button" class="wkm-x" aria-label="Close">close ' + CROSS + '</button>' +
+      '<div class="wkm-main">' +
+        '<div class="wkm-pic"><img alt=""></div>' +
+        '<div class="wkm-txt">' +
+          '<p class="wkm-kick"></p>' +
+          '<h2 class="wkm-t" id="wkm-t"></h2>' +
+          '<p class="wkm-desc"></p>' +
+          '<p class="wkm-tags"></p>' +
+          '<a class="wkm-more">More about this project</a>' +
+        '</div>' +
+      '</div>' +
+      '<div class="wkm-nav">' +
+        '<button type="button" class="wkm-prev">' + ARROW + ' previous</button>' +
+        '<span class="wkm-count" aria-live="polite"></span>' +
+        '<button type="button" class="wkm-next">next ' + ARROW + '</button>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(dlg);
+
+  function q(s) { return dlg.querySelector(s); }
+  var el = {
+    card: q('.wkm-card'), main: q('.wkm-main'), pic: q('.wkm-pic'), img: q('.wkm-pic img'),
+    kick: q('.wkm-kick'), title: q('.wkm-t'), desc: q('.wkm-desc'), tags: q('.wkm-tags'),
+    more: q('.wkm-more'), count: q('.wkm-count'), prev: q('.wkm-prev'), next: q('.wkm-next')
+  };
+
+  var list = [], idx = 0, opener = null;
+
+  function show(n, animate) {
+    idx = (n + list.length) % list.length;
+    var c = list[idx], d = c.dataset;
+    var im = c.querySelector('img');
+    var note = c.querySelector('.wk-desc');
+
+    if (im) { el.img.src = im.currentSrc || im.src; el.img.alt = im.alt; }
+    el.pic.style.setProperty('--tape', getComputedStyle(c).getPropertyValue('--tape'));
+
+    el.kick.textContent = d.kicker || '';
+    el.kick.hidden = !d.kicker;
+    el.title.textContent = d.title || '';
+    el.desc.textContent = note ? note.textContent.trim() : '';
+    el.desc.hidden = !el.desc.textContent;
+
+    var tags = (d.tags || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+    el.tags.textContent = tags.join(' \u00b7 ');
+    el.tags.hidden = !tags.length;
+
+    var href = c.getAttribute('href');
+    el.more.hidden = !href;
+    if (href) {
+      el.more.href = href;
+      if (/^https?:/i.test(href) && href.indexOf(location.origin) !== 0) {
+        el.more.target = '_blank';
+        el.more.rel = 'noopener';
+      } else {
+        el.more.removeAttribute('target');
+        el.more.removeAttribute('rel');
+      }
+    }
+
+    var single = list.length < 2;
+    el.count.textContent = (idx + 1) + ' of ' + list.length;
+    el.count.hidden = el.prev.hidden = el.next.hidden = single;
+
+    el.card.scrollTop = 0;
+    if (animate) {
+      el.main.classList.remove('is-swap');
+      void el.main.offsetWidth;
+      el.main.classList.add('is-swap');
+    }
+  }
+
+  function open(c) {
+    var group = c.closest('.wk');
+    list = [].slice.call(group.querySelectorAll('.wk-card'));
+    opener = c;
+    show(list.indexOf(c), false);
+    dlg.showModal();
+  }
+
+  cards.forEach(function (c) {
+    c.addEventListener('click', function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button) return;
+      e.preventDefault();
+      open(c);
+    });
+    c.addEventListener('keydown', function (e) {
+      if (c.hasAttribute('href')) return;
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(c); }
+    });
+  });
+
+  q('.wkm-x').addEventListener('click', function () { dlg.close(); });
+  el.prev.addEventListener('click', function () { show(idx - 1, true); });
+  el.next.addEventListener('click', function () { show(idx + 1, true); });
+
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('keydown', function (e) {
+    if (list.length < 2) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(idx - 1, true); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(idx + 1, true); }
+  });
+  dlg.addEventListener('close', function () { if (opener) opener.focus(); });
+})();
+</script>
+{{- end }}
