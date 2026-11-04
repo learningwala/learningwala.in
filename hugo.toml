@@ -70,7 +70,18 @@ enableRobotsTXT = true
 name = "Blog"
 identifier = "blog"
 url = "#"
+weight = 4
+
+[[menu.main]]
+name = "CV"
+identifier = "CV"
+url = "/educator/mihir-cv/"
 weight = 3
+
+[[menu.main]]
+  name = "RSS Feed"
+  url = "/blog/index.xml"
+  weight = 99
 
 # Child items
 [[menu.main]]
@@ -88,43 +99,43 @@ weight = 2
 
 # About section
 [[menu.main]]
-name = "All +"
-identifier = "about"
+name = "Everything"
+identifier = "everything"
 url = "#"
 weight = 2
 
 [[menu.main]]
 name = "Storyteller"
-parent = "about"
+parent = "everything"
 url = "/storyteller/"
-weight = 2
+weight = 1
 
 [[menu.main]]
 name = "Philosophy"
-parent = "about"
+parent = "everything"
 url = "/philosophy/"
 weight = 3
 
 [[menu.main]]
 name = "Educator"
-parent = "about"
+parent = "everything"
 url = "/educator/"
-weight = 4
+weight = 2
 
 [[menu.main]]
 name = "Media Coverage"
-parent = "about"
+parent = "everything"
 url = "/media/"
 weight = 5
 
 [[menu.main]]
 name = "Journey"
-parent = "about"
+parent = "everything"
 url = "/journey/"
-weight = 6
+weight = 4
 
 
 [[menu.main]]
 name = "🔍"
 url = "/search/"
-weight = 30
+weight = 100

@@ -1,158 +1,63 @@
-/* =========================================================
-   VARIABLES
-   Palette and type follow hiran.in: Public Sans for reading,
-   Bricolage Grotesque for headings, a single blue accent,
-   neutral greys. Gujarati and Devanagari fall back to Noto Sans
-   so your Indic text is set in a matching sans, not a system font.
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lora:wght@400;600&family=Noto+Serif+Gujarati:wght@500&family=Montserrat:wght@400;600;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap';
 
-   Light is the default. Dark is defined twice (OS setting and
-   the manual toggle) because CSS cannot share one rule between
-   a media query and an attribute selector. Keep both in sync.
-========================================================= */
-
+/* Variables */
 :root {
-  --width: 600px;
-  --font-main: 'Bricolage Grotesque', 'Noto Sans Gujarati', 'Noto Sans Devanagari', system-ui, sans-serif;
-  --font-secondary: 'Public Sans', 'Noto Sans Gujarati', 'Noto Sans Devanagari', -apple-system, 'Segoe UI', sans-serif;
-  --font-weight-main: 500;
+  --width: 720px;
+  --font-main: 'Lora', serif;
+  --font-secondary: 'Open Sans', sans-serif;
+  --font-weight-main: 600;
   --font-weight-secondary: 400;
-  --font-scale: 1.0625rem;
-  --lh-prose: 1.75;
-
+  --font-scale: 1.1875em;
   --background-color: #fff;
-  --heading-color: #111;
-  --text-color: #222;
-  --link-color: #113e9f;
-  --visited-color: #113e9f;
-  --code-background-color: #f3f3f3;
+  --heading-color: #1a1a1a;
+  --text-color: #000000;
+  --link-color: #d63384;
+  --visited-color: #6f42c1;
+  --code-background-color: #f5f5f5;
   --code-color: #222;
   --blockquote-color: #555;
-  --rule-color: #e0e0e0;
-  --field-border: rgba(0, 0, 0, 0.2);
-  --soft-border: rgba(0, 0, 0, 0.12);
-  --accent-subtle: rgba(91, 143, 255, 0.15);
-  --card-base: rgba(255, 255, 255, 0.92);
-
-  /* soft blue glow rising from the bottom edge, as on hiran.in */
-  --page-grad: radial-gradient(ellipse 120% 50% at 50% 105%, rgba(91, 143, 255, 0.22) 0%, transparent 65%);
-
-  /* book covers */
-  --book-shadow: -6px 5px 18px rgba(0, 0, 0, 0.26), -1px 1px 4px rgba(0, 0, 0, 0.12);
-  --book-shadow-hover: -10px 8px 24px rgba(0, 0, 0, 0.3), -2px 2px 6px rgba(0, 0, 0, 0.14);
-
-  /* floating nav */
-  --fn-pill: rgba(243, 243, 243, 0.92);
-  --fn-drop: rgba(250, 250, 250, 0.96);
-  --fn-fg: #111;
-  --fn-hover: rgba(0, 0, 0, 0.07);
-  --fn-sep: rgba(0, 0, 0, 0.15);
-  --fn-active-bg: #111;
-  --fn-active-fg: #fff;
-  --fn-shadow: 0 4px 20px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06);
+  --nav-background: #f8f9fa;
+  --nav-text: #495057;
 }
 
-/* dark: follows the OS unless the visitor chose light with the toggle */
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) {
-    color-scheme: dark;
-    --background-color: #0f0f0f;
-    --heading-color: #f2f2f2;
-    --text-color: #dedede;
-    --link-color: #5b8fff;
-    --visited-color: #5b8fff;
+  :root {
+    --background-color: #01242e;
+    --heading-color: #f0f0f0;
+    --text-color: #e0e0e0;
+    --link-color: #ff6b9d;
+    --visited-color: #8b6fcb;
     --code-background-color: #1a1a1a;
-    --code-color: #ededed;
-    --blockquote-color: #aaa;
-    --rule-color: rgba(255, 255, 255, 0.13);
-    --field-border: rgba(255, 255, 255, 0.25);
-    --soft-border: rgba(255, 255, 255, 0.18);
-    --accent-subtle: rgba(91, 143, 255, 0.3);
-    --card-base: rgba(26, 26, 26, 0.92);
-    --page-grad: radial-gradient(ellipse 120% 50% at 50% 105%, rgba(91, 143, 255, 0.25) 0%, transparent 65%);
-    --book-shadow: -6px 5px 20px rgba(0, 0, 0, 0.65), -1px 1px 5px rgba(0, 0, 0, 0.38);
-    --book-shadow-hover: -10px 8px 28px rgba(0, 0, 0, 0.75), -2px 2px 8px rgba(0, 0, 0, 0.42);
-    --fn-pill: rgba(36, 36, 36, 0.88);
-    --fn-drop: rgba(30, 30, 30, 0.96);
-    --fn-fg: #eee;
-    --fn-hover: rgba(255, 255, 255, 0.1);
-    --fn-sep: rgba(255, 255, 255, 0.2);
-    --fn-active-bg: #ededed;
-    --fn-active-fg: #111;
-    --fn-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+    --code-color: #e0e0e0;
+    --blockquote-color: #ccc;
+    --nav-background: #1e2d3a;
+    --nav-text: #b8c5d1;
   }
 }
 
-/* dark: chosen with the toggle */
-html[data-theme="dark"] {
-  color-scheme: dark;
-  --background-color: #0f0f0f;
-  --heading-color: #f2f2f2;
-  --text-color: #dedede;
-  --link-color: #5b8fff;
-  --visited-color: #5b8fff;
-  --code-background-color: #1a1a1a;
-  --code-color: #ededed;
-  --blockquote-color: #aaa;
-  --rule-color: rgba(255, 255, 255, 0.13);
-  --field-border: rgba(255, 255, 255, 0.25);
-  --soft-border: rgba(255, 255, 255, 0.18);
-  --accent-subtle: rgba(91, 143, 255, 0.3);
-  --card-base: rgba(26, 26, 26, 0.92);
-  --page-grad: radial-gradient(ellipse 120% 50% at 50% 105%, rgba(91, 143, 255, 0.25) 0%, transparent 65%);
-  --book-shadow: -6px 5px 20px rgba(0, 0, 0, 0.65), -1px 1px 5px rgba(0, 0, 0, 0.38);
-  --book-shadow-hover: -10px 8px 28px rgba(0, 0, 0, 0.75), -2px 2px 8px rgba(0, 0, 0, 0.42);
-  --fn-pill: rgba(36, 36, 36, 0.88);
-  --fn-drop: rgba(30, 30, 30, 0.96);
-  --fn-fg: #eee;
-  --fn-hover: rgba(255, 255, 255, 0.1);
-  --fn-sep: rgba(255, 255, 255, 0.2);
-  --fn-active-bg: #ededed;
-  --fn-active-fg: #111;
-  --fn-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
-}
-
-html[data-theme="light"] {
-  color-scheme: light;
-}
-
-/* =========================================================
-   BASE
-========================================================= */
-
+/* Base styles */
 body {
   font-family: var(--font-secondary);
   font-size: var(--font-scale);
   font-weight: var(--font-weight-secondary);
   margin: auto;
-  padding: 20px 20px 96px; /* bottom space keeps content clear of the floating nav */
+  padding: 20px;
   max-width: var(--width);
-  background-color: var(--background-color) !important;
-  background-image: var(--page-grad) !important;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: var(--background-color);
   color: var(--text-color);
-  line-height: var(--lh-prose);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  line-height: 1.7;
 }
 
-::selection {
-  background: var(--accent-subtle);
-}
-
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-main);
   font-weight: var(--font-weight-main);
   color: var(--heading-color);
-  line-height: 1.25;
-  letter-spacing: -0.02em;
+  line-height: 1.3;
 }
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.375rem; }
-h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem; }
 
-/* links: plain accent colour, underline fades in on hover (as on hiran.in) */
+/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -161,125 +66,253 @@ a:hover {
   color: var(--heading-color);
 }
 
-/* links inside running text keep a faint underline so they read as links */
-main p a,
-main li a,
-main blockquote a {
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--link-color) 30%, transparent);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 3px;
-  transition: text-decoration-color 0.22s ease;
-}
-main p a:hover,
-main li a:hover,
-main blockquote a:hover {
-  color: var(--link-color);
-  text-decoration-color: currentColor;
-}
-.pagefind-ui a {
-  text-decoration: none;
+/* =========================
+   NAVIGATION (DESKTOP + HAMBURGER)
+========================= */
+
+.site-nav {
+  background-color: var(--nav-background);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
-a:focus-visible,
-button:focus-visible {
-  outline: 2px solid var(--link-color);
-  outline-offset: 3px;
-  border-radius: 4px;
+/* menu list */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid var(--rule-color);
-  margin: 2.5rem 0;
+/* menu items */
+.menu-item {
+  position: relative;
 }
 
-/* =========================================================
-   OLD HEADER, TITLE AND MENU (replaced by the floating nav)
-   No site name is shown at the top of any page.
-   a.fn-brand is a safety net: it hides the old brand link if
-   custom_head.html still injects it. Delete that link there and
-   this line can go too.
-========================================================= */
-
-.site-nav,
-body > header,
-a.fn-brand {
-  display: none !important;
+/* nav links */
+.menu a {
+  font-family: var(--font-secondary);
+  font-size: 1.1em;
+  font-weight: 500;
+  color: var(--nav-text);
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  display: inline-block;
 }
 
-/* post and page titles stay visible (pages that don't want one use hideTitle: true) */
-main .title,
-main header,
-main header .title,
-article .title,
-article header {
-  display: revert !important;
+/* main hover (PINK) */
+.menu a:hover {
+  background-color: var(--link-color);
+  color: #fff;
 }
 
-/* =========================================================
+/* dropdown indicator */
+.has-children > a::after {
+  content: " ▾";
+  font-size: 0.8em;
+}
+
+/* =========================
+   DROPDOWN (DESKTOP)
+========================= */
+
+.submenu {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  padding: 6px 0;
+  margin: 0;
+  background-color: var(--background-color);
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 6px;
+  display: none;
+  z-index: 1000;
+}
+
+.has-children:hover > .submenu,
+.has-children:focus-within > .submenu {
+  display: block;
+}
+
+.submenu a {
+  display: block;
+  padding: 8px 14px;
+  font-size: 0.95em;
+}
+
+/* dropdown hover — SAME PINK */
+.submenu a:hover {
+  background-color: var(--link-color);
+  color: #fff;
+}
+
+/* =========================
+   HAMBURGER TOGGLE
+========================= */
+
+.nav-toggle {
+  display: none;
+}
+
+/* hamburger icon */
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  width: 28px;
+  height: 20px;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: var(--nav-text);
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: "";
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  top: -7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+
+/* =========================
    CONTENT
-========================================================= */
+========================= */
 
 main {
-  line-height: var(--lh-prose);
+  line-height: 1.72;
 }
 
 code {
-  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
-  font-size: 0.875em;
   background-color: var(--code-background-color);
-  color: var(--code-color);
-  padding: 2px 6px;
+  padding: 3px 6px;
   border-radius: 4px;
 }
 
 blockquote {
-  border-left: 2px solid var(--rule-color);
-  margin-left: 0;
-  padding-left: 18px;
+  border-left: 3px solid #999;
+  padding-left: 20px;
   color: var(--blockquote-color);
   font-style: italic;
 }
 
+/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5em 0;
-  font-size: 0.9375rem;
 }
 
 th, td {
   padding: 10px 15px;
-  border-bottom: 1px solid var(--rule-color);
+  border-bottom: 1px solid #ddd;
 }
 
 thead {
   background-color: var(--code-background-color);
 }
 
+/* Footer */
 footer {
   padding: 25px 0;
   text-align: center;
-  font-size: 0.875rem;
-  color: var(--blockquote-color);
+  font-size: 0.9em;
 }
 
+/* Title */
+.title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 3.2em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Mobile title */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.4em;
+  }
+}
+
+/* MOBILE HAMBURGER FIX */
+@media (max-width: 768px) {
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .nav-toggle:checked ~ .menu {
+    display: flex;
+  }
+
+  .submenu {
+    position: static;
+    display: none;
+    padding-left: 16px;
+  }
+
+  .has-children > a::after {
+    content: " ▾";
+  }
+
+  .has-children:hover > .submenu {
+    display: block;
+  }
+}
+
+/* =========================
+   GLOBAL CONTENT WIDTH
+========================= */
+
 #main-content {
-  max-width: var(--width);
+  max-width: 720px;
   margin-left: 0;
 }
 
-/* gentle fade when a page opens: one moment, no per-section effects */
-@keyframes page-in {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: none; }
-}
-main {
-  animation: page-in 0.6s ease backwards;
-}
+/* =========================
+   HOMEPAGE IMAGE
+========================= */
 
-/* homepage image */
 #main-content figure.img-responsive {
   margin: 0 0 1.5rem 0;
 }
@@ -287,192 +320,66 @@ main {
 #main-content figure.img-responsive picture,
 #main-content figure.img-responsive img {
   width: 100%;
-  max-width: var(--width);
+  max-width: 720px;
   height: auto;
   display: block;
 }
 
-/* curved cover image */
-#main-content figure.img-responsive img {
-  border-radius: 12px;
-  box-shadow: 0 8px 28px -14px rgba(0, 0, 0, 0.35);
-}
-
-/* =========================================================
-   FLOATING NAV (pill at the bottom, dropdowns open upward)
-   Sized like hiran.in's footer bar: 32px items, 13px text.
-========================================================= */
-
-.floatnav {
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  padding: 4px;
-  max-width: calc(100vw - 16px);
-  background: var(--fn-pill);
-  -webkit-backdrop-filter: blur(14px) saturate(1.4);
-  backdrop-filter: blur(14px) saturate(1.4);
-  border-radius: 20px;
-  box-shadow: var(--fn-shadow);
-  font-family: var(--font-secondary);
-  font-size: 0.8125rem;
-  font-weight: 500;
-}
-
-.floatnav a,
-.floatnav a:visited,
-.floatnav button {
-  color: var(--fn-fg);
-  text-decoration: none;
-  white-space: nowrap;
-  font: inherit;
-}
-
-.fn-item {
-  position: relative;
-}
-
-.fn-link {
-  display: flex;
-  align-items: center;
-  height: 32px;
-  padding: 0 12px;
-  border: 0;
-  background: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-.fn-link:hover {
-  background: var(--fn-hover);
-}
-.floatnav .fn-link.is-active,
-.floatnav .fn-drop a.is-active {
-  background: var(--fn-active-bg);
-  color: var(--fn-active-fg);
-}
-
-.fn-caret {
-  font-size: 0.7em;
-  margin-left: 4px;
-  opacity: 0.6;
-}
-
-.fn-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border: 0;
-  background: none;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 0;
-}
-.fn-icon:hover {
-  background: var(--fn-hover);
-}
-.fn-icon img {
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  margin: 0;
-  display: block;
-}
-
-.fn-sep {
-  width: 1px;
-  height: 16px;
-  background: var(--fn-sep);
-  margin: 0 4px;
-}
-
-.fn-drop {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  bottom: calc(100% + 12px);
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 160px;
-  padding: 8px;
-  border-radius: 12px;
-  background: var(--fn-drop);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
-  box-shadow: var(--fn-shadow);
-}
-.fn-item.open .fn-drop {
-  display: flex;
-}
-.fn-drop a {
-  display: block;
-  padding: 7px 10px;
-  border-radius: 8px;
-}
-.fn-drop a:hover {
-  background: var(--fn-hover);
-}
-
-@media (max-width: 480px) {
-  .fn-link {
-    padding: 0 9px;
-    font-size: 0.78rem;
-  }
-  .fn-sep {
-    margin: 0 2px;
-  }
-}
-
-/* =========================================================
+/* =========================
    PAGEFIND SEARCH
-========================================================= */
+========================= */
 
 .pagefind-ui {
   --pagefind-ui-font: var(--font-secondary);
   --pagefind-ui-primary: var(--link-color);
   --pagefind-ui-text: var(--text-color);
   --pagefind-ui-background: transparent;
-  --pagefind-ui-border: var(--soft-border);
+  --pagefind-ui-border: rgba(0,0,0,0.15);
   --pagefind-ui-tag: var(--link-color);
 }
 
+/* Search input */
 .pagefind-ui__search-input {
   font-family: var(--font-secondary);
-  font-size: 1.05em;
+  font-size: 1.1em;
   padding: 12px 14px;
   border-radius: 8px;
-  border: 1px solid var(--field-border);
+  border: 1px solid rgba(0,0,0,0.2);
   background-color: var(--background-color);
   color: var(--text-color);
 }
 
+/* Result title */
 .pagefind-ui__result-title {
   font-family: var(--font-main);
-  font-size: 1.15em;
+  font-size: 1.2em;
   font-weight: var(--font-weight-main);
 }
 
+/* Result excerpt */
 .pagefind-ui__result-excerpt {
   font-size: 0.95em;
   line-height: 1.6;
   color: var(--blockquote-color);
 }
 
+/* Highlighted search term */
 .pagefind-ui__result-mark {
-  background-color: var(--accent-subtle);
+  background-color: rgba(214, 51, 132, 0.2);
   padding: 0 2px;
   border-radius: 3px;
 }
 
+/* Results spacing */
 .pagefind-ui__results {
   margin-top: 1.5rem;
+}
+
+/* Dark mode refinement */
+@media (prefers-color-scheme: dark) {
+  .pagefind-ui__search-input {
+    border-color: rgba(255,255,255,0.25);
+  }
 }
 
 #pagefind-search {
@@ -481,1139 +388,24 @@ main {
 }
 
 /* =========================================================
-   SEARCH PALETTE (Ctrl/Cmd+K)
+   SELECTED WORK (.wk grid + .wkm viewer)
+   Shortcodes: works, work
 ========================================================= */
 
-.sp {
-  position: fixed;
-  inset: 0;
-  z-index: 2000;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 12vh 16px 16px;
-  background: rgba(0, 0, 0, 0.3);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-}
-.sp[hidden] {
-  display: none;
-}
-html.sp-lock {
-  overflow: hidden;
-}
-
-.sp-card {
-  width: 100%;
-  max-width: 560px;
-  max-height: 76vh;
-  display: flex;
-  flex-direction: column;
-  background: var(--background-color);
-  color: var(--text-color);
-  border-radius: 12px;
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18), 0 0 0 1px var(--soft-border);
-  overflow: hidden;
-  font-family: var(--font-secondary);
-}
-
-.sp-head {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 18px;
-  border-bottom: 1px solid var(--rule-color);
-}
-.sp-head svg {
-  flex: none;
-  opacity: 0.7;
-}
-.sp-input {
-  flex: 1;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-shadow: none;
-  background: transparent;
-  color: inherit;
-  font: 400 1rem var(--font-secondary);
-}
-.sp-input::placeholder {
-  color: var(--blockquote-color);
-  opacity: 0.8;
-}
-.sp-close {
-  flex: none;
-  border: 0;
-  background: none;
-  color: inherit;
-  opacity: 0.6;
-  cursor: pointer;
-  font-size: 1rem;
-  padding: 6px 8px;
-  border-radius: 8px;
-}
-.sp-close:hover {
-  opacity: 1;
-  background: var(--fn-hover);
-}
-
-.sp-list {
-  flex: 1;
-  overflow-y: auto;
-  padding: 8px;
-}
-.sp-label {
-  padding: 10px 14px 6px;
-  font-size: 0.8125rem;
-  color: var(--blockquote-color);
-}
-a.sp-item,
-a.sp-item:visited {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 9px 12px;
-  border-radius: 6px;
-  color: var(--text-color);
-  text-decoration: none;
-}
-a.sp-item.is-sel {
-  background: var(--fn-hover);
-}
-.sp-t {
-  font-size: 0.9375rem;
-}
-.sp-ex {
-  font-size: 0.8125rem;
-  line-height: 1.5;
-  color: var(--blockquote-color);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.sp-ex mark {
-  background: var(--accent-subtle);
-  color: inherit;
-  padding: 0 2px;
-  border-radius: 3px;
-}
-.sp-empty {
-  padding: 24px 14px;
-  color: var(--blockquote-color);
-}
-
-.sp-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 16px;
-  border-top: 1px solid var(--rule-color);
-  font-size: 0.75rem;
-  color: var(--blockquote-color);
-}
-.sp-foot kbd {
-  font: inherit;
-  padding: 2px 6px;
-  border: 1px solid var(--soft-border);
-  border-radius: 4px;
-}
-
-@media (max-width: 600px) {
-  .sp {
-    padding-top: 8vh;
-  }
-  .sp-foot span {
-    display: none;
-  }
-}
-
-/* =========================================================
-   POST LISTS (Weekly Notes, Posts)
-   Text-first cards grouped by month, with a faded month label
-   in the left margin on wide screens.
-========================================================= */
-
-.pl-head {
-  margin: 1.2rem 0 2.2rem;
-}
-.pl-head h1 {
-  font-size: clamp(1.75rem, 5vw, 2.25rem);
-  margin: 0 0 0.3rem;
-  letter-spacing: -0.02em;
-}
-.pl-sub {
-  margin: 0;
-  color: var(--blockquote-color);
-}
-.pl-intro {
-  margin-top: 1rem;
-  max-width: 34rem;
-}
-
-.pl-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 1.4rem;
-}
-.pl-tabs a,
-.pl-tabs a:visited {
-  padding: 7px 14px;
-  border-radius: 20px;
-  border: 1px solid var(--soft-border);
-  color: var(--text-color);
-  font-size: 0.875rem;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-.pl-tabs a:hover {
-  background: var(--fn-hover);
-  color: var(--text-color);
-}
-.pl-tabs a.is-on,
-.pl-tabs a.is-on:visited {
-  background: var(--fn-active-bg);
-  color: var(--fn-active-fg);
-  border-color: transparent;
-}
-
-/* month groups */
-.pl-group {
-  position: relative;
-  margin-bottom: 2.2rem;
-}
-.pl-month {
-  display: none;
-}
-.pl-month-sm {
-  margin: 0 0 0.9rem;
-  font: 600 0.875rem var(--font-secondary);
-  color: var(--blockquote-color);
-}
-
-@media (min-width: 1300px) {
-  .pl-month-sm {
-    display: none;
-  }
-  .pl-month {
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: calc(100% + 24px);
-    text-align: right;
-  }
-  .pl-month span {
-    position: sticky;
-    top: 110px;
-    display: block;
-    white-space: nowrap;
-    font: 600 3.8rem/1 var(--font-main);
-    letter-spacing: -0.03em;
-    color: var(--heading-color);
-    opacity: 0.06;
-  }
-  .pl-month i {
-    font-style: normal;
-  }
-}
-
-/* cards */
-.pc {
-  --tint: rgba(17, 62, 159, 0.06);
-}
-a.pc:nth-of-type(5n+2) { --tint: rgba(80, 110, 255, 0.08); }
-a.pc:nth-of-type(5n+3) { --tint: rgba(255, 180, 70, 0.1); }
-a.pc:nth-of-type(5n+4) { --tint: rgba(50, 185, 150, 0.09); }
-a.pc:nth-of-type(5n+5) { --tint: rgba(150, 100, 255, 0.08); }
-
-a.pc,
-a.pc:visited {
-  display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 16px;
-  align-items: start;
-  padding: 18px 22px;
-  margin-bottom: 12px;
-  border-radius: 12px;
-  border: 1px solid var(--soft-border);
-  background: linear-gradient(135deg, var(--tint), transparent 65%), var(--card-base);
-  color: var(--text-color);
-  text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-}
-a.pc:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px -14px rgba(0, 0, 0, 0.3);
-  border-color: transparent;
-}
-a.pc:hover .pc-title {
-  color: var(--link-color);
-}
-
-.pc-date {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 1;
-  padding-top: 2px;
-}
-.pc-date b {
-  font: 600 2rem/1 var(--font-main);
-  color: var(--link-color);
-  opacity: 0.85;
-}
-.pc-date small {
-  margin-top: 6px;
-  font-size: 0.75rem;
-  color: var(--blockquote-color);
-}
-
-.pc-body {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  min-width: 0;
-}
-.pc-title {
-  font: 500 1.1875rem/1.3 var(--font-main);
-  letter-spacing: -0.01em;
-  color: var(--heading-color);
-  transition: color 0.2s;
-}
-.pc-sum {
-  font-size: 0.9375rem;
-  line-height: 1.6;
-  color: var(--blockquote-color);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.pc-meta {
-  font-size: 0.8125rem;
-  color: var(--blockquote-color);
-  opacity: 0.85;
-}
-
-@media (max-width: 520px) {
-  a.pc,
-  a.pc:visited {
-    grid-template-columns: 44px 1fr;
-    gap: 12px;
-    padding: 14px 16px;
-  }
-  .pc-date b {
-    font-size: 1.6rem;
-  }
-  .pc-title {
-    font-size: 1.0625rem;
-  }
-}
-
-/* =========================================================
-   POLAROID CLUSTER (.plc)
-   Desktop: overlapping pile. Phones: tidy two-column grid.
-   The markup only needs the <figure> items (see polaroid-snippet.html).
-========================================================= */
-
-.plc {
-  position: relative;
-  width: 100%;
-  max-width: 42rem;
-  margin: 2.5rem auto;
-  aspect-ratio: 16 / 10;
-  container-type: inline-size;
-}
-.plc figure {
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  width: 30%;
-  margin: 0;
-  padding: 2cqw 2cqw 0;
-  background: #fdfcf8;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18), 0 12px 24px -10px rgba(0, 0, 0, 0.45);
-  transform: rotate(var(--r));
-  z-index: var(--z);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-  box-sizing: border-box;
-}
-.plc figure:hover {
-  z-index: 9;
-  transform: rotate(0deg) scale(1.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18), 0 22px 36px -12px rgba(0, 0, 0, 0.5);
-}
-.plc img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: var(--op, 50% 50%);
-  margin: 0;
-  border-radius: 1px;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
-}
-.plc figcaption {
-  padding: 1.4cqw 1cqw 2cqw;
-  text-align: center;
-  font-family: var(--font-body);
-  font-style: italic;
-  font-size: max(0.75rem, 2.3cqw);
-  line-height: 1.15;
-  color: #2b2623;
-}
-.plc .tape::before {
-  content: "";
-  position: absolute;
-  top: -2cqw;
-  left: 50%;
-  width: 30%;
-  height: 4cqw;
-  transform: translateX(-50%) rotate(2deg);
-  background: rgba(232, 214, 160, 0.72);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
-}
-
-@media (max-width: 600px) {
-  .plc {
-    aspect-ratio: auto;
-    max-width: 26rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 28px 16px;
-    padding: 16px 6px 6px;
-  }
-  .plc figure {
-    position: relative;
-    left: auto;
-    top: auto;
-    width: auto;
-    padding: 3cqw 3cqw 0;
-  }
-  .plc figcaption {
-    font-size: 0.9rem;
-    padding: 2cqw 1cqw 3cqw;
-  }
-  .plc .tape::before {
-    top: -3cqw;
-    height: 5cqw;
-  }
-}
-
-/* =========================================================
-   PROSE: plain markdown on every page
-   Pages you have not converted yet still get the same type scale,
-   spacing, list and quote styling. Class rules below (.st-*, .pc,
-   .pl-*) are more specific and override these where they apply.
-========================================================= */
-
-main h1 { font-size: 1.375rem; margin: 0.5rem 0 1.5rem; }
-main h2 { font-size: 1.25rem; margin: 2.5rem 0 0.75rem; }
-main h3 { font-size: 1.125rem; margin: 2rem 0 0.5rem; }
-main h4 { font-size: 1rem; margin: 1.5rem 0 0.4rem; }
-main p { margin: 0 0 1.1rem; }
-main ul, main ol { margin: 0 0 1.25rem; padding-left: 1.25rem; }
-main li { margin-bottom: 0.4rem; }
-main li::marker { color: var(--blockquote-color); }
-main strong { color: var(--heading-color); font-weight: 600; }
-main blockquote { margin: 1.5rem 0; }
-main blockquote p { margin: 0; }
-.pc p { margin: 0; }
-
-/* =========================================================
-   PAGE KIT (.st-*): used on Storyteller, Educator and any page
-   Reading hierarchy, top to bottom:
-   title (1.375rem) > lede (1.3rem, heading colour) > body text
-   > section label (small, semibold, grey) > item heading (h3)
-   > link rows / chips > asterism.
-========================================================= */
-
-.st-title {
-  font-size: 1.375rem;
-  margin: 0.5rem 0 1.5rem;
-}
-
-.st-lede {
-  font-family: var(--font-main);
-  font-size: 1.3125rem;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: -0.01em;
-  color: var(--heading-color);
-  margin: 0 0 1.1rem;
-}
-
-.st-body {
-  margin: 0;
-}
-
-.st-asterism {
-  text-align: center;
-  margin: 2.75rem 0;
-  font-size: 1.1rem;
-  line-height: 1;
-  color: var(--blockquote-color);
-  opacity: 0.6;
-}
-
-/* name block at the top of a profile page */
-.st-name { font-size: 1.75rem; margin: 2.25rem 0 0.15rem; }
-.st-role {
-  font-family: var(--font-main);
-  font-size: 1.125rem;
-  line-height: 1.4;
-  color: var(--blockquote-color);
-  margin: 0 0 0.15rem;
-}
-
-/* small grey supporting text */
-.st-meta {
-  font-size: 0.875rem;
-  line-height: 1.55;
-  color: var(--blockquote-color);
-  margin: 0 0 1rem;
-}
-
-/* a titled block: heading, description, tags */
-.st-item { margin: 0 0 1.75rem; }
-.st-item h3 { font-size: 1.125rem; margin: 0 0 0.35rem; }
-.st-item p { margin: 0 0 0.4rem; }
-.st-item .st-meta { margin: 0; }
-
-/* chips for tools, topics, learning objectives */
-.st-tags {
-  list-style: none;
-  margin: 0 0 0.5rem;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.st-tags li {
-  margin: 0;
-  padding: 6px 11px;
-  font-size: 0.8125rem;
-  line-height: 1;
-  color: var(--link-color);
-  background: color-mix(in srgb, var(--link-color) 9%, transparent);
-  border-radius: 20px;
-}
-
-/* plain-text row title inside .st-links (when there is no link) */
-.st-links li > strong {
-  font-weight: 500;
-  color: var(--heading-color);
-}
-
-/* section label: small, semibold, grey. Sentence case on purpose. */
-.st-label {
-  font: 600 0.9375rem/1.3 var(--font-secondary);
-  letter-spacing: 0;
-  color: var(--blockquote-color);
-  margin: 0 0 1rem;
-}
-
-/* link rows: hairline dividers, title in heading colour, source underneath */
-.st-links ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid var(--rule-color);
-}
-.st-links li {
-  margin: 0;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--rule-color);
-  line-height: 1.45;
-}
-.st-links li > a,
-.st-links li > a:visited {
-  color: var(--heading-color);
-  font-weight: 500;
-  text-decoration: none;
-  transition: color 0.15s;
-}
-.st-links li > a:hover {
-  color: var(--link-color);
-}
-.st-links small {
-  display: block;
-  margin-top: 0.2rem;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.55;
-  color: var(--blockquote-color);
-}
-.st-links small a {
-  color: var(--link-color);
-}
-
-/* small external-link arrow after links that leave the site (same icon as hiran.in) */
-.st-links li > a[href^="http"]::after {
-  content: "";
-  display: inline-block;
-  width: 0.4em;
-  height: 0.4em;
-  margin-left: 3px;
-  vertical-align: super;
-  position: relative;
-  top: -0.04em;
-  background-color: currentColor;
-  opacity: 0.5;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 8L8 2M8 2H4M8 2V6' stroke='black' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 8L8 2M8 2H4M8 2V6' stroke='black' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
-/* closing call to action */
-.st-cta {
-  margin: 0;
-  font-family: var(--font-main);
-  font-size: 1.125rem;
-  line-height: 1.4;
-}
-.st-cta a,
-.st-cta a:visited {
-  color: var(--link-color);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--link-color) 30%, transparent);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 3px;
-}
-.st-cta a:hover {
-  text-decoration-color: currentColor;
-}
-.st-cta small {
-  display: block;
-  margin-top: 0.25rem;
-  font-family: var(--font-secondary);
-  font-size: 0.875rem;
-  color: var(--blockquote-color);
-}
-
-/* =========================================================
-   BOOKSHELF (.sbk): older flip-card shelf
-   One scrolling row, covers at their natural heights, no board.
-   Cover treatment follows hiran.in's book cards: squared-off
-   corners, spine shading on the left, offset shadow. Hover or
-   tap flips the cover; starred books get a bookmark ribbon.
-   (The Storyteller page now uses the shelf / shelfbook
-   shortcodes, which carry their own styles.)
-========================================================= */
-
-.sbk {
-  --sbk-display: var(--font-main);
-  --sbk-label: var(--font-secondary);
-  --sbk-madder: #A1301F;
-  --sbk-indigo: #2B3A8C;
-  --sbk-green: #1B6A43;
-  --sbk-turmeric: #F2B632;
-  --sbk-ink: #2A1F22;
-  --sbk-dark: #1D1416;
-  margin: 0 0 1rem;
-  line-height: 1.5;
-}
-.sbk, .sbk *, .sbk *::before, .sbk *::after { box-sizing: border-box; }
-.sbk .mono {
-  font-family: var(--sbk-label);
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-.sbk .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-
-.sbk .shelf {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 1.5rem 0.75rem 2.25rem;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-}
-.sbk .shelf::-webkit-scrollbar { display: none; }
-
-.sbk a.book,
-.sbk a.book:visited {
-  display: block;
-  position: relative;
-  flex: 0 0 auto;
-  width: 11.25rem;
-  padding: 0;
-  border: none;
-  background: none;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  perspective: 1100px;
-  scroll-snap-align: start;
-  border-radius: 4px 1px 1px 4px;
-  box-shadow: var(--book-shadow);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.sbk a.book:hover,
-.sbk a.book.flipped {
-  transform: translateY(-4px);
-  box-shadow: var(--book-shadow-hover);
-  color: #fff;
-  background: none;
-}
-.sbk a.book:focus-visible {
-  outline: 3px solid var(--sbk-turmeric);
-  outline-offset: 5px;
-}
-
-.sbk .flip {
-  display: block;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
-  border-radius: inherit;
-}
-.sbk .face {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 4px 1px 1px 4px;
-  overflow: hidden;
-}
-.sbk .face.front { display: block; position: relative; }
-.sbk .face.front img { display: block; width: 100%; height: auto; margin: 0; }
-
-/* spine shading on the left plus a soft sheen, as on hiran.in */
-.sbk .face.front::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    linear-gradient(to right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.12) 8px, transparent 14px),
-    linear-gradient(110deg, rgba(255, 255, 255, 0.1) 0%, transparent 55%);
-}
-
-/* the "flip" hint only appears on hover (always visible on touch) */
-.sbk .face.front .cue {
-  position: absolute;
-  right: 0.5rem;
-  bottom: 0.5rem;
-  z-index: 2;
-  font-size: 0.6875rem;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 0.25rem 0.5rem;
-  white-space: nowrap;
-  border-radius: 2px;
-  opacity: 0;
-  transition: opacity 0.15s;
-}
-.sbk a.book:hover .cue,
-.sbk a.book:focus-visible .cue { opacity: 1; }
-@media (hover: none) {
-  .sbk .face.front .cue { opacity: 1; }
-}
-
-/* bookmark ribbon on starred books (same placement as hiran.in's recommended mark) */
-.sbk a.book.star .face.front::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 1.1rem;
-  width: 0.75rem;
-  height: 1.75rem;
-  z-index: 3;
-  background: linear-gradient(180deg, #C29200, #8A6000);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
-}
-
-/* back face covers the same box as the front */
-.sbk .face.back {
-  position: absolute;
-  inset: 0;
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0.9rem 0.85rem 0.95rem;
-  color: #fff;
-}
-.sbk .face.back.b-turmeric { color: var(--sbk-dark); }
-.sbk .b-madder   { background: var(--sbk-madder); }
-.sbk .b-indigo   { background: var(--sbk-indigo); }
-.sbk .b-green    { background: var(--sbk-green); }
-.sbk .b-turmeric { background: var(--sbk-turmeric); }
-.sbk .b-ink      { background: var(--sbk-ink); }
-
-.sbk .m { display: flex; flex-direction: column; gap: 0.2rem; opacity: 0.92; }
-.sbk .t {
-  display: block;
-  font-family: var(--sbk-display);
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.05;
-  letter-spacing: -0.015em;
-  font-stretch: 85%;
-  overflow-wrap: anywhere;
-}
-.sbk .by { display: block; font-size: 0.8125rem; line-height: 1.35; margin-top: 0.5rem; opacity: 0.92; }
-.sbk .go { display: block; border-top: 1.5px solid currentColor; padding-top: 0.4rem; }
-
-@media (hover: hover) {
-  .sbk a.book:hover .flip { transform: rotateY(180deg); }
-}
-.sbk a.book:focus-visible .flip,
-.sbk a.book.flipped .flip { transform: rotateY(180deg); }
-
-@media (max-width: 560px) {
-  .sbk a.book { width: 8.5rem; }
-  .sbk .shelf { gap: 1.5rem; }
-  .sbk .t { font-size: 1.2rem; }
-  .sbk .mono { font-size: 0.6875rem; }
-  .sbk .by { font-size: 0.75rem; }
-}
-
-/* =========================================================
-   REDUCED MOTION
-========================================================= */
-
-@media (prefers-reduced-motion: reduce) {
-  main { animation: none; }
-  .fn-link,
-  a.pc,
-  .pl-tabs a,
-  .plc figure,
-  .sbk .flip,
-  .sbk a.book,
-  .st-links li > a {
-    transition: none;
-  }
-  a.pc:hover {
-    transform: none;
-  }
-}
-
-/* prev / next arrows (mouse users only) */
-.bshelf-nav{position:absolute;top:calc(28px + var(--bk-w)*.75);transform:translateY(-50%);z-index:5;
-  width:36px;height:36px;border-radius:50%;border:1px solid rgba(0,0,0,.15);
-  background:rgba(255,255,255,.92);color:#222;font-size:20px;line-height:1;cursor:pointer;
-  box-shadow:0 2px 8px rgba(0,0,0,.2);display:flex;align-items:center;justify-content:center;padding:0}
-.bshelf-nav--prev{left:4px}
-.bshelf-nav--next{right:4px}
-.bshelf.at-start .bshelf-nav--prev,.bshelf.at-end .bshelf-nav--next{display:none}
-@media (hover:none){.bshelf-nav{display:none}}
-@media (prefers-color-scheme:dark){
-  html:not([data-theme="light"]) .bshelf-nav{background:rgba(42,40,36,.92);color:#eee;border-color:rgba(255,255,255,.2)}
-}
-html[data-theme="dark"] .bshelf-nav{background:rgba(42,40,36,.92);color:#eee;border-color:rgba(255,255,255,.2)}
-
-/* =========================================================
-   UPDATES: rules here come after the earlier ones, so they
-   override them.
-========================================================= */
-
-/* 1. Smallest readable sizes: nothing important below 13px */
-.sbk .mono { font-size: 0.8125rem; }
-.sbk .face.front .cue { font-size: 0.8125rem; }
-.sbk .by { font-size: 0.8125rem; }
-.pc-date small { font-size: 0.8125rem; }
-.sp-foot { font-size: 0.8125rem; }
-
-/* 2. No faded text for information people need to read */
-.pc-meta { opacity: 1; }
-
-/* 3. Bigger touch targets in the floating nav on phones and tablets */
-@media (pointer: coarse) {
-  .fn-link { height: 40px; }
-  .fn-icon { width: 40px; height: 40px; }
-  .fn-drop a { padding: 10px 12px; }
-}
-
-/* 4. The home page already fades its own content in, so skip the second fade */
-main:has(.hm) { animation: none; }
-
-/* 5. Page glow: a fixed layer instead of background-attachment: fixed,
-      which is slow to scroll on many phones. Looks the same. */
-body { background-image: none !important; }
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background: var(--page-grad);
-}
-
-/* =========================================================
-   ADD-ON: fonts, prose, gallery, bookshelf wrapper.
-
-   1. Fonts: Fraunces (a soft serif) for headings and Literata
-      (made for long reading on screens) for body text. Public
-      Sans stays for small labels, the floating nav and search.
-      The home page (anything with .hm) is left as it is.
-   2. Gujarati and Hindi: neither Fraunces nor Literata has these
-      scripts, so the browser uses Noto Serif Gujarati and Noto
-      Serif Devanagari, which are serifs and match the look.
-      Letter-spacing is 0 on headings (negative spacing breaks
-      joined Indic letters) and Indic text gets more line height.
-   3. Plain markdown pages: calmer spacing, quotes, rules.
-   4. Gallery + big-image viewer (shortcodes gallery, gimg, zoom).
-   5. Bookshelf wrapper and arrows (shortcodes bookshelf, book).
-
-   Google Fonts families needed in custom_head.html:
-     Fraunces, Literata, Noto Serif Gujarati, Noto Serif Devanagari
-     (plus Public Sans, Bricolage Grotesque and the two Noto Sans
-     families you already load)
-========================================================= */
-
+/* variables the second stylesheet does not have */
 :root {
-  --font-head: 'Fraunces', 'Noto Serif Gujarati', 'Noto Serif Devanagari', Georgia, 'Times New Roman', serif;
-  --font-body: 'Literata', 'Noto Serif Gujarati', 'Noto Serif Devanagari', Georgia, 'Times New Roman', serif;
-  --font-hand: var(--font-head); /* old name, kept so nothing breaks */
-  --wave: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'><path d='M2 6 C 20 1, 38 9, 60 5 S 100 7, 118 3' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round'/></svg>");
+  --font-head: var(--font-main);
+  --soft-border: rgba(0, 0, 0, 0.12);
+  --rule-color: #e0e0e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --soft-border: rgba(255, 255, 255, 0.18);
+    --rule-color: rgba(255, 255, 255, 0.13);
+  }
 }
 
-body { overflow-x: clip; }
-
-/* ---------- 1. reading type on every page except the home page ---------- */
-
-main:not(:has(.hm)) {
-  font-family: var(--font-body);
-  font-size: 1.125rem;
-  line-height: 1.75;
-  font-optical-sizing: auto;
-}
-main:not(:has(.hm)) p { text-wrap: pretty; }
-
-main:not(:has(.hm)) :is(h1, h2, h3, h4) {
-  font-family: var(--font-head);
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 1.25;
-  text-wrap: balance;
-}
-main:not(:has(.hm)) h1 { font-size: clamp(2rem, 6.5vw, 2.5rem); margin: 0.4rem 0 1.4rem; }
-main:not(:has(.hm)) h2 { font-size: clamp(1.5rem, 4.5vw, 1.8rem); margin: 3rem 0 0.8rem; }
-main:not(:has(.hm)) h3 { font-size: 1.3rem; margin: 2.2rem 0 0.4rem; }
-main:not(:has(.hm)) h4 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
-
-/* a short hand-drawn stroke above each section heading (delete this rule to remove them) */
-main:not(:has(.hm)) h2::before {
-  content: "";
-  display: block;
-  width: 64px;
-  height: 9px;
-  margin-bottom: 0.9rem;
-  background: var(--heading-color);
-  opacity: 0.5;
-  -webkit-mask: var(--wave) center / 100% 100% no-repeat;
-  mask: var(--wave) center / 100% 100% no-repeat;
-}
-
-/* a quiet break: write --- in markdown */
-main:not(:has(.hm)) hr {
-  border: 0;
-  width: 120px;
-  height: 9px;
-  margin: 3.5rem auto;
-  background: var(--heading-color);
-  opacity: 0.4;
-  -webkit-mask: var(--wave) center / 100% 100% no-repeat;
-  mask: var(--wave) center / 100% 100% no-repeat;
-}
-
-/* quotes and pull questions: write > in markdown */
-main:not(:has(.hm)) blockquote {
-  margin: 2.2rem 0;
-  padding-left: 1.2rem;
-  border-left: 2px solid var(--rule-color);
-  font-style: italic;
-  font-size: 1.05em;
-  line-height: 1.7;
-  color: var(--heading-color);
-}
-main:not(:has(.hm)) blockquote cite {
-  display: block;
-  margin-top: 0.5rem;
-  font: 500 0.9375rem/1.4 var(--font-secondary);
-  font-style: normal;
-  color: var(--blockquote-color);
-}
-
-main:not(:has(.hm)) li { margin-bottom: 0.55rem; }
-main:not(:has(.hm)) details summary { cursor: pointer; color: var(--link-color); }
-main:not(:has(.hm)) details[open] summary { margin-bottom: 0.6rem; }
-
-/* page kit: use the same two fonts */
-.st-title, .st-name { font-family: var(--font-head); font-weight: 600; letter-spacing: 0; line-height: 1.25; }
-.st-lede {
-  font-family: var(--font-body);
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.55;
-  letter-spacing: 0;
-  text-wrap: balance;
-}
-.st-role { font-family: var(--font-head); font-size: 1.15rem; font-weight: 500; }
-.st-label { font: 600 1.15rem/1.3 var(--font-head); color: var(--heading-color); margin: 2.5rem 0 0.7rem; }
-.st-cta { font: 600 1.25rem/1.4 var(--font-head); }
-.st-meta, .st-tags li, .st-links small { font-family: var(--font-secondary); }
-.st-links li > a { font-weight: 500; }
-.pc-title { font: 600 1.2rem/1.3 var(--font-head); letter-spacing: 0; }
-.pc-date b { font-family: var(--font-head); font-size: 1.9rem; }
-.pc-sum { font-family: var(--font-body); font-size: 1rem; }
-@media (max-width: 520px) { .pc-title { font-size: 1.08rem; } }
-
-/* ---------- 2. Gujarati, Hindi and Marathi ---------- */
-/* works when the text sits inside an element with lang="gu", "hi" or "mr",
-   for example <div lang="gu">...</div> or <span lang="hi">...</span> */
-
-:is(:lang(gu), :lang(hi), :lang(mr)) {
-  line-height: 1.95;
-}
-:is(:lang(gu), :lang(hi), :lang(mr)) :is(h1, h2, h3, h4) {
-  line-height: 1.5;
-  letter-spacing: 0;
-}
-:is(:lang(gu), :lang(hi), :lang(mr)) :is(em, i, blockquote, figcaption, cite) {
-  font-style: normal; /* these scripts have no true italic; slanting looks wrong */
-}
-
-/* ---------- 3. gallery + image viewer ---------- */
-
-/* galleries and big images are wider than the text so small lettering stays readable */
-.gal,
-.gal-solo:not(.gal-solo--text) {
-  width: min(860px, calc(100vw - 40px));
-  margin: 2.5rem 0 2.75rem calc(50% - min(430px, calc(50vw - 20px)));
-}
-.gal-solo--text { width: 100%; margin: 2rem 0; }
-
-.gal-view {
-  margin: 0;
-  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent 100%);
-  mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent 100%);
-}
-.gal.at-end .gal-view, .gal:not(.is-js) .gal-view { -webkit-mask-image: none; mask-image: none; }
-.gal-track {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  overflow-x: auto;
-  padding: 0.4rem 0 0.6rem;
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
-  overscroll-behavior-x: contain;
-  -webkit-overflow-scrolling: touch;
-}
-.gal-track::-webkit-scrollbar { display: none; }
-.gal-track:focus-visible { outline: 1px dashed var(--heading-color); outline-offset: 6px; }
-.gal figure { flex: 0 0 min(300px, 72vw); margin: 0; scroll-snap-align: start; }
-.gal a.zoom, .gal-solo a.zoom { display: block; text-decoration: none; cursor: zoom-in; }
-.gal img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  margin: 0;
-  border-radius: 4px;
-  box-shadow: none;
-  -webkit-user-drag: none;
-}
-.gal figcaption {
-  margin-top: 0.45rem;
-  font: italic 400 0.9375rem/1.45 var(--font-body);
-  color: var(--blockquote-color);
-}
-.gal-end { flex: 0 0 2rem; }
-
-.gal-nav { display: none; align-items: center; gap: 12px; margin-top: 0.4rem; }
-.gal.is-js .gal-nav { display: flex; }
-.gal-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  margin: 0;
-  padding: 0;
-  border: 1px dashed var(--blockquote-color);
-  border-radius: 50%;
-  background: none;
-  color: var(--heading-color);
-  font: inherit;
-  font-size: 1.4rem;
-  line-height: 1;
-  cursor: pointer;
-}
-.gal-btn:hover:not(:disabled) { border-style: solid; border-color: var(--heading-color); }
-.gal-btn:disabled { opacity: 0.3; cursor: default; }
-.gal-hint { margin-left: 6px; font: italic 400 0.9375rem/1.3 var(--font-body); color: var(--blockquote-color); }
-
-.gal-solo { margin-top: 2.75rem; margin-bottom: 2.75rem; }
-.gal-solo img { display: block; width: 100%; height: auto; margin: 0; border-radius: 4px; box-shadow: none; }
-.gal-solo figcaption {
-  max-width: 560px;
-  margin: 0.7rem auto 0;
-  font: 400 0.8125rem/1.6 var(--font-secondary);
-  color: var(--blockquote-color);
-}
-.gal-solo--text figcaption { margin-left: 0; }
-
-/* the viewer: always dark, whatever the site theme */
-html:has(dialog.glb[open]) { overflow: hidden; }
-.glb { width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(24, 21, 17, 0.94); color: #f4efe6; }
-.glb::backdrop { background: rgba(24, 21, 17, 0.94); }
-.glb[open] { display: block; }
-.glb-scroll { position: absolute; inset: 0; display: flex; overflow: auto; padding: 64px 64px; -webkit-overflow-scrolling: touch; }
-.glb img { display: block; margin: auto; max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 3px; background: #fff; cursor: zoom-in; }
-.glb.is-full img { max-width: none; max-height: none; width: min(220vw, 2400px); cursor: zoom-out; }
-.glb-x { position: absolute; top: 12px; right: 16px; z-index: 3; padding: 6px 4px; border: 0; background: none; color: #f4efe6; font: 500 1rem/1 var(--font-secondary); cursor: pointer; }
-.glb-x:hover { text-decoration: underline; text-underline-offset: 5px; }
-.glb-nav { position: absolute; top: 50%; z-index: 3; width: 48px; height: 48px; margin-top: -24px; border: 1px dashed rgba(244, 239, 230, 0.6); border-radius: 50%; background: rgba(24, 21, 17, 0.5); color: #f4efe6; font-size: 1.6rem; line-height: 1; cursor: pointer; }
-.glb-nav:hover { border-style: solid; }
-.glb-nav[hidden] { display: none; }
-.glb-prev { left: 12px; }
-.glb-next { right: 12px; }
-.glb-cap { position: absolute; left: 0; right: 0; bottom: 12px; z-index: 3; margin: 0; padding: 0 72px; text-align: center; font: italic 400 1rem/1.4 var(--font-body); color: rgba(244, 239, 230, 0.88); pointer-events: none; }
-.glb button:focus-visible { outline: 1px dashed #f4efe6; outline-offset: 3px; }
-
-@media (max-width: 639px) {
-  .gal { margin-top: 2rem; }
-  .glb-scroll { padding: 56px 10px 64px; }
-  .glb-nav { top: auto; bottom: 48px; margin-top: 0; width: 44px; height: 44px; }
-  .glb-cap { padding: 0 64px; }
-}
-
-/* ---------- 4. bookshelf wrapper and arrows ---------- */
-
-.bshelf { position: relative; --bk-w: 11.25rem; margin: 1.5rem 0 2rem; }
-.bshelf:not(.is-js) .bshelf-nav { display: none; }
-.sbk .by { font-family: var(--font-secondary); }
-@media (max-width: 560px) { .bshelf { --bk-w: 8.5rem; } }
-
-@media (prefers-reduced-motion: reduce) {
-  .gal-track { scroll-behavior: auto; }
-}
-
-/* =========================================================
-   SELECTED WORK (.wk grid + .wkm viewer): Educator page
-   Shortcodes: works, work. A grid of taped polaroids; click one
-   to open a card with the photo, a short note and a link, with
-   previous / next and "1 of 8". Without JavaScript every card
-   is still a plain link to the project page.
-========================================================= */
-
-/* ---------- the grid: wider than the text, like galleries ---------- */
+/* ---------- the grid: wider than the text ---------- */
 
 .wk {
   width: min(860px, calc(100vw - 40px));
@@ -1627,9 +419,7 @@ html:has(dialog.glb[open]) { overflow: hidden; }
 }
 
 /* tape colours: set per card with tape="blue", or they rotate on their own */
-.wk-card, .wkm-pic {
-  --tape: rgba(232, 214, 160, 0.8);
-}
+.wk-card, .wkm-pic { --tape: rgba(232, 214, 160, 0.8); }
 .wk-card:nth-child(5n+2) { --tape: rgba(168, 204, 230, 0.8); }
 .wk-card:nth-child(5n+3) { --tape: rgba(236, 170, 186, 0.75); }
 .wk-card:nth-child(5n+4) { --tape: rgba(164, 210, 172, 0.75); }
@@ -1663,6 +453,7 @@ a.wk-card:visited {
 
 a.wk-card:hover {
   color: #2b2623;
+  background: #fdfcf8;
   transform: rotate(0deg) translateY(-4px);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 18px 28px -12px rgba(0, 0, 0, 0.45);
 }
@@ -1706,7 +497,7 @@ a.wk-card:focus-visible {
   text-wrap: balance;
 }
 
-/* ---------- the viewer ---------- */
+/* ---------- the viewer (popup) ---------- */
 
 html:has(dialog.wkm[open]) { overflow: hidden; }
 
@@ -1728,9 +519,8 @@ html:has(dialog.wkm[open]) { overflow: hidden; }
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(7px);
 }
-html[data-theme="dark"] .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
+  .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
 }
 
 .wkm-card {
@@ -1859,7 +649,7 @@ html[data-theme="dark"] .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
   border-bottom: 1px dotted currentColor;
 }
 .wkm-more::after { content: " \2197"; }
-.wkm-more:hover { color: var(--link-color); }
+.wkm-more:hover { color: var(--link-color); background: none; }
 .wkm-more[hidden] { display: none; }
 
 .wkm-nav {
@@ -1907,27 +697,131 @@ html[data-theme="dark"] .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
 }
 
 /* =========================================================
-   BLOG LIST (.pl): small spacing fixes
+   GALLERY + BIG-IMAGE VIEWER
+   Shortcodes: gallery, gimg, zoom
 ========================================================= */
 
-.pl .pl-head h1 { margin: 0 0 0.3rem; }
-.pl .pl-sub { font-family: var(--font-secondary); font-size: 1rem; }
-
-/* =========================================================
-   TOP SPACE: every page except the home page starts a little
-   below the top edge. The home page has its own spacing.
-========================================================= */
-
-main:not(:has(.hm)) {
-  padding-top: clamp(32px, 8vh, 88px);
+/* variables the second stylesheet does not have */
+:root {
+  --font-body: var(--font-secondary);
 }
 
-/* =========================================================
-   SMALL IMAGE (img shortcode with class="img-responsive img-small")
-   Keeps the picture at 300px wide. Written without #main-content
-   and with !important so no earlier rule can stretch it.
-========================================================= */
+/* galleries and big images are wider than the text */
+.gal,
+.gal-solo:not(.gal-solo--text) {
+  width: min(860px, calc(100vw - 40px));
+  margin: 2.5rem 0 2.75rem calc(50% - min(430px, calc(50vw - 20px)));
+}
+.gal-solo--text { width: 100%; margin: 2rem 0; }
 
+.gal-view {
+  margin: 0;
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent 100%);
+  mask-image: linear-gradient(to right, #000 calc(100% - 56px), transparent 100%);
+}
+.gal.at-end .gal-view, .gal:not(.is-js) .gal-view { -webkit-mask-image: none; mask-image: none; }
+
+.gal-track {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 0.4rem 0 0.6rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.gal-track::-webkit-scrollbar { display: none; }
+.gal-track:focus-visible { outline: 1px dashed var(--heading-color); outline-offset: 6px; }
+
+.gal figure { flex: 0 0 min(300px, 72vw); margin: 0; scroll-snap-align: start; }
+.gal a.zoom, .gal-solo a.zoom { display: block; text-decoration: none; cursor: zoom-in; }
+.gal a.zoom:hover, .gal-solo a.zoom:hover { background: none; }
+
+.gal img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  -webkit-user-drag: none;
+}
+.gal figcaption {
+  margin-top: 0.45rem;
+  font: italic 400 0.9375rem/1.45 var(--font-body);
+  color: var(--blockquote-color);
+}
+.gal-end { flex: 0 0 2rem; }
+
+/* previous / next buttons (shown only when JavaScript is running) */
+.gal-nav { display: none; align-items: center; gap: 12px; margin-top: 0.4rem; }
+.gal.is-js .gal-nav { display: flex; }
+.gal-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  border: 1px dashed var(--blockquote-color);
+  border-radius: 50%;
+  background: none;
+  color: var(--heading-color);
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.gal-btn:hover:not(:disabled) { border-style: solid; border-color: var(--heading-color); }
+.gal-btn:disabled { opacity: 0.3; cursor: default; }
+.gal-hint { margin-left: 6px; font: italic 400 0.9375rem/1.3 var(--font-body); color: var(--blockquote-color); }
+
+/* a single large image */
+.gal-solo { margin-top: 2.75rem; margin-bottom: 2.75rem; }
+.gal-solo img { display: block; width: 100%; height: auto; margin: 0; border-radius: 4px; box-shadow: none; }
+.gal-solo figcaption {
+  max-width: 560px;
+  margin: 0.7rem auto 0;
+  font: 400 0.8125rem/1.6 var(--font-secondary);
+  color: var(--blockquote-color);
+}
+.gal-solo--text figcaption { margin-left: 0; }
+
+/* the full-screen viewer: always dark */
+html:has(dialog.glb[open]) { overflow: hidden; }
+.glb { width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(24, 21, 17, 0.94); color: #f4efe6; }
+.glb::backdrop { background: rgba(24, 21, 17, 0.94); }
+.glb[open] { display: block; }
+.glb-scroll { position: absolute; inset: 0; display: flex; overflow: auto; padding: 64px 64px; -webkit-overflow-scrolling: touch; }
+.glb img { display: block; margin: auto; max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 3px; background: #fff; cursor: zoom-in; }
+.glb.is-full img { max-width: none; max-height: none; width: min(220vw, 2400px); cursor: zoom-out; }
+.glb-x { position: absolute; top: 12px; right: 16px; z-index: 3; padding: 6px 4px; border: 0; background: none; color: #f4efe6; font: 500 1rem/1 var(--font-secondary); cursor: pointer; }
+.glb-x:hover { text-decoration: underline; text-underline-offset: 5px; }
+.glb-nav { position: absolute; top: 50%; z-index: 3; width: 48px; height: 48px; margin-top: -24px; border: 1px dashed rgba(244, 239, 230, 0.6); border-radius: 50%; background: rgba(24, 21, 17, 0.5); color: #f4efe6; font-size: 1.6rem; line-height: 1; cursor: pointer; }
+.glb-nav:hover { border-style: solid; }
+.glb-nav[hidden] { display: none; }
+.glb-prev { left: 12px; }
+.glb-next { right: 12px; }
+.glb-cap { position: absolute; left: 0; right: 0; bottom: 12px; z-index: 3; margin: 0; padding: 0 72px; text-align: center; font: italic 400 1rem/1.4 var(--font-body); color: rgba(244, 239, 230, 0.88); pointer-events: none; }
+.glb button:focus-visible { outline: 1px dashed #f4efe6; outline-offset: 3px; }
+
+@media (max-width: 639px) {
+  .gal { margin-top: 2rem; }
+  .glb-scroll { padding: 56px 10px 64px; }
+  .glb-nav { top: auto; bottom: 48px; margin-top: 0; width: 44px; height: 44px; }
+  .glb-cap { padding: 0 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gal-track { scroll-behavior: auto; }
+}
+
+/* small image (img shortcode with class="img-responsive img-small") */
 figure.img-small {
   width: 300px !important;
   max-width: 100% !important;
@@ -1949,13 +843,4 @@ figure.img-small figcaption {
   margin-top: 0.4rem;
   font: italic 400 0.9375rem/1.45 var(--font-body);
   color: var(--blockquote-color);
-}
-
-/* =========================================================
-   BOOK SHELF (shelf / shelfbook shortcodes): keep title colour on hover
-========================================================= */
-
-.bks .bks-book:hover,
-.bks .bks-book:visited {
-  color: inherit;
 }

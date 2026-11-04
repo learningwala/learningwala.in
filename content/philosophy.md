@@ -1,8 +1,10 @@
 ---
 title: "Philosophy"
-menu:
-weight:
+menu: "main"
+weight: 3
 ---
+
+# Philosophy
 
 **This page holds the philosophy behind my work as an educator & creative practitioner.**
 

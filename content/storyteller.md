@@ -1,10 +1,7 @@
 ---
 title: "Storyteller"
-weight: 5
-hideTitle: true
+weight: 2
 ---
-
-# Storyteller
 
 ### I write, perform and tell stories. **Sharing narrative** is how I express myself and make meaning of this world.
 

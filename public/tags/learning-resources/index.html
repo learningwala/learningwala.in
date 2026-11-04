@@ -71,239 +71,7 @@
 
 <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/png" />
 
-
-
-
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-  
-  
-  
-
-  
-  
-    
-  
-    
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-
-<script>
-(function(){
-  var root=document.documentElement;
-  
-  try{var saved=localStorage.getItem('theme');if(saved)root.setAttribute('data-theme',saved)}catch(e){}
-
-  var MENU=[{"c":[{"n":"Storyteller","u":"/storyteller/"},{"n":"Philosophy","u":"/philosophy/"},{"n":"Educator","u":"/educator/"},{"n":"Media Coverage","u":"/media/"},{"n":"Journey","u":"/journey/"}],"n":"All +","u":"#"},{"c":[{"n":"Weekly Notes","u":"/tags/weekly-notes/"},{"n":"Posts","u":"/tags/blog/"}],"n":"Blog","u":"#"},{"c":[],"n":"Now","u":"/now/"},{"c":[],"n":"🔍","u":"/search/"}];
-  window.FN_MENU=MENU;
-  var HOME="/";
-  var FAV="http://localhost:1313/images/favicon.png";
-
-  function isDark(){
-    var t=root.getAttribute('data-theme');
-    return t?t==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
-  }
-  function on(path,u){
-    if(!u||u==='#')return false;
-    return (u==='/')?path==='/':path.indexOf(u)===0;
-  }
-
-  function build(){
-    var path=location.pathname;
-
-    
-    var nav=document.createElement('nav');
-    nav.className='floatnav';
-    nav.setAttribute('aria-label','Main');
-
-    var h='<a class="fn-icon" href="'+HOME+'" aria-label="Home"><img src="'+FAV+'" alt=""></a><span class="fn-sep"></span>';
-    MENU.forEach(function(m){
-      if(m.c&&m.c.length){
-        var childActive=m.c.some(function(k){return on(path,k.u)});
-        h+='<div class="fn-item"><button type="button" class="fn-link'+(childActive?' is-active':'')+'" aria-haspopup="true">'+m.n+'<span class="fn-caret">▴</span></button><div class="fn-drop">';
-        m.c.forEach(function(k){
-          h+='<a href="'+k.u+'"'+(on(path,k.u)?' class="is-active"':'')+'>'+k.n+'</a>';
-        });
-        h+='</div></div>';
-      }else{
-        h+='<a class="fn-link'+(on(path,m.u)?' is-active':'')+'" href="'+m.u+'">'+m.n+'</a>';
-      }
-    });
-    h+='<span class="fn-sep"></span><button class="fn-icon" id="fn-theme" type="button" aria-label="Toggle theme">'
-      +'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 010 18z" fill="currentColor"/></svg></button>';
-    nav.innerHTML=h;
-    document.body.appendChild(nav);
-
-    
-    nav.querySelectorAll('.fn-item > button').forEach(function(b){
-      b.addEventListener('click',function(e){
-        e.stopPropagation();
-        var item=b.parentNode,was=item.classList.contains('open');
-        nav.querySelectorAll('.fn-item.open').forEach(function(i){i.classList.remove('open')});
-        if(!was)item.classList.add('open');
-      });
-    });
-    document.addEventListener('click',function(){
-      nav.querySelectorAll('.fn-item.open').forEach(function(i){i.classList.remove('open')});
-    });
-
-    
-    document.getElementById('fn-theme').addEventListener('click',function(){
-      var next=isDark()?'light':'dark';
-      root.setAttribute('data-theme',next);
-      try{localStorage.setItem('theme',next)}catch(e){}
-    });
-  }
-
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',build);else build();
-})();
-</script>
-
-<script>
- 
-(function(){
-  var PF_URL="/pagefind/pagefind.js";
-  var pf=null,tried=false,box,input,list,rows=[],sel=0;
-
-  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-
-  function quick(){
-    var out=[];
-    (window.FN_MENU||[]).forEach(function(m){
-      if(m.c&&m.c.length){m.c.forEach(function(k){out.push({t:k.n,u:k.u})})}
-      else if(m.u&&m.u!=='#'&&!/\/search\/?$/.test(m.u)){out.push({t:m.n,u:m.u})}
-    });
-    return out;
-  }
-
-  function show(r,label,empty){
-    rows=r;sel=0;
-    var h=label?'<div class="sp-label">'+label+'</div>':'';
-    if(!r.length&&empty)h+='<div class="sp-empty">'+empty+'</div>';
-    r.forEach(function(x,i){
-      h+='<a class="sp-item'+(i===0?' is-sel':'')+'" href="'+x.u+'" data-i="'+i+'"><span class="sp-t">'+esc(x.t)+'</span>'+(x.x?'<span class="sp-ex">'+x.x+'</span>':'')+'</a>';
-    });
-    list.innerHTML=h;
-  }
-
-  function run(){
-    var q=input.value.trim();
-    if(!q){show(quick(),'Jump to');return Promise.resolve()}
-    return (pf?Promise.resolve():load()).then(function(){
-      if(!pf){show([],'','Search is not available right now.');return}
-      return pf.debouncedSearch(q,{},180).then(function(res){
-        if(res===null||input.value.trim()!==q)return;
-        return Promise.all(res.results.slice(0,8).map(function(r){return r.data()})).then(function(d){
-          if(input.value.trim()!==q)return;
-          show(d.map(function(x){return {t:(x.meta&&x.meta.title)||x.url,u:x.url,x:x.excerpt}}),'Results','No results for “'+esc(q)+'”.');
-        });
-      });
-    });
-  }
-
-  function load(){
-    if(tried)return Promise.resolve();
-    tried=true;
-    return import(PF_URL).then(function(m){pf=m}).catch(function(e){
-      console.warn('Pagefind index not found. Build it with: npx pagefind --site public',e);
-    });
-  }
-
-  function move(d){
-    if(!rows.length)return;
-    var els=list.querySelectorAll('.sp-item');
-    els[sel].classList.remove('is-sel');
-    sel=(sel+d+rows.length)%rows.length;
-    els[sel].classList.add('is-sel');
-    els[sel].scrollIntoView({block:'nearest'});
-  }
-
-  function build(){
-    box=document.createElement('div');
-    box.className='sp';box.hidden=true;
-    var mac=/Mac|iPhone|iPad/.test(navigator.platform);
-    box.innerHTML='<div class="sp-card" role="dialog" aria-modal="true" aria-label="Search">'
-      +'<div class="sp-head"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'
-      +'<input class="sp-input" type="text" placeholder="Search" autocomplete="off" spellcheck="false" aria-label="Search">'
-      +'<button class="sp-close" type="button" aria-label="Close">✕</button></div>'
-      +'<div class="sp-list"></div>'
-      +'<div class="sp-foot"><kbd>'+(mac?'⌘ K':'Ctrl K')+'</kbd><span>↑ ↓ move &nbsp; Enter open &nbsp; Esc close</span></div></div>';
-    document.body.appendChild(box);
-    input=box.querySelector('.sp-input');
-    list=box.querySelector('.sp-list');
-
-    input.addEventListener('input',run);
-    input.addEventListener('keydown',function(e){
-      if(e.key==='ArrowDown'){e.preventDefault();move(1)}
-      else if(e.key==='ArrowUp'){e.preventDefault();move(-1)}
-      else if(e.key==='Enter'&&rows[sel]){e.preventDefault();location.href=rows[sel].u}
-    });
-    list.addEventListener('mouseover',function(e){
-      var a=e.target.closest('.sp-item');if(!a)return;
-      var els=list.querySelectorAll('.sp-item');
-      els[sel]&&els[sel].classList.remove('is-sel');
-      sel=+a.getAttribute('data-i');a.classList.add('is-sel');
-    });
-    box.addEventListener('click',function(e){if(e.target===box)close()});
-    box.querySelector('.sp-close').addEventListener('click',close);
-  }
-
-  function open(){
-    if(!box)build();
-    box.hidden=false;
-    document.documentElement.classList.add('sp-lock');
-    input.value='';
-    show(quick(),'Jump to');
-    input.focus();
-    load(); 
-  }
-  function close(){
-    if(!box)return;
-    box.hidden=true;
-    document.documentElement.classList.remove('sp-lock');
-  }
-
-  document.addEventListener('keydown',function(e){
-    if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();(box&&!box.hidden)?close():open()}
-    else if(e.key==='Escape'&&box&&!box.hidden){close()}
-  });
-  
-  document.addEventListener('click',function(e){
-    if(e.ctrlKey||e.metaKey||e.shiftKey)return;
-    var a=e.target.closest&&e.target.closest('a[href$="/search/"],a[href$="/search"]');
-    if(a){e.preventDefault();open()}
-  });
-})();
-</script>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Public+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Noto+Serif+Gujarati:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap"></head>
+</head>
 
 <body>
   <header><a href="/">
@@ -322,8 +90,14 @@
 
   
   <ul class="menu">
+  <li class="menu-item ">
+    <a href="/">Home</a>
+
+    
+  </li>
+
   <li class="menu-item has-children">
-    <a href="#">All &#43;</a>
+    <a href="#">Everything</a>
 
     
       <ul class="submenu">
@@ -333,22 +107,28 @@
           </li>
         
           <li>
-            <a href="/philosophy/">Philosophy</a>
-          </li>
-        
-          <li>
             <a href="/educator/">Educator</a>
           </li>
         
           <li>
-            <a href="/media/">Media Coverage</a>
+            <a href="/philosophy/">Philosophy</a>
           </li>
         
           <li>
             <a href="/journey/">Journey</a>
           </li>
         
+          <li>
+            <a href="/media/">Media Coverage</a>
+          </li>
+        
       </ul>
+    
+  </li>
+
+  <li class="menu-item ">
+    <a href="/educator/mihir-cv/">CV</a>
+
     
   </li>
 
@@ -377,6 +157,12 @@
   </li>
 
   <li class="menu-item ">
+    <a href="/blog/index.xml">RSS Feed</a>
+
+    
+  </li>
+
+  <li class="menu-item ">
     <a href="/search/">🔍</a>
 
     
@@ -395,361 +181,366 @@
 
   
   <main id="main-content">
-
-<div class="pl">
-  <header class="pl-head">
-    <h1>Learning Resources</h1>
-    <p class="pl-sub">27 entries</p>
-    
-    <nav class="pl-tabs" aria-label="Sections">
-      <a href="/tags/weekly-notes/">Weekly Notes</a>
-      <a href="/tags/blog/">Posts</a>
-    </nav>
-  </header>
-
+<content>
   
+    <h3 class="blog-filter">Filtering for "Learning Resources"</h3>
   
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>May <i>’26</i></span></div>
-    <h2 class="pl-month-sm">May 2026</h2>
+  <ul class="blog-posts">
     
-    <a class="pc" href="/blog/green-literature/">
-      <span class="pc-date"><b>01</b><small>Fri</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Why we need Green literature in our learning spaces?</span>
-        <span class="pc-sum">Why we need Green literature in our learning spaces?</span>
-        <span class="pc-meta">11 min read</span>
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-05-01' pubdate>
+            2026-05-01
+          </time>
+        </i>
       </span>
-    </a>
+      
+        <a href="/blog/green-literature/">Why we need Green literature in our learning spaces?</a>
+      
+    </li>
     
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Apr <i>’26</i></span></div>
-    <h2 class="pl-month-sm">April 2026</h2>
-    
-    <a class="pc" href="/blog/reopening-childrens-imagination/">
-      <span class="pc-date"><b>15</b><small>Wed</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Reopening Children&#39;s Imagination</span>
-        <span class="pc-sum">How a Child&#39;s Relationship with the Living World Shapes Who They Become</span>
-        <span class="pc-meta">13 min read</span>
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-04-15' pubdate>
+            2026-04-15
+          </time>
+        </i>
       </span>
-    </a>
+      
+        <a href="/blog/reopening-childrens-imagination/">Reopening Children&#39;s Imagination</a>
+      
+    </li>
     
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Feb <i>’26</i></span></div>
-    <h2 class="pl-month-sm">February 2026</h2>
-    
-    <a class="pc" href="/blog/personal-branding/">
-      <span class="pc-date"><b>27</b><small>Fri</small></span>
-      <span class="pc-body">
-        <span class="pc-title">How to Build Your Persanal Brand</span>
-        <span class="pc-sum">9 Lessons and Tips in Personal Branding for modern knowledge workers, especially as work becomes more distributed and remote!</span>
-        <span class="pc-meta">1 min read</span>
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-02-27' pubdate>
+            2026-02-27
+          </time>
+        </i>
       </span>
-    </a>
+      
+        <a href="/blog/personal-branding/">How to Build Your Persanal Brand</a>
+      
+    </li>
     
-  </section>
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-01-26' pubdate>
+            2026-01-26
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/affective-domain-ece/">Nurturing Environmental Consciousness in Early Childhood (3–6 years)</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-01-13' pubdate>
+            2026-01-13
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/semantic-grammar/">Semantic Grammar and Young Children: Why Meaning Comes Before Words</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2026-01-01' pubdate>
+            2026-01-01
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/affectivedomain/">Teaching the Heart: An Educator’s Guide to the Affective Domain of Learning</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-09-05' pubdate>
+            2025-09-05
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/teachersday/">Teacher&#39;s Riyaz</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-08-24' pubdate>
+            2025-08-24
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/64kala/">Notes on 64 Kalā (कला) and Application in Early Childhood Education</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-08-18' pubdate>
+            2025-08-18
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/iks/">Indian Knowledge System &amp; Education</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-07-24' pubdate>
+            2025-07-24
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/indian-art-aesthetics/">Indian Art &amp; Aesthetics</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-07-24' pubdate>
+            2025-07-24
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/nature-journaling/">Resources for Nature Journaling</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-05-15' pubdate>
+            2025-05-15
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/integratedlearning/">Integrated learning for early years</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-05-01' pubdate>
+            2025-05-01
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/ecologylanguage/">Ecology &amp; Language</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-05-01' pubdate>
+            2025-05-01
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/arvindguptapodcast/">Podcast with Arvind Gupta</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-04-24' pubdate>
+            2025-04-24
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/childhoodinindia/">childhood in India</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-04-21' pubdate>
+            2025-04-21
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/reflectivewriting/">Educator&#39;s guide for reflective writing</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-04-21' pubdate>
+            2025-04-21
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/play/">Play and education</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-04-03' pubdate>
+            2025-04-03
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/elementsofgoodchildrenliterature/">Elements of good children&#39;s literature</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-04-03' pubdate>
+            2025-04-03
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/tantra-in-day-to-day-life/">તંત્ર એટલે શું? - Philosophy of tantra in day to day life</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-03-04' pubdate>
+            2025-03-04
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/aesthetics-sense-develoment-/">Aesthetics Sense Develoment</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-03-03' pubdate>
+            2025-03-03
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/panchkosh/">Resources for Panchkosha development / Indian Knowledge System</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2025-02-16' pubdate>
+            2025-02-16
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/micro-grant/">Micro Grant</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-08-03' pubdate>
+            2024-08-03
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/what-motivates-engineers/">What motivates engineers?</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-06-13' pubdate>
+            2024-06-13
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/database-of-inspirational-organizations/">Database of Inspirational Organizations</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-05-22' pubdate>
+            2024-05-22
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/insights-from-aser---beyond-basics/">Insights from ASER - Beyond Basics</a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-05-19' pubdate>
+            2024-05-19
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/interesting-podcast-courses-blogs/">Interesting Podcast / Courses / Blogs </a>
+      
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-05-19' pubdate>
+            2024-05-19
+          </time>
+        </i>
+      </span>
+      
+        <a href="/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/">जड़ - पत्ति - बीज - फूल और हम</a>
+      
+    </li>
+    
+  </ul>
   
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Jan <i>’26</i></span></div>
-    <h2 class="pl-month-sm">January 2026</h2>
-    
-    <a class="pc" href="/blog/affective-domain-ece/">
-      <span class="pc-date"><b>26</b><small>Mon</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Nurturing Environmental Consciousness in Early Childhood (3–6 years)</span>
-        <span class="pc-sum">Environmental Consciousness</span>
-        <span class="pc-meta">5 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/semantic-grammar/">
-      <span class="pc-date"><b>13</b><small>Tue</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Semantic Grammar and Young Children: Why Meaning Comes Before Words</span>
-        <span class="pc-sum">Semantic Grammar</span>
-        <span class="pc-meta">4 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/affectivedomain/">
-      <span class="pc-date"><b>01</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Teaching the Heart: An Educator’s Guide to the Affective Domain of Learning</span>
-        <span class="pc-sum">An Educator’s Guide to the Affective Domain of Learning</span>
-        <span class="pc-meta">4 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Sep <i>’25</i></span></div>
-    <h2 class="pl-month-sm">September 2025</h2>
-    
-    <a class="pc" href="/blog/teachersday/">
-      <span class="pc-date"><b>05</b><small>Fri</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Teacher&#39;s Riyaz</span>
-        <span class="pc-sum">Teacher&#39;s Daily Practice - Responses</span>
-        <span class="pc-meta">18 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Aug <i>’25</i></span></div>
-    <h2 class="pl-month-sm">August 2025</h2>
-    
-    <a class="pc" href="/blog/64kala/">
-      <span class="pc-date"><b>24</b><small>Sun</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Notes on 64 Kalā (कला) and Application in Early Childhood Education</span>
-        <span class="pc-sum">Indian Knowledge System</span>
-        <span class="pc-meta">3 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/iks/">
-      <span class="pc-date"><b>18</b><small>Mon</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Indian Knowledge System &amp; Education</span>
-        <span class="pc-sum">Indian Knowledge System</span>
-        <span class="pc-meta">3 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Jul <i>’25</i></span></div>
-    <h2 class="pl-month-sm">July 2025</h2>
-    
-    <a class="pc" href="/blog/nature-journaling/">
-      <span class="pc-date"><b>24</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Resources for Nature Journaling</span>
-        <span class="pc-sum">Resources for Nature Journaling</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/indian-art-aesthetics/">
-      <span class="pc-date"><b>24</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Indian Art &amp; Aesthetics</span>
-        <span class="pc-sum">Master class on Indian Art and Aesthetics by Udayan Vajpeyii</span>
-        <span class="pc-meta">3 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>May <i>’25</i></span></div>
-    <h2 class="pl-month-sm">May 2025</h2>
-    
-    <a class="pc" href="/blog/integratedlearning/">
-      <span class="pc-date"><b>15</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Integrated learning for early years</span>
-        <span class="pc-sum">Articles around integrated learning for early years</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/arvindguptapodcast/">
-      <span class="pc-date"><b>01</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Podcast with Arvind Gupta</span>
-        <span class="pc-sum">Podcast with Arvind Gupta on 50years of Eklavya</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/ecologylanguage/">
-      <span class="pc-date"><b>01</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Ecology &amp; Language</span>
-        <span class="pc-sum">Articles around ecology and Language</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Apr <i>’25</i></span></div>
-    <h2 class="pl-month-sm">April 2025</h2>
-    
-    <a class="pc" href="/blog/childhoodinindia/">
-      <span class="pc-date"><b>24</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">childhood in India</span>
-        <span class="pc-sum">reseacrh paapers on childhood in India</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/play/">
-      <span class="pc-date"><b>21</b><small>Mon</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Play and education</span>
-        <span class="pc-sum">Play and education</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/reflectivewriting/">
-      <span class="pc-date"><b>21</b><small>Mon</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Educator&#39;s guide for reflective writing</span>
-        <span class="pc-sum">learning resources for reflective writing</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/tantra-in-day-to-day-life/">
-      <span class="pc-date"><b>03</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">તંત્ર એટલે શું? - Philosophy of tantra in day to day life</span>
-        <span class="pc-sum">તંત્ર એટલે શું? - Philosophy of tantra in day to day life</span>
-        <span class="pc-meta">2 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/elementsofgoodchildrenliterature/">
-      <span class="pc-date"><b>03</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Elements of good children&#39;s literature</span>
-        <span class="pc-sum">The elements of good children&#39;s literature by Tultul Biswas</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Mar <i>’25</i></span></div>
-    <h2 class="pl-month-sm">March 2025</h2>
-    
-    <a class="pc" href="/blog/aesthetics-sense-develoment-/">
-      <span class="pc-date"><b>04</b><small>Tue</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Aesthetics Sense Develoment</span>
-        <span class="pc-sum">learning resources for aesthetics sense develoment</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/panchkosh/">
-      <span class="pc-date"><b>03</b><small>Mon</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Resources for Panchkosha development / Indian Knowledge System</span>
-        <span class="pc-sum">documents about panchkosha development and Indian Knowledge System</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Feb <i>’25</i></span></div>
-    <h2 class="pl-month-sm">February 2025</h2>
-    
-    <a class="pc" href="/blog/micro-grant/">
-      <span class="pc-date"><b>16</b><small>Sun</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Micro Grant</span>
-        <span class="pc-sum">notes</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Aug <i>’24</i></span></div>
-    <h2 class="pl-month-sm">August 2024</h2>
-    
-    <a class="pc" href="/blog/what-motivates-engineers/">
-      <span class="pc-date"><b>03</b><small>Sat</small></span>
-      <span class="pc-body">
-        <span class="pc-title">What motivates engineers?</span>
-        <span class="pc-sum">What motivates engineers?</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>Jun <i>’24</i></span></div>
-    <h2 class="pl-month-sm">June 2024</h2>
-    
-    <a class="pc" href="/blog/database-of-inspirational-organizations/">
-      <span class="pc-date"><b>13</b><small>Thu</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Database of Inspirational Organizations</span>
-        <span class="pc-sum">Database of Inspirational Organizations</span>
-        <span class="pc-meta">2 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-  
-  <section class="pl-group">
-    <div class="pl-month" aria-hidden="true"><span>May <i>’24</i></span></div>
-    <h2 class="pl-month-sm">May 2024</h2>
-    
-    <a class="pc" href="/blog/insights-from-aser---beyond-basics/">
-      <span class="pc-date"><b>22</b><small>Wed</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Insights from ASER - Beyond Basics</span>
-        <span class="pc-sum">Insights from ASER - Beyond Basics</span>
-        <span class="pc-meta">3 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/%E0%A4%9C%E0%A5%9C---%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF---%E0%A4%AC%E0%A5%80%E0%A4%9C---%E0%A4%AB%E0%A5%82%E0%A4%B2-%E0%A4%94%E0%A4%B0-%E0%A4%B9%E0%A4%AE/">
-      <span class="pc-date"><b>19</b><small>Sun</small></span>
-      <span class="pc-body">
-        <span class="pc-title">जड़ - पत्ति - बीज - फूल और हम</span>
-        <span class="pc-sum">जड़ - पत्ति - बीज - फूल और हम</span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-    <a class="pc" href="/blog/interesting-podcast-courses-blogs/">
-      <span class="pc-date"><b>19</b><small>Sun</small></span>
-      <span class="pc-body">
-        <span class="pc-title">Interesting Podcast / Courses / Blogs </span>
-        <span class="pc-sum">Interesting Podcast / Courses / Blogs </span>
-        <span class="pc-meta">1 min read</span>
-      </span>
-    </a>
-    
-  </section>
-  
-</div>
+</content>
 
   </main>
 

@@ -1,7 +1,6 @@
 {{ define "main" }}
 
-{{ if not (or .Params.menu .Params.hideTitle) }}
-
+{{ if not .Params.menu }}
   <h1>{{ .Title }}</h1>
 
   {{/* Show date ONLY if it exists and is not zero */}}

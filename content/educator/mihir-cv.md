@@ -10,9 +10,16 @@
 
 ## About
 
-Passionate educator with **12 years of practice** in formal and informal learning spaces. I facilitate experiential learning journeys for children and young adults, using theatre, nature, storytelling, and inquiry as primary tools.
+Hi, I’m storyteller & educator with specific interest in **'Relational Education'.** 
 
-> *Transformative learning emerges through authentic relationships between children and adults, shaped by shared, powerful experiences.*
+My work is non linear and lies at the intersections of educational philosophy, pedagogy/learning experience design and creative practices.
+
+With 13 years of practice across formal and informal learning spaces in India, I facilitate transformative learning experiences with children and young adults through experiential pedagogies.
+
+I’m a recipient of the Earth Educator fellowship, Rewilding Storyteller fellowship and a faculty member for the ‘Child Development, Learning & Special Needs’ course by Eklavya Foundation.
+
+I am interested in writing, theater and multi sensorial storytelling. I’ve self-published two books in Gujarati, and I’m currently co-publishing a children’s magazine called Patrango.
+
 
 ---
 
@@ -51,15 +58,15 @@ Theater · Storytelling · Nature Exploration · Music · Movement · Art · Tin
 
 ## Experience Highlights
 
-- 12 years of practice as an educator across formal and informal learning spaces — [read my journey](/journey)
+- 12 years of practice as an educator across formal and informal learning spaces — [read my journey](https://learningwala.in/about-me/)
 - Part of the faculty team for *Child Development & Learning* course at Eklavya Foundation
 - Facilitated *Experiential Learning for 21st Century* course with **Tata Trust** for teachers from across India
-- 50+ workshops with educators; 50+ workshops with children
-- Articles published in **Teacher Plus**, **Farbas Gujarati**, **Sandarbh**, **Pathshala Bheetar - Bahar** — [writings](/storyteller) · [blog](/tags/blog)
+- 50+ workshops with educators; 50+ workshops with children — [work log](https://learningwala.in/educator/worklog/)
+- Articles published in **Teacher Plus**, **Farbas Gujarati**, **Sandarbh**, **Pathshala Bheetar - Bahar** — [writings](https://learningwala.in/about-me/writings/) · [blog](https://learningwala.in/tags/blog/)
 - Collaborated with government educational bodies: **GCERT**, **NCERT**
 - Raised ₹10L for a nature education project through independent fundraising from HNIs
-- Mentored organizations to develop their contextual experiential learning curriculum
-- Media coverage: [Media Coverage](/media)
+- Mentored organisations to develop their contextual experiential learning curriculum
+- [Media coverage](https://learningwala.in/media/)
 
 ---
 
@@ -269,9 +276,9 @@ Explored different fields like marketing, copywriting, website & software develo
 
 Articles published in **Teacher Plus**, **Farbas Gujarati**, **Sandarbh**, and **Pathshala Bheetar - Bahar**.
 
-- [Writings - Published work](/storyteller)
-- [Blog](/tags/blog/)
-- [Work Log](/educator/docu/)
-- [Media Coverage](/media/)
+- [Writings - Published work](https://learningwala.in/about-me/writings/)
+- [Blog](https://learningwala.in/tags/blog/)
+- [Work Log](https://learningwala.in/about-me/docu/)
+- [Media Coverage](https://learningwala.in/about-me/media/)
 
 ---

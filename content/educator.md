@@ -1,10 +1,10 @@
 ---
 title: "Educator"
 menu: "main"
-weight: 3
+weight: 1
 ---
 
-# Educator
+# Educator 
 
 I create **transformative learning journeys** for children, young adults and educators using experiential methodologies, including **theater, nature and interdisciplinary projects.**
 
@@ -143,6 +143,6 @@ Write to me
 **For workshops, camps, capacity building workshops :** [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com) · [WhatsApp](https://wa.me/919537068736?text=Hi%20Mihir%2C%20I%27d%20like%20to%20talk%20about%20working%20together.) · +91 9537068736
 
 
-Read my [CV](/educator/mihir-cv) & [work log](/educator/docu) to get idea of my background and experience 
+> Read my [CV](/educator/mihir-cv) & [work log](/educator/worklog) to get idea of my background and experience 
 
 ----

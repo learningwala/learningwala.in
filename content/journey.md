@@ -1,7 +1,7 @@
 ---
 title: "Journey"
-menu: 
-weight: 2
+menu: "main"
+weight: 4
 ---
 
 {{< gallery label="Places and communities I have worked with" auto="true" >}}
@@ -24,8 +24,9 @@ weight: 2
 ## Chapter 1
 
 
-I have not been to a formal school since 10th grade. I have been working with children since the age of 18.
 During my school days I was interested in learning languages, writing poems, doing theater. I wanted to become journalist so I can write on different topics, I have also created handwritten magazine in gujarati called 'Samvad'. 
+
+I have not been to a formal school since 10th grade. I have been working with children since the age of 18.
 
 Later, I completed 12th grade and a BA in Sociology as an external student.
 
@@ -49,6 +50,17 @@ I was primarily interested in creative practice, but I didn’t find space in th
 
 ## Chapter 3 - current work
 
+My work is non linear and lies at the intersections of educational [philosophy](/philosophy), [pedagogy/learning experience design](/educator) and [creative practices](/storyteller).
+
+With 13 years of practice across formal and informal learning spaces in India, I facilitate transformative learning experiences with children and young adults through experiential pedagogies.
+
+I’m a recipient of the Earth Educator fellowship, Rewilding Storyteller fellowship and a faculty member for the ‘Child Development, Learning & Special Needs’ course by Eklavya Foundation.
+
+I am interested in writing, theater and multi sensorial storytelling. I’ve self-published two books in Gujarati, and I’m currently co-publishing a children’s magazine called Patrango.
+
+**My work is rooted in a deeper question:** what does education & creative practice look like when our collective purpose is to live together harmoniously?
+
+---
 
 - Read about my offerings [here](/educator) 
 - Read about my background and experience [here](/educator/mihir-cv)

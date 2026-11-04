@@ -416,17 +416,33 @@ I think I made early judgments about few things - it is because of ego, my tired
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -1221,17 +1237,33 @@ Thank you for hosting me.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -1536,17 +1568,33 @@ I will be ok.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -1694,17 +1742,33 @@ I will be ok.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -2442,17 +2506,33 @@ Sometimes I feel like going back to BLR. I really miss the culture.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -2937,17 +3017,33 @@ This complication made me really sad, almost like a breakup. But it is okay, it 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -3040,17 +3136,33 @@ This complication made me really sad, almost like a breakup. But it is okay, it 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -3235,17 +3347,33 @@ I bought <a href="https://www.amazon.in/Vaadh-%E0%AA%B5%E0%AA%BE%E0%AA%A2-Nilesh
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -3523,17 +3651,33 @@ I bought <a href="https://www.amazon.in/Vaadh-%E0%AA%B5%E0%AA%BE%E0%AA%A2-Nilesh
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4029,17 +4173,33 @@ This week we went to naturopathy with Mummy two times. We did blood tests also. 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4200,17 +4360,33 @@ This week we went to naturopathy with Mummy two times. We did blood tests also. 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4349,17 +4525,33 @@ This week we went to naturopathy with Mummy two times. We did blood tests also. 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4491,17 +4683,33 @@ This week we went to naturopathy with Mummy two times. We did blood tests also. 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4570,17 +4778,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4694,17 +4918,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -4823,17 +5063,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -5017,17 +5273,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -5331,17 +5603,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -5402,17 +5690,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6104,17 +6408,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6409,17 +6729,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6532,17 +6868,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6705,17 +7057,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6882,17 +7250,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -6966,17 +7350,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7037,17 +7437,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7123,17 +7539,33 @@ In December I want to visit Kutch also&hellip; hazaaron khwaishein aisi&hellip;<
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7231,17 +7663,33 @@ This was good start for me. I am really enjoying yoga. But I feel 45 min session
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7328,17 +7776,33 @@ This was good start for me. I am really enjoying yoga. But I feel 45 min session
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7390,17 +7854,33 @@ This was good start for me. I am really enjoying yoga. But I feel 45 min session
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7485,17 +7965,33 @@ This was good start for me. I am really enjoying yoga. But I feel 45 min session
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7542,17 +8038,33 @@ This was good start for me. I am really enjoying yoga. But I feel 45 min session
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7696,17 +8208,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7760,17 +8288,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -7875,17 +8419,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8079,17 +8639,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8169,17 +8745,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8245,17 +8837,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8341,17 +8949,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8513,17 +9137,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8608,17 +9248,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8705,17 +9361,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -8801,17 +9473,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -9364,17 +10052,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -9496,17 +10200,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -9611,17 +10331,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -9794,17 +10530,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10015,17 +10767,33 @@ It is ok.. I am trying if Nidhi gets internship at my office so she gets some re
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10147,17 +10915,33 @@ One thing I shared with him was the disappearing of open source/FOSS communities
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10239,17 +11023,33 @@ One thing I shared with him was the disappearing of open source/FOSS communities
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10330,17 +11130,33 @@ One thing I shared with him was the disappearing of open source/FOSS communities
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10820,17 +11636,33 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -10935,17 +11767,33 @@ My back pain has returned—possibly due to driving and sitting too much. I need
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -11392,17 +12240,33 @@ Happy monsoon, friends 🌧️🌿</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -12330,17 +13194,33 @@ Happy monsoon, friends 🌧️🌿</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -12847,17 +13727,33 @@ On Tuesday, we went to The Calico Museum of Textiles as part of the workshop.</p
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -13129,17 +14025,33 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -13274,17 +14186,33 @@ Nidhi, Bhagu and mummy made wonderful food. Aam ras, shrikhand, panir sabji and 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -13392,17 +14320,33 @@ Nidhi, Bhagu, and Bansi went to CEE.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -13658,7 +14602,7 @@ We had a chat about life until late night.</p>
       <link>http://localhost:1313/blog/week-18-2025/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>http://localhost:1313/blog/week-18-2025/</guid>
-      <description>&lt;h4 id=&#34;28th-april-to-4th-may-2025-monday-to-sunday&#34;&gt;28th April to 4th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/office_hu_758497a0f317663b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/office_hu_e99faf400d543425.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/office_hu_e99faf400d543425.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;My office table&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;This week went by incredibly fast. There were many meetings at the office, and work is really gearing up. I didn&amp;rsquo;t get time to explore anything beyond work.&lt;/p&gt;&#xA;&lt;p&gt;This week, Nidhi did many cooking experiments. She loves cooking and experimenting with food. She made the following dishes throughout the week:&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food2_hu_f8db4b188955322e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food2_hu_4faf09898e0fe514.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food2_hu_4faf09898e0fe514.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Noodles&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food3_hu_4b1a59eca127a49.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food3_hu_3a2ae18654680540.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food3_hu_3a2ae18654680540.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Seeds&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food4_hu_6baad35e6595fe5b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food4_hu_cfa829e4d3a21b35.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food4_hu_cfa829e4d3a21b35.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Pumpkin kheer&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food5_hu_4990ee6a6a7589a7.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food5_hu_3e3b80528a87e1ee.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food5_hu_3e3b80528a87e1ee.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Idli sambar&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food1_hu_d29a998c6c77724d.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food1_hu_ab52fe35c64222a5.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food1_hu_ab52fe35c64222a5.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Sattu Paratha&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/barani_hu_281676af1a475947.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/barani_hu_2906b1f39f422909.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/barani_hu_2906b1f39f422909.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Cute barani&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;I forgot to take photo of Bhindi kadhi&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;28th-april-to-4th-may-2025-monday-to-sunday&#34;&gt;28th April to 4th May 2025 (Monday to Sunday)&lt;/h4&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/office_hu_758497a0f317663b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/office_hu_e99faf400d543425.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/office_hu_e99faf400d543425.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;My office table&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;This week went by incredibly fast. There were many meetings at the office, and work is really gearing up. I didn&amp;rsquo;t get time to explore anything beyond work.&lt;/p&gt;&#xA;&lt;p&gt;This week, Nidhi did many cooking experiments. She loves cooking and experimenting with food. She made the following dishes throughout the week:&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food2_hu_f8db4b188955322e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food2_hu_4faf09898e0fe514.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food2_hu_4faf09898e0fe514.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Noodles&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food3_hu_4b1a59eca127a49.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food3_hu_3a2ae18654680540.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food3_hu_3a2ae18654680540.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Seeds&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food4_hu_6baad35e6595fe5b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food4_hu_cfa829e4d3a21b35.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food4_hu_cfa829e4d3a21b35.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Pumpkin kheer&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food5_hu_4990ee6a6a7589a7.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food5_hu_3e3b80528a87e1ee.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food5_hu_3e3b80528a87e1ee.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Idli sambar&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food1_hu_d29a998c6c77724d.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/food1_hu_ab52fe35c64222a5.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/food1_hu_ab52fe35c64222a5.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Sattu Paratha&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/barani_hu_281676af1a475947.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w18.2025/barani_hu_2906b1f39f422909.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w18.2025/barani_hu_2906b1f39f422909.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;Cute barani&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: 1fr;  &#xA;  margin-bottom: 2rem;&#xA;}&#xA;&#xA;@media (min-width: 600px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(2, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;@media (min-width: 1024px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(3, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;I forgot to take photo of Bhindi kadhi&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h4 id="28th-april-to-4th-may-2025-monday-to-sunday">28th April to 4th May 2025 (Monday to Sunday)</h4>
 
 
@@ -13888,17 +14832,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -14215,17 +15175,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -14308,17 +15284,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -14455,17 +15447,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -14660,17 +15668,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -14801,17 +15825,33 @@ We had a chat about life until late night.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -15487,17 +16527,33 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -15743,17 +16799,33 @@ For dinner we went to atithi restaurant for aam ras &amp; roti :)</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -16215,17 +17287,33 @@ There was a farmers&rsquo; market happening there—&lsquo;Srishti Khedut Hat&rs
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -16507,17 +17595,33 @@ I was very anxious when Mummy was leaving alone for Padra in a bus.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -17100,17 +18204,33 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -17216,17 +18336,33 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -17455,17 +18591,33 @@ python3 -m http.server</code></pre><p>It worked out.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -17745,7 +18897,7 @@ Nidhi doesn&rsquo;t like flats/apartments, she likes old-style houses with open 
       <link>http://localhost:1313/blog/week-8-2025/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>http://localhost:1313/blog/week-8-2025/</guid>
-      <description>&lt;h4 id=&#34;15th-to-21st-feb-2025-saturday-to-friday&#34;&gt;15th to 21st Feb 2025 (Saturday to Friday)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First part of the week went in stress and anxiety because of family conflict&lt;/li&gt;&#xA;&lt;li&gt;Me and Nidhi were in Ahemdabad from 17th to 19th. We came back on 20th afternoon by bus.&lt;/li&gt;&#xA;&lt;li&gt;I went to my workplace (Balgokulam) for orientation. I am going to join full time from 3rd march.&lt;/li&gt;&#xA;&lt;li&gt;Nidhi met Preeti ben and Prerna. Visited &lt;a href=&#34;https://www.jeevantirth.org/&#34;&gt;Jeevantirth&lt;/a&gt;, &lt;a href=&#34;https://theserenitylibrary.com/&#34;&gt;serenity trust&lt;/a&gt;, &lt;a href=&#34;https://www.theplanetcee.org/&#34;&gt;CEE - Planet Discovery pre school&lt;/a&gt;.She will finalize where she will work in sometime. Mostly she will talk to preeti ben and finalize her learning center.&lt;/li&gt;&#xA;&lt;li&gt;on 17th we met my past colleague and friend from moinee foundation - Vishal at CEPT University.&lt;/li&gt;&#xA;&lt;li&gt;on 19th we met our friend Ankur. He recently shifted Ahd and he works at &lt;a href=&#34;https://csrbox.org/&#34;&gt;CSR Box&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Next few days will be meeting friends and family for lunch and dinner (Advantage or disadvantage of getting married). We also need to pack up our stuff from Nidhi&amp;rsquo;s place and figure out transport for Ahmadabad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_93b9c9654ae45d3e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_e04a3758b0e2218a.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_e04a3758b0e2218a.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_8f0d0735b3b32d7.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_dea59ee99e9eb0fe.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_dea59ee99e9eb0fe.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_5c1c8c9be3a8aa06.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_34c5d8dc60fc9c07.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_34c5d8dc60fc9c07.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_4bdc5995145f6b46.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_899c870772f3151a.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_899c870772f3151a.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;</description>
+      <description>&lt;h4 id=&#34;15th-to-21st-feb-2025-saturday-to-friday&#34;&gt;15th to 21st Feb 2025 (Saturday to Friday)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First part of the week went in stress and anxiety because of family conflict&lt;/li&gt;&#xA;&lt;li&gt;Me and Nidhi were in Ahemdabad from 17th to 19th. We came back on 20th afternoon by bus.&lt;/li&gt;&#xA;&lt;li&gt;I went to my workplace (Balgokulam) for orientation. I am going to join full time from 3rd march.&lt;/li&gt;&#xA;&lt;li&gt;Nidhi met Preeti ben and Prerna. Visited &lt;a href=&#34;https://www.jeevantirth.org/&#34;&gt;Jeevantirth&lt;/a&gt;, &lt;a href=&#34;https://theserenitylibrary.com/&#34;&gt;serenity trust&lt;/a&gt;, &lt;a href=&#34;https://www.theplanetcee.org/&#34;&gt;CEE - Planet Discovery pre school&lt;/a&gt;.She will finalize where she will work in sometime. Mostly she will talk to preeti ben and finalize her learning center.&lt;/li&gt;&#xA;&lt;li&gt;on 17th we met my past colleague and friend from moinee foundation - Vishal at CEPT University.&lt;/li&gt;&#xA;&lt;li&gt;on 19th we met our friend Ankur. He recently shifted Ahd and he works at &lt;a href=&#34;https://csrbox.org/&#34;&gt;CSR Box&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Next few days will be meeting friends and family for lunch and dinner (Advantage or disadvantage of getting married). We also need to pack up our stuff from Nidhi&amp;rsquo;s place and figure out transport for Ahmadabad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_93b9c9654ae45d3e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_e04a3758b0e2218a.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad1_hu_e04a3758b0e2218a.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_8f0d0735b3b32d7.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_dea59ee99e9eb0fe.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad2_hu_dea59ee99e9eb0fe.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_5c1c8c9be3a8aa06.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_34c5d8dc60fc9c07.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad3_hu_34c5d8dc60fc9c07.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_4bdc5995145f6b46.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_899c870772f3151a.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w8.2025/ahmdabad4_hu_899c870772f3151a.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: 1fr;  &#xA;  margin-bottom: 2rem;&#xA;}&#xA;&#xA;@media (min-width: 600px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(2, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;@media (min-width: 1024px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(3, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;</description>
       <content:encoded><![CDATA[<h4 id="15th-to-21st-feb-2025-saturday-to-friday">15th to 21st Feb 2025 (Saturday to Friday)</h4>
 <ul>
 <li>First part of the week went in stress and anxiety because of family conflict</li>
@@ -17881,17 +19033,33 @@ Nidhi doesn&rsquo;t like flats/apartments, she likes old-style houses with open 
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -18140,17 +19308,33 @@ It was long distance wedding.. 2 days function at Padra (Vadodra), 20hrs train r
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -18890,17 +20074,33 @@ Harshad is interested in mountaineering and he is working as guide for different
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -20218,17 +21418,33 @@ took one in person and online session. 4 teams are made and children are working
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -20316,17 +21532,33 @@ It was long due trip to meet Priyanka, Vena and Nature Classroom team.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;

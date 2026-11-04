@@ -255,17 +255,33 @@ They shape how we see the world — and how we treat it.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -456,17 +472,33 @@ They shape how we see the world — and how we treat it.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -725,7 +757,7 @@ They shape how we see the world — and how we treat it.</p>
       <link>http://localhost:1313/blog/summerworkshopattatvic/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate><author>learningwalamihir@gmail.com (Mihir Pathak)</author>
       <guid>http://localhost:1313/blog/summerworkshopattatvic/</guid>
-      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color1_hu_118d730a89af3acc.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color2_hu_a6f47257b3dce653.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color3_hu_c83f77928844695e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color4_hu_1765369bb9fbd92b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science1_hu_8314006ee0414e51.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science1_hu_d27cce819ecaa28c.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science1_hu_d27cce819ecaa28c.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science2_hu_2f5afacc15908e6.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science2_hu_6b659a995825d337.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science2_hu_6b659a995825d337.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science3_hu_53c6fe7d8303c199.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science3_hu_6f233f2a505f500d.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science3_hu_6f233f2a505f500d.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science4_hu_dae74e424ed20d88.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science4_hu_482d04a5a4cd97a6.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science5_hu_cd4cb84a841748f1.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science5_hu_c15e7f91a238ed08.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science5_hu_c15e7f91a238ed08.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science6_hu_80d30caa013e1732.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/science6_hu_b3ff778502f8f37e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/science6_hu_b3ff778502f8f37e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));&#xA;  margin-bottom: 2rem;&#xA;}&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;}&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Summer Workshop | Vijaya Foundation, Ahemdabad | 19th &amp;amp; 20th April 2025&lt;/p&gt;</description>
+      <description>&lt;p&gt;Day 1 | Natural Color Making&lt;/p&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color1_hu_118d730a89af3acc.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color1_hu_e90f3bdbb7d8927e.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color2_hu_a6f47257b3dce653.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color2_hu_a12feaf266d7d3c0.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color3_hu_c83f77928844695e.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color3_hu_d5b485a37f72f915.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color4_hu_1765369bb9fbd92b.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/w16.2025/color4_hu_b6729e81c7fe7801.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: 1fr;  &#xA;  margin-bottom: 2rem;&#xA;}&#xA;&#xA;@media (min-width: 600px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(2, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;@media (min-width: 1024px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(3, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;p&gt;Day 2 | Fun with science / Arvind Gupta Toys&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Day 1 | Natural Color Making</p>
 <div class="img-grid">
   
@@ -852,17 +884,33 @@ They shape how we see the world — and how we treat it.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
@@ -1055,17 +1103,33 @@ They shape how we see the world — and how we treat it.</p>
 .img-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 1fr;  
   margin-bottom: 2rem;
 }
+
+@media (min-width: 600px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+@media (min-width: 1024px) {
+  .img-grid {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+}
+
 .img-grid figure {
   margin: 0;
 }
+
 .img-grid img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
+
 .img-grid figcaption {
   font-size: 0.9rem;
   text-align: center;
