@@ -291,7 +291,7 @@ thead {
 }
 
 /* =========================
-   MOBILE: header + hamburger
+   MOBILE: brand + search on top, scrolling menu row below
 ========================= */
 
 @media (max-width: 768px) {
@@ -300,52 +300,58 @@ thead {
   .brand-gu { font-size: 1.1em; }
 
   .site-header {
-    align-items: flex-start;
-    padding-right: 44px; /* room for the hamburger */
+    display: block;            /* brand on top, menu below */
+    padding: 1rem 0 0.9rem;
+    margin-bottom: 1.5rem;
   }
+
+  /* no hamburger on mobile */
+  .nav-toggle,
+  .nav-toggle-label { display: none !important; }
 
   .site-nav {
     width: 100%;
+    margin-top: 0.7rem;
   }
 
-  .nav-toggle-label {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 1.2rem;
-    right: 0;
-    width: 28px;
-    height: 28px;
-  }
-
+  /* the menu: one horizontal row that scrolls sideways */
   .menu {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.4rem;
-    width: 100%;
-  }
-
-  .nav-toggle:checked ~ .menu {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+  }
+  .menu::-webkit-scrollbar { display: none; }
+
+  .menu-item { flex: 0 0 auto; }
+
+  .menu a {
+    font-size: 0.9em;
+    white-space: nowrap;
+    padding: 4px 0;
   }
 
-  .menu a { font-size: 0.85em; }
+  /* search icon moves up to the top-right, level with the name */
+  .menu-search {
+    position: absolute;
+    top: 1.15rem;
+    right: 0;
+  }
 
-  /* dropdowns are always open inside the mobile menu */
+  /* dropdowns can't be hovered on a phone, so hide them
+     (the top-level links still open their pages) */
   .submenu,
-  .menu-item:nth-last-child(-n+4) > .submenu {
-    position: static;
-    display: block;
-    min-width: 0;
-    padding: 0 0 0 1rem;
-    border: 0;
-    border-radius: 0;
-    background: none;
+  .has-children:hover > .submenu,
+  .has-children:focus-within > .submenu {
+    display: none !important;
   }
-
-  .submenu a { padding: 4px 2px; font-size: 0.8em; }
-  .submenu a:hover { background: none; }
+  .has-children > a::after { content: none; }
 }
 
 /* =========================
