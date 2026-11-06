@@ -1,0 +1,23 @@
+{{- /*
+  A video file. Params: src, caption (optional), poster (optional).
+  If src matches a file in the assets folder it is published from there.
+  Otherwise src is used as a plain URL.
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $type := "video/mp4" -}}
+{{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+  {{- $src = .RelPermalink -}}
+  {{- $type = .MediaType.Type -}}
+{{- end -}}
+{{- $poster := .Get "poster" -}}
+{{- with $poster -}}
+  {{- with resources.Get (strings.TrimPrefix "/" .) -}}
+    {{- $poster = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+<figure class="gal-solo gal-solo--text">
+  <video controls playsinline preload="metadata" style="width:100%;height:auto"{{ with $poster }} poster="{{ . }}"{{ end }}>
+    <source src="{{ $src }}" type="{{ $type }}">
+  </video>
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

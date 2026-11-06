@@ -1,36 +1,39 @@
 {{ define "main" }}
-<content>
-  {{ if .Data.Singular }}
-    <h3 class="blog-filter">{{ i18n "filtering-for" }} "{{ .Title }}"</h3>
+<div class="list-head">
+  <h1 class="list-label">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M17 3a2.8 2.8 0 0 1 4 4L7.5 20.5 2 22l1.5-5.5z"></path>
+      <path d="M15 5l4 4"></path>
+    </svg>
+    {{ .Title }}
+  </h1>
+
+  {{ with .OutputFormats.Get "rss" }}
+  <a class="list-rss" href="{{ .RelPermalink }}" aria-label="RSS feed">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+         stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M4 11a9 9 0 0 1 9 9"></path>
+      <path d="M4 4a16 16 0 0 1 16 16"></path>
+      <circle cx="5" cy="19" r="1"></circle>
+    </svg>
+  </a>
   {{ end }}
-  <ul class="blog-posts">
+</div>
+
+{{ with .Content }}<div class="list-intro">{{ . }}</div>{{ end }}
+
+{{ range .Pages.GroupByDate "2006" }}
+<section class="year-group">
+  <h2 class="year">{{ .Key }}<sup>({{ len .Pages }})</sup></h2>
+  <ul class="post-list">
     {{ range .Pages }}
     <li>
-      <span>
-        <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
-          </time>
-        </i>
-      </span>
-      {{ if .Params.link }}
-        <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-      {{ else }}
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
-    </li>
-    {{ else }}
-    <li>
-      {{ i18n "no-posts" }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
-  {{ if not .Data.Singular }}
-    <div>
-      {{ range .Site.Taxonomies.tags }}
-        <a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
-      {{ end }}
-    </div>
-  {{ end }}
-</content>
+</section>
+{{ end }}
 {{ end }}

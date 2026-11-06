@@ -1,0 +1,76 @@
+<dialog class="glb" id="zoomviewer" aria-label="Image viewer">
+  <div class="glb-scroll"><img alt=""></div>
+  <button class="glb-x" type="button" aria-label="Close">Close ✕</button>
+  <button class="glb-nav glb-prev" type="button" aria-label="Previous image">‹</button>
+  <button class="glb-nav glb-next" type="button" aria-label="Next image">›</button>
+  <p class="glb-cap"></p>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById('zoomviewer');
+  if (!dlg || dlg.dataset.ready) return;
+  dlg.dataset.ready = '1';
+
+  var img = dlg.querySelector('img');
+  var cap = dlg.querySelector('.glb-cap');
+  var prev = dlg.querySelector('.glb-prev');
+  var next = dlg.querySelector('.glb-next');
+  var closeBtn = dlg.querySelector('.glb-x');
+  var links = [], idx = 0;
+
+  function collect() {
+    links = [].slice.call(document.querySelectorAll('figure.gal-solo a.zoom'));
+  }
+  function show(n) {
+    idx = (n + links.length) % links.length;
+    var a = links[idx];
+    var thumb = a.querySelector('img');
+    var fc = a.parentNode.querySelector('figcaption');
+    img.src = a.getAttribute('href');
+    img.alt = thumb ? thumb.alt : '';
+    cap.textContent = fc ? fc.textContent : '';
+    prev.hidden = next.hidden = links.length < 2;
+    dlg.classList.remove('is-full');
+  }
+  function openAt(n) {
+    collect();
+    if (!dlg.open) dlg.showModal();
+    show(n);
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('figure.gal-solo a.zoom');
+    if (!a) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    collect();
+    openAt(links.indexOf(a));
+  }, true);
+
+  closeBtn.addEventListener('click', function () { dlg.close(); });
+  prev.addEventListener('click', function () { show(idx - 1); });
+  next.addEventListener('click', function () { show(idx + 1); });
+  img.addEventListener('click', function () { dlg.classList.toggle('is-full'); });
+
+  dlg.addEventListener('click', function (e) {
+    if (e.target === dlg || e.target.classList.contains('glb-scroll')) dlg.close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (!dlg.open) return;
+    if (e.key === 'ArrowLeft') show(idx - 1);
+    if (e.key === 'ArrowRight') show(idx + 1);
+  });
+
+  var x0 = null;
+  dlg.addEventListener('touchstart', function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });
+  dlg.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    x0 = null;
+    if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+
+  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
+})();
+</script>

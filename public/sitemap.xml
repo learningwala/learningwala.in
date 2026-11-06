@@ -3,33 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/educator/</loc>
-  </url><url>
-    <loc>http://localhost:1313/storyteller/</loc>
-  </url><url>
-    <loc>http://localhost:1313/philosophy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/journey/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/media/</loc>
   </url><url>
     <loc>http://localhost:1313/now/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/personal/</loc>
-    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/week-42-43-2026/</loc>
-    <lastmod>2026-10-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/week-44-45-2026/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/weekly-notes/</loc>
+    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/poem/</loc>
+    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/things-i-love/</loc>
+    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/thingsilove/</loc>
+    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/sandminingpoem/</loc>
+    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/week-42-43-2026/</loc>
     <lastmod>2026-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/week-41-2026/</loc>
@@ -82,9 +92,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/week-18-2026/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/childrens-literature/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
@@ -252,9 +259,6 @@
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/other/</loc>
-    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/poem/</loc>
     <lastmod>2025-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/whale/</loc>
@@ -609,6 +613,8 @@
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
   </url><url>
+    <loc>http://localhost:1313/artist/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/colophon/</loc>
@@ -617,7 +623,11 @@
   </url><url>
     <loc>http://localhost:1313/educator/edu-for-me/</loc>
   </url><url>
+    <loc>http://localhost:1313/educator/</loc>
+  </url><url>
     <loc>http://localhost:1313/educator/highlights/</loc>
+  </url><url>
+    <loc>http://localhost:1313/journey/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/now-2024/</loc>
   </url><url>
@@ -625,9 +635,13 @@
   </url><url>
     <loc>http://localhost:1313/archive/now-march-2025/</loc>
   </url><url>
+    <loc>http://localhost:1313/archive/now-nov-2026/</loc>
+  </url><url>
     <loc>http://localhost:1313/archive/now-oct-2025/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/now-jan-2026/</loc>
+  </url><url>
+    <loc>http://localhost:1313/philosophy/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>

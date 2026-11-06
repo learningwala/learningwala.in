@@ -40,7 +40,7 @@ enableRobotsTXT = true
   # Author metadata
   [params.author]
     name = "Mihir Pathak"
-    email = "learningwalamihir@gmail.com"
+    email = ""
   
   # Cloudinary config
   [params.cloudinary]
@@ -69,7 +69,7 @@ enableRobotsTXT = true
 [[menu.main]]
 name = "Blog"
 identifier = "blog"
-url = "#"
+url = "/blog/"
 weight = 4
 
 [[menu.main]]
@@ -77,25 +77,6 @@ name = "CV"
 identifier = "CV"
 url = "/educator/mihir-cv/"
 weight = 3
-
-[[menu.main]]
-  name = "RSS Feed"
-  url = "/blog/index.xml"
-  weight = 99
-
-# Child items
-[[menu.main]]
-name = "Weekly Notes"
-parent = "blog"
-url = "/tags/weekly-notes/"
-weight = 1
-
-[[menu.main]]
-name = "Posts"
-parent = "blog"
-url = "/tags/blog/"
-weight = 2
-
 
 # About section
 [[menu.main]]
@@ -105,9 +86,9 @@ url = "#"
 weight = 2
 
 [[menu.main]]
-name = "Storyteller"
+name = "Artist"
 parent = "everything"
-url = "/storyteller/"
+url = "/artist/"
 weight = 1
 
 [[menu.main]]
@@ -135,7 +116,3 @@ url = "/journey/"
 weight = 4
 
 
-[[menu.main]]
-name = "🔍"
-url = "/search/"
-weight = 100

@@ -2,12 +2,24 @@
   A single image that opens in the zoom viewer.
   Params: src, alt, caption (optional), full (optional larger version),
   text="true" keeps it the width of the text column instead of wider.
+  If src matches a file in the assets folder, it is resized for display
+  and the original opens in the viewer. Otherwise src is used as a plain URL.
 */ -}}
 {{- $src := .Get "src" -}}
-{{- $full := .Get "full" | default $src -}}
+{{- $fullParam := .Get "full" -}}
 {{- $alt := .Get "alt" | default (.Get "caption") -}}
-<figure class="gal-solo{{ if .Get "text" }} gal-solo--text{{ end }}"><a class="zoom" href="{{ $full }}"><img src="{{ $src }}" alt="{{ $alt }}" loading="lazy" decoding="async"></a>{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
-{{- if not (.Page.Scratch.Get "lightbox-js") }}
-{{- .Page.Scratch.Set "lightbox-js" true }}
-{{- partial "lightbox.html" . }}
+{{- $thumb := $src -}}
+{{- $full := $fullParam | default $src -}}
+{{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+  {{- if gt .Width 900 -}}
+    {{- $thumb = (.Resize "900x").RelPermalink -}}
+  {{- else -}}
+    {{- $thumb = .RelPermalink -}}
+  {{- end -}}
+  {{- if not $fullParam }}{{ $full = .RelPermalink }}{{ end -}}
+{{- end -}}
+<figure class="gal-solo{{ if .Get "text" }} gal-solo--text{{ end }}"><a class="zoom" href="{{ $full }}"><img src="{{ $thumb }}" alt="{{ $alt }}" loading="lazy" decoding="async"></a>{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- if not (.Page.Scratch.Get "zoom-viewer") }}
+{{- .Page.Scratch.Set "zoom-viewer" true }}
+{{- partial "zoom-viewer.html" . }}
 {{- end }}

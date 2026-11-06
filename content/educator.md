@@ -1,24 +1,72 @@
 ---
 title: "Educator"
-menu: "main"
-weight: 1
+menu:
+weight:
 ---
-
-# Educator 
 
 I create **transformative learning journeys** for children, young adults and educators using experiential methodologies, including **theater, nature and interdisciplinary projects.**
 
 For the last 13 years I have worked across formal and informal learning spaces. This page is an attempt to make a living portfolio of my educational work and offerings.
 
+
+{{< gallery label="Places and communities I have worked with" auto="true" >}}
+{{< gimg src="/journey/baxipanch.jpg" alt="Baxipanch" caption="Baxipanch" >}}
+{{< gimg src="/journey/baxipanch2.jpg" alt="Baxipanch" caption="Baxipanch" >}}
+{{< gimg src="/journey/beme.webp" alt="Beme" caption="Beme" >}}
+{{< gimg src="/journey/bhuj1.jpg" alt="Bhuj" caption="Bhuj" >}}
+{{< gimg src="/journey/bhuj2.jpg" alt="Bhuj" caption="Bhuj" >}}
+{{< gimg src="/journey/eef.webp" alt="EEF" caption="EEF" >}}
+{{< gimg src="/journey/eef2.webp" alt="EEF" caption="EEF" >}}
+{{< gimg src="/journey/eklavya.jpg" alt="Eklavya" caption="Eklavya" >}}
+{{< gimg src="/journey/hbcse.jpg" alt="HBCSE" caption="HBCSE" >}}
+{{< gimg src="/journey/moinee.jpg" alt="Moinee" caption="Moinee" >}}
+{{< gimg src="/journey/pindval.jpg" alt="Pindval" caption="Pindval" >}}
+{{< gimg src="/journey/pindval2.jpg" alt="Pindval" caption="Pindval" >}}
+{{< gimg src="/journey/polymath.jpg" alt="Polymath" caption="Polymath" >}}
+{{< gimg src="/journey/sidsar.webp" alt="Sidsar" caption="Sidsar" >}}
+{{< /gallery >}}
+
+
 ## Philosophy behind my educational work
+
+I started my journey as an educator in the facination of pedagogy. I wanted try everything theater, film making, project based learning, whole language approch, making - tinkering, etc... experimenting without knowing the philosophy behind it. First few years went like this. Slowly I started reflecting on aims of education, what is right kind of education, what is philosophy behind my work? 
+
+I read and reflected and experimented whole lot of philosophers - Gandhi, J Krishnmurti, Aurobindo, Buber, Waldorf, Montessori and more. Slowly, through reading, reflecting and embodied experiences, my philosophy of education emerged. It comes from a humanist, existential, experiential lineage.
+
+**My work is rooted in a deeper question:** what does education look like when our collective purpose is to live together harmoniously?
+
+Read detailed version of educational --> [philosophy](/philosophy/).
 
 > My programs, workshops and interventions are just an anchor. My strong intention is to create a space of dialogue and co-creation.
 
-A space which acts as an incubation center for everyone, where we learn, experiment, challenge ourselves, and thereby break barriers and grow in our lives.
+A space which acts as an incubation center for everyone, where we learn to relate with each other rightly, experiment, challenge ourselves, and thereby break barriers and grow in our lives.
+
+I am no more interested in education for skill building, I am more interested in **'Relationality in Education'**
+
+**My current core interest areas**
+
+*   Understanding the role of love and relationship in education
+*   Development of affective domain & Aesthetic sense
+*   learning to live together harmoniously, Education for harmony 
+
+**Pedagogical interests areas - Experiential learning as an over arching theme**
+
+*   Project based learning, social learning
+*   Language pedagogy, children's literature and theater in education
+*   Life skills education and ecological consciousness / nature education
+*   Citizen science projects, environment, civics, cultural projects for the larger good
+*   Self directed learning and non formal learning spaces
+
+**Science related interest areas**
+
+*   Neuroscience of wonder
+*   Brain based learning 
+
+----
 
 ## Selected work
 
-Eight projects, from age 3 to 18. Pick a photo to read its story.
+Eight projects, from age 3 to 18yrs. Pick a photo to read its story.
 
 {{< works >}}
 
@@ -89,41 +137,38 @@ Teenagers did a three month geo inquiry on the Vishwamitri river in Vadodara, Gu
 
 ----
 
-My offerings
-============
+## My offerings
 
-For schools, NGOs, learning centers and homeschooling groups.
+### For schools, NGOs, learning centers and homeschooling groups.
 
-For organisations
------------------
 
 Tailor-made workshops, residential camps and capacity-building sessions. I also help develop curriculum and activity modules, and mentor organisations as they build their own contextual experiential learning programs.
 
 ---
 
-Some ready made programs which we can directly impliment in learning spaces : 
+**Some ready made programs which we can directly implement in learning spaces :**
 
-Nature Detective
-----------------
+### 1. Nature Detective
+
 
 Workshops for children age 3 to 11. An outdoor science, arts and nature based exploratory program for young children. 
 
 Art · Theater · Nature · Inquiry based program
 
-Local Khoji
------------
+### 2. Local Khoji
+
 
 Workshops for young adults age 12 and above. A trans-disciplinary program where young adults make films about the place they belong to, with an environment and civic lens. 
 
 Geo inquiry project · Citizen science · Experiential learning · Place based learning
 
-Teenagers and gap year
-----------------------
+### 3. Teenagers and gap year
+
 
 I love working with teenagers and young adults to co-create their self designed learning journey, or gap year.
 
-How I work
-----------
+## How I work
+
 
 **Tools:** 
 
@@ -131,18 +176,20 @@ Theater · Storytelling · Nature exploration · Music · Movement · Art · Tin
 
 **Learning aims:** 
 
-Affective domain · Language · Creativity · Socio-emotional learning · Systems thinking and complexity · Integrated learning · Environmental consciousness 
+Affective domain · Language · Creativity · Systems thinking and complexity · Integrated learning · Environmental consciousness · life skills 
 
 **Themes :**
 
  Love and relationship in education · Dialogue in education · Project based learning · Self directed learning · Non formal learning spaces · Development of a ‘third’ space · Child development and learning · Language pedagogy · Children's literature · Theater in education · Life skills education · Ecological consciousness and nature education · Citizen science projects · Environment, civics and cultural projects for the larger good
 
-Write to me
------------
-
-**For workshops, camps, capacity building workshops :** [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com) · [WhatsApp](https://wa.me/919537068736?text=Hi%20Mihir%2C%20I%27d%20like%20to%20talk%20about%20working%20together.) · +91 9537068736
-
+## Write to me
 
 > Read my [CV](/educator/mihir-cv) & [work log](/educator/worklog) to get idea of my background and experience 
+
+I am not interested in one of workshop or teacher training. I am more interested in long term, deeper engagement with children / educators where I can create dialogic space. let's have conversation beyond training, workshops, curriculum, marks and exams. 
+
+Email is the best way to reach me - 
+
+[learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com) | [WhatsApp](https://wa.me/919537068736?text=Hi%20Mihir%2C%20I%27d%20like%20to%20talk%20about%20working%20together.) | +91 9537068736
 
 ----

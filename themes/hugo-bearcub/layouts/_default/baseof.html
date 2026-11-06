@@ -19,6 +19,9 @@
   <link href="{{ $style.RelPermalink }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "herman.min.css" | relURL }}">
 
+  <!-- ✨ Pagefind search (Component UI) -->
+  <link href="{{ "pagefind/pagefind-component-ui.css" | relURL }}" rel="stylesheet">
+  <script src="{{ "pagefind/pagefind-component-ui.js" | relURL }}" type="module"></script>
 
   <!-- ✨ Syntax Highlighting -->
   {{ if (.Page.Store.Get "hasCodeBlock") }}
@@ -42,9 +45,7 @@
 </head>
 
 <body>
-  <header>
-    {{- partial "header.html" . -}}
-  </header>
+  {{- partial "header.html" . -}}
 
   <!-- 🔽 Main Content Block -->
   <main id="main-content">
@@ -54,6 +55,9 @@
   <footer>
     {{- partial "footer.html" . -}}
   </footer>
+
+  <!-- ✨ Search modal (opened by the menu icon or Ctrl+K) -->
+  <pagefind-modal></pagefind-modal>
 
   <!-- 🔧 Optional custom body (user override) -->
   {{- partial "custom_body.html" . -}}

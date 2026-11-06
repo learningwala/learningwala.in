@@ -3,7 +3,7 @@ author = "Mihir Pathak"
 title = "Working with Youth"
 date = "2024-06-08"
 description = "working with youth"
-tags = ["Blog"]
+tags = ["Blog","field-note"]
 +++
 
 It's been 11 years now working in the education sector. I worked with children age 3yrs to 18yrs. Schools from state board to IB boards. Homeschooling groups and alternative schools too..

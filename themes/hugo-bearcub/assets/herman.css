@@ -1,40 +1,39 @@
-@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Lora:wght@400;600&family=Noto+Serif+Gujarati:wght@500&family=Montserrat:wght@400;600;700&display=swap';
-@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,200..900;1,200..900&family=Noto+Serif+Gujarati:wght@100..900&display=swap';
+@import 'https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5/400.css';
 
-/* Variables */
+/* Variables
+   light-dark() picks the first value in light mode and the second in dark mode.
+   Dark mode follows the system by default; the footer button sets data-theme to override it. */
 :root {
+  color-scheme: light dark;
+
   --width: 720px;
-  --font-main: 'Lora', serif;
-  --font-secondary: 'Open Sans', sans-serif;
+  --font-main: 'Literata', 'Noto Serif Gujarati', serif;
+  --font-secondary: 'Literata', 'Noto Serif Gujarati', serif;
+  --font-head: 'Literata', 'Noto Serif Gujarati', serif;
+  --font-body: var(--font-secondary);
+  --font-mono: 'Maple Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
   --font-weight-main: 600;
   --font-weight-secondary: 400;
   --font-scale: 1.1875em;
-  --background-color: #fff;
-  --heading-color: #1a1a1a;
-  --text-color: #000000;
-  --link-color: #d63384;
-  --visited-color: #6f42c1;
-  --code-background-color: #f5f5f5;
-  --code-color: #222;
-  --blockquote-color: #555;
-  --nav-background: #f8f9fa;
-  --nav-text: #495057;
+
+  --background-color: light-dark(#fff, #01242e);
+  --heading-color: light-dark(#1a1a1a, #f0f0f0);
+  --text-color: light-dark(#000000, #e0e0e0);
+  --link-color: light-dark(#d63384, #ff6b9d);
+  --visited-color: light-dark(#6f42c1, #8b6fcb);
+  --code-background-color: light-dark(#f5f5f5, #1a1a1a);
+  --code-color: light-dark(#222, #e0e0e0);
+  --blockquote-color: light-dark(#555, #ccc);
+  --nav-background: light-dark(#f8f9fa, #1e2d3a);
+  --nav-text: light-dark(#666, #b8c5d1);
+  --soft-border: light-dark(rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.18));
+  --rule-color: light-dark(#e5e5e5, rgba(255, 255, 255, 0.13));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #01242e;
-    --heading-color: #f0f0f0;
-    --text-color: #e0e0e0;
-    --link-color: #ff6b9d;
-    --visited-color: #8b6fcb;
-    --code-background-color: #1a1a1a;
-    --code-color: #e0e0e0;
-    --blockquote-color: #ccc;
-    --nav-background: #1e2d3a;
-    --nav-text: #b8c5d1;
-  }
-}
+/* manual override from the footer button */
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"]  { color-scheme: dark; }
 
 /* Base styles */
 body {
@@ -67,54 +66,115 @@ a:hover {
 }
 
 /* =========================
-   NAVIGATION (DESKTOP + HAMBURGER)
+   HEADER: brand left, menu right
+========================= */
+
+.site-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  padding: 1.25rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+/* Brand: Mihir Pathak | મિહિર પાઠક */
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  line-height: 1.2;
+}
+
+.brand a,
+.brand a:hover {
+  text-decoration: none;
+  color: var(--heading-color);
+}
+
+.brand a:hover { color: var(--link-color); }
+
+.brand-en {
+  font-family: var(--font-main);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.brand-sep {
+  color: var(--blockquote-color);
+  font-size: 1.3em;
+}
+
+/* Gujarati has no italic, so keep it upright */
+.brand-gu {
+  font-family: 'Noto Serif Gujarati', var(--font-main);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+/* =========================
+   NAVIGATION (DESKTOP)
 ========================= */
 
 .site-nav {
-  background-color: var(--nav-background);
-  padding: 15px 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  position: relative;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-mono);
 }
 
-/* menu list */
 .menu {
   list-style: none;
   display: flex;
-  gap: 12px;
+  align-items: center;
+  gap: 1rem;
   padding: 0;
   margin: 0;
 }
 
-/* menu items */
 .menu-item {
   position: relative;
 }
 
-/* nav links */
 .menu a {
-  font-family: var(--font-secondary);
-  font-size: 1.1em;
-  font-weight: 500;
-  color: var(--nav-text);
-  padding: 8px 10px;
-  border-radius: 6px;
-  transition: background-color 0.2s ease, color 0.2s ease;
   display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  font-weight: 400;
+  color: var(--nav-text);
+  padding: 4px 2px;
+  background: none;
+  border-radius: 0;
+  transition: color 0.2s ease;
 }
 
-/* main hover (PINK) */
-.menu a:hover {
-  background-color: var(--link-color);
-  color: #fff;
+.menu a:hover,
+.menu a.active {
+  color: var(--heading-color);
+  background: none;
+}
+
+.menu a:focus-visible {
+  outline: 1px dashed var(--heading-color);
+  outline-offset: 3px;
 }
 
 /* dropdown indicator */
 .has-children > a::after {
   content: " ▾";
   font-size: 0.8em;
+}
+
+.menu-search a {
+  display: inline-flex;
+  align-items: center;
 }
 
 /* =========================
@@ -130,10 +190,16 @@ a:hover {
   padding: 6px 0;
   margin: 0;
   background-color: var(--background-color);
-  border: 1px solid rgba(0,0,0,0.15);
+  border: 1px solid var(--soft-border);
   border-radius: 6px;
   display: none;
   z-index: 1000;
+}
+
+/* the last few dropdowns open to the left so they never leave the page */
+.menu-item:nth-last-child(-n+4) > .submenu {
+  left: auto;
+  right: 0;
 }
 
 .has-children:hover > .submenu,
@@ -143,14 +209,14 @@ a:hover {
 
 .submenu a {
   display: block;
-  padding: 8px 14px;
-  font-size: 0.95em;
+  padding: 6px 14px;
+  font-size: 0.78em;
+  white-space: nowrap;
 }
 
-/* dropdown hover — SAME PINK */
 .submenu a:hover {
-  background-color: var(--link-color);
-  color: #fff;
+  background-color: var(--nav-background);
+  color: var(--link-color);
 }
 
 /* =========================
@@ -161,12 +227,9 @@ a:hover {
   display: none;
 }
 
-/* hamburger icon */
 .nav-toggle-label {
   display: none;
   cursor: pointer;
-  width: 28px;
-  height: 20px;
 }
 
 .nav-toggle-label span,
@@ -186,14 +249,8 @@ a:hover {
   position: absolute;
 }
 
-.nav-toggle-label span::before {
-  top: -7px;
-}
-
-.nav-toggle-label span::after {
-  top: 7px;
-}
-
+.nav-toggle-label span::before { top: -7px; }
+.nav-toggle-label span::after  { top: 7px; }
 
 /* =========================
    CONTENT
@@ -204,6 +261,7 @@ main {
 }
 
 code {
+  font-family: var(--font-mono);
   background-color: var(--code-background-color);
   padding: 3px 6px;
   border-radius: 4px;
@@ -232,72 +290,62 @@ thead {
   background-color: var(--code-background-color);
 }
 
-/* Footer */
-footer {
-  padding: 25px 0;
-  text-align: center;
-  font-size: 0.9em;
-}
+/* =========================
+   MOBILE: header + hamburger
+========================= */
 
-/* Title */
-.title {
-  font-family: 'Montserrat', sans-serif !important;
-  font-weight: 400 !important;
-  font-size: 3.2em;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-/* Mobile title */
-@media (max-width: 768px) {
-  .title {
-    font-size: 2.8em;
-  }
-}
-
-@media (max-width: 480px) {
-  .title {
-    font-size: 2.4em;
-  }
-}
-
-/* MOBILE HAMBURGER FIX */
 @media (max-width: 768px) {
 
-  .nav-toggle {
-    display: none;
+  .brand-en { font-size: 1.3em; }
+  .brand-gu { font-size: 1.1em; }
+
+  .site-header {
+    align-items: flex-start;
+    padding-right: 44px; /* room for the hamburger */
+  }
+
+  .site-nav {
+    width: 100%;
   }
 
   .nav-toggle-label {
-    display: block;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1.2rem;
+    right: 0;
+    width: 28px;
+    height: 28px;
   }
 
   .menu {
     display: none;
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.4rem;
     width: 100%;
-    margin-top: 12px;
   }
 
   .nav-toggle:checked ~ .menu {
     display: flex;
   }
 
-  .submenu {
+  .menu a { font-size: 0.85em; }
+
+  /* dropdowns are always open inside the mobile menu */
+  .submenu,
+  .menu-item:nth-last-child(-n+4) > .submenu {
     position: static;
-    display: none;
-    padding-left: 16px;
-  }
-
-  .has-children > a::after {
-    content: " ▾";
-  }
-
-  .has-children:hover > .submenu {
     display: block;
+    min-width: 0;
+    padding: 0 0 0 1rem;
+    border: 0;
+    border-radius: 0;
+    background: none;
   }
+
+  .submenu a { padding: 4px 2px; font-size: 0.8em; }
+  .submenu a:hover { background: none; }
 }
 
 /* =========================
@@ -326,84 +374,58 @@ footer {
 }
 
 /* =========================
-   PAGEFIND SEARCH
+   PAGEFIND MODAL
 ========================= */
 
-.pagefind-ui {
-  --pagefind-ui-font: var(--font-secondary);
-  --pagefind-ui-primary: var(--link-color);
-  --pagefind-ui-text: var(--text-color);
-  --pagefind-ui-background: transparent;
-  --pagefind-ui-border: rgba(0,0,0,0.15);
-  --pagefind-ui-tag: var(--link-color);
+:root {
+  --pf-font: var(--font-secondary);
+  --pf-text: var(--heading-color);
+  --pf-text-secondary: var(--blockquote-color);
+  --pf-text-muted: var(--blockquote-color);
+  --pf-background: var(--background-color);
+  --pf-border: var(--rule-color);
+  --pf-border-focus: var(--blockquote-color);
+  --pf-hover: light-dark(#f5f5f5, #0b3340);
+  --pf-skeleton: light-dark(#eee, #0b3340);
+  --pf-skeleton-shine: light-dark(#f5f5f5, #12475a);
+  --pf-outline-focus: var(--link-color);
+  --pf-shadow-lg: 0 16px 48px light-dark(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+  --pf-border-radius: 8px;
+  --pf-modal-max-width: 720px;
+  --pf-input-font-size: 1.15rem;
+  --pf-result-title-font-size: 1.2rem;
+  --pf-result-excerpt-font-size: 1.05rem;
 }
 
-/* Search input */
-.pagefind-ui__search-input {
-  font-family: var(--font-secondary);
-  font-size: 1.1em;
-  padding: 12px 14px;
-  border-radius: 8px;
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: var(--background-color);
-  color: var(--text-color);
+/* typing area in Maple Mono, titles in bold Literata */
+pagefind-modal input {
+  font-family: var(--font-mono);
 }
 
-/* Result title */
-.pagefind-ui__result-title {
-  font-family: var(--font-main);
-  font-size: 1.2em;
-  font-weight: var(--font-weight-main);
+pagefind-modal .pf-result-title {
+  font-weight: 700;
 }
 
-/* Result excerpt */
-.pagefind-ui__result-excerpt {
-  font-size: 0.95em;
-  line-height: 1.6;
-  color: var(--blockquote-color);
-}
-
-/* Highlighted search term */
-.pagefind-ui__result-mark {
-  background-color: rgba(214, 51, 132, 0.2);
-  padding: 0 2px;
+/* highlighted search terms */
+pagefind-modal mark {
+  background: light-dark(rgba(37, 99, 235, 0.12), rgba(88, 166, 255, 0.2));
+  color: light-dark(#1d4ed8, #9ecbff);
+  padding: 0 3px;
   border-radius: 3px;
 }
 
-/* Results spacing */
-.pagefind-ui__results {
-  margin-top: 1.5rem;
-}
-
-/* Dark mode refinement */
-@media (prefers-color-scheme: dark) {
-  .pagefind-ui__search-input {
-    border-color: rgba(255,255,255,0.25);
-  }
-}
-
-#pagefind-search {
-  max-width: var(--width);
-  margin: 0 auto;
+/* the trigger in the menu: icon only, no button chrome */
+.menu-search pagefind-modal-trigger {
+  --pf-border: transparent;
+  --pf-background: transparent;
+  --pf-hover: transparent;
+  --pf-text: var(--nav-text);
 }
 
 /* =========================================================
    SELECTED WORK (.wk grid + .wkm viewer)
    Shortcodes: works, work
 ========================================================= */
-
-/* variables the second stylesheet does not have */
-:root {
-  --font-head: var(--font-main);
-  --soft-border: rgba(0, 0, 0, 0.12);
-  --rule-color: #e0e0e0;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --soft-border: rgba(255, 255, 255, 0.18);
-    --rule-color: rgba(255, 255, 255, 0.13);
-  }
-}
 
 /* ---------- the grid: wider than the text ---------- */
 
@@ -515,12 +537,9 @@ html:has(dialog.wkm[open]) { overflow: hidden; }
   overflow: visible;
 }
 .wkm::backdrop {
-  background: rgba(110, 110, 110, 0.42);
+  background: light-dark(rgba(110, 110, 110, 0.42), rgba(0, 0, 0, 0.55));
   -webkit-backdrop-filter: blur(7px);
   backdrop-filter: blur(7px);
-}
-@media (prefers-color-scheme: dark) {
-  .wkm::backdrop { background: rgba(0, 0, 0, 0.55); }
 }
 
 .wkm-card {
@@ -701,11 +720,6 @@ html:has(dialog.wkm[open]) { overflow: hidden; }
    Shortcodes: gallery, gimg, zoom
 ========================================================= */
 
-/* variables the second stylesheet does not have */
-:root {
-  --font-body: var(--font-secondary);
-}
-
 /* galleries and big images are wider than the text */
 .gal,
 .gal-solo:not(.gal-solo--text) {
@@ -844,3 +858,161 @@ figure.img-small figcaption {
   font: italic 400 0.9375rem/1.45 var(--font-body);
   color: var(--blockquote-color);
 }
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  margin-top: 3rem;
+  padding: 0 0 2rem;
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  color: var(--nav-text);
+}
+
+footer p { margin: 0; }
+
+footer a {
+  color: var(--nav-text);
+  text-decoration: none;
+}
+footer a:hover { color: var(--link-color); }
+
+.footer-ornament {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.footer-ornament img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.55;
+}
+
+.webrings {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule-color);
+}
+.webrings p { line-height: 2; }
+.webrings span { margin: 0 0.8rem; opacity: 0.6; }
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem 2rem;
+  flex-wrap: wrap;
+  padding-top: 1.2rem;
+}
+
+.footer-left { display: grid; gap: 0.7rem; }
+.footer-left a[href^="mailto"] { color: var(--link-color); }
+
+.badges { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.badges img { display: block; image-rendering: pixelated; }
+
+.footer-links { display: flex; gap: 1rem; }
+
+.footer-right {
+  display: grid;
+  gap: 0.7rem;
+  justify-items: end;
+  text-align: right;
+}
+
+.theme-toggle {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--nav-text);
+  cursor: pointer;
+  line-height: 0;
+}
+.theme-toggle:hover { color: var(--link-color); }
+
+@media (max-width: 560px) {
+  .footer-right { justify-items: start; text-align: left; }
+}
+
+/* =========================
+   POST LIST
+========================= */
+
+:root {
+  --accent-blue: light-dark(#2563eb, #7db4ff);
+  --accent-rss: light-dark(#e5534b, #ff7b72);
+}
+
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+
+.list-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-blue);
+}
+
+.list-rss {
+  display: inline-flex;
+  color: var(--accent-rss);
+}
+.list-rss:hover { color: var(--link-color); }
+
+.list-intro { margin-bottom: 2rem; color: var(--blockquote-color); }
+.list-intro p { margin: 0; }
+
+.year {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+  margin: 2rem 0 1rem;
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--heading-color);
+}
+.year sup {
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--blockquote-color);
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.post-list li {
+  display: grid;
+  grid-template-columns: 5.2rem 1fr;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+}
+.post-list time {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--nav-text);
+}
+.post-list a {
+  font-weight: 500;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+.post-list a:hover { color: var(--link-color); }

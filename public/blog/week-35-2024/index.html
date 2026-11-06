@@ -75,6 +75,9 @@
   <link href="/herman.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/herman.min.css">
 
+  
+  <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-component-ui.js" type="module"></script>
 
   
   
@@ -92,115 +95,71 @@
 
 <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/png" />
 
-</head>
 
-<body>
-  <header><a href="/">
-  <h2 class="title">Mihir Pathak | મિહિર પાઠક</h2>
-</a>
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script></head>
 
-<link rel="stylesheet" href="/herman.min.css">
+<body><header class="site-header">
+  <div class="brand">
+    <a class="brand-en" href="/">Mihir Pathak</a>
+    <span class="brand-sep" aria-hidden="true"></span>
+  </div>
 
-<nav class="site-nav">
+  <nav class="site-nav" aria-label="Main">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"><span></span></label>
 
-  
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-  </label>
-
-  
-  <ul class="menu">
-  <li class="menu-item ">
-    <a href="/">Home</a>
-
-    
-  </li>
-
-  <li class="menu-item has-children">
-    <a href="#">Everything</a>
-
-    
-      <ul class="submenu">
+    <ul class="menu">
+      
+      
         
-          <li>
-            <a href="/storyteller/">Storyteller</a>
+          <li class="menu-item">
+            <a href="/">Home</a>
           </li>
         
-          <li>
-            <a href="/educator/">Educator</a>
+      
+        
+          <li class="menu-item has-children">
+            <a href="#">Everything</a>
+            <ul class="submenu">
+              
+                <li><a href="/artist/">Artist</a></li>
+              
+                <li><a href="/educator/">Educator</a></li>
+              
+                <li><a href="/philosophy/">Philosophy</a></li>
+              
+                <li><a href="/journey/">Journey</a></li>
+              
+                <li><a href="/media/">Media Coverage</a></li>
+              
+            </ul>
           </li>
         
-          <li>
-            <a href="/philosophy/">Philosophy</a>
+      
+        
+          <li class="menu-item">
+            <a href="/educator/mihir-cv/">CV</a>
           </li>
         
-          <li>
-            <a href="/journey/">Journey</a>
+      
+        
+          <li class="menu-item">
+            <a href="/blog/">Blog</a>
           </li>
         
-          <li>
-            <a href="/media/">Media Coverage</a>
+      
+        
+          <li class="menu-item">
+            <a href="/now/">Now</a>
           </li>
         
-      </ul>
-    
-  </li>
-
-  <li class="menu-item ">
-    <a href="/educator/mihir-cv/">CV</a>
-
-    
-  </li>
-
-  <li class="menu-item has-children">
-    <a href="#">Blog</a>
-
-    
-      <ul class="submenu">
-        
-          <li>
-            <a href="/tags/weekly-notes/">Weekly Notes</a>
-          </li>
-        
-          <li>
-            <a href="/tags/blog/">Posts</a>
-          </li>
-        
-      </ul>
-    
-  </li>
-
-  <li class="menu-item ">
-    <a href="/now/">Now</a>
-
-    
-  </li>
-
-  <li class="menu-item ">
-    <a href="/blog/index.xml">RSS Feed</a>
-
-    
-  </li>
-
-  <li class="menu-item ">
-    <a href="/search/">🔍</a>
-
-    
-  </li>
-
-
-
-
-
-
-
-</ul>
-
-</nav>
+      
+      <li class="menu-item menu-search">
+  <pagefind-modal-trigger compact hide-shortcut></pagefind-modal-trigger>
+</li>
+    </ul>
+  </nav>
 </header>
-
-  
   <main id="main-content">
 
 
@@ -270,20 +229,52 @@ I am greatful to her for creating this safe space of sharing</p>
 
 
   
-    <p>
-      <a href='mailto:learningwalamihir@gmail.com?subject=Reply%20to%20 Week%2035%2f2024'>
-        Reply to this post by email ↪
-      </a>
-    </p>
-  
 
 
 
   </main>
 
-  <footer><small>
-  Mihir Pathak (CC BY-NC-SA 4.0) | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
-</small></footer>
+  <footer><div class="footer-main">
+  <div class="footer-left">
+    <p class="badges">
+      <a href="https://indieweb.org/"><img src="/images/badges/indieweb.webp" alt="IndieWeb" width="88" height="31"></a>
+    </p>
+    <p>Email me at: <a href="mailto:learningwalamihir@gmail.com">learningwalamihir[at]gmail.com</a></p>
+    <p>Find me on: <a href="https://www.instagram.com/learningwala/">Instagram</a>, <a href="https://www.linkedin.com/in/learningwalamihir/">Linkedin</a>, <a href="https://medium.com/learningwala">Medium</a></p>
+
+    <p class="footer-links">
+      <a href="/index.xml">RSS</a>
+      <a href="/tags/">Tags</a>
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </div>
+
+  <div class="footer-right">
+    <p>CC BY-NC-SA 4.0</p>
+    <p>Built 6 Nov 2026</p>
+    <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  document.querySelector('.theme-toggle').addEventListener('click', function () {
+    var root = document.documentElement;
+    var dark = root.dataset.theme
+      ? root.dataset.theme === 'dark'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    var next = dark ? 'light' : 'dark';
+    root.dataset.theme = next;
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+</script></footer>
+
+  
+  <pagefind-modal></pagefind-modal>
 
     
 </body>
