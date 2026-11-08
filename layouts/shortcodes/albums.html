@@ -53,8 +53,8 @@
                 {{- if lt $i $n }}
                   {{- $img := index $set $i -}}
                   {{- $t := $img -}}
-                  {{- if gt $img.Width 480 }}{{ $t = $img.Resize "480x" }}{{ end -}}
-                  <img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async">
+{{- if gt $img.Width 700 }}{{ $t = $img.Resize "700x" }}{{ end -}}
+<img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async">
                 {{- else -}}
                   <span class="ab-ph"></span>
                 {{- end -}}
@@ -82,7 +82,7 @@
           {{- $thumb := . -}}
           {{- if gt .Width 700 }}{{ $thumb = .Resize "700x" }}{{ end -}}
           {{- $full := . -}}
-          {{- if gt .Width 2000 }}{{ $full = .Resize "2000x" }}{{ end }}
+          {{- if gt .Width 1600 }}{{ $full = .Resize "1600x" }}{{ end }}
           <li>
             <figure>
               <a class="ab-pic" href="{{ $full.RelPermalink }}" data-cap="{{ $cap }}" aria-label="Enlarge: {{ $cap }}">
