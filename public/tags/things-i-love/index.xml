@@ -14,141 +14,256 @@
       <link>http://localhost:1313/blog/thingsilove/</link>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/thingsilove/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; This is living document where I will add things, places, moments, actvities I love.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/activa.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/activa_hu_9981eb875867f2e6.jpg&#34; alt=&#34;Activa scooter under a large tree&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Activa Scooter&lt;/figcaption&gt;&lt;/figure&gt;&lt;dialog class=&#34;glb&#34; id=&#34;zoomviewer&#34; aria-label=&#34;Image viewer&#34;&gt;&#xA;  &lt;div class=&#34;glb-scroll&#34;&gt;&lt;img alt=&#34;&#34;&gt;&lt;/div&gt;&#xA;  &lt;button class=&#34;glb-x&#34; type=&#34;button&#34; aria-label=&#34;Close&#34;&gt;Close ✕&lt;/button&gt;&#xA;  &lt;button class=&#34;glb-nav glb-prev&#34; type=&#34;button&#34; aria-label=&#34;Previous image&#34;&gt;‹&lt;/button&gt;&#xA;  &lt;button class=&#34;glb-nav glb-next&#34; type=&#34;button&#34; aria-label=&#34;Next image&#34;&gt;›&lt;/button&gt;&#xA;  &lt;p class=&#34;glb-cap&#34;&gt;&lt;/p&gt;&#xA;&lt;/dialog&gt;&#xA;&lt;script&gt;&#xA;(function () {&#xA;  var dlg = document.getElementById(&#39;zoomviewer&#39;);&#xA;  if (!dlg || dlg.dataset.ready) return;&#xA;  dlg.dataset.ready = &#39;1&#39;;&#xA;&#xA;  var img = dlg.querySelector(&#39;img&#39;);&#xA;  var cap = dlg.querySelector(&#39;.glb-cap&#39;);&#xA;  var prev = dlg.querySelector(&#39;.glb-prev&#39;);&#xA;  var next = dlg.querySelector(&#39;.glb-next&#39;);&#xA;  var closeBtn = dlg.querySelector(&#39;.glb-x&#39;);&#xA;  var links = [], idx = 0;&#xA;&#xA;  function collect() {&#xA;    links = [].slice.call(document.querySelectorAll(&#39;figure.gal-solo a.zoom&#39;));&#xA;  }&#xA;  function show(n) {&#xA;    idx = (n + links.length) % links.length;&#xA;    var a = links[idx];&#xA;    var thumb = a.querySelector(&#39;img&#39;);&#xA;    var fc = a.parentNode.querySelector(&#39;figcaption&#39;);&#xA;    img.src = a.getAttribute(&#39;href&#39;);&#xA;    img.alt = thumb ? thumb.alt : &#39;&#39;;&#xA;    cap.textContent = fc ? fc.textContent : &#39;&#39;;&#xA;    prev.hidden = next.hidden = links.length &lt; 2;&#xA;    dlg.classList.remove(&#39;is-full&#39;);&#xA;  }&#xA;  function openAt(n) {&#xA;    collect();&#xA;    if (!dlg.open) dlg.showModal();&#xA;    show(n);&#xA;  }&#xA;&#xA;  document.addEventListener(&#39;click&#39;, function (e) {&#xA;    var a = e.target.closest &amp;&amp; e.target.closest(&#39;figure.gal-solo a.zoom&#39;);&#xA;    if (!a) return;&#xA;    e.preventDefault();&#xA;    e.stopImmediatePropagation();&#xA;    collect();&#xA;    openAt(links.indexOf(a));&#xA;  }, true);&#xA;&#xA;  closeBtn.addEventListener(&#39;click&#39;, function () { dlg.close(); });&#xA;  prev.addEventListener(&#39;click&#39;, function () { show(idx - 1); });&#xA;  next.addEventListener(&#39;click&#39;, function () { show(idx + 1); });&#xA;  img.addEventListener(&#39;click&#39;, function () { dlg.classList.toggle(&#39;is-full&#39;); });&#xA;&#xA;  dlg.addEventListener(&#39;click&#39;, function (e) {&#xA;    if (e.target === dlg || e.target.classList.contains(&#39;glb-scroll&#39;)) dlg.close();&#xA;  });&#xA;&#xA;  document.addEventListener(&#39;keydown&#39;, function (e) {&#xA;    if (!dlg.open) return;&#xA;    if (e.key === &#39;ArrowLeft&#39;) show(idx - 1);&#xA;    if (e.key === &#39;ArrowRight&#39;) show(idx + 1);&#xA;  });&#xA;&#xA;  var x0 = null;&#xA;  dlg.addEventListener(&#39;touchstart&#39;, function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });&#xA;  dlg.addEventListener(&#39;touchend&#39;, function (e) {&#xA;    if (x0 === null) return;&#xA;    var dx = e.changedTouches[0].clientX - x0;&#xA;    x0 = null;&#xA;    if (Math.abs(dx) &gt; 50) show(idx + (dx &lt; 0 ? 1 : -1));&#xA;  }, { passive: true });&#xA;&#xA;  dlg.addEventListener(&#39;close&#39;, function () { img.removeAttribute(&#39;src&#39;); });&#xA;})();&#xA;&lt;/script&gt;&#xA;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/balcony.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/balcony_hu_5d1bf0dd393fafe6.jpg&#34; alt=&#34;Balcony with a small table and railing&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Balcony at home&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/hometable.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/hometable_hu_75455d77db034adc.jpeg&#34; alt=&#34;Writing table at home with a typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Study table at home&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/inks.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/inks_hu_774f88efa585846a.jpeg&#34; alt=&#34;Row of ink bottles on a shelf&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Inks&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/laptop.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/laptop_hu_3c65bfdb2b254b1.jpg&#34; alt=&#34;Laptop open on a desk&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Laptop&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/notebook.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/notebook_hu_4063d97159a39c18.jpeg&#34; alt=&#34;Brown notebook with a patterned strip&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Notebook&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/officetable.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/officetable_hu_32d1a7cd23f854aa.jpg&#34; alt=&#34;Office desk with a monitor&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Office table&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/officetable2.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/officetable2_hu_74c04c1dc66d241c.jpg&#34; alt=&#34;Office desk with a pink cloth and notes on the wall&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Office table, another view&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/pen.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/pen_hu_14acd4bee413c3a6.jpeg&#34; alt=&#34;Green highlighter on a brown notebook&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Kakuno Ink Pen&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/shirts.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/shirts_hu_57ab4301fb70f00d.jpg&#34; alt=&#34;Shirts hanging out to dry&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Shirts&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/two.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/two_hu_98c96d89260a5fd7.jpg&#34; alt=&#34;Two people reflected in a train window&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Togetherness&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/typewriter.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/typewriter_hu_bd6d398253a2ac5b.jpg&#34; alt=&#34;Vintage typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Typewriter&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: 1fr;  &#xA;  margin-bottom: 2rem;&#xA;}&#xA;&#xA;@media (min-width: 600px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(2, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;@media (min-width: 1024px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(3, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; This is living document where I will add things, places, moments, actvities I love.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;ab&#34; data-single=&#34;true&#34;&gt;&lt;div class=&#34;ab-home&#34; hidden&gt;&lt;p class=&#34;ab-hint&#34;&gt;Click an album to open it.&lt;/p&gt;&#xA;    &lt;ul class=&#34;ab-grid&#34;&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;things-i-love-things-places-and-moments-i-love&#34; aria-label=&#34;Open album: Things, Places and Moments I love, 12 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/typewriter_hu_dbcc09ceaf9ca478.jpg&#34; width=&#34;480&#34; height=&#34;271&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/two_hu_b994b7d8dc724791.jpg&#34; width=&#34;480&#34; height=&#34;531&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/shirts_hu_fe4488682c49dfdc.jpg&#34; width=&#34;480&#34; height=&#34;271&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Things, Places and Moments I love&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;12 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&lt;section class=&#34;ab-album&#34; id=&#34;things-i-love-things-places-and-moments-i-love&#34;&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Things, Places and Moments I love&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/typewriter_hu_232b85ccd272b56d.jpg&#34; data-cap=&#34;Typewriter&#34; aria-label=&#34;Enlarge: Typewriter&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/typewriter_hu_9a5a11dc4c721fcc.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Typewriter&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/two_hu_ad44f181669f7a94.jpg&#34; data-cap=&#34;Two&#34; aria-label=&#34;Enlarge: Two&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/two_hu_c994282ff6df6bde.jpg&#34; width=&#34;700&#34; height=&#34;775&#34; alt=&#34;Two&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Two&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/shirts_hu_60d254b74213c554.jpg&#34; data-cap=&#34;Shirts&#34; aria-label=&#34;Enlarge: Shirts&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/shirts_hu_9c58ad497ffe542a.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Shirts&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Shirts&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/pen.jpeg&#34; data-cap=&#34;Pen&#34; aria-label=&#34;Enlarge: Pen&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/pen_hu_1894e788ba645724.jpeg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Pen&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Pen&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/officetable2_hu_47bf904a53e109ec.jpg&#34; data-cap=&#34;Officetable2&#34; aria-label=&#34;Enlarge: Officetable2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/officetable2_hu_751ab33804b6969b.jpg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Officetable2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Officetable2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/officetable_hu_7fb2659f8c9b1c9.jpg&#34; data-cap=&#34;Officetable&#34; aria-label=&#34;Enlarge: Officetable&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/officetable_hu_880cb3ebcea01eec.jpg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Officetable&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Officetable&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/notebook.jpeg&#34; data-cap=&#34;Notebook&#34; aria-label=&#34;Enlarge: Notebook&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/notebook_hu_1a14fecc3c58e56e.jpeg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Notebook&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notebook&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/laptop_hu_fbc89691fb7d58d.jpg&#34; data-cap=&#34;Laptop&#34; aria-label=&#34;Enlarge: Laptop&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/laptop_hu_c34f964d7e5b33bb.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Laptop&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Laptop&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/inks.jpeg&#34; data-cap=&#34;Inks&#34; aria-label=&#34;Enlarge: Inks&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/inks_hu_f6d0806ebe7715dc.jpeg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Inks&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Inks&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/hometable.jpeg&#34; data-cap=&#34;Hometable&#34; aria-label=&#34;Enlarge: Hometable&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/hometable_hu_9668076ff01646fe.jpeg&#34; width=&#34;700&#34; height=&#34;600&#34; alt=&#34;Hometable&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Hometable&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/balcony_hu_748b4e76a6f83114.jpg&#34; data-cap=&#34;Balcony&#34; aria-label=&#34;Enlarge: Balcony&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/balcony_hu_8630cec1a4403491.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Balcony&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Balcony&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/activa_hu_af29d125e305b33c.jpg&#34; data-cap=&#34;Activa&#34; aria-label=&#34;Enlarge: Activa&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/activa_hu_f854de7e6140932d.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Activa&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Activa&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;dialog class=&#34;ab-box&#34; aria-label=&#34;Picture viewer&#34;&gt;&#xA;    &lt;div class=&#34;ab-track&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;ab-head&#34;&gt;&#xA;      &lt;span class=&#34;ab-ttl&#34;&gt;&lt;/span&gt;&#xA;      &lt;button class=&#34;ab-x&#34; type=&#34;button&#34;&gt;Close ✕&lt;/button&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;button class=&#34;ab-nav ab-prev&#34; type=&#34;button&#34; aria-label=&#34;Previous picture&#34;&gt;‹&lt;/button&gt;&#xA;    &lt;button class=&#34;ab-nav ab-next&#34; type=&#34;button&#34; aria-label=&#34;Next picture&#34;&gt;›&lt;/button&gt;&#xA;    &lt;p class=&#34;ab-cap&#34;&gt;&lt;/p&gt;&#xA;  &lt;/dialog&gt;&#xA;&#xA;  &lt;script&gt;&#xA;  (function () {&#xA;    var root   = document.currentScript.parentElement;&#xA;    var home   = root.querySelector(&#39;.ab-home&#39;);&#xA;    var panels = Array.prototype.slice.call(root.querySelectorAll(&#39;.ab-album&#39;));&#xA;    var single = root.dataset.single === &#39;true&#39;;&#xA;&#xA;     &#xA;    var back = root.querySelector(&#39;.ab-back&#39;);&#xA;    var inPage = false;   &#xA;&#xA;    function sync(scroll) {&#xA;      if (single) return;&#xA;      var id = decodeURIComponent(location.hash.slice(1));&#xA;      var found = false;&#xA;      panels.forEach(function (p) {&#xA;        var on = p.id === id;&#xA;        p.hidden = !on;&#xA;        if (on) found = true;&#xA;      });&#xA;      home.hidden = found;&#xA;      back.hidden = !found;&#xA;      if (scroll) {&#xA;        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;&#xA;        window.scrollTo({ top: Math.max(0, y), behavior: &#39;instant&#39; });&#xA;      }&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var card = e.target.closest(&#39;.ab-card&#39;);&#xA;      if (card) { inPage = true; location.hash = card.dataset.id; return; }&#xA;      if (e.target.closest(&#39;.ab-back&#39;)) {&#xA;        if (inPage) {&#xA;          history.back();                       &#xA;        } else {                                &#xA;          history.replaceState(null, &#39;&#39;, location.pathname + location.search);&#xA;          sync(true);&#xA;        }&#xA;      }&#xA;    });&#xA;    window.addEventListener(&#39;hashchange&#39;, function () { sync(true); });&#xA;    sync(false);&#xA;&#xA;     &#xA;    var box   = root.querySelector(&#39;.ab-box&#39;);&#xA;    var track = box.querySelector(&#39;.ab-track&#39;);&#xA;    var ttl   = box.querySelector(&#39;.ab-ttl&#39;);&#xA;    var cap   = box.querySelector(&#39;.ab-cap&#39;);&#xA;    var prev  = box.querySelector(&#39;.ab-prev&#39;);&#xA;    var next  = box.querySelector(&#39;.ab-next&#39;);&#xA;    var items = [], album = &#39;&#39;, i = 0, raf = 0;&#xA;&#xA;    function update(n) {&#xA;      i = n;&#xA;      ttl.textContent = album + (items.length &gt; 1 ? &#39;  ·  &#39; + (n + 1) + &#39; / &#39; + items.length : &#39;&#39;);&#xA;      cap.textContent = items[n].cap;&#xA;      prev.disabled = n === 0;&#xA;      next.disabled = n === items.length - 1;&#xA;    }&#xA;&#xA;    function goTo(n, smooth) {&#xA;      n = Math.max(0, Math.min(items.length - 1, n));&#xA;      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? &#39;smooth&#39; : &#39;instant&#39; });&#xA;      if (!smooth) update(n);&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var a = e.target.closest(&#39;.ab-pic&#39;);&#xA;      if (!a) return;&#xA;      e.preventDefault();&#xA;      var panel = a.closest(&#39;.ab-album&#39;);&#xA;      var links = panel.querySelectorAll(&#39;.ab-pic&#39;);&#xA;      items = Array.prototype.map.call(links, function (l) {&#xA;        return { src: l.href, cap: l.dataset.cap };&#xA;      });&#xA;      album = panel.querySelector(&#39;.ab-title&#39;) ? panel.querySelector(&#39;.ab-title&#39;).textContent : &#39;&#39;;&#xA;      box.dataset.single = items.length &lt; 2 ? &#39;true&#39; : &#39;false&#39;;&#xA;&#xA;      track.innerHTML = &#39;&#39;;&#xA;      items.forEach(function (it) {&#xA;        var f = document.createElement(&#39;figure&#39;);&#xA;        f.className = &#39;ab-slide&#39;;&#xA;        var im = new Image();&#xA;        im.alt = it.cap;&#xA;        im.draggable = false;&#xA;        im.decoding = &#39;async&#39;;&#xA;        im.src = it.src;&#xA;        f.appendChild(im);&#xA;        track.appendChild(f);&#xA;      });&#xA;&#xA;      box.showModal();&#xA;      goTo(Array.prototype.indexOf.call(links, a), false);&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;scroll&#39;, function () {&#xA;      cancelAnimationFrame(raf);&#xA;      raf = requestAnimationFrame(function () {&#xA;        if (!items.length) return;&#xA;        var n = Math.round(track.scrollLeft / track.clientWidth);&#xA;        if (n !== i &amp;&amp; items[n]) update(n);&#xA;      });&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;click&#39;, function (e) {&#xA;      if (e.target.tagName !== &#39;IMG&#39;) box.close();&#xA;    });&#xA;&#xA;    box.querySelector(&#39;.ab-x&#39;).addEventListener(&#39;click&#39;, function () { box.close(); });&#xA;    prev.addEventListener(&#39;click&#39;, function () { goTo(i - 1, true); });&#xA;    next.addEventListener(&#39;click&#39;, function () { goTo(i + 1, true); });&#xA;    box.addEventListener(&#39;keydown&#39;, function (e) {&#xA;      if (e.key === &#39;ArrowLeft&#39;)  goTo(i - 1, true);&#xA;      if (e.key === &#39;ArrowRight&#39;) goTo(i + 1, true);&#xA;    });&#xA;    box.addEventListener(&#39;close&#39;, function () { track.innerHTML = &#39;&#39;; items = []; });&#xA;    window.addEventListener(&#39;resize&#39;, function () { if (box.open &amp;&amp; items.length) goTo(i, false); });&#xA;  })();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
       <content:encoded><![CDATA[<p><strong>Note :</strong> This is living document where I will add things, places, moments, actvities I love.</p>
 <hr>
-<div class="img-grid">
-  
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/activa.jpg"><img src="/now/activa_hu_9981eb875867f2e6.jpg" alt="Activa scooter under a large tree" loading="lazy" decoding="async"></a><figcaption>Activa Scooter</figcaption></figure><dialog class="glb" id="zoomviewer" aria-label="Image viewer">
-  <div class="glb-scroll"><img alt=""></div>
-  <button class="glb-x" type="button" aria-label="Close">Close ✕</button>
-  <button class="glb-nav glb-prev" type="button" aria-label="Previous image">‹</button>
-  <button class="glb-nav glb-next" type="button" aria-label="Next image">›</button>
-  <p class="glb-cap"></p>
-</dialog>
-<script>
-(function () {
-  var dlg = document.getElementById('zoomviewer');
-  if (!dlg || dlg.dataset.ready) return;
-  dlg.dataset.ready = '1';
+<div class="ab" data-single="true"><div class="ab-home" hidden><p class="ab-hint">Click an album to open it.</p>
+    <ul class="ab-grid">
+      <li>
+        <button class="ab-card" type="button" data-id="things-i-love-things-places-and-moments-i-love" aria-label="Open album: Things, Places and Moments I love, 12 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/things-i-love/typewriter_hu_dbcc09ceaf9ca478.jpg" width="480" height="271" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/things-i-love/two_hu_b994b7d8dc724791.jpg" width="480" height="531" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/things-i-love/shirts_hu_fe4488682c49dfdc.jpg" width="480" height="271" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Things, Places and Moments I love</span>
+          <span class="ab-n">12 pictures</span>
+        </button>
+      </li>
+    </ul>
+  </div><section class="ab-album" id="things-i-love-things-places-and-moments-i-love"><h2 class="ab-title">Things, Places and Moments I love</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/typewriter_hu_232b85ccd272b56d.jpg" data-cap="Typewriter" aria-label="Enlarge: Typewriter">
+                <img src="/things-i-love/typewriter_hu_9a5a11dc4c721fcc.jpg" width="700" height="396" alt="Typewriter" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Typewriter</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/two_hu_ad44f181669f7a94.jpg" data-cap="Two" aria-label="Enlarge: Two">
+                <img src="/things-i-love/two_hu_c994282ff6df6bde.jpg" width="700" height="775" alt="Two" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Two</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/shirts_hu_60d254b74213c554.jpg" data-cap="Shirts" aria-label="Enlarge: Shirts">
+                <img src="/things-i-love/shirts_hu_9c58ad497ffe542a.jpg" width="700" height="396" alt="Shirts" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Shirts</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/pen.jpeg" data-cap="Pen" aria-label="Enlarge: Pen">
+                <img src="/things-i-love/pen_hu_1894e788ba645724.jpeg" width="700" height="933" alt="Pen" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Pen</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/officetable2_hu_47bf904a53e109ec.jpg" data-cap="Officetable2" aria-label="Enlarge: Officetable2">
+                <img src="/things-i-love/officetable2_hu_751ab33804b6969b.jpg" width="700" height="525" alt="Officetable2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Officetable2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/officetable_hu_7fb2659f8c9b1c9.jpg" data-cap="Officetable" aria-label="Enlarge: Officetable">
+                <img src="/things-i-love/officetable_hu_880cb3ebcea01eec.jpg" width="700" height="525" alt="Officetable" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Officetable</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/notebook.jpeg" data-cap="Notebook" aria-label="Enlarge: Notebook">
+                <img src="/things-i-love/notebook_hu_1a14fecc3c58e56e.jpeg" width="700" height="525" alt="Notebook" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notebook</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/laptop_hu_fbc89691fb7d58d.jpg" data-cap="Laptop" aria-label="Enlarge: Laptop">
+                <img src="/things-i-love/laptop_hu_c34f964d7e5b33bb.jpg" width="700" height="396" alt="Laptop" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Laptop</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/inks.jpeg" data-cap="Inks" aria-label="Enlarge: Inks">
+                <img src="/things-i-love/inks_hu_f6d0806ebe7715dc.jpeg" width="700" height="525" alt="Inks" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Inks</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/hometable.jpeg" data-cap="Hometable" aria-label="Enlarge: Hometable">
+                <img src="/things-i-love/hometable_hu_9668076ff01646fe.jpeg" width="700" height="600" alt="Hometable" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Hometable</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/balcony_hu_748b4e76a6f83114.jpg" data-cap="Balcony" aria-label="Enlarge: Balcony">
+                <img src="/things-i-love/balcony_hu_8630cec1a4403491.jpg" width="700" height="396" alt="Balcony" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Balcony</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/activa_hu_af29d125e305b33c.jpg" data-cap="Activa" aria-label="Enlarge: Activa">
+                <img src="/things-i-love/activa_hu_f854de7e6140932d.jpg" width="700" height="396" alt="Activa" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Activa</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><dialog class="ab-box" aria-label="Picture viewer">
+    <div class="ab-track"></div>
+    <div class="ab-head">
+      <span class="ab-ttl"></span>
+      <button class="ab-x" type="button">Close ✕</button>
+    </div>
+    <button class="ab-nav ab-prev" type="button" aria-label="Previous picture">‹</button>
+    <button class="ab-nav ab-next" type="button" aria-label="Next picture">›</button>
+    <p class="ab-cap"></p>
+  </dialog>
 
-  var img = dlg.querySelector('img');
-  var cap = dlg.querySelector('.glb-cap');
-  var prev = dlg.querySelector('.glb-prev');
-  var next = dlg.querySelector('.glb-next');
-  var closeBtn = dlg.querySelector('.glb-x');
-  var links = [], idx = 0;
+  <script>
+  (function () {
+    var root   = document.currentScript.parentElement;
+    var home   = root.querySelector('.ab-home');
+    var panels = Array.prototype.slice.call(root.querySelectorAll('.ab-album'));
+    var single = root.dataset.single === 'true';
 
-  function collect() {
-    links = [].slice.call(document.querySelectorAll('figure.gal-solo a.zoom'));
-  }
-  function show(n) {
-    idx = (n + links.length) % links.length;
-    var a = links[idx];
-    var thumb = a.querySelector('img');
-    var fc = a.parentNode.querySelector('figcaption');
-    img.src = a.getAttribute('href');
-    img.alt = thumb ? thumb.alt : '';
-    cap.textContent = fc ? fc.textContent : '';
-    prev.hidden = next.hidden = links.length < 2;
-    dlg.classList.remove('is-full');
-  }
-  function openAt(n) {
-    collect();
-    if (!dlg.open) dlg.showModal();
-    show(n);
-  }
+     
+    var back = root.querySelector('.ab-back');
+    var inPage = false;   
 
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest && e.target.closest('figure.gal-solo a.zoom');
-    if (!a) return;
-    e.preventDefault();
-    e.stopImmediatePropagation();
-    collect();
-    openAt(links.indexOf(a));
-  }, true);
+    function sync(scroll) {
+      if (single) return;
+      var id = decodeURIComponent(location.hash.slice(1));
+      var found = false;
+      panels.forEach(function (p) {
+        var on = p.id === id;
+        p.hidden = !on;
+        if (on) found = true;
+      });
+      home.hidden = found;
+      back.hidden = !found;
+      if (scroll) {
+        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;
+        window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+      }
+    }
 
-  closeBtn.addEventListener('click', function () { dlg.close(); });
-  prev.addEventListener('click', function () { show(idx - 1); });
-  next.addEventListener('click', function () { show(idx + 1); });
-  img.addEventListener('click', function () { dlg.classList.toggle('is-full'); });
+    root.addEventListener('click', function (e) {
+      var card = e.target.closest('.ab-card');
+      if (card) { inPage = true; location.hash = card.dataset.id; return; }
+      if (e.target.closest('.ab-back')) {
+        if (inPage) {
+          history.back();                       
+        } else {                                
+          history.replaceState(null, '', location.pathname + location.search);
+          sync(true);
+        }
+      }
+    });
+    window.addEventListener('hashchange', function () { sync(true); });
+    sync(false);
 
-  dlg.addEventListener('click', function (e) {
-    if (e.target === dlg || e.target.classList.contains('glb-scroll')) dlg.close();
-  });
+     
+    var box   = root.querySelector('.ab-box');
+    var track = box.querySelector('.ab-track');
+    var ttl   = box.querySelector('.ab-ttl');
+    var cap   = box.querySelector('.ab-cap');
+    var prev  = box.querySelector('.ab-prev');
+    var next  = box.querySelector('.ab-next');
+    var items = [], album = '', i = 0, raf = 0;
 
-  document.addEventListener('keydown', function (e) {
-    if (!dlg.open) return;
-    if (e.key === 'ArrowLeft') show(idx - 1);
-    if (e.key === 'ArrowRight') show(idx + 1);
-  });
+    function update(n) {
+      i = n;
+      ttl.textContent = album + (items.length > 1 ? '  ·  ' + (n + 1) + ' / ' + items.length : '');
+      cap.textContent = items[n].cap;
+      prev.disabled = n === 0;
+      next.disabled = n === items.length - 1;
+    }
 
-  var x0 = null;
-  dlg.addEventListener('touchstart', function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });
-  dlg.addEventListener('touchend', function (e) {
-    if (x0 === null) return;
-    var dx = e.changedTouches[0].clientX - x0;
-    x0 = null;
-    if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
-  }, { passive: true });
+    function goTo(n, smooth) {
+      n = Math.max(0, Math.min(items.length - 1, n));
+      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? 'smooth' : 'instant' });
+      if (!smooth) update(n);
+    }
 
-  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
-})();
-</script>
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest('.ab-pic');
+      if (!a) return;
+      e.preventDefault();
+      var panel = a.closest('.ab-album');
+      var links = panel.querySelectorAll('.ab-pic');
+      items = Array.prototype.map.call(links, function (l) {
+        return { src: l.href, cap: l.dataset.cap };
+      });
+      album = panel.querySelector('.ab-title') ? panel.querySelector('.ab-title').textContent : '';
+      box.dataset.single = items.length < 2 ? 'true' : 'false';
 
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/balcony.jpg"><img src="/now/balcony_hu_5d1bf0dd393fafe6.jpg" alt="Balcony with a small table and railing" loading="lazy" decoding="async"></a><figcaption>Balcony at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/hometable.jpeg"><img src="/now/hometable_hu_75455d77db034adc.jpeg" alt="Writing table at home with a typewriter" loading="lazy" decoding="async"></a><figcaption>Study table at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/inks.jpeg"><img src="/now/inks_hu_774f88efa585846a.jpeg" alt="Row of ink bottles on a shelf" loading="lazy" decoding="async"></a><figcaption>Inks</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/laptop.jpg"><img src="/now/laptop_hu_3c65bfdb2b254b1.jpg" alt="Laptop open on a desk" loading="lazy" decoding="async"></a><figcaption>Laptop</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/notebook.jpeg"><img src="/now/notebook_hu_4063d97159a39c18.jpeg" alt="Brown notebook with a patterned strip" loading="lazy" decoding="async"></a><figcaption>Notebook</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable.jpg"><img src="/now/officetable_hu_32d1a7cd23f854aa.jpg" alt="Office desk with a monitor" loading="lazy" decoding="async"></a><figcaption>Office table</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable2.jpg"><img src="/now/officetable2_hu_74c04c1dc66d241c.jpg" alt="Office desk with a pink cloth and notes on the wall" loading="lazy" decoding="async"></a><figcaption>Office table, another view</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/pen.jpeg"><img src="/now/pen_hu_14acd4bee413c3a6.jpeg" alt="Green highlighter on a brown notebook" loading="lazy" decoding="async"></a><figcaption>Kakuno Ink Pen</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/shirts.jpg"><img src="/now/shirts_hu_57ab4301fb70f00d.jpg" alt="Shirts hanging out to dry" loading="lazy" decoding="async"></a><figcaption>Shirts</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/two.jpg"><img src="/now/two_hu_98c96d89260a5fd7.jpg" alt="Two people reflected in a train window" loading="lazy" decoding="async"></a><figcaption>Togetherness</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/typewriter.jpg"><img src="/now/typewriter_hu_bd6d398253a2ac5b.jpg" alt="Vintage typewriter" loading="lazy" decoding="async"></a><figcaption>Typewriter</figcaption></figure>
+      track.innerHTML = '';
+      items.forEach(function (it) {
+        var f = document.createElement('figure');
+        f.className = 'ab-slide';
+        var im = new Image();
+        im.alt = it.cap;
+        im.draggable = false;
+        im.decoding = 'async';
+        im.src = it.src;
+        f.appendChild(im);
+        track.appendChild(f);
+      });
 
+      box.showModal();
+      goTo(Array.prototype.indexOf.call(links, a), false);
+    });
+
+    
+    track.addEventListener('scroll', function () {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        if (!items.length) return;
+        var n = Math.round(track.scrollLeft / track.clientWidth);
+        if (n !== i && items[n]) update(n);
+      });
+    });
+
+    
+    track.addEventListener('click', function (e) {
+      if (e.target.tagName !== 'IMG') box.close();
+    });
+
+    box.querySelector('.ab-x').addEventListener('click', function () { box.close(); });
+    prev.addEventListener('click', function () { goTo(i - 1, true); });
+    next.addEventListener('click', function () { goTo(i + 1, true); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft')  goTo(i - 1, true);
+      if (e.key === 'ArrowRight') goTo(i + 1, true);
+    });
+    box.addEventListener('close', function () { track.innerHTML = ''; items = []; });
+    window.addEventListener('resize', function () { if (box.open && items.length) goTo(i, false); });
+  })();
+  </script>
 </div>
-
-<style>
-.img-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;  
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .img-grid {
-    grid-template-columns: repeat(2, 1fr);  
-  }
-}
-
-@media (min-width: 1024px) {
-  .img-grid {
-    grid-template-columns: repeat(3, 1fr);  
-  }
-}
-
-.img-grid figure {
-  margin: 0;
-}
-
-.img-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-.img-grid figcaption {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #555;
-  margin-top: 0.3rem;
-}
-</style>
-
 ]]></content:encoded>
     </item>
   </channel>

@@ -44,6 +44,8 @@
   {{- partial "custom_head.html" . -}}
 </head>
 
+
+
 <body>
   {{- partial "header.html" . -}}
 
@@ -61,6 +63,38 @@
 
   <!-- 🔧 Optional custom body (user override) -->
   {{- partial "custom_body.html" . -}}
-</body>
 
+  <!-- 🔧 Optional custom body (user override) -->
+  {{- partial "custom_body.html" . -}}
+
+  <!-- ✨ Mobile dropdown menu -->
+<script>
+(function () {
+  var mq = window.matchMedia('(max-width: 768px)');
+  var items = document.querySelectorAll('.menu .has-children');
+
+  function closeAll(except) {
+    items.forEach(function (li) { if (li !== except) li.classList.remove('open'); });
+  }
+
+  items.forEach(function (li) {
+    var link = li.querySelector(':scope > a');
+    link.addEventListener('click', function (e) {
+      if (!mq.matches) return;            // desktop: normal behavior
+      e.preventDefault();                 // never navigate from the top-level link on mobile
+      closeAll(li);                       // close any other open menu
+      li.classList.toggle('open');        // tap again to close
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.menu .has-children')) closeAll();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll();
+  });
+  mq.addEventListener('change', function () { closeAll(); });
+})();
+</script>
+</body>
 </html>

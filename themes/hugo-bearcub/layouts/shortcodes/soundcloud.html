@@ -1,0 +1,19 @@
+{{- /* soundcloud: embed a track or playlist.
+       Parameters: url (public SoundCloud link, required), title, height (default 300), visual (default true) */ -}}
+{{- $url := .Get "url" -}}
+{{- $title := default "SoundCloud player" (.Get "title") -}}
+{{- $height := default "300" (.Get "height") -}}
+{{- $visual := default "true" (.Get "visual") -}}
+{{- if $url }}
+<figure class="sc">
+  <iframe
+    title="{{ $title }}"
+    src="{{ printf "https://w.soundcloud.com/player/?url=%s&color=%%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=%s" (urlquery $url) $visual | safeURL }}"
+    height="{{ $height }}"
+    loading="lazy"
+    allow="autoplay; encrypted-media"></iframe>
+  <figcaption><a href="{{ $url }}" target="_blank" rel="noopener">{{ $title }} on SoundCloud ↗</a></figcaption>
+</figure>
+{{- else }}
+<p><em>soundcloud shortcode: missing url</em></p>
+{{- end }}

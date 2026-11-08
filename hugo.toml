@@ -69,7 +69,7 @@ enableRobotsTXT = true
 [[menu.main]]
 name = "Blog"
 identifier = "blog"
-url = "/blog/"
+url = "/tags/blog/"
 weight = 4
 
 [[menu.main]]

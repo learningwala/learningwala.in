@@ -62,7 +62,7 @@ Theater · Storytelling · Nature Exploration · Music · Movement · Art · Tin
 - Part of the faculty team for *Child Development & Learning* course at Eklavya Foundation
 - Facilitated *Experiential Learning for 21st Century* course with **Tata Trust** for teachers from across India
 - 50+ workshops with educators; 50+ workshops with children — [work log](https://learningwala.in/educator/worklog/)
-- Articles published in **Teacher Plus**, **Farbas Gujarati**, **Sandarbh**, **Pathshala Bheetar - Bahar** — [writings](https://learningwala.in/about-me/writings/) · [blog](https://learningwala.in/tags/blog/)
+- Articles published in **Teacher Plus**, **Farbas Gujarati**, **Sandarbh**, **Pathshala Bheetar - Bahar** — [writings](https://learningwala.in/educator/artist) · [blog](https://learningwala.in/tags/blog/)
 - Collaborated with government educational bodies: **GCERT**, **NCERT**
 - Raised ₹10L for a nature education project through independent fundraising from HNIs
 - Mentored organisations to develop their contextual experiential learning curriculum
@@ -79,13 +79,14 @@ Worked with artists, researchers, and educators from:
 - [Srishti Manipal Institute of Design](https://www.srishtimanipaldtu.in/)
 - [Maharaja Sayajirao University](https://www.msubaroda.ac.in/)
 - NCERT & GCERT
+- Member of ['International Association of Theater & Performing Arts for Children and Young People' - India](https://www.instagram.com/assitejindia/?hl=en)
 
 ---
 
 ## Work Experience
 
 ### TIDE Foundation
-**Program Manager** · June 2026 – Present · Ahmedabad
+**Core team member** · June 2026 – Present · Ahmedabad
 
 we are a group of passionate educators, researchers & volunteers reimagining the goal of education. Education for harmony through inner work and social action. We are facilitating transformative learning experiences with children and young adults through civic - climate action based projects.
 

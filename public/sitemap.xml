@@ -30,12 +30,6 @@
     <loc>http://localhost:1313/tags/poem/</loc>
     <lastmod>2026-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/things-i-love/</loc>
-    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/thingsilove/</loc>
-    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/sandminingpoem/</loc>
     <lastmod>2026-11-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -629,6 +623,8 @@
   </url><url>
     <loc>http://localhost:1313/journey/</loc>
   </url><url>
+    <loc>http://localhost:1313/littlethings/</loc>
+  </url><url>
     <loc>http://localhost:1313/archive/now-2024/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/now-june-2026/</loc>
@@ -644,6 +640,8 @@
     <loc>http://localhost:1313/philosophy/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/sketchbook/</loc>
   </url><url>
     <loc>http://localhost:1313/educator/worklog/</loc>
   </url>

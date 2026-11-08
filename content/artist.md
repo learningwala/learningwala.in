@@ -3,23 +3,19 @@ title: "Artist"
 weight:
 ---
 
-As an artist I am interested in writing, theater and multi sensorial storytelling. Most of the time my creative practice get intertwined with my educational practice.
+I write, I sing, I tell stories through puppets. Most of the time my creative practice get intertwined with my educational practice.
 
-I don't know why I create, I think this is the way I make sense and realte to the world outside and inside.
+I don't know why I create, I think this is the way I express my self and making sens of the world inner and outer.
 
----
+Through my non-fiction writing work, I share my experiences of working with children, pedagogical experiments and educational philosophy.
 
-- I write poems, essays and stories, mostly in Gujarati & Hindi. Sometimes I experiment with mediums like story‘telling’, theater and puppets.
+***This page is a living portfolio of my creative practice as a writer, performer, and maker.***
 
-- I doodle, sketch, paint with water colors
+{{< toc >}}
 
-- Through my non-fiction writing work, I share my experiences of working with children, pedagogical experiments and educational philosophy.
+## Books {#books}
 
-*This page is a living portfolio of my creative practice as a writer, performer, and maker.*
-
-## Books, magazine and zine
-
-Self published. Six titles. Swipe, drag or use the arrows.
+Books, magazine and zine, all self published. Six titles. Swipe, drag or use the arrows.
 
 {{< shelf label="Books, magazine and zine" >}}
 {{< shelfbook title="Patrango" image="/images/books/patrango.jpg"
@@ -39,11 +35,11 @@ Self published. Six titles. Swipe, drag or use the arrows.
   link="https://drive.google.com/file/d/162x9wxpI8izhcLiB0jvQ71JjOv4Kylu5/view?usp=sharing"
   meta="A curation" >}}
 {{< shelfbook title="My Clock" image="/images/books/zine.png"
-  link="https://drive.google.com/file/d/1e_05Iy6anoxapdsg0rIpq6JWEO4hTzqJ/view?usp=sharing"
+  link="https://heyzine.com/flip-book/3024be1de6.html"
   meta="Zine" >}}
 {{< /shelf >}}
 
-## Blogs
+## Blogs {#blogs}
 
 Since 2024 I write my blog on this website where I share field notes & learning resources. [Read the blog](https://learningwala.in/tags/blog/). (Older blogs are listed here.)
 
@@ -51,7 +47,9 @@ Since 2024 I write my blog on this website where I share field notes & learning 
 - [Jashn e Taleem](https://medium.com/jashnetaleem): <span lang="hi">यह ब्लॉग मध्यप्रदेश के होशंगाबाद ज़िल्ले में चल रहे प्रोजेक्ट ‘Holistic Initiative Towards Educational Change’ से जुड़े साथीयो के अनुभव और चिंतन को साझा करने की कोशिश है ।</span>
 - [Khoj](https://medium.com/khoj): Resources, ideas and inspiration for gap (bridge) year and alternative explorations in India
 
-## Articles and other published work
+## Articles {#articles}
+
+Articles and other published work.
 
 - [Tinkering: how we can think with our hands](https://www.teacherplus.org/tinkering-how-we-can-think-with-our-hands/): with Srishti Sethi, article, Teacher Plus Magazine
 - [<span lang="hi">दस्ता ए भोजन</span> - Article on project based learning](https://www.eklavya.in/pdfs/Sandarbh/Sandarbh_139/51-58_Story_of_Food.pdf): article, Sandarbh Magazine, Hindi
@@ -62,13 +60,13 @@ Since 2024 I write my blog on this website where I share field notes & learning 
 - [How to develop imagination skill](https://balmurtionline.com/2020/12/01/december2020-issue1-ank6/): article, Balmurti Online
 - [Science of learning](https://medium.com/learningwala/%E0%AA%85%E0%AA%A7%E0%AB%8D%E0%AA%AF%E0%AA%BE%E0%AA%AA%E0%AA%A8-%E0%AA%95%E0%AA%B0%E0%AA%A4%E0%AA%AE%E0%AA%BE%E0%AA%82-%E0%AA%85%E0%AA%A7%E0%AB%8D%E0%AA%AF%E0%AA%AF%E0%AA%A8-%E0%AA%AE%E0%AA%B9%E0%AA%A4%E0%AB%8D%E0%AA%B5%E0%AA%A8%E0%AB%81-%E0%AA%9B%E0%AB%87-85593922eff8): article, Mid Day Gujarati
 
-## Poems
+## Poems {#poems}
 - [Man Moji Kabutar](https://www.instagram.com/p/Cfl7EaivoDx/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==): Hindi poem for children
 - [Tadko kidi ne bhetyo](https://www.instagram.com/p/DX57OZ7jJMj/?img_index=1): Gujarati poem, published on Chatran, a children’s literature Instagram page
 - [Poem on sandmining](/blog/sandminingpoem/) : Hindi poem
 - [Poems in Gujarati and Hindi on Instagram](https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODYxMTcyMzIwNjAyMzk0?story_media_id=2643794179595950904_3727860670&igsh=MWVjMTlqdXNkeTR6ag==): Instagram highlight
 
-## Puppet show
+## Puppet show {#puppet}
 {{< imggrid >}}
 {{< img src="/storyteller/storyteller.jpg" width="300" height="200" class="img-responsive img-small" alt="Smiling man with glasses posing next to a handmade papier-mâché puppet in a pink dress" caption="Me and my puppet friend" >}}
 {{< img src="/storyteller/puppets.png" width="300" height="200" class="img-responsive img-small" alt="Smiling man with glasses posing next to a handmade papier-mâché puppet in a pink dress" caption="kiki & other puppet friends" >}}
@@ -80,11 +78,19 @@ Since 2024 I write my blog on this website where I share field notes & learning 
 
 Based on a story of an ant, and her endless search for a moment of rest amid all the work she must do.
 
-## Doodle, Sketching, Painting 
 
-- [some watercolor painting on instagram highlights](https://www.instagram.com/stories/highlights/17959223471510259/)
-- [Some sketching](https://www.instagram.com/p/CueefNRo-yl/?img_index=1)
-- [Some more sketches](https://www.instagram.com/p/CpPFKhBNCJx/)
-- [Made one webpage dedicated to Martin Buber's educational philosophy through my art work](/tree.html) [Work in progress | Updated on 6th Nov 2026]
+## Music {#music}
+
+I love singing, composing music for children. Some of the songs I made for kids : 
+
+
+{{< soundcloud url="https://soundcloud.com/mihir-pathak-632023721/sets/songs-for-children" title="Songs for children" >}}
+
+
+## Sketchbook {#sketchbook}
+
+Doodles, sketching and painting.
+
+- I have dedicated page to show all my sketches, paintings and raw notes from my notebook - [Sketchbook](/sketchbook)
 
 ----

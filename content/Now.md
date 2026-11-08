@@ -10,6 +10,8 @@ I live in Ahmadabad, India with my partner [Nidhi](https://www.instagram.com/nid
 
 -----
 
+### Nothing make sense
+
 I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)
 
 This might be happening because of home conflicts and/or over work during past many years. Running after establishing my self as an educator, creating alternative career path, proving myself to family and all the employers..I am doing jobs since I was 18, for the last 13 years... 
@@ -27,25 +29,15 @@ I am slowly loosing my creative soul / tenderness / curiosity / wonder and becom
 PS : Recently I discovered debjit's work and post called [Website Design as Existential Crisis](https://www.debjitbanerjee.com/notes/website-design-as-existential-crisis/).
 
 
+### Little things 
+
 BTW in this absurd world I still have some places, things and moments which I love to go back 
 
+Check out two pages I have made recently : 
 
-# Things, Places and Moments I love 
-
-{{< imggrid >}}
-{{< zoom src="/now/activa.jpg" alt="Activa scooter under a large tree" caption="Activa Scooter" text="true" >}}
-{{< zoom src="/now/balcony.jpg" alt="Balcony with a small table and railing" caption="Balcony at home" text="true" >}}
-{{< zoom src="/now/hometable.jpeg" alt="Writing table at home with a typewriter" caption="Study table at home" text="true" >}}
-{{< zoom src="/now/inks.jpeg" alt="Row of ink bottles on a shelf" caption="Inks" text="true" >}}
-{{< zoom src="/now/laptop.jpg" alt="Laptop open on a desk" caption="Laptop" text="true" >}}
-{{< zoom src="/now/notebook.jpeg" alt="Brown notebook with a patterned strip" caption="Notebook" text="true" >}}
-{{< zoom src="/now/officetable.jpg" alt="Office desk with a monitor" caption="Office table" text="true" >}}
-{{< zoom src="/now/officetable2.jpg" alt="Office desk with a pink cloth and notes on the wall" caption="Office table, another view" text="true" >}}
-{{< zoom src="/now/pen.jpeg" alt="Green highlighter on a brown notebook" caption="Kakuno Ink Pen" text="true" >}}
-{{< zoom src="/now/shirts.jpg" alt="Shirts hanging out to dry" caption="Shirts" text="true" >}}
-{{< zoom src="/now/two.jpg" alt="Two people reflected in a train window" caption="Togetherness" text="true" >}}
-{{< zoom src="/now/typewriter.jpg" alt="Vintage typewriter" caption="Typewriter" text="true" >}}
-{{< /imggrid >}}
+* [Sketchbook](/sketchbook) [My doodles, sketches, painting, raw notes from my notebook]
+* [little things](/littlethings) [page with all small the things, places, moments I love]
+* [Made one webpage dedicated to Martin Buber's educational philosophy through my art work](/tree.html) [Work in progress | Updated on 6th Nov 2026]
 
 
 ----
@@ -56,7 +48,7 @@ BTW in this absurd world I still have some places, things and moments which I lo
 
 **Core team member / [TIDE Foundation](https://tideinternational.org/)**, Ahmadabad
 
-we are a group of passionate educators, researchers & volunteers facilitating transformational learning experiences with children and young adults grounded in philosophy - 'Education for Harmony'.
+we are a group of passionate educators, researchers & volunteers facilitating transformational learning experiences with children and young adults grounded in philosophy of - 'Education for Harmony'.
 
 ---
 
@@ -69,7 +61,7 @@ I am trying to minimize my side projects and converting / merging all with my fu
 
 ---
 
-*Inspiration: [nownownow.com](nownownow.com) | last updated on 5th Nov 2026*
+*Inspiration: [nownownow.com](nownownow.com) | last updated on 8th Nov 2026*
 
 
 ## Archive

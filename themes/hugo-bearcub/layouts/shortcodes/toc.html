@@ -1,0 +1,44 @@
+{{- /* toc: a self-building "jump to" bar made from the page's ## headings.
+       Optional parameter: label (screen-reader name for the bar). */ -}}
+{{- $label := default "On this page" (.Get "label") -}}
+<div class="toc" role="navigation" aria-label="{{ $label }}">
+{{ .Page.TableOfContents }}
+</div>
+<script>
+(function () {
+  var nav = document.currentScript.previousElementSibling;
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var pairs = [];
+  links.forEach(function (a) {
+    var h = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    if (h) pairs.push({ a: a, h: h });
+  });
+  if (!pairs.length) return;
+
+  var current = null, ticking = false;
+
+  function update() {
+    ticking = false;
+    var bar = nav.offsetHeight + 24;
+    var active = null;
+    pairs.forEach(function (p) {
+      if (p.h.getBoundingClientRect().top <= bar) active = p.a;
+    });
+    if (active === current) return;
+    current = active;
+    links.forEach(function (l) {
+      l.classList.toggle('is-active', l === active);
+      if (l === active) l.setAttribute('aria-current', 'true'); else l.removeAttribute('aria-current');
+    });
+    if (active) {
+      nav.scrollTo({ left: active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2, behavior: 'smooth' });
+    }
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>

@@ -98,6 +98,8 @@
 
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script></head>
 
+
+
 <body><header class="site-header">
   <div class="brand">
     <a class="brand-en" href="/">Mihir Pathak</a>
@@ -144,7 +146,7 @@
       
         
           <li class="menu-item">
-            <a href="/blog/">Blog</a>
+            <a href="/tags/blog/">Blog</a>
           </li>
         
       
@@ -230,7 +232,7 @@
 
   <div class="footer-right">
     <p>CC BY-NC-SA 4.0</p>
-    <p>Built 7 Nov 2026</p>
+    <p>Built 8 Nov 2026</p>
     <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -256,6 +258,35 @@
   <pagefind-modal></pagefind-modal>
 
     
-</body>
+  
 
+<script>
+(function () {
+  var mq = window.matchMedia('(max-width: 768px)');
+  var items = document.querySelectorAll('.menu .has-children');
+
+  function closeAll(except) {
+    items.forEach(function (li) { if (li !== except) li.classList.remove('open'); });
+  }
+
+  items.forEach(function (li) {
+    var link = li.querySelector(':scope > a');
+    link.addEventListener('click', function (e) {
+      if (!mq.matches) return;            
+      e.preventDefault();                 
+      closeAll(li);                       
+      li.classList.toggle('open');        
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.menu .has-children')) closeAll();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll();
+  });
+  mq.addEventListener('change', function () { closeAll(); });
+})();
+</script>
+</body>
 </html>

@@ -101,7 +101,7 @@ Hi, I’m storyteller &amp; educator with specific interest in &lsquo;Relational
 My work is non linear and lies at the intersections of educational philosophy, pedagogy/learning experience design and creative practices.
 With 13 years of practice across formal and informal learning spaces in India, I facilitate transformative learning experiences with children and young adults through experiential pedagogies.">
 
-<meta itemprop="wordCount" content="1450">
+<meta itemprop="wordCount" content="1467">
 
 <meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu_d89c799d8b494308.webp"/>
 
@@ -137,6 +137,8 @@ With 13 years of practice across formal and informal learning spaces in India, I
 
 
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script></head>
+
+
 
 <body><header class="site-header">
   <div class="brand">
@@ -184,7 +186,7 @@ With 13 years of practice across formal and informal learning spaces in India, I
       
         
           <li class="menu-item">
-            <a href="/blog/">Blog</a>
+            <a href="/tags/blog/">Blog</a>
           </li>
         
       
@@ -258,7 +260,7 @@ With 13 years of practice across formal and informal learning spaces in India, I
 <li>Part of the faculty team for <em>Child Development &amp; Learning</em> course at Eklavya Foundation</li>
 <li>Facilitated <em>Experiential Learning for 21st Century</em> course with <strong>Tata Trust</strong> for teachers from across India</li>
 <li>50+ workshops with educators; 50+ workshops with children — <a href="https://learningwala.in/educator/worklog/">work log</a></li>
-<li>Articles published in <strong>Teacher Plus</strong>, <strong>Farbas Gujarati</strong>, <strong>Sandarbh</strong>, <strong>Pathshala Bheetar - Bahar</strong> — <a href="https://learningwala.in/about-me/writings/">writings</a> · <a href="https://learningwala.in/tags/blog/">blog</a></li>
+<li>Articles published in <strong>Teacher Plus</strong>, <strong>Farbas Gujarati</strong>, <strong>Sandarbh</strong>, <strong>Pathshala Bheetar - Bahar</strong> — <a href="https://learningwala.in/educator/artist">writings</a> · <a href="https://learningwala.in/tags/blog/">blog</a></li>
 <li>Collaborated with government educational bodies: <strong>GCERT</strong>, <strong>NCERT</strong></li>
 <li>Raised ₹10L for a nature education project through independent fundraising from HNIs</li>
 <li>Mentored organisations to develop their contextual experiential learning curriculum</li>
@@ -273,11 +275,12 @@ With 13 years of practice across formal and informal learning spaces in India, I
 <li><a href="https://www.srishtimanipaldtu.in/">Srishti Manipal Institute of Design</a></li>
 <li><a href="https://www.msubaroda.ac.in/">Maharaja Sayajirao University</a></li>
 <li>NCERT &amp; GCERT</li>
+<li>Member of <a href="https://www.instagram.com/assitejindia/?hl=en">&lsquo;International Association of Theater &amp; Performing Arts for Children and Young People&rsquo; - India</a></li>
 </ul>
 <hr>
 <h2 id="work-experience">Work Experience</h2>
 <h3 id="tide-foundation">TIDE Foundation</h3>
-<p><strong>Program Manager</strong> · June 2026 – Present · Ahmedabad</p>
+<p><strong>Core team member</strong> · June 2026 – Present · Ahmedabad</p>
 <p>we are a group of passionate educators, researchers &amp; volunteers reimagining the goal of education. Education for harmony through inner work and social action. We are facilitating transformative learning experiences with children and young adults through civic - climate action based projects.</p>
 <p>curriculum development - educator capacity building - partnerships - fund raising</p>
 <h3 id="bright-bal-gokulam-foundation">Bright Bal Gokulam Foundation</h3>
@@ -504,7 +507,7 @@ With 13 years of practice across formal and informal learning spaces in India, I
 
   <div class="footer-right">
     <p>CC BY-NC-SA 4.0</p>
-    <p>Built 7 Nov 2026</p>
+    <p>Built 8 Nov 2026</p>
     <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -530,6 +533,35 @@ With 13 years of practice across formal and informal learning spaces in India, I
   <pagefind-modal></pagefind-modal>
 
     
-</body>
+  
 
+<script>
+(function () {
+  var mq = window.matchMedia('(max-width: 768px)');
+  var items = document.querySelectorAll('.menu .has-children');
+
+  function closeAll(except) {
+    items.forEach(function (li) { if (li !== except) li.classList.remove('open'); });
+  }
+
+  items.forEach(function (li) {
+    var link = li.querySelector(':scope > a');
+    link.addEventListener('click', function (e) {
+      if (!mq.matches) return;            
+      e.preventDefault();                 
+      closeAll(li);                       
+      li.classList.toggle('open');        
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.menu .has-children')) closeAll();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll();
+  });
+  mq.addEventListener('change', function () { closeAll(); });
+})();
+</script>
+</body>
 </html>

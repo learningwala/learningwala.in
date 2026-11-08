@@ -88,10 +88,11 @@
       <link>http://localhost:1313/now/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/now/</guid>
-      <description>&lt;h1 id=&#34;what-am-i-doing-now&#34;&gt;What am I doing now?&lt;/h1&gt;&#xA;&lt;p&gt;I live in Ahmadabad, India with my partner &lt;a href=&#34;https://www.instagram.com/nidhi_pal16/&#34;&gt;Nidhi&lt;/a&gt;. As an educator I work with children, young adults, teachers, learning facilitators, researchers on daily basis. Apart from that I write, I paint, some time I perform. I love writing &lt;a href=&#34;http://localhost:1313/tags/weekly-notes&#34;&gt;weekly notes&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/tags/blog/&#34;&gt;blog posts&lt;/a&gt; here.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;what-am-i-doing-now&#34;&gt;What am I doing now?&lt;/h1&gt;&#xA;&lt;p&gt;I live in Ahmadabad, India with my partner &lt;a href=&#34;https://www.instagram.com/nidhi_pal16/&#34;&gt;Nidhi&lt;/a&gt;. As an educator I work with children, young adults, teachers, learning facilitators, researchers on daily basis. Apart from that I write, I paint, some time I perform. I love writing &lt;a href=&#34;http://localhost:1313/tags/weekly-notes&#34;&gt;weekly notes&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/tags/blog/&#34;&gt;blog posts&lt;/a&gt; here.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;nothing-make-sense&#34;&gt;Nothing make sense&lt;/h3&gt;&#xA;&lt;p&gt;I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="what-am-i-doing-now">What am I doing now?</h1>
 <p>I live in Ahmadabad, India with my partner <a href="https://www.instagram.com/nidhi_pal16/">Nidhi</a>. As an educator I work with children, young adults, teachers, learning facilitators, researchers on daily basis. Apart from that I write, I paint, some time I perform. I love writing <a href="/tags/weekly-notes">weekly notes</a> and <a href="/tags/blog/">blog posts</a> here.</p>
 <hr>
+<h3 id="nothing-make-sense">Nothing make sense</h3>
 <p>I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)</p>
 <p>This might be happening because of home conflicts and/or over work during past many years. Running after establishing my self as an educator, creating alternative career path, proving myself to family and all the employers..I am doing jobs since I was 18, for the last 13 years&hellip;</p>
 <p>I am slowly loosing my creative soul / tenderness / curiosity / wonder and becoming like dead person. I think I need healing. I need to be gentle on myself.</p>
@@ -105,145 +106,19 @@
 <p>&ldquo;Jab clarity na mile tab picture ko zoom in ki jagah zoom out kar ke dekhna chahiye..&rdquo; coming back to my website means coming back to my body of work, my narrative of work - life, my identity.. it gives me space to reflect, rebuild with hope.</p>
 </blockquote>
 <p>PS : Recently I discovered debjit&rsquo;s work and post called <a href="https://www.debjitbanerjee.com/notes/website-design-as-existential-crisis/">Website Design as Existential Crisis</a>.</p>
+<h3 id="little-things">Little things</h3>
 <p>BTW in this absurd world I still have some places, things and moments which I love to go back</p>
-<h1 id="things-places-and-moments-i-love">Things, Places and Moments I love</h1>
-<div class="img-grid">
-  
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/activa.jpg"><img src="/now/activa_hu_9981eb875867f2e6.jpg" alt="Activa scooter under a large tree" loading="lazy" decoding="async"></a><figcaption>Activa Scooter</figcaption></figure><dialog class="glb" id="zoomviewer" aria-label="Image viewer">
-  <div class="glb-scroll"><img alt=""></div>
-  <button class="glb-x" type="button" aria-label="Close">Close ✕</button>
-  <button class="glb-nav glb-prev" type="button" aria-label="Previous image">‹</button>
-  <button class="glb-nav glb-next" type="button" aria-label="Next image">›</button>
-  <p class="glb-cap"></p>
-</dialog>
-<script>
-(function () {
-  var dlg = document.getElementById('zoomviewer');
-  if (!dlg || dlg.dataset.ready) return;
-  dlg.dataset.ready = '1';
-
-  var img = dlg.querySelector('img');
-  var cap = dlg.querySelector('.glb-cap');
-  var prev = dlg.querySelector('.glb-prev');
-  var next = dlg.querySelector('.glb-next');
-  var closeBtn = dlg.querySelector('.glb-x');
-  var links = [], idx = 0;
-
-  function collect() {
-    links = [].slice.call(document.querySelectorAll('figure.gal-solo a.zoom'));
-  }
-  function show(n) {
-    idx = (n + links.length) % links.length;
-    var a = links[idx];
-    var thumb = a.querySelector('img');
-    var fc = a.parentNode.querySelector('figcaption');
-    img.src = a.getAttribute('href');
-    img.alt = thumb ? thumb.alt : '';
-    cap.textContent = fc ? fc.textContent : '';
-    prev.hidden = next.hidden = links.length < 2;
-    dlg.classList.remove('is-full');
-  }
-  function openAt(n) {
-    collect();
-    if (!dlg.open) dlg.showModal();
-    show(n);
-  }
-
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest && e.target.closest('figure.gal-solo a.zoom');
-    if (!a) return;
-    e.preventDefault();
-    e.stopImmediatePropagation();
-    collect();
-    openAt(links.indexOf(a));
-  }, true);
-
-  closeBtn.addEventListener('click', function () { dlg.close(); });
-  prev.addEventListener('click', function () { show(idx - 1); });
-  next.addEventListener('click', function () { show(idx + 1); });
-  img.addEventListener('click', function () { dlg.classList.toggle('is-full'); });
-
-  dlg.addEventListener('click', function (e) {
-    if (e.target === dlg || e.target.classList.contains('glb-scroll')) dlg.close();
-  });
-
-  document.addEventListener('keydown', function (e) {
-    if (!dlg.open) return;
-    if (e.key === 'ArrowLeft') show(idx - 1);
-    if (e.key === 'ArrowRight') show(idx + 1);
-  });
-
-  var x0 = null;
-  dlg.addEventListener('touchstart', function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });
-  dlg.addEventListener('touchend', function (e) {
-    if (x0 === null) return;
-    var dx = e.changedTouches[0].clientX - x0;
-    x0 = null;
-    if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
-  }, { passive: true });
-
-  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
-})();
-</script>
-
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/balcony.jpg"><img src="/now/balcony_hu_5d1bf0dd393fafe6.jpg" alt="Balcony with a small table and railing" loading="lazy" decoding="async"></a><figcaption>Balcony at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/hometable.jpeg"><img src="/now/hometable_hu_75455d77db034adc.jpeg" alt="Writing table at home with a typewriter" loading="lazy" decoding="async"></a><figcaption>Study table at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/inks.jpeg"><img src="/now/inks_hu_774f88efa585846a.jpeg" alt="Row of ink bottles on a shelf" loading="lazy" decoding="async"></a><figcaption>Inks</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/laptop.jpg"><img src="/now/laptop_hu_3c65bfdb2b254b1.jpg" alt="Laptop open on a desk" loading="lazy" decoding="async"></a><figcaption>Laptop</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/notebook.jpeg"><img src="/now/notebook_hu_4063d97159a39c18.jpeg" alt="Brown notebook with a patterned strip" loading="lazy" decoding="async"></a><figcaption>Notebook</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable.jpg"><img src="/now/officetable_hu_32d1a7cd23f854aa.jpg" alt="Office desk with a monitor" loading="lazy" decoding="async"></a><figcaption>Office table</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable2.jpg"><img src="/now/officetable2_hu_74c04c1dc66d241c.jpg" alt="Office desk with a pink cloth and notes on the wall" loading="lazy" decoding="async"></a><figcaption>Office table, another view</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/pen.jpeg"><img src="/now/pen_hu_14acd4bee413c3a6.jpeg" alt="Green highlighter on a brown notebook" loading="lazy" decoding="async"></a><figcaption>Kakuno Ink Pen</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/shirts.jpg"><img src="/now/shirts_hu_57ab4301fb70f00d.jpg" alt="Shirts hanging out to dry" loading="lazy" decoding="async"></a><figcaption>Shirts</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/two.jpg"><img src="/now/two_hu_98c96d89260a5fd7.jpg" alt="Two people reflected in a train window" loading="lazy" decoding="async"></a><figcaption>Togetherness</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/typewriter.jpg"><img src="/now/typewriter_hu_bd6d398253a2ac5b.jpg" alt="Vintage typewriter" loading="lazy" decoding="async"></a><figcaption>Typewriter</figcaption></figure>
-
-</div>
-
-<style>
-.img-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;  
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .img-grid {
-    grid-template-columns: repeat(2, 1fr);  
-  }
-}
-
-@media (min-width: 1024px) {
-  .img-grid {
-    grid-template-columns: repeat(3, 1fr);  
-  }
-}
-
-.img-grid figure {
-  margin: 0;
-}
-
-.img-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-.img-grid figcaption {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #555;
-  margin-top: 0.3rem;
-}
-</style>
-
+<p>Check out two pages I have made recently :</p>
+<ul>
+<li><a href="/sketchbook">Sketchbook</a> [My doodles, sketches, painting, raw notes from my notebook]</li>
+<li><a href="/littlethings">little things</a> [page with all small the things, places, moments I love]</li>
+<li><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</li>
+</ul>
 <hr>
 <h2 id="work">Work</h2>
 <h3 id="full-time-engagement">(Full time engagement)</h3>
 <p><strong>Core team member / <a href="https://tideinternational.org/">TIDE Foundation</a></strong>, Ahmadabad</p>
-<p>we are a group of passionate educators, researchers &amp; volunteers facilitating transformational learning experiences with children and young adults grounded in philosophy - &lsquo;Education for Harmony&rsquo;.</p>
+<p>we are a group of passionate educators, researchers &amp; volunteers facilitating transformational learning experiences with children and young adults grounded in philosophy of - &lsquo;Education for Harmony&rsquo;.</p>
 <hr>
 <h3 id="side-projects">(Side Projects)</h3>
 <ul>
@@ -252,7 +127,7 @@
 </ul>
 <p>I am trying to minimize my side projects and converting / merging all with my full-time work. Core is &lsquo;Education for harmony&rsquo; through PBL, Nature edu, Theater, Children literature (tools)</p>
 <hr>
-<p><em>Inspiration: <a href="nownownow.com">nownownow.com</a> | last updated on 5th Nov 2026</em></p>
+<p><em>Inspiration: <a href="nownownow.com">nownownow.com</a> | last updated on 8th Nov 2026</em></p>
 <h2 id="archive">Archive</h2>
 <ul>
 <li><a href="/archive/now-2024/">Now 2024</a></li>
@@ -270,8 +145,9 @@
       <link>http://localhost:1313/blog/week-44-45-2026/</link>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/week-44-45-2026/</guid>
-      <description>&lt;h3 id=&#34;26th-oct-to-8th-nov-2026&#34;&gt;26th Oct to 8th Nov 2026&lt;/h3&gt;&#xA;&lt;p&gt;last week went mostly in tweaking this website and spending some time with team at office.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.&lt;/p&gt;&#xA;&lt;p&gt;explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;26th-oct-to-8th-nov-2026&#34;&gt;26th Oct to 8th Nov 2026&lt;/h3&gt;&#xA;&lt;h3 id=&#34;website&#34;&gt;Website&lt;/h3&gt;&#xA;&lt;p&gt;last week went mostly in tweaking this website and spending some time with team at office.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.&lt;/p&gt;&#xA;&lt;p&gt;explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h3 id="26th-oct-to-8th-nov-2026">26th Oct to 8th Nov 2026</h3>
+<h3 id="website">Website</h3>
 <p>last week went mostly in tweaking this website and spending some time with team at office.</p>
 <p>I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.</p>
 <p>explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.</p>
@@ -414,6 +290,7 @@
 <li><a href="https://yashgarg.dev/">https://yashgarg.dev/</a></li>
 </ul>
 <hr>
+<h3 id="nothing-make-sense">Nothing make sense</h3>
 <p>I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)</p>
 <p>This might be happening because of home conflicts and/or over work during past many years. Running after establishing my self as an educator, creating alternative career path, proving myself to family and all the employers..I am doing jobs since I was 18, for the last 13 years&hellip;</p>
 <p>I am slowly loosing my creative soul / tenderness / curiosity / wonder and becoming like dead person. I think I need healing. I need to be gentle on myself.</p>
@@ -427,207 +304,14 @@
 <p>&ldquo;Jab clarity na mile tab picture ko zoom in ki jagah zoom out kar ke dekhna chahiye..&rdquo; coming back to my website means coming back to my body of work, my narrative of work - life, my identity.. it gives me space to reflect, rebuild with hope.</p>
 </blockquote>
 <p>PS : Recently I discovered debjit&rsquo;s work and post called <a href="https://www.debjitbanerjee.com/notes/website-design-as-existential-crisis/">Website Design as Existential Crisis</a>.</p>
+<h3 id="little-things">Little things</h3>
 <p>BTW in this absurd world I still have some places, things and moments which I love to go back</p>
-<p><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</p>
-<h4 id="things-places-and-moments-i-love">Things, Places and Moments I love</h4>
-<div class="img-grid">
-  
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/activa.jpg"><img src="/now/activa_hu_9981eb875867f2e6.jpg" alt="Activa scooter under a large tree" loading="lazy" decoding="async"></a><figcaption>Activa Scooter</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/balcony.jpg"><img src="/now/balcony_hu_5d1bf0dd393fafe6.jpg" alt="Balcony with a small table and railing" loading="lazy" decoding="async"></a><figcaption>Balcony at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/hometable.jpeg"><img src="/now/hometable_hu_75455d77db034adc.jpeg" alt="Writing table at home with a typewriter" loading="lazy" decoding="async"></a><figcaption>Study table at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/inks.jpeg"><img src="/now/inks_hu_774f88efa585846a.jpeg" alt="Row of ink bottles on a shelf" loading="lazy" decoding="async"></a><figcaption>Inks</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/laptop.jpg"><img src="/now/laptop_hu_3c65bfdb2b254b1.jpg" alt="Laptop open on a desk" loading="lazy" decoding="async"></a><figcaption>Laptop</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/notebook.jpeg"><img src="/now/notebook_hu_4063d97159a39c18.jpeg" alt="Brown notebook with a patterned strip" loading="lazy" decoding="async"></a><figcaption>Notebook</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable.jpg"><img src="/now/officetable_hu_32d1a7cd23f854aa.jpg" alt="Office desk with a monitor" loading="lazy" decoding="async"></a><figcaption>Office table</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable2.jpg"><img src="/now/officetable2_hu_74c04c1dc66d241c.jpg" alt="Office desk with a pink cloth and notes on the wall" loading="lazy" decoding="async"></a><figcaption>Office table, another view</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/pen.jpeg"><img src="/now/pen_hu_14acd4bee413c3a6.jpeg" alt="Green highlighter on a brown notebook" loading="lazy" decoding="async"></a><figcaption>Kakuno Ink Pen</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/shirts.jpg"><img src="/now/shirts_hu_57ab4301fb70f00d.jpg" alt="Shirts hanging out to dry" loading="lazy" decoding="async"></a><figcaption>Shirts</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/two.jpg"><img src="/now/two_hu_98c96d89260a5fd7.jpg" alt="Two people reflected in a train window" loading="lazy" decoding="async"></a><figcaption>Togetherness</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/typewriter.jpg"><img src="/now/typewriter_hu_bd6d398253a2ac5b.jpg" alt="Vintage typewriter" loading="lazy" decoding="async"></a><figcaption>Typewriter</figcaption></figure>
-
-</div>
-
-<style>
-.img-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;  
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .img-grid {
-    grid-template-columns: repeat(2, 1fr);  
-  }
-}
-
-@media (min-width: 1024px) {
-  .img-grid {
-    grid-template-columns: repeat(3, 1fr);  
-  }
-}
-
-.img-grid figure {
-  margin: 0;
-}
-
-.img-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-.img-grid figcaption {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #555;
-  margin-top: 0.3rem;
-}
-</style>
-
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Things, Places and Moments I love</title>
-      <link>http://localhost:1313/blog/thingsilove/</link>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/thingsilove/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; This is living document where I will add things, places, moments, actvities I love.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;img-grid&#34;&gt;&#xA;  &#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/activa.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/activa_hu_9981eb875867f2e6.jpg&#34; alt=&#34;Activa scooter under a large tree&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Activa Scooter&lt;/figcaption&gt;&lt;/figure&gt;&lt;dialog class=&#34;glb&#34; id=&#34;zoomviewer&#34; aria-label=&#34;Image viewer&#34;&gt;&#xA;  &lt;div class=&#34;glb-scroll&#34;&gt;&lt;img alt=&#34;&#34;&gt;&lt;/div&gt;&#xA;  &lt;button class=&#34;glb-x&#34; type=&#34;button&#34; aria-label=&#34;Close&#34;&gt;Close ✕&lt;/button&gt;&#xA;  &lt;button class=&#34;glb-nav glb-prev&#34; type=&#34;button&#34; aria-label=&#34;Previous image&#34;&gt;‹&lt;/button&gt;&#xA;  &lt;button class=&#34;glb-nav glb-next&#34; type=&#34;button&#34; aria-label=&#34;Next image&#34;&gt;›&lt;/button&gt;&#xA;  &lt;p class=&#34;glb-cap&#34;&gt;&lt;/p&gt;&#xA;&lt;/dialog&gt;&#xA;&lt;script&gt;&#xA;(function () {&#xA;  var dlg = document.getElementById(&#39;zoomviewer&#39;);&#xA;  if (!dlg || dlg.dataset.ready) return;&#xA;  dlg.dataset.ready = &#39;1&#39;;&#xA;&#xA;  var img = dlg.querySelector(&#39;img&#39;);&#xA;  var cap = dlg.querySelector(&#39;.glb-cap&#39;);&#xA;  var prev = dlg.querySelector(&#39;.glb-prev&#39;);&#xA;  var next = dlg.querySelector(&#39;.glb-next&#39;);&#xA;  var closeBtn = dlg.querySelector(&#39;.glb-x&#39;);&#xA;  var links = [], idx = 0;&#xA;&#xA;  function collect() {&#xA;    links = [].slice.call(document.querySelectorAll(&#39;figure.gal-solo a.zoom&#39;));&#xA;  }&#xA;  function show(n) {&#xA;    idx = (n + links.length) % links.length;&#xA;    var a = links[idx];&#xA;    var thumb = a.querySelector(&#39;img&#39;);&#xA;    var fc = a.parentNode.querySelector(&#39;figcaption&#39;);&#xA;    img.src = a.getAttribute(&#39;href&#39;);&#xA;    img.alt = thumb ? thumb.alt : &#39;&#39;;&#xA;    cap.textContent = fc ? fc.textContent : &#39;&#39;;&#xA;    prev.hidden = next.hidden = links.length &lt; 2;&#xA;    dlg.classList.remove(&#39;is-full&#39;);&#xA;  }&#xA;  function openAt(n) {&#xA;    collect();&#xA;    if (!dlg.open) dlg.showModal();&#xA;    show(n);&#xA;  }&#xA;&#xA;  document.addEventListener(&#39;click&#39;, function (e) {&#xA;    var a = e.target.closest &amp;&amp; e.target.closest(&#39;figure.gal-solo a.zoom&#39;);&#xA;    if (!a) return;&#xA;    e.preventDefault();&#xA;    e.stopImmediatePropagation();&#xA;    collect();&#xA;    openAt(links.indexOf(a));&#xA;  }, true);&#xA;&#xA;  closeBtn.addEventListener(&#39;click&#39;, function () { dlg.close(); });&#xA;  prev.addEventListener(&#39;click&#39;, function () { show(idx - 1); });&#xA;  next.addEventListener(&#39;click&#39;, function () { show(idx + 1); });&#xA;  img.addEventListener(&#39;click&#39;, function () { dlg.classList.toggle(&#39;is-full&#39;); });&#xA;&#xA;  dlg.addEventListener(&#39;click&#39;, function (e) {&#xA;    if (e.target === dlg || e.target.classList.contains(&#39;glb-scroll&#39;)) dlg.close();&#xA;  });&#xA;&#xA;  document.addEventListener(&#39;keydown&#39;, function (e) {&#xA;    if (!dlg.open) return;&#xA;    if (e.key === &#39;ArrowLeft&#39;) show(idx - 1);&#xA;    if (e.key === &#39;ArrowRight&#39;) show(idx + 1);&#xA;  });&#xA;&#xA;  var x0 = null;&#xA;  dlg.addEventListener(&#39;touchstart&#39;, function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });&#xA;  dlg.addEventListener(&#39;touchend&#39;, function (e) {&#xA;    if (x0 === null) return;&#xA;    var dx = e.changedTouches[0].clientX - x0;&#xA;    x0 = null;&#xA;    if (Math.abs(dx) &gt; 50) show(idx + (dx &lt; 0 ? 1 : -1));&#xA;  }, { passive: true });&#xA;&#xA;  dlg.addEventListener(&#39;close&#39;, function () { img.removeAttribute(&#39;src&#39;); });&#xA;})();&#xA;&lt;/script&gt;&#xA;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/balcony.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/balcony_hu_5d1bf0dd393fafe6.jpg&#34; alt=&#34;Balcony with a small table and railing&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Balcony at home&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/hometable.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/hometable_hu_75455d77db034adc.jpeg&#34; alt=&#34;Writing table at home with a typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Study table at home&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/inks.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/inks_hu_774f88efa585846a.jpeg&#34; alt=&#34;Row of ink bottles on a shelf&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Inks&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/laptop.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/laptop_hu_3c65bfdb2b254b1.jpg&#34; alt=&#34;Laptop open on a desk&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Laptop&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/notebook.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/notebook_hu_4063d97159a39c18.jpeg&#34; alt=&#34;Brown notebook with a patterned strip&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Notebook&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/officetable.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/officetable_hu_32d1a7cd23f854aa.jpg&#34; alt=&#34;Office desk with a monitor&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Office table&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/officetable2.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/officetable2_hu_74c04c1dc66d241c.jpg&#34; alt=&#34;Office desk with a pink cloth and notes on the wall&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Office table, another view&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/pen.jpeg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/pen_hu_14acd4bee413c3a6.jpeg&#34; alt=&#34;Green highlighter on a brown notebook&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Kakuno Ink Pen&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/shirts.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/shirts_hu_57ab4301fb70f00d.jpg&#34; alt=&#34;Shirts hanging out to dry&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Shirts&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/two.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/two_hu_98c96d89260a5fd7.jpg&#34; alt=&#34;Two people reflected in a train window&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Togetherness&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;figure class=&#34;gal-solo gal-solo--text&#34;&gt;&lt;a class=&#34;zoom&#34; href=&#34;http://localhost:1313/now/typewriter.jpg&#34;&gt;&lt;img src=&#34;http://localhost:1313/now/typewriter_hu_bd6d398253a2ac5b.jpg&#34; alt=&#34;Vintage typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/a&gt;&lt;figcaption&gt;Typewriter&lt;/figcaption&gt;&lt;/figure&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.img-grid {&#xA;  display: grid;&#xA;  gap: 1rem;&#xA;  grid-template-columns: 1fr;  &#xA;  margin-bottom: 2rem;&#xA;}&#xA;&#xA;@media (min-width: 600px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(2, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;@media (min-width: 1024px) {&#xA;  .img-grid {&#xA;    grid-template-columns: repeat(3, 1fr);  &#xA;  }&#xA;}&#xA;&#xA;.img-grid figure {&#xA;  margin: 0;&#xA;}&#xA;&#xA;.img-grid img {&#xA;  width: 100%;&#xA;  height: auto;&#xA;  border-radius: 8px;&#xA;  display: block;&#xA;}&#xA;&#xA;.img-grid figcaption {&#xA;  font-size: 0.9rem;&#xA;  text-align: center;&#xA;  color: #555;&#xA;  margin-top: 0.3rem;&#xA;}&#xA;&lt;/style&gt;</description>
-      <content:encoded><![CDATA[<p><strong>Note :</strong> This is living document where I will add things, places, moments, actvities I love.</p>
-<hr>
-<div class="img-grid">
-  
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/activa.jpg"><img src="/now/activa_hu_9981eb875867f2e6.jpg" alt="Activa scooter under a large tree" loading="lazy" decoding="async"></a><figcaption>Activa Scooter</figcaption></figure><dialog class="glb" id="zoomviewer" aria-label="Image viewer">
-  <div class="glb-scroll"><img alt=""></div>
-  <button class="glb-x" type="button" aria-label="Close">Close ✕</button>
-  <button class="glb-nav glb-prev" type="button" aria-label="Previous image">‹</button>
-  <button class="glb-nav glb-next" type="button" aria-label="Next image">›</button>
-  <p class="glb-cap"></p>
-</dialog>
-<script>
-(function () {
-  var dlg = document.getElementById('zoomviewer');
-  if (!dlg || dlg.dataset.ready) return;
-  dlg.dataset.ready = '1';
-
-  var img = dlg.querySelector('img');
-  var cap = dlg.querySelector('.glb-cap');
-  var prev = dlg.querySelector('.glb-prev');
-  var next = dlg.querySelector('.glb-next');
-  var closeBtn = dlg.querySelector('.glb-x');
-  var links = [], idx = 0;
-
-  function collect() {
-    links = [].slice.call(document.querySelectorAll('figure.gal-solo a.zoom'));
-  }
-  function show(n) {
-    idx = (n + links.length) % links.length;
-    var a = links[idx];
-    var thumb = a.querySelector('img');
-    var fc = a.parentNode.querySelector('figcaption');
-    img.src = a.getAttribute('href');
-    img.alt = thumb ? thumb.alt : '';
-    cap.textContent = fc ? fc.textContent : '';
-    prev.hidden = next.hidden = links.length < 2;
-    dlg.classList.remove('is-full');
-  }
-  function openAt(n) {
-    collect();
-    if (!dlg.open) dlg.showModal();
-    show(n);
-  }
-
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest && e.target.closest('figure.gal-solo a.zoom');
-    if (!a) return;
-    e.preventDefault();
-    e.stopImmediatePropagation();
-    collect();
-    openAt(links.indexOf(a));
-  }, true);
-
-  closeBtn.addEventListener('click', function () { dlg.close(); });
-  prev.addEventListener('click', function () { show(idx - 1); });
-  next.addEventListener('click', function () { show(idx + 1); });
-  img.addEventListener('click', function () { dlg.classList.toggle('is-full'); });
-
-  dlg.addEventListener('click', function (e) {
-    if (e.target === dlg || e.target.classList.contains('glb-scroll')) dlg.close();
-  });
-
-  document.addEventListener('keydown', function (e) {
-    if (!dlg.open) return;
-    if (e.key === 'ArrowLeft') show(idx - 1);
-    if (e.key === 'ArrowRight') show(idx + 1);
-  });
-
-  var x0 = null;
-  dlg.addEventListener('touchstart', function (e) { x0 = e.changedTouches[0].clientX; }, { passive: true });
-  dlg.addEventListener('touchend', function (e) {
-    if (x0 === null) return;
-    var dx = e.changedTouches[0].clientX - x0;
-    x0 = null;
-    if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
-  }, { passive: true });
-
-  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
-})();
-</script>
-
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/balcony.jpg"><img src="/now/balcony_hu_5d1bf0dd393fafe6.jpg" alt="Balcony with a small table and railing" loading="lazy" decoding="async"></a><figcaption>Balcony at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/hometable.jpeg"><img src="/now/hometable_hu_75455d77db034adc.jpeg" alt="Writing table at home with a typewriter" loading="lazy" decoding="async"></a><figcaption>Study table at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/inks.jpeg"><img src="/now/inks_hu_774f88efa585846a.jpeg" alt="Row of ink bottles on a shelf" loading="lazy" decoding="async"></a><figcaption>Inks</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/laptop.jpg"><img src="/now/laptop_hu_3c65bfdb2b254b1.jpg" alt="Laptop open on a desk" loading="lazy" decoding="async"></a><figcaption>Laptop</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/notebook.jpeg"><img src="/now/notebook_hu_4063d97159a39c18.jpeg" alt="Brown notebook with a patterned strip" loading="lazy" decoding="async"></a><figcaption>Notebook</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable.jpg"><img src="/now/officetable_hu_32d1a7cd23f854aa.jpg" alt="Office desk with a monitor" loading="lazy" decoding="async"></a><figcaption>Office table</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable2.jpg"><img src="/now/officetable2_hu_74c04c1dc66d241c.jpg" alt="Office desk with a pink cloth and notes on the wall" loading="lazy" decoding="async"></a><figcaption>Office table, another view</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/pen.jpeg"><img src="/now/pen_hu_14acd4bee413c3a6.jpeg" alt="Green highlighter on a brown notebook" loading="lazy" decoding="async"></a><figcaption>Kakuno Ink Pen</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/shirts.jpg"><img src="/now/shirts_hu_57ab4301fb70f00d.jpg" alt="Shirts hanging out to dry" loading="lazy" decoding="async"></a><figcaption>Shirts</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/two.jpg"><img src="/now/two_hu_98c96d89260a5fd7.jpg" alt="Two people reflected in a train window" loading="lazy" decoding="async"></a><figcaption>Togetherness</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/typewriter.jpg"><img src="/now/typewriter_hu_bd6d398253a2ac5b.jpg" alt="Vintage typewriter" loading="lazy" decoding="async"></a><figcaption>Typewriter</figcaption></figure>
-
-</div>
-
-<style>
-.img-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;  
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .img-grid {
-    grid-template-columns: repeat(2, 1fr);  
-  }
-}
-
-@media (min-width: 1024px) {
-  .img-grid {
-    grid-template-columns: repeat(3, 1fr);  
-  }
-}
-
-.img-grid figure {
-  margin: 0;
-}
-
-.img-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-.img-grid figcaption {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #555;
-  margin-top: 0.3rem;
-}
-</style>
-
+<p>Check out two pages I have made recently :</p>
+<ul>
+<li><a href="/sketchbook">Sketchbook</a> [My doodles, sketches, painting, raw notes from my notebook]</li>
+<li><a href="/littlethings">little things</a> [page with all small the things, places, moments I love]</li>
+<li><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -27888,7 +27572,7 @@ someday I will do it for sure.</strong></p>
 <li>Part of the faculty team for <em>Child Development &amp; Learning</em> course at Eklavya Foundation</li>
 <li>Facilitated <em>Experiential Learning for 21st Century</em> course with <strong>Tata Trust</strong> for teachers from across India</li>
 <li>50+ workshops with educators; 50+ workshops with children — <a href="https://learningwala.in/educator/worklog/">work log</a></li>
-<li>Articles published in <strong>Teacher Plus</strong>, <strong>Farbas Gujarati</strong>, <strong>Sandarbh</strong>, <strong>Pathshala Bheetar - Bahar</strong> — <a href="https://learningwala.in/about-me/writings/">writings</a> · <a href="https://learningwala.in/tags/blog/">blog</a></li>
+<li>Articles published in <strong>Teacher Plus</strong>, <strong>Farbas Gujarati</strong>, <strong>Sandarbh</strong>, <strong>Pathshala Bheetar - Bahar</strong> — <a href="https://learningwala.in/educator/artist">writings</a> · <a href="https://learningwala.in/tags/blog/">blog</a></li>
 <li>Collaborated with government educational bodies: <strong>GCERT</strong>, <strong>NCERT</strong></li>
 <li>Raised ₹10L for a nature education project through independent fundraising from HNIs</li>
 <li>Mentored organisations to develop their contextual experiential learning curriculum</li>
@@ -27903,11 +27587,12 @@ someday I will do it for sure.</strong></p>
 <li><a href="https://www.srishtimanipaldtu.in/">Srishti Manipal Institute of Design</a></li>
 <li><a href="https://www.msubaroda.ac.in/">Maharaja Sayajirao University</a></li>
 <li>NCERT &amp; GCERT</li>
+<li>Member of <a href="https://www.instagram.com/assitejindia/?hl=en">&lsquo;International Association of Theater &amp; Performing Arts for Children and Young People&rsquo; - India</a></li>
 </ul>
 <hr>
 <h2 id="work-experience">Work Experience</h2>
 <h3 id="tide-foundation">TIDE Foundation</h3>
-<p><strong>Program Manager</strong> · June 2026 – Present · Ahmedabad</p>
+<p><strong>Core team member</strong> · June 2026 – Present · Ahmedabad</p>
 <p>we are a group of passionate educators, researchers &amp; volunteers reimagining the goal of education. Education for harmony through inner work and social action. We are facilitating transformative learning experiences with children and young adults through civic - climate action based projects.</p>
 <p>curriculum development - educator capacity building - partnerships - fund raising</p>
 <h3 id="bright-bal-gokulam-foundation">Bright Bal Gokulam Foundation</h3>
@@ -28112,24 +27797,64 @@ someday I will do it for sure.</strong></p>
       <link>http://localhost:1313/artist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/artist/</guid>
-      <description>&lt;p&gt;As an artist I am interested in writing, theater and multi sensorial storytelling. Most of the time my creative practice get intertwined with my educational practice.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t know why I create, I think this is the way I make sense and realte to the world outside and inside.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I write poems, essays and stories, mostly in Gujarati &amp;amp; Hindi. Sometimes I experiment with mediums like story‘telling’, theater and puppets.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;I doodle, sketch, paint with water colors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Through my non-fiction writing work, I share my experiences of working with children, pedagogical experiments and educational philosophy.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-      <content:encoded><![CDATA[<p>As an artist I am interested in writing, theater and multi sensorial storytelling. Most of the time my creative practice get intertwined with my educational practice.</p>
-<p>I don&rsquo;t know why I create, I think this is the way I make sense and realte to the world outside and inside.</p>
-<hr>
-<ul>
-<li>
-<p>I write poems, essays and stories, mostly in Gujarati &amp; Hindi. Sometimes I experiment with mediums like story‘telling’, theater and puppets.</p>
-</li>
-<li>
-<p>I doodle, sketch, paint with water colors</p>
-</li>
-<li>
+      <description>&lt;p&gt;I write, I sing, I tell stories through puppets. Most of the time my creative practice get intertwined with my educational practice.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t know why I create, I think this is the way I express my self and making sens of the world inner and outer.&lt;/p&gt;&#xA;&lt;p&gt;Through my non-fiction writing work, I share my experiences of working with children, pedagogical experiments and educational philosophy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;This page is a living portfolio of my creative practice as a writer, performer, and maker.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I write, I sing, I tell stories through puppets. Most of the time my creative practice get intertwined with my educational practice.</p>
+<p>I don&rsquo;t know why I create, I think this is the way I express my self and making sens of the world inner and outer.</p>
 <p>Through my non-fiction writing work, I share my experiences of working with children, pedagogical experiments and educational philosophy.</p>
-</li>
-</ul>
-<p><em>This page is a living portfolio of my creative practice as a writer, performer, and maker.</em></p>
-<h2 id="books-magazine-and-zine">Books, magazine and zine</h2>
-<p>Self published. Six titles. Swipe, drag or use the arrows.</p>
+<p><em><strong>This page is a living portfolio of my creative practice as a writer, performer, and maker.</strong></em></p>
+<div class="toc" role="navigation" aria-label="On this page">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#articles">Articles</a></li>
+    <li><a href="#poems">Poems</a></li>
+    <li><a href="#puppet">Puppet show</a></li>
+    <li><a href="#music">Music</a></li>
+    <li><a href="#sketchbook">Sketchbook</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+(function () {
+  var nav = document.currentScript.previousElementSibling;
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var pairs = [];
+  links.forEach(function (a) {
+    var h = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    if (h) pairs.push({ a: a, h: h });
+  });
+  if (!pairs.length) return;
+
+  var current = null, ticking = false;
+
+  function update() {
+    ticking = false;
+    var bar = nav.offsetHeight + 24;
+    var active = null;
+    pairs.forEach(function (p) {
+      if (p.h.getBoundingClientRect().top <= bar) active = p.a;
+    });
+    if (active === current) return;
+    current = active;
+    links.forEach(function (l) {
+      l.classList.toggle('is-active', l === active);
+      if (l === active) l.setAttribute('aria-current', 'true'); else l.removeAttribute('aria-current');
+    });
+    if (active) {
+      nav.scrollTo({ left: active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2, behavior: 'smooth' });
+    }
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
+<h2 id="books">Books</h2>
+<p>Books, magazine and zine, all self published. Six titles. Swipe, drag or use the arrows.</p>
 <div class="bks" data-bks>
   <div class="bks-wide">
     <div class="bks-track" role="group" aria-label="Books, magazine and zine">
@@ -28139,7 +27864,7 @@ someday I will do it for sure.</strong></p>
 <a class="bks-book" href="https://drive.google.com/file/d/10PkdKyATXe81KzhQN2SBnwbiIN3fp4mR/view?usp=sharing" target="_blank" rel="noopener" aria-label="Bilori Kaanch. Gujarati book · Poems &amp; essays"><img src="/images/books/bilori-kaanch.jpg" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">Bilori Kaanch</span><span class="bks-m">Gujarati book · Poems &amp; essays</span></a>
 <a class="bks-book" href="https://drive.google.com/file/d/1gHdtX9g-0WuWmTsu3rjST2f44zAfTGjh/view?usp=drive_link" target="_blank" rel="noopener" aria-label="Kiki &amp; Krisha. Gujarati story book"><img src="/images/books/kiki-and-krisha.jpg" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">Kiki &amp; Krisha</span><span class="bks-m">Gujarati story book</span></a>
 <a class="bks-book" href="https://drive.google.com/file/d/162x9wxpI8izhcLiB0jvQ71JjOv4Kylu5/view?usp=sharing" target="_blank" rel="noopener" aria-label="Earth centric stories. A curation"><img src="/images/books/earth-stories.jpg" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">Earth centric stories</span><span class="bks-m">A curation</span></a>
-<a class="bks-book" href="https://drive.google.com/file/d/1e_05Iy6anoxapdsg0rIpq6JWEO4hTzqJ/view?usp=sharing" target="_blank" rel="noopener" aria-label="My Clock. Zine"><img src="/images/books/zine.png" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">My Clock</span><span class="bks-m">Zine</span></a>
+<a class="bks-book" href="https://heyzine.com/flip-book/3024be1de6.html" target="_blank" rel="noopener" aria-label="My Clock. Zine"><img src="/images/books/zine.png" alt="" height="240" decoding="async" draggable="false"><span class="bks-t">My Clock</span><span class="bks-m">Zine</span></a>
 
       <span class="bks-end" aria-hidden="true"></span>
     </div>
@@ -28251,7 +27976,8 @@ else bksInit();
 <li><a href="https://medium.com/jashnetaleem">Jashn e Taleem</a>: <span lang="hi">यह ब्लॉग मध्यप्रदेश के होशंगाबाद ज़िल्ले में चल रहे प्रोजेक्ट ‘Holistic Initiative Towards Educational Change’ से जुड़े साथीयो के अनुभव और चिंतन को साझा करने की कोशिश है ।</span></li>
 <li><a href="https://medium.com/khoj">Khoj</a>: Resources, ideas and inspiration for gap (bridge) year and alternative explorations in India</li>
 </ul>
-<h2 id="articles-and-other-published-work">Articles and other published work</h2>
+<h2 id="articles">Articles</h2>
+<p>Articles and other published work.</p>
 <ul>
 <li><a href="https://www.teacherplus.org/tinkering-how-we-can-think-with-our-hands/">Tinkering: how we can think with our hands</a>: with Srishti Sethi, article, Teacher Plus Magazine</li>
 <li><a href="https://www.eklavya.in/pdfs/Sandarbh/Sandarbh_139/51-58_Story_of_Food.pdf"><span lang="hi">दस्ता ए भोजन</span> - Article on project based learning</a>: article, Sandarbh Magazine, Hindi</li>
@@ -28269,7 +27995,7 @@ else bksInit();
 <li><a href="/blog/sandminingpoem/">Poem on sandmining</a> : Hindi poem</li>
 <li><a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODYxMTcyMzIwNjAyMzk0?story_media_id=2643794179595950904_3727860670&amp;igsh=MWVjMTlqdXNkeTR6ag==">Poems in Gujarati and Hindi on Instagram</a>: Instagram highlight</li>
 </ul>
-<h2 id="puppet-show">Puppet show</h2>
+<h2 id="puppet">Puppet show</h2>
 <div class="img-grid">
   
 
@@ -28381,12 +28107,22 @@ else bksInit();
 <li><strong>For age group :</strong> 3 to 8yrs</li>
 </ul>
 <p>Based on a story of an ant, and her endless search for a moment of rest amid all the work she must do.</p>
-<h2 id="doodle-sketching-painting">Doodle, Sketching, Painting</h2>
+<h2 id="music">Music</h2>
+<p>I love singing, composing music for children. Some of the songs I made for kids :</p>
+
+<figure class="sc">
+  <iframe
+    title="Songs for children"
+    src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fmihir-pathak-632023721%2Fsets%2Fsongs-for-children&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true"
+    height="300"
+    loading="lazy"
+    allow="autoplay; encrypted-media"></iframe>
+  <figcaption><a href="https://soundcloud.com/mihir-pathak-632023721/sets/songs-for-children" target="_blank" rel="noopener">Songs for children on SoundCloud ↗</a></figcaption>
+</figure>
+<h2 id="sketchbook">Sketchbook</h2>
+<p>Doodles, sketching and painting.</p>
 <ul>
-<li><a href="https://www.instagram.com/stories/highlights/17959223471510259/">some watercolor painting on instagram highlights</a></li>
-<li><a href="https://www.instagram.com/p/CueefNRo-yl/?img_index=1">Some sketching</a></li>
-<li><a href="https://www.instagram.com/p/CpPFKhBNCJx/">Some more sketches</a></li>
-<li><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</li>
+<li>I have dedicated page to show all my sketches, paintings and raw notes from my notebook - <a href="/sketchbook">Sketchbook</a></li>
 </ul>
 <hr>
 ]]></content:encoded>
@@ -29407,6 +29143,263 @@ Where we share creative adventures, tools for reflection, and we embark on &lsqu
 ]]></content:encoded>
     </item>
     <item>
+      <title>little things</title>
+      <link>http://localhost:1313/littlethings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/littlethings/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; This is living document where I will add things, places, moments, actvities I love.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;ab&#34; data-single=&#34;true&#34;&gt;&lt;div class=&#34;ab-home&#34; hidden&gt;&lt;p class=&#34;ab-hint&#34;&gt;Click an album to open it.&lt;/p&gt;&#xA;    &lt;ul class=&#34;ab-grid&#34;&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;things-i-love-little-things&#34; aria-label=&#34;Open album: little things, 12 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/typewriter_hu_dbcc09ceaf9ca478.jpg&#34; width=&#34;480&#34; height=&#34;271&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/two_hu_b994b7d8dc724791.jpg&#34; width=&#34;480&#34; height=&#34;531&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/things-i-love/shirts_hu_fe4488682c49dfdc.jpg&#34; width=&#34;480&#34; height=&#34;271&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;little things&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;12 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&lt;section class=&#34;ab-album&#34; id=&#34;things-i-love-little-things&#34;&gt;&lt;h2 class=&#34;ab-title&#34;&gt;little things&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/typewriter_hu_232b85ccd272b56d.jpg&#34; data-cap=&#34;Typewriter&#34; aria-label=&#34;Enlarge: Typewriter&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/typewriter_hu_9a5a11dc4c721fcc.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Typewriter&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Typewriter&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/two_hu_ad44f181669f7a94.jpg&#34; data-cap=&#34;Two&#34; aria-label=&#34;Enlarge: Two&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/two_hu_c994282ff6df6bde.jpg&#34; width=&#34;700&#34; height=&#34;775&#34; alt=&#34;Two&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Two&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/shirts_hu_60d254b74213c554.jpg&#34; data-cap=&#34;Shirts&#34; aria-label=&#34;Enlarge: Shirts&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/shirts_hu_9c58ad497ffe542a.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Shirts&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Shirts&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/pen.jpeg&#34; data-cap=&#34;Pen&#34; aria-label=&#34;Enlarge: Pen&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/pen_hu_1894e788ba645724.jpeg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Pen&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Pen&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/officetable2_hu_47bf904a53e109ec.jpg&#34; data-cap=&#34;Officetable2&#34; aria-label=&#34;Enlarge: Officetable2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/officetable2_hu_751ab33804b6969b.jpg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Officetable2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Officetable2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/officetable_hu_7fb2659f8c9b1c9.jpg&#34; data-cap=&#34;Officetable&#34; aria-label=&#34;Enlarge: Officetable&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/officetable_hu_880cb3ebcea01eec.jpg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Officetable&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Officetable&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/notebook.jpeg&#34; data-cap=&#34;Notebook&#34; aria-label=&#34;Enlarge: Notebook&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/notebook_hu_1a14fecc3c58e56e.jpeg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Notebook&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notebook&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/laptop_hu_fbc89691fb7d58d.jpg&#34; data-cap=&#34;Laptop&#34; aria-label=&#34;Enlarge: Laptop&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/laptop_hu_c34f964d7e5b33bb.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Laptop&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Laptop&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/inks.jpeg&#34; data-cap=&#34;Inks&#34; aria-label=&#34;Enlarge: Inks&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/inks_hu_f6d0806ebe7715dc.jpeg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Inks&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Inks&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/hometable.jpeg&#34; data-cap=&#34;Hometable&#34; aria-label=&#34;Enlarge: Hometable&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/hometable_hu_9668076ff01646fe.jpeg&#34; width=&#34;700&#34; height=&#34;600&#34; alt=&#34;Hometable&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Hometable&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/balcony_hu_748b4e76a6f83114.jpg&#34; data-cap=&#34;Balcony&#34; aria-label=&#34;Enlarge: Balcony&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/balcony_hu_8630cec1a4403491.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Balcony&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Balcony&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/things-i-love/activa_hu_af29d125e305b33c.jpg&#34; data-cap=&#34;Activa&#34; aria-label=&#34;Enlarge: Activa&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/things-i-love/activa_hu_f854de7e6140932d.jpg&#34; width=&#34;700&#34; height=&#34;396&#34; alt=&#34;Activa&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Activa&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;dialog class=&#34;ab-box&#34; aria-label=&#34;Picture viewer&#34;&gt;&#xA;    &lt;div class=&#34;ab-track&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;ab-head&#34;&gt;&#xA;      &lt;span class=&#34;ab-ttl&#34;&gt;&lt;/span&gt;&#xA;      &lt;button class=&#34;ab-x&#34; type=&#34;button&#34;&gt;Close ✕&lt;/button&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;button class=&#34;ab-nav ab-prev&#34; type=&#34;button&#34; aria-label=&#34;Previous picture&#34;&gt;‹&lt;/button&gt;&#xA;    &lt;button class=&#34;ab-nav ab-next&#34; type=&#34;button&#34; aria-label=&#34;Next picture&#34;&gt;›&lt;/button&gt;&#xA;    &lt;p class=&#34;ab-cap&#34;&gt;&lt;/p&gt;&#xA;  &lt;/dialog&gt;&#xA;&#xA;  &lt;script&gt;&#xA;  (function () {&#xA;    var root   = document.currentScript.parentElement;&#xA;    var home   = root.querySelector(&#39;.ab-home&#39;);&#xA;    var panels = Array.prototype.slice.call(root.querySelectorAll(&#39;.ab-album&#39;));&#xA;    var single = root.dataset.single === &#39;true&#39;;&#xA;&#xA;     &#xA;    var back = root.querySelector(&#39;.ab-back&#39;);&#xA;    var inPage = false;   &#xA;&#xA;    function sync(scroll) {&#xA;      if (single) return;&#xA;      var id = decodeURIComponent(location.hash.slice(1));&#xA;      var found = false;&#xA;      panels.forEach(function (p) {&#xA;        var on = p.id === id;&#xA;        p.hidden = !on;&#xA;        if (on) found = true;&#xA;      });&#xA;      home.hidden = found;&#xA;      back.hidden = !found;&#xA;      if (scroll) {&#xA;        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;&#xA;        window.scrollTo({ top: Math.max(0, y), behavior: &#39;instant&#39; });&#xA;      }&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var card = e.target.closest(&#39;.ab-card&#39;);&#xA;      if (card) { inPage = true; location.hash = card.dataset.id; return; }&#xA;      if (e.target.closest(&#39;.ab-back&#39;)) {&#xA;        if (inPage) {&#xA;          history.back();                       &#xA;        } else {                                &#xA;          history.replaceState(null, &#39;&#39;, location.pathname + location.search);&#xA;          sync(true);&#xA;        }&#xA;      }&#xA;    });&#xA;    window.addEventListener(&#39;hashchange&#39;, function () { sync(true); });&#xA;    sync(false);&#xA;&#xA;     &#xA;    var box   = root.querySelector(&#39;.ab-box&#39;);&#xA;    var track = box.querySelector(&#39;.ab-track&#39;);&#xA;    var ttl   = box.querySelector(&#39;.ab-ttl&#39;);&#xA;    var cap   = box.querySelector(&#39;.ab-cap&#39;);&#xA;    var prev  = box.querySelector(&#39;.ab-prev&#39;);&#xA;    var next  = box.querySelector(&#39;.ab-next&#39;);&#xA;    var items = [], album = &#39;&#39;, i = 0, raf = 0;&#xA;&#xA;    function update(n) {&#xA;      i = n;&#xA;      ttl.textContent = album + (items.length &gt; 1 ? &#39;  ·  &#39; + (n + 1) + &#39; / &#39; + items.length : &#39;&#39;);&#xA;      cap.textContent = items[n].cap;&#xA;      prev.disabled = n === 0;&#xA;      next.disabled = n === items.length - 1;&#xA;    }&#xA;&#xA;    function goTo(n, smooth) {&#xA;      n = Math.max(0, Math.min(items.length - 1, n));&#xA;      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? &#39;smooth&#39; : &#39;instant&#39; });&#xA;      if (!smooth) update(n);&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var a = e.target.closest(&#39;.ab-pic&#39;);&#xA;      if (!a) return;&#xA;      e.preventDefault();&#xA;      var panel = a.closest(&#39;.ab-album&#39;);&#xA;      var links = panel.querySelectorAll(&#39;.ab-pic&#39;);&#xA;      items = Array.prototype.map.call(links, function (l) {&#xA;        return { src: l.href, cap: l.dataset.cap };&#xA;      });&#xA;      album = panel.querySelector(&#39;.ab-title&#39;) ? panel.querySelector(&#39;.ab-title&#39;).textContent : &#39;&#39;;&#xA;      box.dataset.single = items.length &lt; 2 ? &#39;true&#39; : &#39;false&#39;;&#xA;&#xA;      track.innerHTML = &#39;&#39;;&#xA;      items.forEach(function (it) {&#xA;        var f = document.createElement(&#39;figure&#39;);&#xA;        f.className = &#39;ab-slide&#39;;&#xA;        var im = new Image();&#xA;        im.alt = it.cap;&#xA;        im.draggable = false;&#xA;        im.decoding = &#39;async&#39;;&#xA;        im.src = it.src;&#xA;        f.appendChild(im);&#xA;        track.appendChild(f);&#xA;      });&#xA;&#xA;      box.showModal();&#xA;      goTo(Array.prototype.indexOf.call(links, a), false);&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;scroll&#39;, function () {&#xA;      cancelAnimationFrame(raf);&#xA;      raf = requestAnimationFrame(function () {&#xA;        if (!items.length) return;&#xA;        var n = Math.round(track.scrollLeft / track.clientWidth);&#xA;        if (n !== i &amp;&amp; items[n]) update(n);&#xA;      });&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;click&#39;, function (e) {&#xA;      if (e.target.tagName !== &#39;IMG&#39;) box.close();&#xA;    });&#xA;&#xA;    box.querySelector(&#39;.ab-x&#39;).addEventListener(&#39;click&#39;, function () { box.close(); });&#xA;    prev.addEventListener(&#39;click&#39;, function () { goTo(i - 1, true); });&#xA;    next.addEventListener(&#39;click&#39;, function () { goTo(i + 1, true); });&#xA;    box.addEventListener(&#39;keydown&#39;, function (e) {&#xA;      if (e.key === &#39;ArrowLeft&#39;)  goTo(i - 1, true);&#xA;      if (e.key === &#39;ArrowRight&#39;) goTo(i + 1, true);&#xA;    });&#xA;    box.addEventListener(&#39;close&#39;, function () { track.innerHTML = &#39;&#39;; items = []; });&#xA;    window.addEventListener(&#39;resize&#39;, function () { if (box.open &amp;&amp; items.length) goTo(i, false); });&#xA;  })();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Note :</strong> This is living document where I will add things, places, moments, actvities I love.</p>
+<hr>
+<div class="ab" data-single="true"><div class="ab-home" hidden><p class="ab-hint">Click an album to open it.</p>
+    <ul class="ab-grid">
+      <li>
+        <button class="ab-card" type="button" data-id="things-i-love-little-things" aria-label="Open album: little things, 12 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/things-i-love/typewriter_hu_dbcc09ceaf9ca478.jpg" width="480" height="271" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/things-i-love/two_hu_b994b7d8dc724791.jpg" width="480" height="531" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/things-i-love/shirts_hu_fe4488682c49dfdc.jpg" width="480" height="271" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">little things</span>
+          <span class="ab-n">12 pictures</span>
+        </button>
+      </li>
+    </ul>
+  </div><section class="ab-album" id="things-i-love-little-things"><h2 class="ab-title">little things</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/typewriter_hu_232b85ccd272b56d.jpg" data-cap="Typewriter" aria-label="Enlarge: Typewriter">
+                <img src="/things-i-love/typewriter_hu_9a5a11dc4c721fcc.jpg" width="700" height="396" alt="Typewriter" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Typewriter</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/two_hu_ad44f181669f7a94.jpg" data-cap="Two" aria-label="Enlarge: Two">
+                <img src="/things-i-love/two_hu_c994282ff6df6bde.jpg" width="700" height="775" alt="Two" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Two</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/shirts_hu_60d254b74213c554.jpg" data-cap="Shirts" aria-label="Enlarge: Shirts">
+                <img src="/things-i-love/shirts_hu_9c58ad497ffe542a.jpg" width="700" height="396" alt="Shirts" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Shirts</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/pen.jpeg" data-cap="Pen" aria-label="Enlarge: Pen">
+                <img src="/things-i-love/pen_hu_1894e788ba645724.jpeg" width="700" height="933" alt="Pen" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Pen</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/officetable2_hu_47bf904a53e109ec.jpg" data-cap="Officetable2" aria-label="Enlarge: Officetable2">
+                <img src="/things-i-love/officetable2_hu_751ab33804b6969b.jpg" width="700" height="525" alt="Officetable2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Officetable2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/officetable_hu_7fb2659f8c9b1c9.jpg" data-cap="Officetable" aria-label="Enlarge: Officetable">
+                <img src="/things-i-love/officetable_hu_880cb3ebcea01eec.jpg" width="700" height="525" alt="Officetable" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Officetable</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/notebook.jpeg" data-cap="Notebook" aria-label="Enlarge: Notebook">
+                <img src="/things-i-love/notebook_hu_1a14fecc3c58e56e.jpeg" width="700" height="525" alt="Notebook" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notebook</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/laptop_hu_fbc89691fb7d58d.jpg" data-cap="Laptop" aria-label="Enlarge: Laptop">
+                <img src="/things-i-love/laptop_hu_c34f964d7e5b33bb.jpg" width="700" height="396" alt="Laptop" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Laptop</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/inks.jpeg" data-cap="Inks" aria-label="Enlarge: Inks">
+                <img src="/things-i-love/inks_hu_f6d0806ebe7715dc.jpeg" width="700" height="525" alt="Inks" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Inks</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/hometable.jpeg" data-cap="Hometable" aria-label="Enlarge: Hometable">
+                <img src="/things-i-love/hometable_hu_9668076ff01646fe.jpeg" width="700" height="600" alt="Hometable" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Hometable</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/balcony_hu_748b4e76a6f83114.jpg" data-cap="Balcony" aria-label="Enlarge: Balcony">
+                <img src="/things-i-love/balcony_hu_8630cec1a4403491.jpg" width="700" height="396" alt="Balcony" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Balcony</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/things-i-love/activa_hu_af29d125e305b33c.jpg" data-cap="Activa" aria-label="Enlarge: Activa">
+                <img src="/things-i-love/activa_hu_f854de7e6140932d.jpg" width="700" height="396" alt="Activa" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Activa</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><dialog class="ab-box" aria-label="Picture viewer">
+    <div class="ab-track"></div>
+    <div class="ab-head">
+      <span class="ab-ttl"></span>
+      <button class="ab-x" type="button">Close ✕</button>
+    </div>
+    <button class="ab-nav ab-prev" type="button" aria-label="Previous picture">‹</button>
+    <button class="ab-nav ab-next" type="button" aria-label="Next picture">›</button>
+    <p class="ab-cap"></p>
+  </dialog>
+
+  <script>
+  (function () {
+    var root   = document.currentScript.parentElement;
+    var home   = root.querySelector('.ab-home');
+    var panels = Array.prototype.slice.call(root.querySelectorAll('.ab-album'));
+    var single = root.dataset.single === 'true';
+
+     
+    var back = root.querySelector('.ab-back');
+    var inPage = false;   
+
+    function sync(scroll) {
+      if (single) return;
+      var id = decodeURIComponent(location.hash.slice(1));
+      var found = false;
+      panels.forEach(function (p) {
+        var on = p.id === id;
+        p.hidden = !on;
+        if (on) found = true;
+      });
+      home.hidden = found;
+      back.hidden = !found;
+      if (scroll) {
+        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;
+        window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+      }
+    }
+
+    root.addEventListener('click', function (e) {
+      var card = e.target.closest('.ab-card');
+      if (card) { inPage = true; location.hash = card.dataset.id; return; }
+      if (e.target.closest('.ab-back')) {
+        if (inPage) {
+          history.back();                       
+        } else {                                
+          history.replaceState(null, '', location.pathname + location.search);
+          sync(true);
+        }
+      }
+    });
+    window.addEventListener('hashchange', function () { sync(true); });
+    sync(false);
+
+     
+    var box   = root.querySelector('.ab-box');
+    var track = box.querySelector('.ab-track');
+    var ttl   = box.querySelector('.ab-ttl');
+    var cap   = box.querySelector('.ab-cap');
+    var prev  = box.querySelector('.ab-prev');
+    var next  = box.querySelector('.ab-next');
+    var items = [], album = '', i = 0, raf = 0;
+
+    function update(n) {
+      i = n;
+      ttl.textContent = album + (items.length > 1 ? '  ·  ' + (n + 1) + ' / ' + items.length : '');
+      cap.textContent = items[n].cap;
+      prev.disabled = n === 0;
+      next.disabled = n === items.length - 1;
+    }
+
+    function goTo(n, smooth) {
+      n = Math.max(0, Math.min(items.length - 1, n));
+      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? 'smooth' : 'instant' });
+      if (!smooth) update(n);
+    }
+
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest('.ab-pic');
+      if (!a) return;
+      e.preventDefault();
+      var panel = a.closest('.ab-album');
+      var links = panel.querySelectorAll('.ab-pic');
+      items = Array.prototype.map.call(links, function (l) {
+        return { src: l.href, cap: l.dataset.cap };
+      });
+      album = panel.querySelector('.ab-title') ? panel.querySelector('.ab-title').textContent : '';
+      box.dataset.single = items.length < 2 ? 'true' : 'false';
+
+      track.innerHTML = '';
+      items.forEach(function (it) {
+        var f = document.createElement('figure');
+        f.className = 'ab-slide';
+        var im = new Image();
+        im.alt = it.cap;
+        im.draggable = false;
+        im.decoding = 'async';
+        im.src = it.src;
+        f.appendChild(im);
+        track.appendChild(f);
+      });
+
+      box.showModal();
+      goTo(Array.prototype.indexOf.call(links, a), false);
+    });
+
+    
+    track.addEventListener('scroll', function () {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        if (!items.length) return;
+        var n = Math.round(track.scrollLeft / track.clientWidth);
+        if (n !== i && items[n]) update(n);
+      });
+    });
+
+    
+    track.addEventListener('click', function (e) {
+      if (e.target.tagName !== 'IMG') box.close();
+    });
+
+    box.querySelector('.ab-x').addEventListener('click', function () { box.close(); });
+    prev.addEventListener('click', function () { goTo(i - 1, true); });
+    next.addEventListener('click', function () { goTo(i + 1, true); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft')  goTo(i - 1, true);
+      if (e.key === 'ArrowRight') goTo(i + 1, true);
+    });
+    box.addEventListener('close', function () { track.innerHTML = ''; items = []; });
+    window.addEventListener('resize', function () { if (box.open && items.length) goTo(i, false); });
+  })();
+  </script>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Now - 2024</title>
       <link>http://localhost:1313/archive/now-2024/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30345,6 +30338,952 @@ Through travel, exploration, outreach and creative storytelling we aim to bridge
     }
   });
 </script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sketchbook</title>
+      <link>http://localhost:1313/sketchbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sketchbook/</guid>
+      <description>&lt;p&gt;A loose collection from my notebook.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;  &lt;figure class=&#34;img-responsive&#34;&gt;&#xA;    &lt;picture&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/sketchbook/random/used-notebooks_hu_c6fdd3ab74ea3bf9.webp&#34; type=&#34;image/webp&#34;&gt;&#xA;      &lt;source srcset=&#34;http://localhost:1313/sketchbook/random/used-notebooks_hu_b141b7189cdf36e0.jpeg&#34; type=&#34;image/jpeg&#34;&gt;&#xA;      &lt;img&#xA;        src=&#34;http://localhost:1313/sketchbook/random/used-notebooks_hu_b141b7189cdf36e0.jpeg&#34;&#xA;        alt=&#34;&#34;&#xA;        loading=&#34;lazy&#34;&#xA;        decoding=&#34;async&#34;&#xA;        width=&#34;800&#34;&#xA;      /&gt;&#xA;    &lt;/picture&gt;&#xA;    &#xA;      &lt;figcaption&gt;All the stuff is coming from past notebooks &amp;#43; current notebooks&lt;/figcaption&gt;&#xA;    &#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;ab&#34; data-single=&#34;false&#34;&gt;&lt;button class=&#34;ab-back&#34; type=&#34;button&#34; hidden&gt;← All galleries&lt;/button&gt;&lt;div class=&#34;ab-home&#34;&gt;&lt;p class=&#34;ab-hint&#34;&gt;Click an album to open it.&lt;/p&gt;&#xA;    &lt;ul class=&#34;ab-grid&#34;&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-clouds&#34; aria-label=&#34;Open album: Clouds, 5 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-rose.webp&#34; width=&#34;405&#34; height=&#34;189&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-green_hu_7617b74e56e94ed7.webp&#34; width=&#34;480&#34; height=&#34;251&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-green-1_hu_7617b74e56e94ed7.webp&#34; width=&#34;480&#34; height=&#34;251&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Clouds&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;5 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-meet-the-tree&#34; aria-label=&#34;Open album: Meet the tree, 16 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-sun-and-cloud_hu_cbd3690e3995c7a3.jpeg&#34; width=&#34;480&#34; height=&#34;654&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-9_hu_2eb9e9935d548bde.jpg&#34; width=&#34;480&#34; height=&#34;480&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-8_hu_f1aafcc92b90bdc6.webp&#34; width=&#34;480&#34; height=&#34;480&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Meet the tree&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;16 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-notes-on-time-exhibtion&#34; aria-label=&#34;Open album: Notes on time exhibtion, 5 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_374bb519d10b2c17.jpg&#34; width=&#34;480&#34; height=&#34;644&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_52114fb9e514ae5.jpg&#34; width=&#34;480&#34; height=&#34;682&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_b787bb8be74fc577.jpg&#34; width=&#34;480&#34; height=&#34;637&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Notes on time exhibtion&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;5 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-pen-sketches&#34; aria-label=&#34;Open album: Pen sketches, 7 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth7_hu_1c96c515845ba34.jpg&#34; width=&#34;480&#34; height=&#34;653&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth6_hu_a66aad9a230a7255.jpg&#34; width=&#34;480&#34; height=&#34;682&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth5_hu_c67181278e001867.jpg&#34; width=&#34;480&#34; height=&#34;585&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Pen sketches&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;7 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-random&#34; aria-label=&#34;Open album: Random, 36 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/random/wonder-car_hu_7e48261e31f718cc.jpeg&#34; width=&#34;480&#34; height=&#34;500&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/random/waves_hu_c45311e98c3c935d.jpg&#34; width=&#34;480&#34; height=&#34;331&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/random/walker_hu_f0af1d8cb5533d7e.jpeg&#34; width=&#34;480&#34; height=&#34;360&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Random&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;36 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;      &lt;li&gt;&#xA;        &lt;button class=&#34;ab-card&#34; type=&#34;button&#34; data-id=&#34;sketchbook-thinking-in-notes&#34; aria-label=&#34;Open album: Thinking in notes, 16 pictures&#34;&gt;&#xA;          &lt;span class=&#34;ab-stack&#34;&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s0&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note9_hu_9cef8296574eb9fe.jpg&#34; width=&#34;480&#34; height=&#34;672&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s1&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note8_hu_f9908c925ace6fa1.jpg&#34; width=&#34;480&#34; height=&#34;789&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;              &lt;span class=&#34;ab-sheet ab-s2&#34;&gt;&lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note7_hu_c02ac405884630ea.jpg&#34; width=&#34;480&#34; height=&#34;735&#34; alt=&#34;&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&lt;/span&gt;&#xA;          &lt;/span&gt;&#xA;          &lt;span class=&#34;ab-name&#34;&gt;Thinking in notes&lt;/span&gt;&#xA;          &lt;span class=&#34;ab-n&#34;&gt;16 pictures&lt;/span&gt;&#xA;        &lt;/button&gt;&#xA;      &lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-clouds&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Clouds&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/clouds/wash-rose.webp&#34; data-cap=&#34;Wash rose&#34; aria-label=&#34;Enlarge: Wash rose&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-rose.webp&#34; width=&#34;405&#34; height=&#34;189&#34; alt=&#34;Wash rose&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wash rose&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/clouds/wash-green.webp&#34; data-cap=&#34;Wash green&#34; aria-label=&#34;Enlarge: Wash green&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-green.webp&#34; width=&#34;516&#34; height=&#34;270&#34; alt=&#34;Wash green&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wash green&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/clouds/wash-green-1.webp&#34; data-cap=&#34;Wash green 1&#34; aria-label=&#34;Enlarge: Wash green 1&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-green-1.webp&#34; width=&#34;516&#34; height=&#34;270&#34; alt=&#34;Wash green 1&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wash green 1&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/clouds/wash-gold.webp&#34; data-cap=&#34;Wash gold&#34; aria-label=&#34;Enlarge: Wash gold&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-gold.webp&#34; width=&#34;422&#34; height=&#34;203&#34; alt=&#34;Wash gold&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wash gold&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/clouds/wash-blue.webp&#34; data-cap=&#34;Wash blue&#34; aria-label=&#34;Enlarge: Wash blue&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/clouds/wash-blue.webp&#34; width=&#34;642&#34; height=&#34;309&#34; alt=&#34;Wash blue&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wash blue&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-meet-the-tree&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Meet the tree&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-sun-and-cloud.jpeg&#34; data-cap=&#34;Tree sun and cloud&#34; aria-label=&#34;Enlarge: Tree sun and cloud&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-sun-and-cloud_hu_d289e720f08e07ec.jpeg&#34; width=&#34;700&#34; height=&#34;953&#34; alt=&#34;Tree sun and cloud&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree sun and cloud&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-9.jpg&#34; data-cap=&#34;Tree 9&#34; aria-label=&#34;Enlarge: Tree 9&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-9_hu_b35579dd48dbcca.jpg&#34; width=&#34;700&#34; height=&#34;700&#34; alt=&#34;Tree 9&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 9&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-8.webp&#34; data-cap=&#34;Tree 8&#34; aria-label=&#34;Enlarge: Tree 8&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-8_hu_ba32208afbbe1889.webp&#34; width=&#34;700&#34; height=&#34;700&#34; alt=&#34;Tree 8&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 8&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-7.jpg&#34; data-cap=&#34;Tree 7&#34; aria-label=&#34;Enlarge: Tree 7&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-7_hu_a9a79253a508c91f.jpg&#34; width=&#34;700&#34; height=&#34;700&#34; alt=&#34;Tree 7&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 7&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-6.webp&#34; data-cap=&#34;Tree 6&#34; aria-label=&#34;Enlarge: Tree 6&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-6_hu_8f584f3c9785a495.webp&#34; width=&#34;700&#34; height=&#34;518&#34; alt=&#34;Tree 6&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 6&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-5.webp&#34; data-cap=&#34;Tree 5&#34; aria-label=&#34;Enlarge: Tree 5&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-5_hu_d38df84d73f21d91.webp&#34; width=&#34;700&#34; height=&#34;700&#34; alt=&#34;Tree 5&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 5&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-4.webp&#34; data-cap=&#34;Tree 4&#34; aria-label=&#34;Enlarge: Tree 4&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-4_hu_35ef1c3b1a99e3c2.webp&#34; width=&#34;700&#34; height=&#34;700&#34; alt=&#34;Tree 4&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 4&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-3_hu_e78c3e26dbaefe52.jpg&#34; data-cap=&#34;Tree 3&#34; aria-label=&#34;Enlarge: Tree 3&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-3_hu_77d7a1f306d8e4f8.jpg&#34; width=&#34;700&#34; height=&#34;637&#34; alt=&#34;Tree 3&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 3&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-2.jpg&#34; data-cap=&#34;Tree 2&#34; aria-label=&#34;Enlarge: Tree 2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-2_hu_3e7c72f72d6cde83.jpg&#34; width=&#34;700&#34; height=&#34;680&#34; alt=&#34;Tree 2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-1_hu_d078cc51a5222d67.jpg&#34; data-cap=&#34;Tree 1&#34; aria-label=&#34;Enlarge: Tree 1&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/tree-1_hu_dde464f4214021d2.jpg&#34; width=&#34;700&#34; height=&#34;646&#34; alt=&#34;Tree 1&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tree 1&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/pen-sketch-tree_hu_2883faea19e93cf6.jpg&#34; data-cap=&#34;Pen sketch tree&#34; aria-label=&#34;Enlarge: Pen sketch tree&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/pen-sketch-tree_hu_6a56a3d47ba4a432.jpg&#34; width=&#34;700&#34; height=&#34;982&#34; alt=&#34;Pen sketch tree&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Pen sketch tree&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/melting-tree.jpeg&#34; data-cap=&#34;Melting tree&#34; aria-label=&#34;Enlarge: Melting tree&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/melting-tree_hu_bedafa9cd3aee9c.jpeg&#34; width=&#34;700&#34; height=&#34;817&#34; alt=&#34;Melting tree&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Melting tree&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/guna-caves_hu_eada4fc5a79d5f8d.jpg&#34; data-cap=&#34;Guna caves&#34; aria-label=&#34;Enlarge: Guna caves&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/guna-caves_hu_2a8c87b86bd6c7df.jpg&#34; width=&#34;700&#34; height=&#34;969&#34; alt=&#34;Guna caves&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Guna caves&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/guna-caves-2_hu_3176da560244da3f.jpg&#34; data-cap=&#34;Guna caves 2&#34; aria-label=&#34;Enlarge: Guna caves 2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/guna-caves-2_hu_9971e9c4a968cf1.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Guna caves 2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Guna caves 2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/blue-tree_hu_24799ef11ad4cb0d.jpg&#34; data-cap=&#34;Blue tree&#34; aria-label=&#34;Enlarge: Blue tree&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/blue-tree_hu_6ebcec68c0edd0f5.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Blue tree&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Blue tree&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/meet-the-tree/bark_hu_f93b22638efcdaff.jpg&#34; data-cap=&#34;Bark&#34; aria-label=&#34;Enlarge: Bark&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/meet-the-tree/bark_hu_65a8746cc2e82806.jpg&#34; width=&#34;700&#34; height=&#34;937&#34; alt=&#34;Bark&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Bark&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-notes-on-time-exhibtion&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Notes on time exhibtion&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_283becb3d7cc92fb.jpg&#34; data-cap=&#34;Notes5&#34; aria-label=&#34;Enlarge: Notes5&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_5ca9e73a02c05849.jpg&#34; width=&#34;700&#34; height=&#34;939&#34; alt=&#34;Notes5&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notes5&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_6a668dbb8b61bceb.jpg&#34; data-cap=&#34;Notes4&#34; aria-label=&#34;Enlarge: Notes4&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_c617a3a8e8209fcf.jpg&#34; width=&#34;700&#34; height=&#34;994&#34; alt=&#34;Notes4&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notes4&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_80eb4f6cb9f4c42d.jpg&#34; data-cap=&#34;Notes3&#34; aria-label=&#34;Enlarge: Notes3&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_973b18964ffeda6b.jpg&#34; width=&#34;700&#34; height=&#34;928&#34; alt=&#34;Notes3&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notes3&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes2_hu_2c47bb63a2a261c6.jpg&#34; data-cap=&#34;Notes2&#34; aria-label=&#34;Enlarge: Notes2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes2_hu_2b422e66f5d45029.jpg&#34; width=&#34;700&#34; height=&#34;994&#34; alt=&#34;Notes2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notes2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes1_hu_1f2d046be4592627.jpg&#34; data-cap=&#34;Notes1&#34; aria-label=&#34;Enlarge: Notes1&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/notes%20on%20time%20exhibtion/notes1_hu_4e794a592e50a3d8.jpg&#34; width=&#34;700&#34; height=&#34;912&#34; alt=&#34;Notes1&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Notes1&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-pen-sketches&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Pen sketches&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth7_hu_fa7ab6046bc608b5.jpg&#34; data-cap=&#34;Skecth7&#34; aria-label=&#34;Enlarge: Skecth7&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth7_hu_93ef86df2e1040ad.jpg&#34; width=&#34;700&#34; height=&#34;952&#34; alt=&#34;Skecth7&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth7&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth6_hu_f8842e33016e4be0.jpg&#34; data-cap=&#34;Skecth6&#34; aria-label=&#34;Enlarge: Skecth6&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth6_hu_9c15ece0230e7166.jpg&#34; width=&#34;700&#34; height=&#34;994&#34; alt=&#34;Skecth6&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth6&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth5_hu_ae17be6f6645d55b.jpg&#34; data-cap=&#34;Skecth5&#34; aria-label=&#34;Enlarge: Skecth5&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth5_hu_87643c16f1effcbf.jpg&#34; width=&#34;700&#34; height=&#34;853&#34; alt=&#34;Skecth5&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth5&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth4_hu_e02dbe6fa14361d6.jpg&#34; data-cap=&#34;Skecth4&#34; aria-label=&#34;Enlarge: Skecth4&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth4_hu_64e05934ad45ad9c.jpg&#34; width=&#34;700&#34; height=&#34;907&#34; alt=&#34;Skecth4&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth4&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth3_hu_3a28c5c444e59cba.jpg&#34; data-cap=&#34;Skecth3&#34; aria-label=&#34;Enlarge: Skecth3&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth3_hu_da23151f161e87f0.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Skecth3&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth3&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth2_hu_eaaacd6af3354d2e.jpg&#34; data-cap=&#34;Skecth2&#34; aria-label=&#34;Enlarge: Skecth2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth2_hu_43f03314427d5d2b.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Skecth2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth1_hu_c4c7dfb15e81d266.jpg&#34; data-cap=&#34;Skecth1&#34; aria-label=&#34;Enlarge: Skecth1&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/pen-sketches/skecth1_hu_6d08c8ac94ce9a0e.jpg&#34; width=&#34;700&#34; height=&#34;802&#34; alt=&#34;Skecth1&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Skecth1&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-random&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Random&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/wonder-car.jpeg&#34; data-cap=&#34;Wonder car&#34; aria-label=&#34;Enlarge: Wonder car&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/wonder-car_hu_77aae209f5571ba8.jpeg&#34; width=&#34;700&#34; height=&#34;730&#34; alt=&#34;Wonder car&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Wonder car&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/waves_hu_1a63e8a34b1170b8.jpg&#34; data-cap=&#34;Waves&#34; aria-label=&#34;Enlarge: Waves&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/waves_hu_3f7720074285c0e8.jpg&#34; width=&#34;700&#34; height=&#34;482&#34; alt=&#34;Waves&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Waves&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/walker.jpeg&#34; data-cap=&#34;Walker&#34; aria-label=&#34;Enlarge: Walker&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/walker_hu_1b8201ab09bf687d.jpeg&#34; width=&#34;700&#34; height=&#34;525&#34; alt=&#34;Walker&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Walker&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/used-notebooks.jpeg&#34; data-cap=&#34;Used notebooks&#34; aria-label=&#34;Enlarge: Used notebooks&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/used-notebooks_hu_929554dffdbfc14.jpeg&#34; width=&#34;700&#34; height=&#34;528&#34; alt=&#34;Used notebooks&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Used notebooks&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/trumpet.jpeg&#34; data-cap=&#34;Trumpet&#34; aria-label=&#34;Enlarge: Trumpet&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/trumpet_hu_8bdf7e2cf999797f.jpeg&#34; width=&#34;700&#34; height=&#34;783&#34; alt=&#34;Trumpet&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Trumpet&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/totoro_hu_4248a85d672ee6ed.jpg&#34; data-cap=&#34;Totoro&#34; aria-label=&#34;Enlarge: Totoro&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/totoro_hu_c5c374ad32e7a99a.jpg&#34; width=&#34;700&#34; height=&#34;564&#34; alt=&#34;Totoro&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Totoro&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/tipoi_hu_b0ff79f00fc3f6cc.jpg&#34; data-cap=&#34;Tipoi&#34; aria-label=&#34;Enlarge: Tipoi&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/tipoi_hu_6fe53c1619bc3d81.jpg&#34; width=&#34;700&#34; height=&#34;490&#34; alt=&#34;Tipoi&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tipoi&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/thela_hu_1496ada4b35aa4e5.jpg&#34; data-cap=&#34;Thela&#34; aria-label=&#34;Enlarge: Thela&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/thela_hu_c2b69fd738a6b1bb.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Thela&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Thela&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/tea-stall_hu_f63e25b7ce3b53e5.jpg&#34; data-cap=&#34;Tea stall&#34; aria-label=&#34;Enlarge: Tea stall&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/tea-stall_hu_35d46e008dde0344.jpg&#34; width=&#34;700&#34; height=&#34;500&#34; alt=&#34;Tea stall&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Tea stall&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/sun.jpeg&#34; data-cap=&#34;Sun&#34; aria-label=&#34;Enlarge: Sun&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/sun_hu_edc9630544be19a9.jpeg&#34; width=&#34;700&#34; height=&#34;949&#34; alt=&#34;Sun&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Sun&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/something_hu_da62b61dc5f7c713.jpg&#34; data-cap=&#34;Something&#34; aria-label=&#34;Enlarge: Something&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/something_hu_117090ec7d8ebc7e.jpg&#34; width=&#34;700&#34; height=&#34;1000&#34; alt=&#34;Something&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Something&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/some-gyan_hu_71b5290b9da30d75.jpg&#34; data-cap=&#34;Some gyan&#34; aria-label=&#34;Enlarge: Some gyan&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/some-gyan_hu_f9b03fa7d57c048c.jpg&#34; width=&#34;700&#34; height=&#34;934&#34; alt=&#34;Some gyan&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Some gyan&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/she_hu_8c02d68aa6b9c7c7.jpg&#34; data-cap=&#34;She&#34; aria-label=&#34;Enlarge: She&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/she_hu_75afdd4b70f131be.jpg&#34; width=&#34;700&#34; height=&#34;489&#34; alt=&#34;She&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;She&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/rustam%27s-poem_hu_9afa55cd71b90e82.jpg&#34; data-cap=&#34;Rustam&amp;#39;s poem&#34; aria-label=&#34;Enlarge: Rustam&amp;#39;s poem&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/rustam%27s-poem_hu_55000a1ffbf7abdc.jpg&#34; width=&#34;700&#34; height=&#34;924&#34; alt=&#34;Rustam&amp;#39;s poem&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Rustam&amp;#39;s poem&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/robo.jpeg&#34; data-cap=&#34;Robo&#34; aria-label=&#34;Enlarge: Robo&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/robo_hu_daf3b351fd09296a.jpeg&#34; width=&#34;700&#34; height=&#34;859&#34; alt=&#34;Robo&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Robo&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/police-station_hu_824ccbe708ab7296.jpg&#34; data-cap=&#34;Police station&#34; aria-label=&#34;Enlarge: Police station&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/police-station_hu_e1b284395c066be3.jpg&#34; width=&#34;700&#34; height=&#34;533&#34; alt=&#34;Police station&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Police station&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/mask.jpeg&#34; data-cap=&#34;Mask&#34; aria-label=&#34;Enlarge: Mask&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/mask_hu_76bbff3a2d8dbb64.jpeg&#34; width=&#34;700&#34; height=&#34;875&#34; alt=&#34;Mask&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Mask&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/mashroom.jpeg&#34; data-cap=&#34;Mashroom&#34; aria-label=&#34;Enlarge: Mashroom&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/mashroom_hu_5ccbb23afc5f479e.jpeg&#34; width=&#34;700&#34; height=&#34;811&#34; alt=&#34;Mashroom&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Mashroom&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/making-khichdi_hu_ff5a02ee5748d093.jpg&#34; data-cap=&#34;Making khichdi&#34; aria-label=&#34;Enlarge: Making khichdi&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/making-khichdi_hu_49ac200b08d663c1.jpg&#34; width=&#34;700&#34; height=&#34;487&#34; alt=&#34;Making khichdi&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Making khichdi&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/kitchen_hu_27a2f0365f24b9c6.jpg&#34; data-cap=&#34;Kitchen&#34; aria-label=&#34;Enlarge: Kitchen&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/kitchen_hu_5929d874c9fbf714.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Kitchen&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Kitchen&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/kajari-gay_hu_124701051f3a77d.jpg&#34; data-cap=&#34;Kajari gay&#34; aria-label=&#34;Enlarge: Kajari gay&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/kajari-gay_hu_3c7c681d78de138a.jpg&#34; width=&#34;700&#34; height=&#34;511&#34; alt=&#34;Kajari gay&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Kajari gay&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/kachua.jpeg&#34; data-cap=&#34;Kachua&#34; aria-label=&#34;Enlarge: Kachua&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/kachua_hu_b0185fe12bb81f27.jpeg&#34; width=&#34;700&#34; height=&#34;675&#34; alt=&#34;Kachua&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Kachua&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/jubidubi.jpeg&#34; data-cap=&#34;Jubidubi&#34; aria-label=&#34;Enlarge: Jubidubi&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/jubidubi_hu_95cfd923d013daac.jpeg&#34; width=&#34;700&#34; height=&#34;775&#34; alt=&#34;Jubidubi&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Jubidubi&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/hot-chocolate_hu_4f5242d80b95c8fd.jpg&#34; data-cap=&#34;Hot chocolate&#34; aria-label=&#34;Enlarge: Hot chocolate&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/hot-chocolate_hu_2a062c79bd3114f0.jpg&#34; width=&#34;700&#34; height=&#34;521&#34; alt=&#34;Hot chocolate&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Hot chocolate&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/hand_hu_418fc4369aba659.jpg&#34; data-cap=&#34;Hand&#34; aria-label=&#34;Enlarge: Hand&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/hand_hu_c2d488f070d6c5ed.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Hand&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Hand&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/haathi.jpeg&#34; data-cap=&#34;Haathi&#34; aria-label=&#34;Enlarge: Haathi&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/haathi_hu_597ac9ab915e6b4d.jpeg&#34; width=&#34;700&#34; height=&#34;736&#34; alt=&#34;Haathi&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Haathi&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/forrest.jpeg&#34; data-cap=&#34;Forrest&#34; aria-label=&#34;Enlarge: Forrest&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/forrest_hu_155c825a6a4f8f39.jpeg&#34; width=&#34;700&#34; height=&#34;1044&#34; alt=&#34;Forrest&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Forrest&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/chand_hu_afbb01dbf2f8933a.jpg&#34; data-cap=&#34;Chand&#34; aria-label=&#34;Enlarge: Chand&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/chand_hu_b23f23911c74096f.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Chand&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Chand&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/chair_hu_98252bc8dbde8df4.jpg&#34; data-cap=&#34;Chair&#34; aria-label=&#34;Enlarge: Chair&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/chair_hu_9c71b5dcacc4310c.jpg&#34; width=&#34;700&#34; height=&#34;488&#34; alt=&#34;Chair&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Chair&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/bush_hu_4816dbb0cd8ed406.jpg&#34; data-cap=&#34;Bush&#34; aria-label=&#34;Enlarge: Bush&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/bush_hu_1311304b622f5e3b.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Bush&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Bush&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/brushing-teeth_hu_ba0eccc813bcfefd.jpg&#34; data-cap=&#34;Brushing teeth&#34; aria-label=&#34;Enlarge: Brushing teeth&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/brushing-teeth_hu_22f81a22d083b388.jpg&#34; width=&#34;700&#34; height=&#34;921&#34; alt=&#34;Brushing teeth&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Brushing teeth&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/bhungo.jpeg&#34; data-cap=&#34;Bhungo&#34; aria-label=&#34;Enlarge: Bhungo&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/bhungo_hu_f4d96f382d69bfb5.jpeg&#34; width=&#34;700&#34; height=&#34;783&#34; alt=&#34;Bhungo&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Bhungo&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/bhakt_hu_d72dcbf3b39af434.jpg&#34; data-cap=&#34;Bhakt&#34; aria-label=&#34;Enlarge: Bhakt&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/bhakt_hu_1ac327b9bdd594a2.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Bhakt&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Bhakt&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/antariksh.jpeg&#34; data-cap=&#34;Antariksh&#34; aria-label=&#34;Enlarge: Antariksh&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/antariksh_hu_847ee9c7c678d724.jpeg&#34; width=&#34;700&#34; height=&#34;605&#34; alt=&#34;Antariksh&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Antariksh&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/again-something_hu_c08939da6f599192.jpg&#34; data-cap=&#34;Again something&#34; aria-label=&#34;Enlarge: Again something&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/again-something_hu_3437dc48574d350f.jpg&#34; width=&#34;700&#34; height=&#34;511&#34; alt=&#34;Again something&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Again something&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/random/again-again-something_hu_e7f19a1466dee87e.jpg&#34; data-cap=&#34;Again again something&#34; aria-label=&#34;Enlarge: Again again something&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/random/again-again-something_hu_14fc9d149e29a9f.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Again again something&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Again again something&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;section class=&#34;ab-album&#34; id=&#34;sketchbook-thinking-in-notes&#34; hidden&gt;&lt;h2 class=&#34;ab-title&#34;&gt;Thinking in notes&lt;/h2&gt;&#xA;      &lt;p class=&#34;ab-sub&#34;&gt;Click a picture to enlarge it.&lt;/p&gt;&#xA;      &lt;ul class=&#34;ab-pics&#34;&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note9_hu_1066303bc5a7bde4.jpg&#34; data-cap=&#34;Note9&#34; aria-label=&#34;Enlarge: Note9&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note9_hu_4b416eb57e7881ad.jpg&#34; width=&#34;700&#34; height=&#34;979&#34; alt=&#34;Note9&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note9&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note8_hu_1228338495e3816a.jpg&#34; data-cap=&#34;Note8&#34; aria-label=&#34;Enlarge: Note8&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note8_hu_75a74ee310257554.jpg&#34; width=&#34;700&#34; height=&#34;1151&#34; alt=&#34;Note8&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note8&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note7_hu_5cb904d79de87fbb.jpg&#34; data-cap=&#34;Note7&#34; aria-label=&#34;Enlarge: Note7&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note7_hu_70d9872cde261ecc.jpg&#34; width=&#34;700&#34; height=&#34;1072&#34; alt=&#34;Note7&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note7&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note6_hu_d913fb9fba3e4af5.jpg&#34; data-cap=&#34;Note6&#34; aria-label=&#34;Enlarge: Note6&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note6_hu_6d0c2df1aa98f553.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Note6&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note6&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note5_hu_f1e217a8cf9c14b6.jpg&#34; data-cap=&#34;Note5&#34; aria-label=&#34;Enlarge: Note5&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note5_hu_3822fc6e6f8700cf.jpg&#34; width=&#34;700&#34; height=&#34;912&#34; alt=&#34;Note5&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note5&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note4_hu_7910499051dbd596.jpg&#34; data-cap=&#34;Note4&#34; aria-label=&#34;Enlarge: Note4&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note4_hu_4f788570546ffdb9.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Note4&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note4&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note3_hu_39efc8b69fdf32cd.jpg&#34; data-cap=&#34;Note3&#34; aria-label=&#34;Enlarge: Note3&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note3_hu_e5ab79e1582e13cd.jpg&#34; width=&#34;700&#34; height=&#34;880&#34; alt=&#34;Note3&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note3&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note2_hu_96cd86f1c4f83873.jpg&#34; data-cap=&#34;Note2&#34; aria-label=&#34;Enlarge: Note2&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note2_hu_e1003bf63d6cc6a7.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Note2&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note2&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note16_hu_64400e62c1748315.jpg&#34; data-cap=&#34;Note16&#34; aria-label=&#34;Enlarge: Note16&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note16_hu_2ce3af85682623d1.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Note16&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note16&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note15_hu_c67705c108adb84e.jpg&#34; data-cap=&#34;Note15&#34; aria-label=&#34;Enlarge: Note15&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note15_hu_ae2cc824e436d43.jpg&#34; width=&#34;700&#34; height=&#34;933&#34; alt=&#34;Note15&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note15&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note14_hu_1e371e456363f64f.jpg&#34; data-cap=&#34;Note14&#34; aria-label=&#34;Enlarge: Note14&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note14_hu_ed418a68c6e2832d.jpg&#34; width=&#34;700&#34; height=&#34;1017&#34; alt=&#34;Note14&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note14&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note13_hu_588cf5db14162847.jpg&#34; data-cap=&#34;Note13&#34; aria-label=&#34;Enlarge: Note13&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note13_hu_aabbefe9cc547222.jpg&#34; width=&#34;700&#34; height=&#34;1119&#34; alt=&#34;Note13&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note13&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note12_hu_1d7f526044cdb892.jpg&#34; data-cap=&#34;Note12&#34; aria-label=&#34;Enlarge: Note12&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note12_hu_2fa3ba78b10b317a.jpg&#34; width=&#34;700&#34; height=&#34;1011&#34; alt=&#34;Note12&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note12&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note11_hu_5c20174907f296b0.jpg&#34; data-cap=&#34;Note11&#34; aria-label=&#34;Enlarge: Note11&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note11_hu_a8f609a04fe61dc4.jpg&#34; width=&#34;700&#34; height=&#34;1135&#34; alt=&#34;Note11&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note11&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note10_hu_77c8434658e98738.jpg&#34; data-cap=&#34;Note10&#34; aria-label=&#34;Enlarge: Note10&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note10_hu_cfab7ea3e4fc755e.jpg&#34; width=&#34;700&#34; height=&#34;1126&#34; alt=&#34;Note10&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note10&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;          &lt;li&gt;&#xA;            &lt;figure&gt;&#xA;              &lt;a class=&#34;ab-pic&#34; href=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note1_hu_1f5b20cd91bb55bb.jpg&#34; data-cap=&#34;Note1&#34; aria-label=&#34;Enlarge: Note1&#34;&gt;&#xA;                &lt;img src=&#34;http://localhost:1313/sketchbook/thinking%20in%20notes/note1_hu_a0947cbc6bc9aa58.jpg&#34; width=&#34;700&#34; height=&#34;1007&#34; alt=&#34;Note1&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;              &lt;/a&gt;&#xA;              &lt;figcaption&gt;Note1&lt;/figcaption&gt;&#xA;            &lt;/figure&gt;&#xA;          &lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/section&gt;&lt;dialog class=&#34;ab-box&#34; aria-label=&#34;Picture viewer&#34;&gt;&#xA;    &lt;div class=&#34;ab-track&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;ab-head&#34;&gt;&#xA;      &lt;span class=&#34;ab-ttl&#34;&gt;&lt;/span&gt;&#xA;      &lt;button class=&#34;ab-x&#34; type=&#34;button&#34;&gt;Close ✕&lt;/button&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;button class=&#34;ab-nav ab-prev&#34; type=&#34;button&#34; aria-label=&#34;Previous picture&#34;&gt;‹&lt;/button&gt;&#xA;    &lt;button class=&#34;ab-nav ab-next&#34; type=&#34;button&#34; aria-label=&#34;Next picture&#34;&gt;›&lt;/button&gt;&#xA;    &lt;p class=&#34;ab-cap&#34;&gt;&lt;/p&gt;&#xA;  &lt;/dialog&gt;&#xA;&#xA;  &lt;script&gt;&#xA;  (function () {&#xA;    var root   = document.currentScript.parentElement;&#xA;    var home   = root.querySelector(&#39;.ab-home&#39;);&#xA;    var panels = Array.prototype.slice.call(root.querySelectorAll(&#39;.ab-album&#39;));&#xA;    var single = root.dataset.single === &#39;true&#39;;&#xA;&#xA;     &#xA;    var back = root.querySelector(&#39;.ab-back&#39;);&#xA;    var inPage = false;   &#xA;&#xA;    function sync(scroll) {&#xA;      if (single) return;&#xA;      var id = decodeURIComponent(location.hash.slice(1));&#xA;      var found = false;&#xA;      panels.forEach(function (p) {&#xA;        var on = p.id === id;&#xA;        p.hidden = !on;&#xA;        if (on) found = true;&#xA;      });&#xA;      home.hidden = found;&#xA;      back.hidden = !found;&#xA;      if (scroll) {&#xA;        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;&#xA;        window.scrollTo({ top: Math.max(0, y), behavior: &#39;instant&#39; });&#xA;      }&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var card = e.target.closest(&#39;.ab-card&#39;);&#xA;      if (card) { inPage = true; location.hash = card.dataset.id; return; }&#xA;      if (e.target.closest(&#39;.ab-back&#39;)) {&#xA;        if (inPage) {&#xA;          history.back();                       &#xA;        } else {                                &#xA;          history.replaceState(null, &#39;&#39;, location.pathname + location.search);&#xA;          sync(true);&#xA;        }&#xA;      }&#xA;    });&#xA;    window.addEventListener(&#39;hashchange&#39;, function () { sync(true); });&#xA;    sync(false);&#xA;&#xA;     &#xA;    var box   = root.querySelector(&#39;.ab-box&#39;);&#xA;    var track = box.querySelector(&#39;.ab-track&#39;);&#xA;    var ttl   = box.querySelector(&#39;.ab-ttl&#39;);&#xA;    var cap   = box.querySelector(&#39;.ab-cap&#39;);&#xA;    var prev  = box.querySelector(&#39;.ab-prev&#39;);&#xA;    var next  = box.querySelector(&#39;.ab-next&#39;);&#xA;    var items = [], album = &#39;&#39;, i = 0, raf = 0;&#xA;&#xA;    function update(n) {&#xA;      i = n;&#xA;      ttl.textContent = album + (items.length &gt; 1 ? &#39;  ·  &#39; + (n + 1) + &#39; / &#39; + items.length : &#39;&#39;);&#xA;      cap.textContent = items[n].cap;&#xA;      prev.disabled = n === 0;&#xA;      next.disabled = n === items.length - 1;&#xA;    }&#xA;&#xA;    function goTo(n, smooth) {&#xA;      n = Math.max(0, Math.min(items.length - 1, n));&#xA;      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? &#39;smooth&#39; : &#39;instant&#39; });&#xA;      if (!smooth) update(n);&#xA;    }&#xA;&#xA;    root.addEventListener(&#39;click&#39;, function (e) {&#xA;      var a = e.target.closest(&#39;.ab-pic&#39;);&#xA;      if (!a) return;&#xA;      e.preventDefault();&#xA;      var panel = a.closest(&#39;.ab-album&#39;);&#xA;      var links = panel.querySelectorAll(&#39;.ab-pic&#39;);&#xA;      items = Array.prototype.map.call(links, function (l) {&#xA;        return { src: l.href, cap: l.dataset.cap };&#xA;      });&#xA;      album = panel.querySelector(&#39;.ab-title&#39;) ? panel.querySelector(&#39;.ab-title&#39;).textContent : &#39;&#39;;&#xA;      box.dataset.single = items.length &lt; 2 ? &#39;true&#39; : &#39;false&#39;;&#xA;&#xA;      track.innerHTML = &#39;&#39;;&#xA;      items.forEach(function (it) {&#xA;        var f = document.createElement(&#39;figure&#39;);&#xA;        f.className = &#39;ab-slide&#39;;&#xA;        var im = new Image();&#xA;        im.alt = it.cap;&#xA;        im.draggable = false;&#xA;        im.decoding = &#39;async&#39;;&#xA;        im.src = it.src;&#xA;        f.appendChild(im);&#xA;        track.appendChild(f);&#xA;      });&#xA;&#xA;      box.showModal();&#xA;      goTo(Array.prototype.indexOf.call(links, a), false);&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;scroll&#39;, function () {&#xA;      cancelAnimationFrame(raf);&#xA;      raf = requestAnimationFrame(function () {&#xA;        if (!items.length) return;&#xA;        var n = Math.round(track.scrollLeft / track.clientWidth);&#xA;        if (n !== i &amp;&amp; items[n]) update(n);&#xA;      });&#xA;    });&#xA;&#xA;    &#xA;    track.addEventListener(&#39;click&#39;, function (e) {&#xA;      if (e.target.tagName !== &#39;IMG&#39;) box.close();&#xA;    });&#xA;&#xA;    box.querySelector(&#39;.ab-x&#39;).addEventListener(&#39;click&#39;, function () { box.close(); });&#xA;    prev.addEventListener(&#39;click&#39;, function () { goTo(i - 1, true); });&#xA;    next.addEventListener(&#39;click&#39;, function () { goTo(i + 1, true); });&#xA;    box.addEventListener(&#39;keydown&#39;, function (e) {&#xA;      if (e.key === &#39;ArrowLeft&#39;)  goTo(i - 1, true);&#xA;      if (e.key === &#39;ArrowRight&#39;) goTo(i + 1, true);&#xA;    });&#xA;    box.addEventListener(&#39;close&#39;, function () { track.innerHTML = &#39;&#39;; items = []; });&#xA;    window.addEventListener(&#39;resize&#39;, function () { if (box.open &amp;&amp; items.length) goTo(i, false); });&#xA;  })();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<p>A loose collection from my notebook.</p>
+
+
+
+
+
+
+
+
+
+  
+  
+
+  <figure class="img-responsive">
+    <picture>
+      <source srcset="/sketchbook/random/used-notebooks_hu_c6fdd3ab74ea3bf9.webp" type="image/webp">
+      <source srcset="/sketchbook/random/used-notebooks_hu_b141b7189cdf36e0.jpeg" type="image/jpeg">
+      <img
+        src="/sketchbook/random/used-notebooks_hu_b141b7189cdf36e0.jpeg"
+        alt=""
+        loading="lazy"
+        decoding="async"
+        width="800"
+      />
+    </picture>
+    
+      <figcaption>All the stuff is coming from past notebooks &#43; current notebooks</figcaption>
+    
+  </figure>
+
+
+
+<div class="ab" data-single="false"><button class="ab-back" type="button" hidden>← All galleries</button><div class="ab-home"><p class="ab-hint">Click an album to open it.</p>
+    <ul class="ab-grid">
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-clouds" aria-label="Open album: Clouds, 5 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/clouds/wash-rose.webp" width="405" height="189" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/clouds/wash-green_hu_7617b74e56e94ed7.webp" width="480" height="251" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/clouds/wash-green-1_hu_7617b74e56e94ed7.webp" width="480" height="251" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Clouds</span>
+          <span class="ab-n">5 pictures</span>
+        </button>
+      </li>
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-meet-the-tree" aria-label="Open album: Meet the tree, 16 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/meet-the-tree/tree-sun-and-cloud_hu_cbd3690e3995c7a3.jpeg" width="480" height="654" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/meet-the-tree/tree-9_hu_2eb9e9935d548bde.jpg" width="480" height="480" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/meet-the-tree/tree-8_hu_f1aafcc92b90bdc6.webp" width="480" height="480" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Meet the tree</span>
+          <span class="ab-n">16 pictures</span>
+        </button>
+      </li>
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-notes-on-time-exhibtion" aria-label="Open album: Notes on time exhibtion, 5 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_374bb519d10b2c17.jpg" width="480" height="644" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_52114fb9e514ae5.jpg" width="480" height="682" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_b787bb8be74fc577.jpg" width="480" height="637" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Notes on time exhibtion</span>
+          <span class="ab-n">5 pictures</span>
+        </button>
+      </li>
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-pen-sketches" aria-label="Open album: Pen sketches, 7 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/pen-sketches/skecth7_hu_1c96c515845ba34.jpg" width="480" height="653" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/pen-sketches/skecth6_hu_a66aad9a230a7255.jpg" width="480" height="682" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/pen-sketches/skecth5_hu_c67181278e001867.jpg" width="480" height="585" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Pen sketches</span>
+          <span class="ab-n">7 pictures</span>
+        </button>
+      </li>
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-random" aria-label="Open album: Random, 36 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/random/wonder-car_hu_7e48261e31f718cc.jpeg" width="480" height="500" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/random/waves_hu_c45311e98c3c935d.jpg" width="480" height="331" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/random/walker_hu_f0af1d8cb5533d7e.jpeg" width="480" height="360" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Random</span>
+          <span class="ab-n">36 pictures</span>
+        </button>
+      </li>
+      <li>
+        <button class="ab-card" type="button" data-id="sketchbook-thinking-in-notes" aria-label="Open album: Thinking in notes, 16 pictures">
+          <span class="ab-stack">
+              <span class="ab-sheet ab-s0"><img src="/sketchbook/thinking%20in%20notes/note9_hu_9cef8296574eb9fe.jpg" width="480" height="672" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s1"><img src="/sketchbook/thinking%20in%20notes/note8_hu_f9908c925ace6fa1.jpg" width="480" height="789" alt="" loading="lazy" decoding="async"></span>
+              <span class="ab-sheet ab-s2"><img src="/sketchbook/thinking%20in%20notes/note7_hu_c02ac405884630ea.jpg" width="480" height="735" alt="" loading="lazy" decoding="async"></span>
+          </span>
+          <span class="ab-name">Thinking in notes</span>
+          <span class="ab-n">16 pictures</span>
+        </button>
+      </li>
+    </ul>
+  </div><section class="ab-album" id="sketchbook-clouds" hidden><h2 class="ab-title">Clouds</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/clouds/wash-rose.webp" data-cap="Wash rose" aria-label="Enlarge: Wash rose">
+                <img src="/sketchbook/clouds/wash-rose.webp" width="405" height="189" alt="Wash rose" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wash rose</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/clouds/wash-green.webp" data-cap="Wash green" aria-label="Enlarge: Wash green">
+                <img src="/sketchbook/clouds/wash-green.webp" width="516" height="270" alt="Wash green" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wash green</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/clouds/wash-green-1.webp" data-cap="Wash green 1" aria-label="Enlarge: Wash green 1">
+                <img src="/sketchbook/clouds/wash-green-1.webp" width="516" height="270" alt="Wash green 1" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wash green 1</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/clouds/wash-gold.webp" data-cap="Wash gold" aria-label="Enlarge: Wash gold">
+                <img src="/sketchbook/clouds/wash-gold.webp" width="422" height="203" alt="Wash gold" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wash gold</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/clouds/wash-blue.webp" data-cap="Wash blue" aria-label="Enlarge: Wash blue">
+                <img src="/sketchbook/clouds/wash-blue.webp" width="642" height="309" alt="Wash blue" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wash blue</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><section class="ab-album" id="sketchbook-meet-the-tree" hidden><h2 class="ab-title">Meet the tree</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-sun-and-cloud.jpeg" data-cap="Tree sun and cloud" aria-label="Enlarge: Tree sun and cloud">
+                <img src="/sketchbook/meet-the-tree/tree-sun-and-cloud_hu_d289e720f08e07ec.jpeg" width="700" height="953" alt="Tree sun and cloud" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree sun and cloud</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-9.jpg" data-cap="Tree 9" aria-label="Enlarge: Tree 9">
+                <img src="/sketchbook/meet-the-tree/tree-9_hu_b35579dd48dbcca.jpg" width="700" height="700" alt="Tree 9" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 9</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-8.webp" data-cap="Tree 8" aria-label="Enlarge: Tree 8">
+                <img src="/sketchbook/meet-the-tree/tree-8_hu_ba32208afbbe1889.webp" width="700" height="700" alt="Tree 8" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 8</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-7.jpg" data-cap="Tree 7" aria-label="Enlarge: Tree 7">
+                <img src="/sketchbook/meet-the-tree/tree-7_hu_a9a79253a508c91f.jpg" width="700" height="700" alt="Tree 7" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 7</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-6.webp" data-cap="Tree 6" aria-label="Enlarge: Tree 6">
+                <img src="/sketchbook/meet-the-tree/tree-6_hu_8f584f3c9785a495.webp" width="700" height="518" alt="Tree 6" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 6</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-5.webp" data-cap="Tree 5" aria-label="Enlarge: Tree 5">
+                <img src="/sketchbook/meet-the-tree/tree-5_hu_d38df84d73f21d91.webp" width="700" height="700" alt="Tree 5" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 5</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-4.webp" data-cap="Tree 4" aria-label="Enlarge: Tree 4">
+                <img src="/sketchbook/meet-the-tree/tree-4_hu_35ef1c3b1a99e3c2.webp" width="700" height="700" alt="Tree 4" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 4</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-3_hu_e78c3e26dbaefe52.jpg" data-cap="Tree 3" aria-label="Enlarge: Tree 3">
+                <img src="/sketchbook/meet-the-tree/tree-3_hu_77d7a1f306d8e4f8.jpg" width="700" height="637" alt="Tree 3" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 3</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-2.jpg" data-cap="Tree 2" aria-label="Enlarge: Tree 2">
+                <img src="/sketchbook/meet-the-tree/tree-2_hu_3e7c72f72d6cde83.jpg" width="700" height="680" alt="Tree 2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/tree-1_hu_d078cc51a5222d67.jpg" data-cap="Tree 1" aria-label="Enlarge: Tree 1">
+                <img src="/sketchbook/meet-the-tree/tree-1_hu_dde464f4214021d2.jpg" width="700" height="646" alt="Tree 1" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tree 1</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/pen-sketch-tree_hu_2883faea19e93cf6.jpg" data-cap="Pen sketch tree" aria-label="Enlarge: Pen sketch tree">
+                <img src="/sketchbook/meet-the-tree/pen-sketch-tree_hu_6a56a3d47ba4a432.jpg" width="700" height="982" alt="Pen sketch tree" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Pen sketch tree</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/melting-tree.jpeg" data-cap="Melting tree" aria-label="Enlarge: Melting tree">
+                <img src="/sketchbook/meet-the-tree/melting-tree_hu_bedafa9cd3aee9c.jpeg" width="700" height="817" alt="Melting tree" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Melting tree</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/guna-caves_hu_eada4fc5a79d5f8d.jpg" data-cap="Guna caves" aria-label="Enlarge: Guna caves">
+                <img src="/sketchbook/meet-the-tree/guna-caves_hu_2a8c87b86bd6c7df.jpg" width="700" height="969" alt="Guna caves" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Guna caves</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/guna-caves-2_hu_3176da560244da3f.jpg" data-cap="Guna caves 2" aria-label="Enlarge: Guna caves 2">
+                <img src="/sketchbook/meet-the-tree/guna-caves-2_hu_9971e9c4a968cf1.jpg" width="700" height="933" alt="Guna caves 2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Guna caves 2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/blue-tree_hu_24799ef11ad4cb0d.jpg" data-cap="Blue tree" aria-label="Enlarge: Blue tree">
+                <img src="/sketchbook/meet-the-tree/blue-tree_hu_6ebcec68c0edd0f5.jpg" width="700" height="933" alt="Blue tree" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Blue tree</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/meet-the-tree/bark_hu_f93b22638efcdaff.jpg" data-cap="Bark" aria-label="Enlarge: Bark">
+                <img src="/sketchbook/meet-the-tree/bark_hu_65a8746cc2e82806.jpg" width="700" height="937" alt="Bark" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Bark</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><section class="ab-album" id="sketchbook-notes-on-time-exhibtion" hidden><h2 class="ab-title">Notes on time exhibtion</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_283becb3d7cc92fb.jpg" data-cap="Notes5" aria-label="Enlarge: Notes5">
+                <img src="/sketchbook/notes%20on%20time%20exhibtion/notes5_hu_5ca9e73a02c05849.jpg" width="700" height="939" alt="Notes5" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notes5</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_6a668dbb8b61bceb.jpg" data-cap="Notes4" aria-label="Enlarge: Notes4">
+                <img src="/sketchbook/notes%20on%20time%20exhibtion/notes4_hu_c617a3a8e8209fcf.jpg" width="700" height="994" alt="Notes4" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notes4</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_80eb4f6cb9f4c42d.jpg" data-cap="Notes3" aria-label="Enlarge: Notes3">
+                <img src="/sketchbook/notes%20on%20time%20exhibtion/notes3_hu_973b18964ffeda6b.jpg" width="700" height="928" alt="Notes3" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notes3</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/notes%20on%20time%20exhibtion/notes2_hu_2c47bb63a2a261c6.jpg" data-cap="Notes2" aria-label="Enlarge: Notes2">
+                <img src="/sketchbook/notes%20on%20time%20exhibtion/notes2_hu_2b422e66f5d45029.jpg" width="700" height="994" alt="Notes2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notes2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/notes%20on%20time%20exhibtion/notes1_hu_1f2d046be4592627.jpg" data-cap="Notes1" aria-label="Enlarge: Notes1">
+                <img src="/sketchbook/notes%20on%20time%20exhibtion/notes1_hu_4e794a592e50a3d8.jpg" width="700" height="912" alt="Notes1" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Notes1</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><section class="ab-album" id="sketchbook-pen-sketches" hidden><h2 class="ab-title">Pen sketches</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth7_hu_fa7ab6046bc608b5.jpg" data-cap="Skecth7" aria-label="Enlarge: Skecth7">
+                <img src="/sketchbook/pen-sketches/skecth7_hu_93ef86df2e1040ad.jpg" width="700" height="952" alt="Skecth7" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth7</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth6_hu_f8842e33016e4be0.jpg" data-cap="Skecth6" aria-label="Enlarge: Skecth6">
+                <img src="/sketchbook/pen-sketches/skecth6_hu_9c15ece0230e7166.jpg" width="700" height="994" alt="Skecth6" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth6</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth5_hu_ae17be6f6645d55b.jpg" data-cap="Skecth5" aria-label="Enlarge: Skecth5">
+                <img src="/sketchbook/pen-sketches/skecth5_hu_87643c16f1effcbf.jpg" width="700" height="853" alt="Skecth5" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth5</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth4_hu_e02dbe6fa14361d6.jpg" data-cap="Skecth4" aria-label="Enlarge: Skecth4">
+                <img src="/sketchbook/pen-sketches/skecth4_hu_64e05934ad45ad9c.jpg" width="700" height="907" alt="Skecth4" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth4</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth3_hu_3a28c5c444e59cba.jpg" data-cap="Skecth3" aria-label="Enlarge: Skecth3">
+                <img src="/sketchbook/pen-sketches/skecth3_hu_da23151f161e87f0.jpg" width="700" height="933" alt="Skecth3" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth3</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth2_hu_eaaacd6af3354d2e.jpg" data-cap="Skecth2" aria-label="Enlarge: Skecth2">
+                <img src="/sketchbook/pen-sketches/skecth2_hu_43f03314427d5d2b.jpg" width="700" height="933" alt="Skecth2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/pen-sketches/skecth1_hu_c4c7dfb15e81d266.jpg" data-cap="Skecth1" aria-label="Enlarge: Skecth1">
+                <img src="/sketchbook/pen-sketches/skecth1_hu_6d08c8ac94ce9a0e.jpg" width="700" height="802" alt="Skecth1" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Skecth1</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><section class="ab-album" id="sketchbook-random" hidden><h2 class="ab-title">Random</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/wonder-car.jpeg" data-cap="Wonder car" aria-label="Enlarge: Wonder car">
+                <img src="/sketchbook/random/wonder-car_hu_77aae209f5571ba8.jpeg" width="700" height="730" alt="Wonder car" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Wonder car</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/waves_hu_1a63e8a34b1170b8.jpg" data-cap="Waves" aria-label="Enlarge: Waves">
+                <img src="/sketchbook/random/waves_hu_3f7720074285c0e8.jpg" width="700" height="482" alt="Waves" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Waves</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/walker.jpeg" data-cap="Walker" aria-label="Enlarge: Walker">
+                <img src="/sketchbook/random/walker_hu_1b8201ab09bf687d.jpeg" width="700" height="525" alt="Walker" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Walker</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/used-notebooks.jpeg" data-cap="Used notebooks" aria-label="Enlarge: Used notebooks">
+                <img src="/sketchbook/random/used-notebooks_hu_929554dffdbfc14.jpeg" width="700" height="528" alt="Used notebooks" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Used notebooks</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/trumpet.jpeg" data-cap="Trumpet" aria-label="Enlarge: Trumpet">
+                <img src="/sketchbook/random/trumpet_hu_8bdf7e2cf999797f.jpeg" width="700" height="783" alt="Trumpet" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Trumpet</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/totoro_hu_4248a85d672ee6ed.jpg" data-cap="Totoro" aria-label="Enlarge: Totoro">
+                <img src="/sketchbook/random/totoro_hu_c5c374ad32e7a99a.jpg" width="700" height="564" alt="Totoro" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Totoro</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/tipoi_hu_b0ff79f00fc3f6cc.jpg" data-cap="Tipoi" aria-label="Enlarge: Tipoi">
+                <img src="/sketchbook/random/tipoi_hu_6fe53c1619bc3d81.jpg" width="700" height="490" alt="Tipoi" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tipoi</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/thela_hu_1496ada4b35aa4e5.jpg" data-cap="Thela" aria-label="Enlarge: Thela">
+                <img src="/sketchbook/random/thela_hu_c2b69fd738a6b1bb.jpg" width="700" height="933" alt="Thela" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Thela</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/tea-stall_hu_f63e25b7ce3b53e5.jpg" data-cap="Tea stall" aria-label="Enlarge: Tea stall">
+                <img src="/sketchbook/random/tea-stall_hu_35d46e008dde0344.jpg" width="700" height="500" alt="Tea stall" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Tea stall</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/sun.jpeg" data-cap="Sun" aria-label="Enlarge: Sun">
+                <img src="/sketchbook/random/sun_hu_edc9630544be19a9.jpeg" width="700" height="949" alt="Sun" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Sun</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/something_hu_da62b61dc5f7c713.jpg" data-cap="Something" aria-label="Enlarge: Something">
+                <img src="/sketchbook/random/something_hu_117090ec7d8ebc7e.jpg" width="700" height="1000" alt="Something" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Something</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/some-gyan_hu_71b5290b9da30d75.jpg" data-cap="Some gyan" aria-label="Enlarge: Some gyan">
+                <img src="/sketchbook/random/some-gyan_hu_f9b03fa7d57c048c.jpg" width="700" height="934" alt="Some gyan" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Some gyan</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/she_hu_8c02d68aa6b9c7c7.jpg" data-cap="She" aria-label="Enlarge: She">
+                <img src="/sketchbook/random/she_hu_75afdd4b70f131be.jpg" width="700" height="489" alt="She" loading="lazy" decoding="async">
+              </a>
+              <figcaption>She</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/rustam%27s-poem_hu_9afa55cd71b90e82.jpg" data-cap="Rustam&#39;s poem" aria-label="Enlarge: Rustam&#39;s poem">
+                <img src="/sketchbook/random/rustam%27s-poem_hu_55000a1ffbf7abdc.jpg" width="700" height="924" alt="Rustam&#39;s poem" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Rustam&#39;s poem</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/robo.jpeg" data-cap="Robo" aria-label="Enlarge: Robo">
+                <img src="/sketchbook/random/robo_hu_daf3b351fd09296a.jpeg" width="700" height="859" alt="Robo" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Robo</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/police-station_hu_824ccbe708ab7296.jpg" data-cap="Police station" aria-label="Enlarge: Police station">
+                <img src="/sketchbook/random/police-station_hu_e1b284395c066be3.jpg" width="700" height="533" alt="Police station" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Police station</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/mask.jpeg" data-cap="Mask" aria-label="Enlarge: Mask">
+                <img src="/sketchbook/random/mask_hu_76bbff3a2d8dbb64.jpeg" width="700" height="875" alt="Mask" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Mask</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/mashroom.jpeg" data-cap="Mashroom" aria-label="Enlarge: Mashroom">
+                <img src="/sketchbook/random/mashroom_hu_5ccbb23afc5f479e.jpeg" width="700" height="811" alt="Mashroom" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Mashroom</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/making-khichdi_hu_ff5a02ee5748d093.jpg" data-cap="Making khichdi" aria-label="Enlarge: Making khichdi">
+                <img src="/sketchbook/random/making-khichdi_hu_49ac200b08d663c1.jpg" width="700" height="487" alt="Making khichdi" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Making khichdi</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/kitchen_hu_27a2f0365f24b9c6.jpg" data-cap="Kitchen" aria-label="Enlarge: Kitchen">
+                <img src="/sketchbook/random/kitchen_hu_5929d874c9fbf714.jpg" width="700" height="933" alt="Kitchen" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Kitchen</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/kajari-gay_hu_124701051f3a77d.jpg" data-cap="Kajari gay" aria-label="Enlarge: Kajari gay">
+                <img src="/sketchbook/random/kajari-gay_hu_3c7c681d78de138a.jpg" width="700" height="511" alt="Kajari gay" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Kajari gay</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/kachua.jpeg" data-cap="Kachua" aria-label="Enlarge: Kachua">
+                <img src="/sketchbook/random/kachua_hu_b0185fe12bb81f27.jpeg" width="700" height="675" alt="Kachua" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Kachua</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/jubidubi.jpeg" data-cap="Jubidubi" aria-label="Enlarge: Jubidubi">
+                <img src="/sketchbook/random/jubidubi_hu_95cfd923d013daac.jpeg" width="700" height="775" alt="Jubidubi" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Jubidubi</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/hot-chocolate_hu_4f5242d80b95c8fd.jpg" data-cap="Hot chocolate" aria-label="Enlarge: Hot chocolate">
+                <img src="/sketchbook/random/hot-chocolate_hu_2a062c79bd3114f0.jpg" width="700" height="521" alt="Hot chocolate" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Hot chocolate</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/hand_hu_418fc4369aba659.jpg" data-cap="Hand" aria-label="Enlarge: Hand">
+                <img src="/sketchbook/random/hand_hu_c2d488f070d6c5ed.jpg" width="700" height="933" alt="Hand" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Hand</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/haathi.jpeg" data-cap="Haathi" aria-label="Enlarge: Haathi">
+                <img src="/sketchbook/random/haathi_hu_597ac9ab915e6b4d.jpeg" width="700" height="736" alt="Haathi" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Haathi</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/forrest.jpeg" data-cap="Forrest" aria-label="Enlarge: Forrest">
+                <img src="/sketchbook/random/forrest_hu_155c825a6a4f8f39.jpeg" width="700" height="1044" alt="Forrest" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Forrest</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/chand_hu_afbb01dbf2f8933a.jpg" data-cap="Chand" aria-label="Enlarge: Chand">
+                <img src="/sketchbook/random/chand_hu_b23f23911c74096f.jpg" width="700" height="933" alt="Chand" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Chand</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/chair_hu_98252bc8dbde8df4.jpg" data-cap="Chair" aria-label="Enlarge: Chair">
+                <img src="/sketchbook/random/chair_hu_9c71b5dcacc4310c.jpg" width="700" height="488" alt="Chair" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Chair</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/bush_hu_4816dbb0cd8ed406.jpg" data-cap="Bush" aria-label="Enlarge: Bush">
+                <img src="/sketchbook/random/bush_hu_1311304b622f5e3b.jpg" width="700" height="933" alt="Bush" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Bush</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/brushing-teeth_hu_ba0eccc813bcfefd.jpg" data-cap="Brushing teeth" aria-label="Enlarge: Brushing teeth">
+                <img src="/sketchbook/random/brushing-teeth_hu_22f81a22d083b388.jpg" width="700" height="921" alt="Brushing teeth" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Brushing teeth</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/bhungo.jpeg" data-cap="Bhungo" aria-label="Enlarge: Bhungo">
+                <img src="/sketchbook/random/bhungo_hu_f4d96f382d69bfb5.jpeg" width="700" height="783" alt="Bhungo" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Bhungo</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/bhakt_hu_d72dcbf3b39af434.jpg" data-cap="Bhakt" aria-label="Enlarge: Bhakt">
+                <img src="/sketchbook/random/bhakt_hu_1ac327b9bdd594a2.jpg" width="700" height="933" alt="Bhakt" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Bhakt</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/antariksh.jpeg" data-cap="Antariksh" aria-label="Enlarge: Antariksh">
+                <img src="/sketchbook/random/antariksh_hu_847ee9c7c678d724.jpeg" width="700" height="605" alt="Antariksh" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Antariksh</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/again-something_hu_c08939da6f599192.jpg" data-cap="Again something" aria-label="Enlarge: Again something">
+                <img src="/sketchbook/random/again-something_hu_3437dc48574d350f.jpg" width="700" height="511" alt="Again something" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Again something</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/random/again-again-something_hu_e7f19a1466dee87e.jpg" data-cap="Again again something" aria-label="Enlarge: Again again something">
+                <img src="/sketchbook/random/again-again-something_hu_14fc9d149e29a9f.jpg" width="700" height="933" alt="Again again something" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Again again something</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><section class="ab-album" id="sketchbook-thinking-in-notes" hidden><h2 class="ab-title">Thinking in notes</h2>
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note9_hu_1066303bc5a7bde4.jpg" data-cap="Note9" aria-label="Enlarge: Note9">
+                <img src="/sketchbook/thinking%20in%20notes/note9_hu_4b416eb57e7881ad.jpg" width="700" height="979" alt="Note9" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note9</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note8_hu_1228338495e3816a.jpg" data-cap="Note8" aria-label="Enlarge: Note8">
+                <img src="/sketchbook/thinking%20in%20notes/note8_hu_75a74ee310257554.jpg" width="700" height="1151" alt="Note8" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note8</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note7_hu_5cb904d79de87fbb.jpg" data-cap="Note7" aria-label="Enlarge: Note7">
+                <img src="/sketchbook/thinking%20in%20notes/note7_hu_70d9872cde261ecc.jpg" width="700" height="1072" alt="Note7" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note7</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note6_hu_d913fb9fba3e4af5.jpg" data-cap="Note6" aria-label="Enlarge: Note6">
+                <img src="/sketchbook/thinking%20in%20notes/note6_hu_6d0c2df1aa98f553.jpg" width="700" height="933" alt="Note6" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note6</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note5_hu_f1e217a8cf9c14b6.jpg" data-cap="Note5" aria-label="Enlarge: Note5">
+                <img src="/sketchbook/thinking%20in%20notes/note5_hu_3822fc6e6f8700cf.jpg" width="700" height="912" alt="Note5" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note5</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note4_hu_7910499051dbd596.jpg" data-cap="Note4" aria-label="Enlarge: Note4">
+                <img src="/sketchbook/thinking%20in%20notes/note4_hu_4f788570546ffdb9.jpg" width="700" height="933" alt="Note4" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note4</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note3_hu_39efc8b69fdf32cd.jpg" data-cap="Note3" aria-label="Enlarge: Note3">
+                <img src="/sketchbook/thinking%20in%20notes/note3_hu_e5ab79e1582e13cd.jpg" width="700" height="880" alt="Note3" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note3</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note2_hu_96cd86f1c4f83873.jpg" data-cap="Note2" aria-label="Enlarge: Note2">
+                <img src="/sketchbook/thinking%20in%20notes/note2_hu_e1003bf63d6cc6a7.jpg" width="700" height="933" alt="Note2" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note2</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note16_hu_64400e62c1748315.jpg" data-cap="Note16" aria-label="Enlarge: Note16">
+                <img src="/sketchbook/thinking%20in%20notes/note16_hu_2ce3af85682623d1.jpg" width="700" height="933" alt="Note16" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note16</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note15_hu_c67705c108adb84e.jpg" data-cap="Note15" aria-label="Enlarge: Note15">
+                <img src="/sketchbook/thinking%20in%20notes/note15_hu_ae2cc824e436d43.jpg" width="700" height="933" alt="Note15" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note15</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note14_hu_1e371e456363f64f.jpg" data-cap="Note14" aria-label="Enlarge: Note14">
+                <img src="/sketchbook/thinking%20in%20notes/note14_hu_ed418a68c6e2832d.jpg" width="700" height="1017" alt="Note14" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note14</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note13_hu_588cf5db14162847.jpg" data-cap="Note13" aria-label="Enlarge: Note13">
+                <img src="/sketchbook/thinking%20in%20notes/note13_hu_aabbefe9cc547222.jpg" width="700" height="1119" alt="Note13" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note13</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note12_hu_1d7f526044cdb892.jpg" data-cap="Note12" aria-label="Enlarge: Note12">
+                <img src="/sketchbook/thinking%20in%20notes/note12_hu_2fa3ba78b10b317a.jpg" width="700" height="1011" alt="Note12" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note12</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note11_hu_5c20174907f296b0.jpg" data-cap="Note11" aria-label="Enlarge: Note11">
+                <img src="/sketchbook/thinking%20in%20notes/note11_hu_a8f609a04fe61dc4.jpg" width="700" height="1135" alt="Note11" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note11</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note10_hu_77c8434658e98738.jpg" data-cap="Note10" aria-label="Enlarge: Note10">
+                <img src="/sketchbook/thinking%20in%20notes/note10_hu_cfab7ea3e4fc755e.jpg" width="700" height="1126" alt="Note10" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note10</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a class="ab-pic" href="/sketchbook/thinking%20in%20notes/note1_hu_1f5b20cd91bb55bb.jpg" data-cap="Note1" aria-label="Enlarge: Note1">
+                <img src="/sketchbook/thinking%20in%20notes/note1_hu_a0947cbc6bc9aa58.jpg" width="700" height="1007" alt="Note1" loading="lazy" decoding="async">
+              </a>
+              <figcaption>Note1</figcaption>
+            </figure>
+          </li>
+      </ul>
+    </section><dialog class="ab-box" aria-label="Picture viewer">
+    <div class="ab-track"></div>
+    <div class="ab-head">
+      <span class="ab-ttl"></span>
+      <button class="ab-x" type="button">Close ✕</button>
+    </div>
+    <button class="ab-nav ab-prev" type="button" aria-label="Previous picture">‹</button>
+    <button class="ab-nav ab-next" type="button" aria-label="Next picture">›</button>
+    <p class="ab-cap"></p>
+  </dialog>
+
+  <script>
+  (function () {
+    var root   = document.currentScript.parentElement;
+    var home   = root.querySelector('.ab-home');
+    var panels = Array.prototype.slice.call(root.querySelectorAll('.ab-album'));
+    var single = root.dataset.single === 'true';
+
+     
+    var back = root.querySelector('.ab-back');
+    var inPage = false;   
+
+    function sync(scroll) {
+      if (single) return;
+      var id = decodeURIComponent(location.hash.slice(1));
+      var found = false;
+      panels.forEach(function (p) {
+        var on = p.id === id;
+        p.hidden = !on;
+        if (on) found = true;
+      });
+      home.hidden = found;
+      back.hidden = !found;
+      if (scroll) {
+        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;
+        window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+      }
+    }
+
+    root.addEventListener('click', function (e) {
+      var card = e.target.closest('.ab-card');
+      if (card) { inPage = true; location.hash = card.dataset.id; return; }
+      if (e.target.closest('.ab-back')) {
+        if (inPage) {
+          history.back();                       
+        } else {                                
+          history.replaceState(null, '', location.pathname + location.search);
+          sync(true);
+        }
+      }
+    });
+    window.addEventListener('hashchange', function () { sync(true); });
+    sync(false);
+
+     
+    var box   = root.querySelector('.ab-box');
+    var track = box.querySelector('.ab-track');
+    var ttl   = box.querySelector('.ab-ttl');
+    var cap   = box.querySelector('.ab-cap');
+    var prev  = box.querySelector('.ab-prev');
+    var next  = box.querySelector('.ab-next');
+    var items = [], album = '', i = 0, raf = 0;
+
+    function update(n) {
+      i = n;
+      ttl.textContent = album + (items.length > 1 ? '  ·  ' + (n + 1) + ' / ' + items.length : '');
+      cap.textContent = items[n].cap;
+      prev.disabled = n === 0;
+      next.disabled = n === items.length - 1;
+    }
+
+    function goTo(n, smooth) {
+      n = Math.max(0, Math.min(items.length - 1, n));
+      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? 'smooth' : 'instant' });
+      if (!smooth) update(n);
+    }
+
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest('.ab-pic');
+      if (!a) return;
+      e.preventDefault();
+      var panel = a.closest('.ab-album');
+      var links = panel.querySelectorAll('.ab-pic');
+      items = Array.prototype.map.call(links, function (l) {
+        return { src: l.href, cap: l.dataset.cap };
+      });
+      album = panel.querySelector('.ab-title') ? panel.querySelector('.ab-title').textContent : '';
+      box.dataset.single = items.length < 2 ? 'true' : 'false';
+
+      track.innerHTML = '';
+      items.forEach(function (it) {
+        var f = document.createElement('figure');
+        f.className = 'ab-slide';
+        var im = new Image();
+        im.alt = it.cap;
+        im.draggable = false;
+        im.decoding = 'async';
+        im.src = it.src;
+        f.appendChild(im);
+        track.appendChild(f);
+      });
+
+      box.showModal();
+      goTo(Array.prototype.indexOf.call(links, a), false);
+    });
+
+    
+    track.addEventListener('scroll', function () {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        if (!items.length) return;
+        var n = Math.round(track.scrollLeft / track.clientWidth);
+        if (n !== i && items[n]) update(n);
+      });
+    });
+
+    
+    track.addEventListener('click', function (e) {
+      if (e.target.tagName !== 'IMG') box.close();
+    });
+
+    box.querySelector('.ab-x').addEventListener('click', function () { box.close(); });
+    prev.addEventListener('click', function () { goTo(i - 1, true); });
+    next.addEventListener('click', function () { goTo(i + 1, true); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft')  goTo(i - 1, true);
+      if (e.key === 'ArrowRight') goTo(i + 1, true);
+    });
+    box.addEventListener('close', function () { track.innerHTML = ''; items = []; });
+    window.addEventListener('resize', function () { if (box.open && items.length) goTo(i, false); });
+  })();
+  </script>
+</div>
 ]]></content:encoded>
     </item>
     <item>

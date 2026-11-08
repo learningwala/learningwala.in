@@ -1,0 +1,235 @@
+{{- /* albums: stacked covers -> thumbnail grid -> enlarged swipe viewer.
+       Parameters: dir (folder inside assets), rootTitle (title for images directly in dir),
+       hint (small line above the stacks). */ -}}
+{{- $root := strings.Trim (default "sketchbook" (.Get "dir")) "/" -}}
+{{- $rootTitle := default $.Page.Title (.Get "rootTitle") -}}
+{{- $hint := "Click an album to open it." -}}
+{{- if .IsNamedParams }}{{ if isset .Params "hint" }}{{ $hint = .Get "hint" }}{{ end }}{{ end -}}
+
+{{- $exts := slice ".jpg" ".jpeg" ".png" ".webp" -}}
+{{- $imgs := slice -}}
+{{- range resources.Match (printf "%s/**" $root) -}}
+  {{- if in $exts (lower (path.Ext .Name)) }}{{ $imgs = $imgs | append . }}{{ end -}}
+{{- end -}}
+
+{{- if $imgs }}
+{{- $dirs := slice -}}
+{{- range $imgs }}{{ $dirs = $dirs | append (path.Dir (strings.TrimPrefix "/" .Name)) }}{{ end -}}
+{{- $dirs = sort (uniq $dirs) -}}
+
+{{- /* build the list of albums once */ -}}
+{{- $albums := slice -}}
+{{- range $d := $dirs }}
+  {{- $set := slice -}}
+  {{- range $imgs }}
+    {{- if eq (path.Dir (strings.TrimPrefix "/" .Name)) $d }}{{ $set = $set | append . }}{{ end -}}
+  {{- end -}}
+  {{- $set = sort $set "Name" "desc" -}}
+  {{- $title := $rootTitle -}}
+  {{- if ne $d $root -}}
+    {{- $title = path.Base $d | replaceRE `^\d{1,2}[-_ ]+` "" | replaceRE `[-_]+` " " | strings.TrimSpace | strings.FirstUpper -}}
+  {{- end -}}
+  {{- $albums = $albums | append (dict "title" $title "id" (anchorize (printf "%s-%s" $root $title)) "set" $set) -}}
+{{- end -}}
+{{- $single := eq (len $albums) 1 -}}
+
+<div class="ab" data-single="{{ $single }}">
+
+  {{- /* the one back button (shown only while an album is open) */ -}}
+  {{- if not $single }}<button class="ab-back" type="button" hidden>← All galleries</button>{{ end }}
+
+  {{- /* level 1: the stacks */ -}}
+  <div class="ab-home"{{ if $single }} hidden{{ end }}>
+    {{- with $hint }}<p class="ab-hint">{{ . }}</p>{{ end }}
+    <ul class="ab-grid">
+    {{- range $albums }}
+      {{- $set := .set -}}
+      {{- $n := len $set }}
+      <li>
+        <button class="ab-card" type="button" data-id="{{ .id }}" aria-label="Open album: {{ .title }}, {{ $n }} {{ if eq $n 1 }}picture{{ else }}pictures{{ end }}">
+          <span class="ab-stack">
+            {{- range $i, $_ := seq 0 2 }}
+              <span class="ab-sheet ab-s{{ $i }}">
+                {{- if lt $i $n }}
+                  {{- $img := index $set $i -}}
+                  {{- $t := $img -}}
+                  {{- if gt $img.Width 480 }}{{ $t = $img.Resize "480x" }}{{ end -}}
+                  <img src="{{ $t.RelPermalink }}" width="{{ $t.Width }}" height="{{ $t.Height }}" alt="" loading="lazy" decoding="async">
+                {{- else -}}
+                  <span class="ab-ph"></span>
+                {{- end -}}
+              </span>
+            {{- end }}
+          </span>
+          <span class="ab-name">{{ .title }}</span>
+          <span class="ab-n">{{ $n }} {{ if eq $n 1 }}picture{{ else }}pictures{{ end }}</span>
+        </button>
+      </li>
+    {{- end }}
+    </ul>
+  </div>
+
+  {{- /* level 2: one thumbnail view per album */ -}}
+  {{- range $albums }}
+    {{- $set := .set -}}
+    <section class="ab-album" id="{{ .id }}"{{ if not $single }} hidden{{ end }}>
+      {{- if or (not $single) (ne .title "") }}<h2 class="ab-title">{{ .title }}</h2>{{ end }}
+      <p class="ab-sub">Click a picture to enlarge it.</p>
+      <ul class="ab-pics">
+        {{- range $set }}
+          {{- $base := path.Base .Name -}}
+          {{- $cap := strings.TrimSuffix (path.Ext $base) $base | replaceRE `[-_]+` " " | strings.TrimSpace | strings.FirstUpper -}}
+          {{- $thumb := . -}}
+          {{- if gt .Width 700 }}{{ $thumb = .Resize "700x" }}{{ end -}}
+          {{- $full := . -}}
+          {{- if gt .Width 2000 }}{{ $full = .Resize "2000x" }}{{ end }}
+          <li>
+            <figure>
+              <a class="ab-pic" href="{{ $full.RelPermalink }}" data-cap="{{ $cap }}" aria-label="Enlarge: {{ $cap }}">
+                <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $cap }}" loading="lazy" decoding="async">
+              </a>
+              <figcaption>{{ $cap }}</figcaption>
+            </figure>
+          </li>
+        {{- end }}
+      </ul>
+    </section>
+  {{- end }}
+
+  {{- /* level 3: the enlarged viewer */ -}}
+  <dialog class="ab-box" aria-label="Picture viewer">
+    <div class="ab-track"></div>
+    <div class="ab-head">
+      <span class="ab-ttl"></span>
+      <button class="ab-x" type="button">Close ✕</button>
+    </div>
+    <button class="ab-nav ab-prev" type="button" aria-label="Previous picture">‹</button>
+    <button class="ab-nav ab-next" type="button" aria-label="Next picture">›</button>
+    <p class="ab-cap"></p>
+  </dialog>
+
+  <script>
+  (function () {
+    var root   = document.currentScript.parentElement;
+    var home   = root.querySelector('.ab-home');
+    var panels = Array.prototype.slice.call(root.querySelectorAll('.ab-album'));
+    var single = root.dataset.single === 'true';
+
+    /* ---------- level 1 <-> 2: stacks and thumbnails (uses the #hash so Back works) ---------- */
+    var back = root.querySelector('.ab-back');
+    var inPage = false;   // true once the visitor has opened an album from the stacks
+
+    function sync(scroll) {
+      if (single) return;
+      var id = decodeURIComponent(location.hash.slice(1));
+      var found = false;
+      panels.forEach(function (p) {
+        var on = p.id === id;
+        p.hidden = !on;
+        if (on) found = true;
+      });
+      home.hidden = found;
+      back.hidden = !found;
+      if (scroll) {
+        var y = root.getBoundingClientRect().top + window.pageYOffset - 24;
+        window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+      }
+    }
+
+    root.addEventListener('click', function (e) {
+      var card = e.target.closest('.ab-card');
+      if (card) { inPage = true; location.hash = card.dataset.id; return; }
+      if (e.target.closest('.ab-back')) {
+        if (inPage) {
+          history.back();                       // normal case: step back to the stacks
+        } else {                                // arrived by a direct link like /sketchbook/#doodles
+          history.replaceState(null, '', location.pathname + location.search);
+          sync(true);
+        }
+      }
+    });
+    window.addEventListener('hashchange', function () { sync(true); });
+    sync(false);
+
+    /* ---------- level 3: the enlarged viewer ---------- */
+    var box   = root.querySelector('.ab-box');
+    var track = box.querySelector('.ab-track');
+    var ttl   = box.querySelector('.ab-ttl');
+    var cap   = box.querySelector('.ab-cap');
+    var prev  = box.querySelector('.ab-prev');
+    var next  = box.querySelector('.ab-next');
+    var items = [], album = '', i = 0, raf = 0;
+
+    function update(n) {
+      i = n;
+      ttl.textContent = album + (items.length > 1 ? '  ·  ' + (n + 1) + ' / ' + items.length : '');
+      cap.textContent = items[n].cap;
+      prev.disabled = n === 0;
+      next.disabled = n === items.length - 1;
+    }
+
+    function goTo(n, smooth) {
+      n = Math.max(0, Math.min(items.length - 1, n));
+      track.scrollTo({ left: n * track.clientWidth, behavior: smooth ? 'smooth' : 'instant' });
+      if (!smooth) update(n);
+    }
+
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest('.ab-pic');
+      if (!a) return;
+      e.preventDefault();
+      var panel = a.closest('.ab-album');
+      var links = panel.querySelectorAll('.ab-pic');
+      items = Array.prototype.map.call(links, function (l) {
+        return { src: l.href, cap: l.dataset.cap };
+      });
+      album = panel.querySelector('.ab-title') ? panel.querySelector('.ab-title').textContent : '';
+      box.dataset.single = items.length < 2 ? 'true' : 'false';
+
+      track.innerHTML = '';
+      items.forEach(function (it) {
+        var f = document.createElement('figure');
+        f.className = 'ab-slide';
+        var im = new Image();
+        im.alt = it.cap;
+        im.draggable = false;
+        im.decoding = 'async';
+        im.src = it.src;
+        f.appendChild(im);
+        track.appendChild(f);
+      });
+
+      box.showModal();
+      goTo(Array.prototype.indexOf.call(links, a), false);
+    });
+
+    // swipe: the browser scrolls the track under your finger and snaps; we just read where it landed
+    track.addEventListener('scroll', function () {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        if (!items.length) return;
+        var n = Math.round(track.scrollLeft / track.clientWidth);
+        if (n !== i && items[n]) update(n);
+      });
+    });
+
+    // tap the dark area around a picture to close
+    track.addEventListener('click', function (e) {
+      if (e.target.tagName !== 'IMG') box.close();
+    });
+
+    box.querySelector('.ab-x').addEventListener('click', function () { box.close(); });
+    prev.addEventListener('click', function () { goTo(i - 1, true); });
+    next.addEventListener('click', function () { goTo(i + 1, true); });
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft')  goTo(i - 1, true);
+      if (e.key === 'ArrowRight') goTo(i + 1, true);
+    });
+    box.addEventListener('close', function () { track.innerHTML = ''; items = []; });
+    window.addEventListener('resize', function () { if (box.open && items.length) goTo(i, false); });
+  })();
+  </script>
+</div>
+{{- else }}
+<p><em>No pictures yet.</em></p>
+{{- end }}

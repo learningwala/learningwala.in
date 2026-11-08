@@ -14,8 +14,9 @@
       <link>http://localhost:1313/blog/week-44-45-2026/</link>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/week-44-45-2026/</guid>
-      <description>&lt;h3 id=&#34;26th-oct-to-8th-nov-2026&#34;&gt;26th Oct to 8th Nov 2026&lt;/h3&gt;&#xA;&lt;p&gt;last week went mostly in tweaking this website and spending some time with team at office.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.&lt;/p&gt;&#xA;&lt;p&gt;explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;26th-oct-to-8th-nov-2026&#34;&gt;26th Oct to 8th Nov 2026&lt;/h3&gt;&#xA;&lt;h3 id=&#34;website&#34;&gt;Website&lt;/h3&gt;&#xA;&lt;p&gt;last week went mostly in tweaking this website and spending some time with team at office.&lt;/p&gt;&#xA;&lt;p&gt;I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.&lt;/p&gt;&#xA;&lt;p&gt;explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h3 id="26th-oct-to-8th-nov-2026">26th Oct to 8th Nov 2026</h3>
+<h3 id="website">Website</h3>
 <p>last week went mostly in tweaking this website and spending some time with team at office.</p>
 <p>I wanted to revamp this website for long time, I wanted to add pages called philosophy, educator, artist, journey.. making my educational philosophy at core of my practice.</p>
 <p>explaining philosophy and my work is complex so I wanted some graphical representation, so I tried claude. I made fancy pages with lots of java script. It was looking nice but after a point I was thinking that it is going out of my hand. I wanted something simple - markdown based back. so again spent hours tweaking hugo bearcub theme and finally you can see what I have made.</p>
@@ -158,6 +159,7 @@
 <li><a href="https://yashgarg.dev/">https://yashgarg.dev/</a></li>
 </ul>
 <hr>
+<h3 id="nothing-make-sense">Nothing make sense</h3>
 <p>I am going through weird phase of life. Feeling kind of burnt out. I am not finding any meaning in my work and life in general now days. Feeling anxious, zoned out, grumpy/angry quickly and very easily. sometimes I feel like crying without any reason. (while listening to music mostly)</p>
 <p>This might be happening because of home conflicts and/or over work during past many years. Running after establishing my self as an educator, creating alternative career path, proving myself to family and all the employers..I am doing jobs since I was 18, for the last 13 years&hellip;</p>
 <p>I am slowly loosing my creative soul / tenderness / curiosity / wonder and becoming like dead person. I think I need healing. I need to be gentle on myself.</p>
@@ -171,65 +173,14 @@
 <p>&ldquo;Jab clarity na mile tab picture ko zoom in ki jagah zoom out kar ke dekhna chahiye..&rdquo; coming back to my website means coming back to my body of work, my narrative of work - life, my identity.. it gives me space to reflect, rebuild with hope.</p>
 </blockquote>
 <p>PS : Recently I discovered debjit&rsquo;s work and post called <a href="https://www.debjitbanerjee.com/notes/website-design-as-existential-crisis/">Website Design as Existential Crisis</a>.</p>
+<h3 id="little-things">Little things</h3>
 <p>BTW in this absurd world I still have some places, things and moments which I love to go back</p>
-<p><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</p>
-<h4 id="things-places-and-moments-i-love">Things, Places and Moments I love</h4>
-<div class="img-grid">
-  
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/activa.jpg"><img src="/now/activa_hu_9981eb875867f2e6.jpg" alt="Activa scooter under a large tree" loading="lazy" decoding="async"></a><figcaption>Activa Scooter</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/balcony.jpg"><img src="/now/balcony_hu_5d1bf0dd393fafe6.jpg" alt="Balcony with a small table and railing" loading="lazy" decoding="async"></a><figcaption>Balcony at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/hometable.jpeg"><img src="/now/hometable_hu_75455d77db034adc.jpeg" alt="Writing table at home with a typewriter" loading="lazy" decoding="async"></a><figcaption>Study table at home</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/inks.jpeg"><img src="/now/inks_hu_774f88efa585846a.jpeg" alt="Row of ink bottles on a shelf" loading="lazy" decoding="async"></a><figcaption>Inks</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/laptop.jpg"><img src="/now/laptop_hu_3c65bfdb2b254b1.jpg" alt="Laptop open on a desk" loading="lazy" decoding="async"></a><figcaption>Laptop</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/notebook.jpeg"><img src="/now/notebook_hu_4063d97159a39c18.jpeg" alt="Brown notebook with a patterned strip" loading="lazy" decoding="async"></a><figcaption>Notebook</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable.jpg"><img src="/now/officetable_hu_32d1a7cd23f854aa.jpg" alt="Office desk with a monitor" loading="lazy" decoding="async"></a><figcaption>Office table</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/officetable2.jpg"><img src="/now/officetable2_hu_74c04c1dc66d241c.jpg" alt="Office desk with a pink cloth and notes on the wall" loading="lazy" decoding="async"></a><figcaption>Office table, another view</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/pen.jpeg"><img src="/now/pen_hu_14acd4bee413c3a6.jpeg" alt="Green highlighter on a brown notebook" loading="lazy" decoding="async"></a><figcaption>Kakuno Ink Pen</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/shirts.jpg"><img src="/now/shirts_hu_57ab4301fb70f00d.jpg" alt="Shirts hanging out to dry" loading="lazy" decoding="async"></a><figcaption>Shirts</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/two.jpg"><img src="/now/two_hu_98c96d89260a5fd7.jpg" alt="Two people reflected in a train window" loading="lazy" decoding="async"></a><figcaption>Togetherness</figcaption></figure>
-<figure class="gal-solo gal-solo--text"><a class="zoom" href="/now/typewriter.jpg"><img src="/now/typewriter_hu_bd6d398253a2ac5b.jpg" alt="Vintage typewriter" loading="lazy" decoding="async"></a><figcaption>Typewriter</figcaption></figure>
-
-</div>
-
-<style>
-.img-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;  
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .img-grid {
-    grid-template-columns: repeat(2, 1fr);  
-  }
-}
-
-@media (min-width: 1024px) {
-  .img-grid {
-    grid-template-columns: repeat(3, 1fr);  
-  }
-}
-
-.img-grid figure {
-  margin: 0;
-}
-
-.img-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-.img-grid figcaption {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #555;
-  margin-top: 0.3rem;
-}
-</style>
-
+<p>Check out two pages I have made recently :</p>
+<ul>
+<li><a href="/sketchbook">Sketchbook</a> [My doodles, sketches, painting, raw notes from my notebook]</li>
+<li><a href="/littlethings">little things</a> [page with all small the things, places, moments I love]</li>
+<li><a href="/tree.html">Made one webpage dedicated to Martin Buber&rsquo;s educational philosophy through my art work</a> [Work in progress | Updated on 6th Nov 2026]</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
