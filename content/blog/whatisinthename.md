@@ -2,7 +2,7 @@
 author = "Mihir Pathak"
 title = "What is in the name?"
 date = "2026-11-22"
-description = "English Poem"
+description = "Story of my internet name"
 tags = ["Blog", "Personal", "Website-name"]
 +++
 
