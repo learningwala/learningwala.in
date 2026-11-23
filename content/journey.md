@@ -4,10 +4,13 @@ menu:
 weight:
 ---
 
-{{< img src="journey/journey.jpg">}}
+{{< gallery style="scrap" label="Childhood photos" >}}
+{{< gimg src="/journey/childhood-1.jpeg" alt="Childhood" caption="I think I was 2 or 3 yr old" >}}
+{{< gimg src="/journey/childhood-3.jpeg" alt="Childhood" caption="8yr old" >}}
+{{< gimg src="/journey/mihir.jpeg" alt="Current" caption="2026" >}}
+{{< /gallery >}}
 
-
-## Chapter 1 - school days
+## Chapter 1 - school days {#chapter-1}
 
 I grew up in small town called [Padra](https://en.wikipedia.org/wiki/Padra) in Vadodara district of Gujarat. Studied in Gujarati medium in privet school.
 
@@ -23,7 +26,7 @@ failed in all subjects, took admission in diploma mechanical engineering. Again 
 
 Later, I completed 12th grade and a BA in Sociology as an external student.
 
-## Chapter 2 - Self designed learning journey
+## Chapter 2 - Self designed learning journey {#chapter-2}
 
 I started working with children by sharing how to use a computer, inspired by the [Hole in the Wall project by Sugata Mitra ↗](https://www.edutopia.org/blog/self-organized-learning-sugata-mitra). I explored [MIT Scratch ↗](https://scratch.mit.edu/), made [Arvind Gupta toys ↗](https://www.arvindguptatoys.com/), told stories, played games and more.
 
@@ -56,7 +59,7 @@ I was primarily interested in creative practice, but I was not courageous and pr
 {{< /gallery >}}
 
 
-## Chapter 3 - current work
+## Chapter 3 - current work {#chapter-3}
 
 My work is non linear and lies at the intersections of educational [philosophy](/philosophy), [pedagogy/learning experience design](/educator) and [creative practices](/artist).
 

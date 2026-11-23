@@ -19,3 +19,7 @@ Our Ātman — the innermost Self — is identical with Brahman, the infinite re
 
 For children aged 3–8, education can nurture this natural awareness by protecting their curiosity, guiding their emotions, and helping them explore the world with wonder rather than fear. Through the Panchakosha framework, yoga can help them develop body–mind awareness and calm breathing; the 64 kalās can be introduced as age-appropriate creative arts and life skills to refine senses and expression; and Rasa theory can guide activities that help them recognize, name, and balance emotions. In this way, early learning does not just transfer information but cultivates a child’s wholeness — allowing them to grow without losing touch with their true Self, so that the seed of Ātman–Brahman awareness can flourish throughout life.
 
+----
+
+✦ ***Note:** Ideas, research, and argument by **Mihir**. English writing assisted by AI — because I think better in my mother tongue than I write in English, and I did not want that to stop me from sharing these ideas.*
+

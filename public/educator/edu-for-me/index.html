@@ -77,7 +77,6 @@ Personal and social problems are mirrors of each other, and are intimately conne
   
   
   <link href="/herman.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/herman.min.css">
 
   
   <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
@@ -102,8 +101,6 @@ Personal and social problems are mirrors of each other, and are intimately conne
 
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script></head>
 
-
-
 <body><header class="site-header">
   <div class="brand">
     <a class="brand-en" href="/">Mihir Pathak</a>
@@ -118,25 +115,21 @@ Personal and social problems are mirrors of each other, and are intimately conne
       
       
         
-          <li class="menu-item">
-            <a href="/">Home</a>
-          </li>
-        
-      
-        
           <li class="menu-item has-children">
-            <a href="#">Everything</a>
+            <a href="#">Thesis</a>
             <ul class="submenu">
               
-                <li><a href="/artist/">Artist</a></li>
+                <li><a href="/philosophy/">Philosophy</a></li>
               
                 <li><a href="/educator/">Educator</a></li>
               
-                <li><a href="/philosophy/">Philosophy</a></li>
+                <li><a href="/artist/">Artist</a></li>
               
                 <li><a href="/journey/">Journey</a></li>
               
                 <li><a href="/media/">Media Coverage</a></li>
+              
+                <li><a href="/educator/mihir-cv/">CV</a></li>
               
             </ul>
           </li>
@@ -144,13 +137,13 @@ Personal and social problems are mirrors of each other, and are intimately conne
       
         
           <li class="menu-item">
-            <a href="/educator/mihir-cv/">CV</a>
+            <a href="/blog/">Blog</a>
           </li>
         
       
         
           <li class="menu-item">
-            <a href="/tags/blog/">Blog</a>
+            <a href="/wiki/">Wiki</a>
           </li>
         
       
@@ -165,8 +158,7 @@ Personal and social problems are mirrors of each other, and are intimately conne
 </li>
     </ul>
   </nav>
-</header>
-  <main id="main-content">
+</header><main id="main-content">
 
 
   <h1>Education for me</h1>
@@ -347,7 +339,7 @@ Where we share creative adventures, tools for reflection, and we embark on &lsqu
 
   <div class="footer-right">
     <p>CC BY-NC-SA 4.0</p>
-    <p>Built 9 Nov 2026</p>
+    <p>Built 23 Nov 2026</p>
     <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -373,7 +365,6 @@ Where we share creative adventures, tools for reflection, and we embark on &lsqu
   <pagefind-modal></pagefind-modal>
 
     
-  
 
 <script>
 (function () {
@@ -387,10 +378,10 @@ Where we share creative adventures, tools for reflection, and we embark on &lsqu
   items.forEach(function (li) {
     var link = li.querySelector(':scope > a');
     link.addEventListener('click', function (e) {
-      if (!mq.matches) return;            
-      e.preventDefault();                 
-      closeAll(li);                       
-      li.classList.toggle('open');        
+      if (!mq.matches) return;
+      e.preventDefault();
+      closeAll(li);
+      li.classList.toggle('open');
     });
   });
 

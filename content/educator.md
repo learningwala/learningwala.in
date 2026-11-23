@@ -26,8 +26,9 @@ For the last 13 years I have worked across formal and informal learning spaces. 
 {{< gimg src="/journey/sidsar.webp" alt="Sidsar" caption="Sidsar" >}}
 {{< /gallery >}}
 
+{{< toc >}}
 
-## Philosophy behind my educational work
+## Philosophy {#Philosophy}
 
 I started my journey as an educator in the facination of pedagogy. I wanted try everything theater, film making, project based learning, whole language approch, making - tinkering, etc... experimenting without knowing the philosophy behind it. First few years went like this. Slowly I started reflecting on aims of education, what is right kind of education, what is philosophy behind my work? 
 
@@ -64,7 +65,7 @@ I am no more interested in education for skill building, I am more interested in
 
 ----
 
-## Selected work
+## Selected work {#selectedwork}
 
 Eight projects, from age 3 to 18yrs. Pick a photo to read its story.
 
@@ -137,7 +138,7 @@ Teenagers did a three month geo inquiry on the Vishwamitri river in Vadodara, Gu
 
 ----
 
-## My offerings
+## My offerings {#offerings}
 
 ### For schools, NGOs, learning centers and homeschooling groups.
 
@@ -167,7 +168,7 @@ Geo inquiry project · Citizen science · Experiential learning · Place based l
 
 I love working with teenagers and young adults to co-create their self designed learning journey, or gap year.
 
-## How I work
+## How I work {#themes}
 
 
 **Tools:** 
@@ -182,7 +183,7 @@ Affective domain · Language · Creativity · Systems thinking and complexity ·
 
  Love and relationship in education · Dialogue in education · Project based learning · Self directed learning · Non formal learning spaces · Development of a ‘third’ space · Child development and learning · Language pedagogy · Children's literature · Theater in education · Life skills education · Ecological consciousness and nature education · Citizen science projects · Environment, civics and cultural projects for the larger good
 
-## Write to me
+## Write to me {#connect}
 
 > Read my [CV](/educator/mihir-cv) & [work log](/educator/worklog) to get idea of my background and experience 
 

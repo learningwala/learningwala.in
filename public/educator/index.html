@@ -177,7 +177,7 @@ Sidsar
   
 ">
 
-<meta itemprop="wordCount" content="1128">
+<meta itemprop="wordCount" content="1154">
 
 <meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu_187fbfc4ee03d38c.webp"/>
 
@@ -189,7 +189,6 @@ Sidsar
   
   
   <link href="/herman.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/herman.min.css">
 
   
   <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
@@ -214,8 +213,6 @@ Sidsar
 
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script></head>
 
-
-
 <body><header class="site-header">
   <div class="brand">
     <a class="brand-en" href="/">Mihir Pathak</a>
@@ -230,25 +227,21 @@ Sidsar
       
       
         
-          <li class="menu-item">
-            <a href="/">Home</a>
-          </li>
-        
-      
-        
           <li class="menu-item has-children">
-            <a href="#">Everything</a>
+            <a href="#">Thesis</a>
             <ul class="submenu">
               
-                <li><a href="/artist/">Artist</a></li>
+                <li><a href="/philosophy/">Philosophy</a></li>
               
                 <li><a href="/educator/">Educator</a></li>
               
-                <li><a href="/philosophy/">Philosophy</a></li>
+                <li><a href="/artist/">Artist</a></li>
               
                 <li><a href="/journey/">Journey</a></li>
               
                 <li><a href="/media/">Media Coverage</a></li>
+              
+                <li><a href="/educator/mihir-cv/">CV</a></li>
               
             </ul>
           </li>
@@ -256,13 +249,13 @@ Sidsar
       
         
           <li class="menu-item">
-            <a href="/educator/mihir-cv/">CV</a>
+            <a href="/blog/">Blog</a>
           </li>
         
       
         
           <li class="menu-item">
-            <a href="/tags/blog/">Blog</a>
+            <a href="/wiki/">Wiki</a>
           </li>
         
       
@@ -277,8 +270,7 @@ Sidsar
 </li>
     </ul>
   </nav>
-</header>
-  <main id="main-content">
+</header><main id="main-content">
 
 
   <h1>Educator</h1>
@@ -484,7 +476,63 @@ Sidsar
 })();
 </script>
 
-<h2 id="philosophy-behind-my-educational-work">Philosophy behind my educational work</h2>
+<div class="toc" role="navigation" aria-label="On this page">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#Philosophy">Philosophy</a></li>
+    <li><a href="#selectedwork">Selected work</a></li>
+    <li><a href="#offerings">My offerings</a>
+      <ul>
+        <li><a href="#for-schools-ngos-learning-centers-and-homeschooling-groups">For schools, NGOs, learning centers and homeschooling groups.</a></li>
+        <li><a href="#1-nature-detective">1. Nature Detective</a></li>
+        <li><a href="#2-local-khoji">2. Local Khoji</a></li>
+        <li><a href="#3-teenagers-and-gap-year">3. Teenagers and gap year</a></li>
+      </ul>
+    </li>
+    <li><a href="#themes">How I work</a></li>
+    <li><a href="#connect">Write to me</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+(function () {
+  var nav = document.currentScript.previousElementSibling;
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  var pairs = [];
+  links.forEach(function (a) {
+    var h = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    if (h) pairs.push({ a: a, h: h });
+  });
+  if (!pairs.length) return;
+
+  var current = null, ticking = false;
+
+  function update() {
+    ticking = false;
+    var bar = nav.offsetHeight + 24;
+    var active = null;
+    pairs.forEach(function (p) {
+      if (p.h.getBoundingClientRect().top <= bar) active = p.a;
+    });
+    if (active === current) return;
+    current = active;
+    links.forEach(function (l) {
+      l.classList.toggle('is-active', l === active);
+      if (l === active) l.setAttribute('aria-current', 'true'); else l.removeAttribute('aria-current');
+    });
+    if (active) {
+      nav.scrollTo({ left: active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2, behavior: 'smooth' });
+    }
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
+<h2 id="Philosophy">Philosophy</h2>
 <p>I started my journey as an educator in the facination of pedagogy. I wanted try everything theater, film making, project based learning, whole language approch, making - tinkering, etc&hellip; experimenting without knowing the philosophy behind it. First few years went like this. Slowly I started reflecting on aims of education, what is right kind of education, what is philosophy behind my work?</p>
 <p>I read and reflected and experimented whole lot of philosophers - Gandhi, J Krishnmurti, Aurobindo, Buber, Waldorf, Montessori and more. Slowly, through reading, reflecting and embodied experiences, my philosophy of education emerged. It comes from a humanist, existential, experiential lineage.</p>
 <p><strong>My work is rooted in a deeper question:</strong> what does education look like when our collective purpose is to live together harmoniously?</p>
@@ -514,7 +562,7 @@ Sidsar
 <li>Brain based learning</li>
 </ul>
 <hr>
-<h2 id="selected-work">Selected work</h2>
+<h2 id="selectedwork">Selected work</h2>
 <p>Eight projects, from age 3 to 18yrs. Pick a photo to read its story.</p>
 <div class="wk">
   <div class="wk-grid">
@@ -699,7 +747,7 @@ Sidsar
 </script>
 
 <hr>
-<h2 id="my-offerings">My offerings</h2>
+<h2 id="offerings">My offerings</h2>
 <h3 id="for-schools-ngos-learning-centers-and-homeschooling-groups">For schools, NGOs, learning centers and homeschooling groups.</h3>
 <p>Tailor-made workshops, residential camps and capacity-building sessions. I also help develop curriculum and activity modules, and mentor organisations as they build their own contextual experiential learning programs.</p>
 <hr>
@@ -712,14 +760,14 @@ Sidsar
 <p>Geo inquiry project · Citizen science · Experiential learning · Place based learning</p>
 <h3 id="3-teenagers-and-gap-year">3. Teenagers and gap year</h3>
 <p>I love working with teenagers and young adults to co-create their self designed learning journey, or gap year.</p>
-<h2 id="how-i-work">How I work</h2>
+<h2 id="themes">How I work</h2>
 <p><strong>Tools:</strong></p>
 <p>Theater · Storytelling · Nature exploration · Music · Movement · Art · Tinkering · Inquiry projects · Citizen science · Film making · Creative writing · Traveling</p>
 <p><strong>Learning aims:</strong></p>
 <p>Affective domain · Language · Creativity · Systems thinking and complexity · Integrated learning · Environmental consciousness · life skills</p>
 <p><strong>Themes :</strong></p>
 <p>Love and relationship in education · Dialogue in education · Project based learning · Self directed learning · Non formal learning spaces · Development of a ‘third’ space · Child development and learning · Language pedagogy · Children&rsquo;s literature · Theater in education · Life skills education · Ecological consciousness and nature education · Citizen science projects · Environment, civics and cultural projects for the larger good</p>
-<h2 id="write-to-me">Write to me</h2>
+<h2 id="connect">Write to me</h2>
 <blockquote>
 <p>Read my <a href="/educator/mihir-cv">CV</a> &amp; <a href="/educator/worklog">work log</a> to get idea of my background and experience</p>
 </blockquote>
@@ -756,7 +804,7 @@ Sidsar
 
   <div class="footer-right">
     <p>CC BY-NC-SA 4.0</p>
-    <p>Built 9 Nov 2026</p>
+    <p>Built 23 Nov 2026</p>
     <button type="button" class="theme-toggle" aria-label="Toggle dark mode">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -782,7 +830,6 @@ Sidsar
   <pagefind-modal></pagefind-modal>
 
     
-  
 
 <script>
 (function () {
@@ -796,10 +843,10 @@ Sidsar
   items.forEach(function (li) {
     var link = li.querySelector(':scope > a');
     link.addEventListener('click', function (e) {
-      if (!mq.matches) return;            
-      e.preventDefault();                 
-      closeAll(li);                       
-      li.classList.toggle('open');        
+      if (!mq.matches) return;
+      e.preventDefault();
+      closeAll(li);
+      li.classList.toggle('open');
     });
   });
 

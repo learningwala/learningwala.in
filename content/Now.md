@@ -1,7 +1,7 @@
 ---
 title: "Now"
 menu: "main"
-weight:	6
+weight:	4
 ---
 
 # What am I doing now?

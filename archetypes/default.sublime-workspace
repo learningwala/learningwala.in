@@ -1,0 +1,301 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"resources"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mihir/Desktop/p.md",
+		"/home/mihir/Downloads/relational-education-and-alivelihood.md",
+		"/home/mihir/Downloads/Rewilding Education.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/assets/herman.css",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/_default/list.html",
+		"/home/mihir/learningwala.in/content/blog/_index.md",
+		"/home/mihir/learningwala.in/content/philosophy.md",
+		"/home/mihir/Downloads/Awe as a Gateway to Gratitude and Harmonious Living.md",
+		"/home/mihir/Desktop/notes/I want to facilitate 90min workshop for participen",
+		"/home/mihir/learningwala.in/content/wiki.md",
+		"/home/mihir/learningwala.in/content/blog/Week-44-45-2026.md",
+		"/home/mihir/learningwala.in/content/wiki/_index.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/theme.toml",
+		"/home/mihir/learningwala.in/hugo.toml",
+		"/home/mihir/learningwala.in/content/wiki/butterfly.md",
+		"/home/mihir/learningwala.in/layouts/shortcodes/albums.html",
+		"/home/mihir/learningwala.in/content/Now.md",
+		"/home/mihir/learningwala.in/content/educator/mihir-cv.md",
+		"/home/mihir/learningwala.in/content/sketchbook.md",
+		"/home/mihir/learningwala.in/content/wiki/index.md",
+		"/home/mihir/learningwala.in/content/Misc/index.md",
+		"/home/mihir/learningwala.in/archetypes/wiki.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/wiki/list.html",
+		"/home/mihir/learningwala.in/content/educator.md",
+		"/home/mihir/learningwala.in/content/journey.md",
+		"/home/mihir/learningwala.in/content/artist.md",
+		"/home/mihir/learningwala.in/content/Misc/misc.md",
+		"/home/mihir/learningwala.in/static/worklog.html",
+		"/home/mihir/learningwala.in/content/thingsIlove.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/toc.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/soundcloud.html",
+		"/home/mihir/learningwala.in/content/Media.md",
+		"/home/mihir/learningwala.in/content/blog/thingsIlove.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/_default/baseof.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/sketchbook.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/video.html",
+		"/home/mihir/learningwala.in/content/blog/Week-42-43-2026.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/zoom.html",
+		"/home/mihir/Downloads/mihir-pathak-quiet.html",
+		"/home/mihir/Desktop/notes/website content 2nd nov 2026/_index.md",
+		"/home/mihir/learningwala.in/static/tree.html",
+		"/home/mihir/Desktop/notes/website content - 11th oct 2026/_index.md",
+		"/home/mihir/learningwala.in/content/_index.md",
+		"/home/mihir/learningwala.in/content/search.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/custom_head.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/footer.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/header.html",
+		"/home/mihir/learningwala.in/content/blog/sandminingpoem.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/head.html",
+		"/home/mihir/learningwala.in/content/blog/Working with Youth.md",
+		"/home/mihir/learningwala.in/content/archive/Now-march-2025.md",
+		"/home/mihir/learningwala.in/content/archive/Now-nov-2026.md",
+		"/home/mihir/learningwala.in/content/blog/64kala (Copy).md",
+		"/home/mihir/learningwala.in/static/mihir-cv-2026.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/zoom-viewr.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/imggrid.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/zoom.html",
+		"/home/mihir/learningwala.in/content/educator/CV.md",
+		"/home/mihir/learningwala.in/content/storyteller.md",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/hugo.toml",
+		"/home/mihir/learningwala.in/content/educator/highlights.md",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/themes/hugo-bearcub/assets/herman.css",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/themes/hugo-bearcub/layouts/shortcodes/work.html",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/themes/hugo-bearcub/layouts/partials/custom_head.html",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/themes/hugo-bearcub/layouts/partials/head.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/assets/syntax.css",
+		"/home/mihir/Desktop/mihirpathak/themes/hugo-bearblog/exampleSite/content/blog/_index.md",
+		"/home/mihir/Desktop/mihirpathak/content/blog/_index.md",
+		"/home/mihir/Desktop/mihirpathak/content/blog/64kala.md",
+		"/home/mihir/Desktop/mihirpathak/hugo.toml",
+		"/home/mihir/Desktop/learningwala.in 4th Nov 2026/content/journey.md",
+		"/home/mihir/learningwala.in/content/about-me.md",
+		"/home/mihir/Desktop/mihir's blog/mihir/hugo.toml",
+		"/home/mihir/Desktop/mihir's blog/mihir/hugo-bearblog/exampleSite/hugo.toml",
+		"/home/mihir/Desktop/mihirpathak/content/blog/hello.md",
+		"/home/mihir/Desktop/mihirpathak/themes/hugo-bearblog/layouts/shortcodes/rawhtml.html",
+		"/home/mihir/Desktop/mihirpathak.xyz/hugo.yaml",
+		"/home/mihir/Desktop/mihirpathak.xyz/layouts/_default/list.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/img.html",
+		"/home/mihir/Desktop/mihirpathak.xyz/content/posts/butterfly-effect.md",
+		"/home/mihir/Desktop/demo/my-hugo-site(1)/site/themes/hugo-bearcub/layouts/_default/baseof.html",
+		"/home/mihir/learningwala.in/layouts/baseof.html",
+		"/home/mihir/Downloads/deb",
+		"/home/mihir/Desktop/demo/my-hugo-site(1)/site/themes/hugo-bearcub/assets/herman.css",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/nav.html",
+		"/home/mihir/Desktop/notes/website content 2nd nov 2026/educator.md",
+		"/home/mihir/learningwala.in/layouts/shortcodes/gallery.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/gimg.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/gimg.html",
+		"/home/mihir/Downloads/lightbox.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/shelfbook.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/shelf.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/img.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/imggrid.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/_default/single.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/gallery.html",
+		"/home/mihir/learningwala.in/content/educator/work-with-me.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/shortcodes/lightbox.html",
+		"/home/mihir/learningwala.in/layouts/shortcodes/lightbox.html",
+		"/home/mihir/learningwala.in/content/educator/background.md",
+		"/home/mihir/learningwala.in/content/philosopher.md",
+		"/home/mihir/Desktop/notes/website content - 11th oct 2026/Media.md",
+		"/home/mihir/Desktop/notes/website content 2nd nov 2026/Media.md",
+		"/home/mihir/Downloads/style.css",
+		"/home/mihir/Downloads/_index.md",
+		"/home/mihir/Downloads/design-principles(1).md",
+		"/home/mihir/Downloads/educator-updated.html",
+		"/home/mihir/Downloads/educator-page-source.html",
+		"/home/mihir/Downloads/design-principles(2).md",
+		"/home/mihir/Downloads/design-principles.md",
+		"/home/mihir/learningwala.in/content/about.md",
+		"/home/mihir/Downloads/fonts-head.html",
+		"/home/mihir/learningwala.in/content/educator/docu.md",
+		"/home/mihir/learningwala.in/content/about-me/highlights.md",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/partials/floatnav.html",
+		"/home/mihir/learningwala.in/themes/hugo-bearcub/layouts/_default/term.html",
+		"/home/mihir/Desktop/notes/philosophy.md",
+		"/home/mihir/learningwala.in/content/about-me/edu-for-me.md",
+		"/home/mihir/learningwala.in/content/Writings.md",
+		"/home/mihir/learningwala.in/content/blog/Week-41-2026.md",
+		"/home/mihir/learningwala.in/content/blog/Week-40-2026.md",
+		"/home/mihir/learningwala.in/content/status/12-07-2025 (copy).md",
+		"/home/mihir/Downloads/storyteller.html",
+		"/home/mihir/Downloads/fieldnote-site(4)/site/README.md",
+		"/home/mihir/Downloads/fieldnote-site(4)/site/content/blog/hello-notebook.md",
+		"/home/mihir/Downloads/fieldnote-site(4)/site/content/philosopher.md",
+		"/home/mihir/Desktop/final files/storyteller.html",
+		"/home/mihir/Desktop/notes/pedagogy.md"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "default.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

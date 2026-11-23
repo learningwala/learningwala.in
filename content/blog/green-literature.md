@@ -172,4 +172,4 @@ That is enough to begin.
 
 -----
 
-✦ ***Note:** Ideas, research, and argument by **Mihir**. English writing assisted by Claude AI — because I think better in my mother tongue than I write in English, and I did not want that to stop me from sharing these ideas.*
+✦ ***Note:** Ideas, research, and argument by **Mihir**. English writing assisted by AI — because I think better in my mother tongue than I write in English, and I did not want that to stop me from sharing these ideas.*

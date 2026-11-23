@@ -2,30 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/media/</loc>
   </url><url>
     <loc>http://localhost:1313/now/</loc>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/personal/</loc>
-    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-11-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/website-name/</loc>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/whatisinthename/</loc>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/week-44-45-2026/</loc>
     <lastmod>2026-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/weekly-notes/</loc>
     <lastmod>2026-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2026-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/poem/</loc>
     <lastmod>2026-11-05T00:00:00+00:00</lastmod>
@@ -609,8 +615,6 @@
   </url><url>
     <loc>http://localhost:1313/artist/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/colophon/</loc>
   </url><url>
     <loc>http://localhost:1313/educator/cv/</loc>
@@ -623,7 +627,9 @@
   </url><url>
     <loc>http://localhost:1313/journey/</loc>
   </url><url>
-    <loc>http://localhost:1313/littlethings/</loc>
+    <loc>http://localhost:1313/wiki/littlethings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/thesis/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/now-2024/</loc>
   </url><url>
@@ -641,7 +647,11 @@
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/sketchbook/</loc>
+    <loc>http://localhost:1313/wiki/sketchbook/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wiki/</loc>
   </url><url>
     <loc>http://localhost:1313/educator/worklog/</loc>
   </url>

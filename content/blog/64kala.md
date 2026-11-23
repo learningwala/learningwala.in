@@ -48,3 +48,8 @@ bharathhushan
 | **Household Arts**           | Helping with chores: folding cloths, sweeping, tidying, table setting, rangola, decorating center piece |
 | **Conversation & Gesture Arts** | Verse recitation with gesture, circle time movements                                     |
 | **Mechanical / Building Arts** | Building with blocks, simple woodworking (Class 1), outdoor imaginative construction from soil/sand |
+
+
+---
+
+✦ ***Note:** Ideas, research, and argument by **Mihir**. English writing assisted by AI — because I think better in my mother tongue than I write in English, and I did not want that to stop me from sharing these ideas.*

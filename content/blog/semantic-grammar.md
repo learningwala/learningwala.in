@@ -160,4 +160,4 @@ When meaning is strong, language follows naturally.
 
 ----
 
-This blog post is written with the help of ChatGPT. Prompt and final editing is done by [Mihir Pathak](https://learningwala.in/).
+This blog post is written with the help of AI. Prompt and final editing is done by [Mihir Pathak](https://learningwala.in/).

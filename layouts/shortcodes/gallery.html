@@ -3,12 +3,15 @@
   Put {{< gimg >}} items inside. Use the angle-bracket form.
   Optional params:
     label  screen reader name for the row
+    style  "scrap" for taped polaroid-style photos that keep their own proportions
+           (good for old or mixed portrait and landscape photos)
     auto   "true" for a slow drift (35 pixels a second), or a number for your own speed
            (for example auto="20" is slower). It pauses on hover, touch and when the viewer is open.
 */ -}}
 {{- $auto := .Get "auto" -}}
 {{- if eq $auto "true" }}{{ $auto = "35" }}{{ end -}}
-<div class="gal" data-gal{{ with $auto }} data-auto="{{ . }}"{{ end }}>
+{{- $style := .Get "style" -}}
+<div class="gal{{ if eq $style "scrap" }} gal--scrap{{ end }}" data-gal{{ with $auto }} data-auto="{{ . }}"{{ end }}>
   <div class="gal-view">
     <div class="gal-track" tabindex="0" role="group" aria-label="{{ .Get "label" | default "Photos" }}">
 {{ .Inner }}
