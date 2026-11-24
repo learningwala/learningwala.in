@@ -23,20 +23,6 @@
 
 {{ with .Content }}<div class="list-intro">{{ . }}</div>{{ end }}
 
-{{/* ---------- Tag cloud ---------- */}}
-{{ with site.Taxonomies.tags }}
-{{ $max := (index .ByCount 0).Count }}
-<section class="tag-cloud" aria-label="Tags">
-  {{ range .Alphabetical }}
-    {{ $ratio := div (float .Count) (float $max) }}
-    {{ $size := printf "%.2f" (add 0.85 (mul $ratio 0.9)) }}
-    <a href="{{ .Page.RelPermalink }}" style="font-size: {{ $size }}em;">
-      {{ .Page.Title }}<sup>{{ .Count }}</sup>
-    </a>
-  {{ end }}
-</section>
-{{ end }}
-
 {{/* ---------- Post index grouped by year ---------- */}}
 {{ range .Pages.GroupByDate "2006" }}
 <section class="year-group">

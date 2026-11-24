@@ -15,9 +15,17 @@
 
 {{ end }}
 
-<content>
-  {{ .Content }}
-</content>
+<article class="post">
+  <!-- The main content, now wrapped in the class that triggers the Drop Cap and Justified text -->
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    <!-- Softer return link -->
+    <a href="{{ "/" | relURL }}" class="return-link">← Return to the main page</a>
+  </footer>
+</article>
 
 {{ with (.GetTerms "tags") }}
   <p>

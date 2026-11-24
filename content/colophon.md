@@ -1,111 +1,22 @@
 ---
-title: Colophon
-menu: 
-weight:	
+title: "Colophon"
 ---
 
-This website is built using the [Hugo Static Site Generator (SSG)](https://gohugo.io/) with the [Hugo BearCub theme](https://themes.gohugo.io/themes/hugo-bearcub/).
-The source files are hosted on a [GitHub repository](https://github.com/learningwala/learningwala.in), which is connected to Cloudflare.
-With every push from the local machine, Cloudflare automatically builds the Hugo site and publishes the `public` folder to **learningwala.in**.
+This website is built using the [Hugo Static Site Generator (SSG)](https://gohugo.io/) with the [Hugo BearCub theme](https://themes.gohugo.io/themes/hugo-bearcub/). The source files are hosted on a [GitHub repository](https://github.com/learningwala/learningwala.in), which is connected to Cloudflare. With every push from the local machine, Cloudflare automatically builds the Hugo site and publishes the `public` folder to **learningwala.in**.
 
-----
+### Design & Typography
+I made major design changes to this website in **November 2026**. I wanted to give new personality to website as living thesis / portfolio. 
 
-- [History of my blogging journey](https://learningwala.in/blog/my-blogging-journey/) 
-- [Why I do blogging](https://learningwala.in/blog/a-challenge-of-blog-questions/)
+Here is what you are reading:
 
------
+*   **Body Text:** Set in **Inter**. It is a highly legible, geometric sans-serif designed specifically for screens.
+*   **Headings:** Set in **Literata**. A beautiful, contemporary serif font designed for long-form reading.
+*   **Accents & Quotes:** Handwritten elements and the homepage Drop Cap are set in **Caveat**, giving it a fountain-pen feel.
+*   **Code & Meta:** Set in **Maple Mono**, an open-source monospace font.
+*   **Hindi & Gujarati:** Set in **Noto Serif Devanagari** and **Noto Serif Gujarati** to ensure the complex scripts render perfectly.
 
-#### Blog Post Categories and Dynamic Pages
+### Technical Details
+*   **Colors:** The color palette is defined using CSS `light-dark()` functions, ensuring a seamless transition between light and dark modes.
+*   **Text Alignment:** The body text is justified with auto-hyphenation to mimic the look of a printed book.
+*   **Search:** Powered by **Pagefind** for fast, offline-capable static search.
 
------
-
-**Main :** Blog 
-
-**Every Post includes :** Parent tag + Category tag + Subject tag 
-
-------
-#### Weekly Notes
-
-Publish weekly notes on every Sunday. (Maintain the Monday to Sunday cycle)
-
-**Guideline for weekly note :**
-
-**DOs & DON'Ts :**
-
-- Office details remain private, though I can mention celebrations like Holi or special events
-- No workplace photos
-- Always get consent before mentioning names or sharing photos of others
-- Draft everything in private notes first, then curate what goes public
-- Be aware while writing about issues at home
-
-**What to focus on:**
-
-- Cool stuff I’m reading, watching, or exploring
-- My latest experiments and tinkering
-- Personal projects and how they’re coming along (Khojbeen mandali updates, work related meeting updates)
-- How I’m feeling overall
-- Interesting conversations and stories
-- Quick updates about life
-
------
-**Tags :** 
-
-**Parent tag :** Personal
-
-**Category tag :** 
-
---> Weekly-Notes
-
------
-
-#### Other Posts
-
-**Field Notes :** Workshops, Session with children / teachers , any type of field experience. (Add same things on page [Documentation of Work](https://learningwala.in/about-me/docu/). Post same thing on Instagram and LinkedIn if needed )
-
-**Leaning Resources :** Book / website / material sharing , book review , reflection on book / material / website / idea
-
-**Tags :**
-
-**Parent tag :** Blog 
-
-**Category tag :** 
-
---> Field Note
-
---> Learning Resources 
-
---> Other 
-
-**Subject tags :**
-
---> Children's Literature
-
---> Indian Philosophy
-
---> Aesthetics
-
--------
-
-#### Status
-
-There is micro blog template which can be used for sharing short notes / imagoes in feed / social media format.
-
-**Category tag :**  Status
-
------
-
-#### Now - Page
-
-Change this page when you have change in work / projects / career. 
-
-Add : 
-- Full time work
-- Part time work , 
-- Volunteering / other involvement 
-- Personal projects and exploration 
-
-Archive the page and make new version when you have major updates. If not do it once a year.
-
-----
-
-Change any other page as per requirement 

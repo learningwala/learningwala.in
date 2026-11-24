@@ -93,4 +93,3 @@ Doodles, sketching and painting.
 
 - I have dedicated page to show all my sketches, paintings and raw notes from my notebook - [Sketchbook](/sketchbook)
 
-----

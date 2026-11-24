@@ -4,6 +4,7 @@ menu:
 weight:
 ---
 
+
 I create **transformative learning journeys** for children, young adults and educators using experiential methodologies, including **theater, nature and interdisciplinary projects.**
 
 For the last 13 years I have worked across formal and informal learning spaces. This page is an attempt to make a living portfolio of my educational work and offerings.
@@ -147,7 +148,7 @@ Tailor-made workshops, residential camps and capacity-building sessions. I also 
 
 ---
 
-**Some ready made programs which we can directly implement in learning spaces :**
+**Some ready made programs which we can directly implement in learning spaces:**
 
 ### 1. Nature Detective
 
@@ -192,5 +193,3 @@ I am not interested in one of workshop or teacher training. I am more interested
 Email is the best way to reach me - 
 
 [learningwalamihir@gmail.com](mailto:learningwalamihir@gmail.com) | [WhatsApp](https://wa.me/919537068736?text=Hi%20Mihir%2C%20I%27d%20like%20to%20talk%20about%20working%20together.) | +91 9537068736
-
-----

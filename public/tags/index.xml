@@ -36,7 +36,7 @@
     <item>
       <title>Weekly-Notes</title>
       <link>http://localhost:1313/tags/weekly-notes/</link>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/weekly-notes/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
@@ -150,14 +150,6 @@
       <link>http://localhost:1313/tags/indian-philosophy/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/indian-philosophy/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>Status</title>
-      <link>http://localhost:1313/tags/status/</link>
-      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/status/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

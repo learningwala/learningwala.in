@@ -1,51 +1,18 @@
 {{ define "main" }}
 <section class="intro">
-  <div class="intro-text">
-    {{ with .Params.tagline }}<h1 class="hero-line">{{ . }}</h1>{{ end }}
-    <div class="abstract">{{ .Content }}</div>
-  </div>
   {{ with .Params.photo }}
-    <figure class="intro-pic">
-      <img src="{{ . | relURL }}" width="230" height="300" alt="{{ $.Params.photo_alt }}">
+    <figure class="intro-banner">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.photo_alt }}">
       {{ with $.Params.photo_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
   {{ end }}
-</section>
-{{ with site.Data.chapters }}
-<section class="contents" id="contents" aria-labelledby="contents-h">
-  <h2 class="contents-head" id="contents-h">Contents</h2>
-  <ol class="contents-list">
-    {{ range . }}
-    <li>
-      <a class="contents-row" href="{{ .url | relURL }}">
-        <span class="cl-num">{{ if .num }}{{ printf "%02d" .num }}{{ else }}App.{{ end }}</span>
-        <span class="cl-body">
-          <span class="cl-line">
-            <span class="cl-title">{{ .title }}</span>
-            <span class="cl-dots" aria-hidden="true"></span>
-            <span class="cl-go" aria-hidden="true">→</span>
-          </span>
-          {{ with .summary }}<span class="cl-sum">{{ . }}</span>{{ end }}
-        </span>
-      </a>
-    </li>
-    {{ end }}
-  </ol>
-</section>
-{{ else }}
-  {{ warnf "data/chapters.yaml is missing or empty, so the Contents list is hidden" }}
-{{ end }}
 
-<section class="latest">
-  <h2 class="contents-head">Latest</h2>
-  <ul class="post-list">
-    {{ range first 3 (where site.RegularPages "Section" "blog") }}
-    <li>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
-      <a href="{{ .RelPermalink }}"{{ with .Params.titleLang }} lang="{{ . }}"{{ end }}>{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul>
-  <p class="all-posts"><a href="{{ "/blog/" | relURL }}">All posts →</a></p>
+  <div class="intro-text">
+    {{ with .Params.tagline }}<h1 class="hero-line">{{ . }}</h1>{{ end }}
+    
+    <div class="abstract">
+      {{ .Content }}
+    </div>
+  </div>
 </section>
 {{ end }}

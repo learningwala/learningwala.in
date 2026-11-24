@@ -104,7 +104,7 @@ weight = 6
 [[menu.main]]
 name = "CV"
 parent = "thesis"
-url = "/educator/mihir-cv/"
+url = "/mihir-cv/"
 weight = 7
 
 [[menu.main]]
