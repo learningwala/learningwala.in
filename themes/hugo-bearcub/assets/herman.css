@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Serif+Gujarati:wght@100..900&family=Caveat:wght@600&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Serif+Gujarati:wght@100..900&family=Dancing+Script:wght@500;600;700&display=swap';
 @import 'https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5/500.css';
 @import 'https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5/700.css';
 @import 'https://fonts.googleapis.com/css2?family=Tapestry&family=Whisper&family=Beau+Rivage&family=Kalam:wght@700&display=swap';
@@ -9,7 +9,7 @@
   --width: 720px;
   
   /* Typography */
-  --font-brand: 'Caveat', cursive;              /* still used for drop caps */
+  --font-brand: 'Dancing Script', cursive;      /* drop caps */
   --font-brand-name: 'Literata', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif; /* site name */
   --font-main: 'Literata', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif;
   --font-secondary: 'Spectral', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif;
@@ -21,10 +21,11 @@
   --font-weight-secondary: 400;  
   --font-scale: 1.2em; 
 
-  /* Palette: clean white page + charcoal ink (light mode) */
-  --background-color: light-dark(#ffffff, #01242e);
+  /* Palette: near-white page with paper grain + charcoal ink (light mode) */
+  --background-color: light-dark(#fafaf8, #01242e);
+  --grain-opacity: 0.14;   /* paper grain strength: 0.06 subtle, 0.18 strong */
   --heading-color: light-dark(#161616, #f2f2f2);
-  --text-color: light-dark(#222222, #e6e6e6);
+  --text-color: light-dark(#2a2a2a, #e6e6e6);
   --link-color: light-dark(#b0164f, #ff7aa8);
   --visited-color: light-dark(#6f42c1, #8b6fcb);
   --code-background-color: light-dark(#f2f2f2, #1a1a1a);
@@ -49,9 +50,28 @@
 :root[data-theme="dark"]  { color-scheme: dark; }
 
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --font-weight-secondary: 300; }
+  :root:not([data-theme="light"]) { --font-weight-secondary: 300; --grain-opacity: 0.05; }
 }
-:root[data-theme="dark"] { --font-weight-secondary: 300; }
+:root[data-theme="dark"] { --font-weight-secondary: 300; --grain-opacity: 0.05; }
+
+/* Paper grain background */
+html {
+  background-color: var(--background-color);
+}
+:root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35  0 0 0 0 0.33  0 0 0 0 0.30  0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+:root[data-theme="dark"]::before { mix-blend-mode: screen; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])::before { mix-blend-mode: screen; }
+}
 
 /* Base styles */
 body {
@@ -61,7 +81,7 @@ body {
   margin: auto;
   padding: 20px;
   max-width: var(--width);
-  background-color: var(--background-color);
+  background-color: transparent;
   color: var(--text-color);
   line-height: 1.75; 
   font-variant-numeric: oldstyle-nums proportional-nums;

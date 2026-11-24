@@ -8,6 +8,10 @@ I live in Ahmedabad, India with my partner [Nidhi](https://www.instagram.com/nid
 
 ---
 
+
+{{< img src="/things-i-love/officetable.jpg" caption="My current work desk">}}
+
+
 ## Work
 
 **Core team member / [TIDE Foundation](https://tideinternational.org/)**, Ahmedabad
