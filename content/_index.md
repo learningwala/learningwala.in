@@ -2,7 +2,7 @@
 title: "Home"
 tagline:
 photo: "/index/mihirprofile.png"
-photo_caption: "Udaipur - 4th April 2026 / PC - Nidhi"
+photo_caption:
 lang: "en"
 ---
 

@@ -1,6 +1,7 @@
-@import 'https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Inter:ital,wght@0,300;0,400;0,500;1,400&family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Serif+Gujarati:wght@100..900&family=Caveat:wght@600&family=Dancing+Script:wght@600&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Serif+Devanagari:wght@100..900&family=Noto+Serif+Gujarati:wght@100..900&family=Caveat:wght@600&display=swap';
 @import 'https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5/500.css';
 @import 'https://cdn.jsdelivr.net/npm/@fontsource/maple-mono@5/700.css';
+@import 'https://fonts.googleapis.com/css2?family=Tapestry&family=Whisper&family=Beau+Rivage&family=Kalam:wght@700&display=swap';
 
 /* Variables */
 :root {
@@ -8,29 +9,38 @@
   --width: 720px;
   
   /* Typography */
+  --font-brand: 'Caveat', cursive;              /* still used for drop caps */
+  --font-brand-name: 'Literata', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif; /* site name */
   --font-main: 'Literata', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif;
-  --font-secondary: 'Inter', 'Noto Serif Devanagari', 'Noto Serif Gujarati', sans-serif;
+  --font-secondary: 'Spectral', 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif;
   --font-head: var(--font-main);
   --font-body: var(--font-secondary); 
   --font-mono: 'Maple Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
   
   --font-weight-main: 500;       
   --font-weight-secondary: 400;  
-  --font-scale: 1.15em;          
+  --font-scale: 1.1em; 
 
-  --background-color: light-dark(#fff, #01242e);
-  --heading-color: light-dark(#111111, #f2f2f2);
-  --text-color: light-dark(#1a1a1a, #e6e6e6);
-  --link-color: light-dark(#c2185b, #ff7aa8);
+  /* Palette: clean white page + charcoal ink (light mode) */
+  --background-color: light-dark(#ffffff, #01242e);
+  --heading-color: light-dark(#161616, #f2f2f2);
+  --text-color: light-dark(#222222, #e6e6e6);
+  --link-color: light-dark(#b0164f, #ff7aa8);
   --visited-color: light-dark(#6f42c1, #8b6fcb);
-  --code-background-color: light-dark(#f0f0f0, #1a1a1a);
-  --code-color: light-dark(#111, #f0f0f0);
-  --blockquote-color: light-dark(#3a3a3a, #d4d4d4);
-  --nav-background: light-dark(#f8f9fa, #1e2d3a);
-  --nav-text: light-dark(#444444, #c8d3dc);
-  --soft-border: light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.22));
-  --rule-color: light-dark(#d4d4d4, rgba(255, 255, 255, 0.18));
+  --code-background-color: light-dark(#f2f2f2, #1a1a1a);
+  --code-color: light-dark(#161616, #f0f0f0);
+  --blockquote-color: light-dark(#363636, #d4d4d4);
+  --nav-background: light-dark(#f6f6f6, #1e2d3a);
+  --nav-text: light-dark(#3a3a3a, #c8d3dc);
+  --soft-border: light-dark(rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0.22));
+  --rule-color: light-dark(#dcdcdc, rgba(255, 255, 255, 0.18));
   
+  /* Drop cap tuning: size ~ spans two lines, gap pushes text clear of the swash */
+  --dc-size: 3.6em;
+  --dc-top: 0.15em;
+  --dc-gap: 0.15em;     /* normal letters (homepage intro) */
+  --dc-gap-wide: 0.22em; /* wide/slanted letters like the W in "Welcome" */
+
   --accent-blue: light-dark(#1d4ed8, #7db4ff);
   --accent-rss: light-dark(#d1342c, #ff7b72);
 }
@@ -53,7 +63,7 @@ body {
   max-width: var(--width);
   background-color: var(--background-color);
   color: var(--text-color);
-  line-height: 1.75; /* Increased for a more relaxed, book-like feel */
+  line-height: 1.75; 
   font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
@@ -85,14 +95,11 @@ ul, ol { padding-left: 1.5rem; margin: 1rem 0 1.5rem; }
 li { margin-bottom: 0.5rem; line-height: 1.6; }
 hr { border: 0; border-top: 1px dashed var(--soft-border); margin: 3rem 0; }
 
-/* 
-  GLOBAL MANUSCRIPT TYPOGRAPHY (Soft-Right)
-  Applied to all standard paragraphs and blog posts
-*/
+/* GLOBAL MANUSCRIPT TYPOGRAPHY (Soft-Right) */
 p {
   margin: 0 0 1.2rem;
   text-align: left; 
-  text-wrap: pretty; /* Prevents orphans and balances the line endings */
+  text-wrap: pretty; 
   word-spacing: 0.01em; 
 }
 
@@ -108,7 +115,7 @@ a:hover {
   border-bottom: 1px dashed var(--link-color);
 }
 
-/* Elegant Italics (Using Inter) */
+/* Italics (Using Spectral) */
 em, i {
   font-family: var(--font-secondary) !important; 
   font-style: italic !important;
@@ -141,14 +148,23 @@ thead { background-color: var(--code-background-color); }
 .brand { display: flex; align-items: baseline; gap: 0.5rem; line-height: 1.2; }
 .brand a, .brand a:hover { text-decoration: none; color: var(--heading-color); border: none; }
 .brand a:hover { color: var(--link-color); }
-.brand-en { font-family: var(--font-main); font-style: italic; font-weight: 600; font-size: 1.5em; }
+
+/* Brand Name (Literata Italic 600) */
+.brand-en { 
+  font-family: var(--font-brand-name); 
+  font-style: italic; 
+  font-weight: 600; 
+  font-size: 1.65em; 
+  letter-spacing: -0.015em; 
+}
+
 .brand-sep { color: var(--blockquote-color); font-size: 1.3em; }
 .brand-gu { font-family: 'Noto Serif Gujarati', var(--font-main); font-style: normal; font-weight: 600; font-size: 1.25em; }
 
 .site-nav { background: none; box-shadow: none; border-radius: 0; padding: 0; margin: 0; }
 .menu { list-style: none; display: flex; align-items: center; gap: 1.2rem; padding: 0; margin: 0; }
 .menu-item { position: relative; }
-.menu a { display: inline-block; font-family: var(--font-secondary); font-size: 0.85em; font-weight: 500; color: var(--nav-text); padding: 4px 2px; background: none; border-radius: 0; border: none; transition: color 0.2s ease; }
+.menu a { display: inline-block; font-family: var(--font-main); font-size: 0.85em; font-weight: 500; color: var(--nav-text); padding: 4px 2px; background: none; border-radius: 0; border: none; transition: color 0.2s ease; }
 .menu a:hover, .menu a.active { color: var(--heading-color); background: none; border: none; }
 .menu a:focus-visible { outline: 1px dashed var(--heading-color); outline-offset: 3px; }
 .has-children > a::after { content: " ▾"; font-size: 0.8em; }
@@ -168,7 +184,7 @@ thead { background-color: var(--code-background-color); }
 
 /* Mobile Navigation */
 @media (max-width: 768px) {
-  .brand-en { font-size: 1.3em; }
+  .brand-en { font-size: 1.4em; }
   .brand-gu { font-size: 1.1em; }
   .site-header { display: block; padding: 1rem 0 0.9rem; margin-bottom: 1.5rem; }
   .nav-toggle, .nav-toggle-label { display: none !important; }
@@ -197,7 +213,7 @@ main { line-height: 1.75; }
    PAGEFIND
 ========================= */
 :root {
-  --pf-font: var(--font-secondary); --pf-text: var(--heading-color); --pf-text-secondary: var(--blockquote-color); --pf-text-muted: var(--blockquote-color); --pf-background: var(--background-color); --pf-border: var(--rule-color); --pf-border-focus: var(--blockquote-color); --pf-hover: light-dark(#f5f5f5, #0b3340); --pf-skeleton: light-dark(#eee, #0b3340); --pf-skeleton-shine: light-dark(#f5f5f5, #12475a); --pf-outline-focus: var(--link-color); --pf-shadow-lg: 0 16px 48px light-dark(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)); --pf-border-radius: 8px; --pf-modal-max-width: 720px; --pf-input-font-size: 1.15rem; --pf-result-title-font-size: 1.2rem; --pf-result-excerpt-font-size: 1.05rem;
+  --pf-font: var(--font-secondary); --pf-text: var(--heading-color); --pf-text-secondary: var(--blockquote-color); --pf-text-muted: var(--blockquote-color); --pf-background: var(--background-color); --pf-border: var(--rule-color); --pf-border-focus: var(--blockquote-color); --pf-hover: light-dark(#f5f5f5, #0b3340); --pf-skeleton: light-dark(#eeeeee, #0b3340); --pf-skeleton-shine: light-dark(#f5f5f5, #12475a); --pf-outline-focus: var(--link-color); --pf-shadow-lg: 0 16px 48px light-dark(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)); --pf-border-radius: 8px; --pf-modal-max-width: 720px; --pf-input-font-size: 1.15rem; --pf-result-title-font-size: 1.2rem; --pf-result-excerpt-font-size: 1.05rem;
 }
 pagefind-modal input { font-family: var(--font-mono); font-weight: 500; }
 pagefind-modal .pf-result-title { font-family: var(--font-main); font-weight: 600; }
@@ -512,11 +528,11 @@ main h2 { scroll-margin-top: 4.5rem; }
    HOMEPAGE ONLY DROP CAP (Smooth Wrap)
 ========================================================= */
 .abstract > p:first-of-type::first-letter {
-  font-family: 'Dancing Script', cursive !important;
-  font-size: 4.2em; 
+  font-family: var(--font-brand); 
+  font-size: var(--dc-size); 
   float: left;
-  margin-top: 0.15em; 
-  margin-right: 0.15em; 
+  margin-top: var(--dc-top); 
+  margin-right: var(--dc-gap); 
   line-height: 0.8; 
   color: var(--heading-color);
   font-weight: 600;
@@ -526,11 +542,44 @@ main h2 { scroll-margin-top: 4.5rem; }
 .abstract > p:first-of-type:lang(hi)::first-letter,
 .abstract > p:first-of-type:lang(gu)::first-letter {
   font-family: 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif !important;
-  font-size: 3.5em; 
+  font-size: 3em; 
   float: left;
   line-height: 1;
   margin-top: 0.1em;
-  margin-right: 0.15em;
+  margin-right: var(--dc-gap);
+  color: var(--heading-color);
+  font-weight: 500;
+}
+
+/* =========================================================
+   SECOND DROP CAP (Welcome)
+========================================================= */
+
+/* Target the paragraph immediately following the empty span */
+#welcome-start + p::first-letter,
+.abstract p:has(#welcome-start)::first-letter {
+  font-family: var(--font-brand); 
+  font-size: var(--dc-size); 
+  float: left;
+  margin-top: var(--dc-top); 
+  
+  /* W is wide and slanted: its right stroke overhangs, so it needs a bigger gap */
+  margin-right: var(--dc-gap-wide); 
+  
+  line-height: 0.8; 
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+/* Fallback for Hindi/Gujarati */
+#welcome-start + p:lang(hi)::first-letter,
+#welcome-start + p:lang(gu)::first-letter {
+  font-family: 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif !important;
+  font-size: 3em; 
+  float: left;
+  line-height: 1;
+  margin-top: 0.1em;
+  margin-right: var(--dc-gap);
   color: var(--heading-color);
   font-weight: 500;
 }
@@ -549,43 +598,10 @@ main h2 { scroll-margin-top: 4.5rem; }
 .amp { font-family: var(--font-main); font-style: italic; font-weight: 400; }
 
 /* =========================================================
-   WIKI PAGE (Index Cards - KEPT)
+   WIKI PAGE (Index Cards)
 ========================================================= */
 .wiki-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
 .wiki-card { display: block; padding: 1.5rem; border: 1px dashed var(--soft-border); border-radius: 4px; background-color: transparent; color: var(--text-color); transition: border-color 0.2s ease, background-color 0.2s ease; }
 .wiki-card:hover { border-color: var(--link-color); background-color: var(--nav-background); border-bottom-style: dashed; }
 .wiki-card h3 { margin: 0 0 0.5rem 0; font-family: var(--font-mono); font-size: 1rem; color: var(--heading-color); }
 .wiki-card p { margin: 0; font-size: 0.9rem; color: var(--blockquote-color); line-height: 1.5; }
-
-/* =========================================================
-   SECOND DROP CAP (Welcome)
-========================================================= */
-
-/* Target the paragraph immediately following the empty span */
-#welcome-start + p::first-letter,
-.abstract p:has(#welcome-start)::first-letter {
-  font-family: 'Dancing Script', cursive !important;
-  font-size: 4.2em; 
-  float: left;
-  margin-top: 0.15em; 
-  
-  /* W is a wide letter, so it needs specific spacing */
-  margin-right: 0.05em; 
-  
-  line-height: 0.8; 
-  color: var(--heading-color);
-  font-weight: 600;
-}
-
-/* Fallback for Hindi/Gujarati */
-#welcome-start + p:lang(hi)::first-letter,
-#welcome-start + p:lang(gu)::first-letter {
-  font-family: 'Noto Serif Devanagari', 'Noto Serif Gujarati', serif !important;
-  font-size: 3.5em; 
-  float: left;
-  line-height: 1;
-  margin-top: 0.1em;
-  margin-right: 0.15em;
-  color: var(--heading-color);
-  font-weight: 500;
-}

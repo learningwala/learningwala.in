@@ -28131,23 +28131,26 @@ else bksInit();
       <link>http://localhost:1313/colophon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/colophon/</guid>
-      <description>&lt;p&gt;This website is built using the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo Static Site Generator (SSG)&lt;/a&gt; with the &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-bearcub/&#34;&gt;Hugo BearCub theme&lt;/a&gt;. The source files are hosted on a &lt;a href=&#34;https://github.com/learningwala/learningwala.in&#34;&gt;GitHub repository&lt;/a&gt;, which is connected to Cloudflare. With every push from the local machine, Cloudflare automatically builds the Hugo site and publishes the &lt;code&gt;public&lt;/code&gt; folder to &lt;strong&gt;learningwala.in&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;design--typography&#34;&gt;Design &amp;amp; Typography&lt;/h3&gt;&#xA;&lt;p&gt;I made major design changes to this website in &lt;strong&gt;November 2026&lt;/strong&gt;. I wanted to give new personality to website as living thesis / portfolio.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This website is built using the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo Static Site Generator (SSG)&lt;/a&gt; with the &lt;a href=&#34;https://themes.gohugo.io/themes/hugo-bearcub/&#34;&gt;Hugo BearCub theme&lt;/a&gt;. The source files are hosted on a &lt;a href=&#34;https://github.com/learningwala/learningwala.in&#34;&gt;GitHub repository&lt;/a&gt;, which is connected to Cloudflare. With every push from the local machine, Cloudflare automatically builds the Hugo site and publishes the &lt;code&gt;public&lt;/code&gt; folder to &lt;strong&gt;learningwala.in&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;design--typography&#34;&gt;Design &amp;amp; Typography&lt;/h3&gt;&#xA;&lt;p&gt;I made major design changes to this website in &lt;strong&gt;November 2026&lt;/strong&gt;. I wanted to give the website a new personality, as a living thesis / portfolio.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This website is built using the <a href="https://gohugo.io/">Hugo Static Site Generator (SSG)</a> with the <a href="https://themes.gohugo.io/themes/hugo-bearcub/">Hugo BearCub theme</a>. The source files are hosted on a <a href="https://github.com/learningwala/learningwala.in">GitHub repository</a>, which is connected to Cloudflare. With every push from the local machine, Cloudflare automatically builds the Hugo site and publishes the <code>public</code> folder to <strong>learningwala.in</strong>.</p>
 <h3 id="design--typography">Design &amp; Typography</h3>
-<p>I made major design changes to this website in <strong>November 2026</strong>. I wanted to give new personality to website as living thesis / portfolio.</p>
+<p>I made major design changes to this website in <strong>November 2026</strong>. I wanted to give the website a new personality, as a living thesis / portfolio.</p>
 <p>Here is what you are reading:</p>
 <ul>
-<li><strong>Body Text:</strong> Set in <strong>Inter</strong>. It is a highly legible, geometric sans-serif designed specifically for screens.</li>
-<li><strong>Headings:</strong> Set in <strong>Literata</strong>. A beautiful, contemporary serif font designed for long-form reading.</li>
-<li><strong>Accents &amp; Quotes:</strong> Handwritten elements and the homepage Drop Cap are set in <strong>Caveat</strong>, giving it a fountain-pen feel.</li>
-<li><strong>Code &amp; Meta:</strong> Set in <strong>Maple Mono</strong>, an open-source monospace font.</li>
-<li><strong>Hindi &amp; Gujarati:</strong> Set in <strong>Noto Serif Devanagari</strong> and <strong>Noto Serif Gujarati</strong> to ensure the complex scripts render perfectly.</li>
+<li><strong>Body Text:</strong> Set in <strong>Spectral</strong>, an elegant serif designed for screen reading. It is set slightly lighter in dark mode so it doesn&rsquo;t glare.</li>
+<li><strong>Headings, Menu &amp; Site Name:</strong> Set in <strong>Literata</strong>, a contemporary serif designed for long-form reading. The site name is Literata Italic in semibold.</li>
+<li><strong>Quotes &amp; Captions:</strong> Blockquotes are set in Literata Italic, and image captions in Spectral Italic.</li>
+<li><strong>Drop Caps:</strong> The large opening letters are set in <strong>Caveat</strong>, a handwritten font that gives them a fountain-pen feel.</li>
+<li><strong>Code &amp; Meta:</strong> Set in <strong>Maple Mono</strong>, an open-source monospace font. You will see it in code, dates, labels and the footer.</li>
+<li><strong>Hindi &amp; Gujarati:</strong> Set in <strong>Noto Serif Devanagari</strong> and <strong>Noto Serif Gujarati</strong> so the scripts render properly.</li>
 </ul>
 <h3 id="technical-details">Technical Details</h3>
 <ul>
-<li><strong>Colors:</strong> The color palette is defined using CSS <code>light-dark()</code> functions, ensuring a seamless transition between light and dark modes.</li>
-<li><strong>Text Alignment:</strong> The body text is justified with auto-hyphenation to mimic the look of a printed book.</li>
-<li><strong>Search:</strong> Powered by <strong>Pagefind</strong> for fast, offline-capable static search.</li>
+<li><strong>Colors:</strong> Light mode is a plain white page with charcoal ink. The palette is defined with CSS <code>light-dark()</code> functions, so it switches smoothly between light and dark modes, and you can also switch it by hand with the theme toggle in the footer.</li>
+<li><strong>Text Alignment:</strong> Posts and pages are left-aligned with balanced line endings. Only the homepage introduction is justified with automatic hyphenation, to mimic a printed book.</li>
+<li><strong>Numerals:</strong> Numbers use old-style figures, which blend into the text like those in a printed book.</li>
+<li><strong>Photos:</strong> Images in galleries and the selected work section are set like taped-on prints, and open in a full-screen lightbox.</li>
+<li><strong>Search:</strong> Powered by <strong>Pagefind</strong>, a fast static search that runs entirely in your browser.</li>
 </ul>
 ]]></content:encoded>
     </item>
