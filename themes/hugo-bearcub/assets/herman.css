@@ -741,3 +741,127 @@ main h2 { scroll-margin-top: 4.5rem; }
   mix-blend-mode: screen; /* Screen makes ink lighter on dark backgrounds */
   opacity: 0.9;
 }
+
+/* =========================================================
+   SIGNATURE BLOCK WITH OVERLAPPING STAMP
+========================================================= */
+
+.signature-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  margin-top: 3rem;
+}
+
+/* Container for the image and the stamp */
+.signature-block {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Your Signature Image */
+.signature-img {
+  display: block;
+  max-width: 180px; /* Adjust based on your image size */
+  height: auto;
+  /* Keeping your original filter for dark mode */
+  filter: invert(0); 
+}
+
+/* The Stamp */
+.signature-stamp {
+  --ink: #1c1c1c; 
+  --bg: #ffffff;
+  --size: 85px; /* Made slightly smaller to fit over the signature */
+
+  position: absolute;
+  bottom: -10px; /* Overlap the bottom of the signature */
+  right: -20px;  /* Overlap the right side */
+  
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  
+  box-shadow: 
+    inset 0 0 0 2px var(--bg),   
+    inset 0 0 0 3px var(--ink),  
+    inset 0 0 0 6px var(--bg);   
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  transform: rotate(-12deg); /* Tilted for realism */
+  color: var(--ink);
+  font-family: var(--font-mono, ui-monospace, monospace);
+  user-select: none;
+  pointer-events: none; /* So it doesn't block clicks on the signature */
+  
+  opacity: 0.75; /* Faded so the signature shows through */
+  mix-blend-mode: multiply; 
+}
+
+/* Scalloped inner ring */
+.signature-stamp::before {
+  content: "";
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  border: 1.5px dashed var(--ink); 
+  background-color: transparent;
+}
+
+/* Distressed ink texture */
+.signature-stamp::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  mix-blend-mode: screen;
+  opacity: 0.6;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, transparent 30%, black 70%);
+  mask-image: radial-gradient(circle at 50% 50%, transparent 30%, black 70%);
+}
+
+/* Adjusting text size inside the smaller stamp */
+.signature-stamp .stamp-top,
+.signature-stamp .stamp-bottom {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 0.45rem; /* Smaller for 85px stamp */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.signature-stamp .stamp-top { top: 10px; }
+.signature-stamp .stamp-bottom { bottom: 10px; }
+
+.signature-stamp .stamp-mid {
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+/* Ink Colors */
+.ink-black { --ink: #1c1c1c; }
+.ink-blue { --ink: #1d4ed8; }
+.ink-red { --ink: #b3234a; }
+.ink-pink { --ink: #d9467a; }
+
+/* Dark Mode */
+:root[data-theme="dark"] .signature-img,
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .signature-img {
+  filter: invert(1); /* Makes black signature white in dark mode */
+}
+
+:root[data-theme="dark"] .signature-stamp,
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .signature-stamp {
+  --bg: #01242e; /* Matches your dark site background */
+  mix-blend-mode: screen; 
+  opacity: 0.85;
+}

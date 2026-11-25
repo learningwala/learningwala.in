@@ -31,13 +31,7 @@ As an artist I am interested in writing, theater and multi sensorial storytellin
 5. You can use [rss feed](/index.xml) to get regular update from this website directly in your feed reader.
 
 <div class="signature-wrapper">
-  
-  <div class="signature-stamp ink-blue" aria-hidden="true">
-  <span class="stamp-top">Ahmedabad</span>
-  <span class="stamp-mid">IN</span>
-  <span class="stamp-bottom">2025</span>
-</div>
-
+  <div class="signature-block"><img src="/images/signature.png" alt="Mihir Pathak Signature" class="signature-img"><div class="signature-stamp ink-blue" aria-hidden="true"><span class="stamp-top">Ahmedabad</span><span class="stamp-mid">IN</span><span class="stamp-bottom">2026</span></div></div>
   <div class="signature-details">
     <div class="signature-text">
       <strong><a href="/journey">Mihir Pathak</a></strong>
@@ -45,5 +39,4 @@ As an artist I am interested in writing, theater and multi sensorial storytellin
       <span>Date: 25th Nov 2026</span>
     </div>
   </div>
-
 </div>

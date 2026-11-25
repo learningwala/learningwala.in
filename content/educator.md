@@ -68,7 +68,7 @@ I am no more interested in education for skill building, I am more interested in
 
 ## Selected work {#selectedwork}
 
-Eight projects, from age 3 to 18yrs. Pick a photo to read its story.
+Projects, from age 3 to 18yrs. Pick a photo to read its story.
 
 {{< works >}}
 
@@ -134,6 +134,20 @@ A 3-day residential camp where children explored the science, sociology, art and
   link="https://www.instagram.com/p/Ct91MKxItVY/?img_index=1" >}}
 Teenagers did a three month geo inquiry on the Vishwamitri river in Vadodara, Gujarat, and presented it at the Climate Festival, Bengaluru. They met activists, scientists and communities living along the river, walked its banks, and tried to understand the system of river, pollution, development, human desire and ecology. With [Nidhi Pal](https://www.instagram.com/nidhi_pal16/).
 {{< /work >}}
+
+{{< work title="FilmWala Class" sub="ages 6–15"
+  image="/images/educator/work/film.webp"
+  kicker="watching film and doing community project"
+  tags="Project based learning, Trans-disciplinary approach, Inquiry based learning"
+  link="https://medium.com/learningwala/filmwala-class-774fe659116f" >}}
+A film based sessions where children watch films, reflect, discuss through the lens of language, sociology, culture and more. At the end they do community project inspired by film. intensity and learning objectives will be different for different age groups{{< /work >}}
+
+{{< work title="Eco film making" sub="ages 11–15"
+  image="/images/educator/work/film-making.webp"
+  kicker="Nature based / social issue based film making"
+  tags="Project based learning, Trans-disciplinary approach, Inquiry based learning"
+  link="https://medium.com/learningwala/eco-buddy-film-making-workshop-b97818455b9a" >}}
+Children find social issue / environmental issue around them. Film making as inquiry based journey to understand and take action on issues identified by them{{< /work >}}
 
 {{< /works >}}
 

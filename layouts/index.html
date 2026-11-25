@@ -2,8 +2,8 @@
 <section class="intro">
   {{ with .Params.photo }}
     <figure class="intro-banner">
-      <img src="{{ . | relURL }}" alt="{{ $.Params.photo_alt }}">
-      {{ with $.Params.photo_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      <img src="{{ . | relURL }}" alt="{{ $.Params.photo_alt }}"  width="700" height="394"   >
+            {{ with $.Params.photo_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
   {{ end }}
 
