@@ -9,7 +9,7 @@ I live in Ahmedabad, India with my partner [Nidhi](https://www.instagram.com/nid
 ---
 
 
-{{< img src="/things-i-love/officetable.jpg" caption="My current work desk">}}
+{{< img src="/now/officetable.jpg" caption="My current work desk">}}
 
 
 ## Work
